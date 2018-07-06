@@ -1,0 +1,10 @@
+baseURL = "https://community.staging.storj.io"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "ananke"
+
+[mediaTypes]
+  [mediaTypes."text/yaml"]
+    suffix = "yml"
+
+[params]
