@@ -2,6 +2,7 @@ backend:
   name: github
   repo: storj/community-website
   branch: master
+  base_url: https://community.staging.storj.io
 media_folder: "images/uploads"
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
