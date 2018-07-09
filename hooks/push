@@ -1,0 +1,6 @@
+#!/bin/sh
+
+for tag in "${DOCKER_REPO}:${SOURCE_COMMIT}" "${DOCKER_REPO}:$(util/version)"; do
+	docker tag "${IMAGE_NAME}" "$tag"
+	docker push "$tag"
+done
