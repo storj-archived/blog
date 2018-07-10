@@ -3,6 +3,7 @@ backend:
   repo: storj/community-website
   branch: master
   base_url: https://community.staging.storj.io
+  auth_endpoint: /oauth/auth
 media_folder: "images/uploads"
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
