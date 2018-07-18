@@ -1,0 +1,40 @@
+{{ partial "head-meta" . }}
+{{ partial "head-custom.html" . }}
+{{ partial "nav.html" . }}
+<div class="spacer45"></div>
+{{ partial "backToBlogArchive" . }}
+<div class="spacer45"></div>
+<div id="main">
+  <div id="content">
+      <div class="container">
+          <div class="row">
+              <div class="col-12 col-lg-8 col-lg-offset-2 blog-main">
+        <div id="blog-archives" class="category">
+{{ range where .Site.Pages "Section" "post" }}
+  {{ range (.Pages.GroupByDate "2006") }}
+    <h2 class="text-center">{{ .Key }}</h2>
+    {{ range (.Pages.GroupByDate "January") }}
+    <div class="spacer25"></div>
+  <h3 style="color:#333333;margin-top:-25px;">{{ .Key }}</h3>
+  <div class="spacer15"></div>
+      {{ range .Pages}}
+      <a class="text-dark" href="{{ .RelPermalink }}" style="text-decoration: underline">{{ .Title | markdownify }}</a></br></br>
+      {{ end }}
+      <hr style="border-right: medium none;border-top: #cccccc 1px solid;border-left: medium none;border-bottom: medium none;height: 1px">
+
+    {{ end }}
+  {{ end }}
+{{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="spacer45"></div>
+<div class="spacer45"></div>
+
+{{ partial "archiveFooter" . }}
+
+
+

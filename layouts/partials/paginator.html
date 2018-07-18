@@ -1,0 +1,26 @@
+
+{{ $pag := $.Paginator }}
+{{ if gt $pag.TotalPages 1 }}
+<nav class="navigation paging-navigation" role ="navigation">  
+            <a class="previous {{ if not $pag.HasPrev }}disabled{{ end }}" style="text-decoration:none;border-style:none;color:#333333; {{ if not $pag.HasPrev }}color:#AAAAAA;{{ end }}" href="{{ if $pag.HasPrev }}{{ $pag.Prev.URL }}{{ end }}" aria-label="Previous"><span aria-hidden="true">&ltrif;Newer Posts</span></a>
+        {{ $.Scratch.Set "__paginator.ellipsed" false }}
+        {{ range $pag.Pagers }}
+            {{ $right := sub .TotalPages .PageNumber }}
+            {{ $showNumber := or (le .PageNumber 3) (eq $right 0) }}
+            {{ $showNumber := or $showNumber (and (gt .PageNumber (sub $pag.PageNumber 2)) (lt .PageNumber (add $pag.PageNumber 2)))  }}
+            {{ if $showNumber }}
+                {{ $.Scratch.Set "__paginator.ellipsed" false }}
+                {{ $.Scratch.Set "__paginator.shouldEllipse" false }}
+            {{ else }}
+                {{ $.Scratch.Set "__paginator.shouldEllipse" (not ($.Scratch.Get "__paginator.ellipsed") ) }}
+                {{ $.Scratch.Set "__paginator.ellipsed" true }}
+            {{ end }}
+        {{ end }}
+            <a class="next {{ if not $pag.HasNext }}disabled{{ end }}"style="text-decoration:none;border-style:none;color:#333333;float: right; {{ if not $pag.HasNext }}color:#AAAAAA; {{ end }}"href="{{ if $pag.HasNext }}{{ $pag.Next.URL }}{{ end }}">Older Posts&rtrif;</a>    
+    <div class="spacer35"></div>
+    <div class="pager">
+    <a style="text-decoration:underline;" href="/path/to/archive/">Blog Archive</a>
+    </div>
+</nav>
+{{ end }}
+

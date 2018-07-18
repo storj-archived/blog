@@ -1,10 +1,53 @@
 baseURL = "https://community.staging.storj.io"
 languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "ananke"
+title = "Storj Blog"
+
+# Pagination
+paginate = 3
+paginatePath = "page"
 
 [mediaTypes]
   [mediaTypes."text/yaml"]
     suffix = "yml"
 
+[taxonomies]
+  category = "categories"
+  author = "authors"
+
+# Google analytics
+googleAnalytics = "UA-47268287-3"
+
+[permalinks]
+  post = "/:year/:month/:title/"
+
 [params]
+  # Main sections (currently used for the recent posts in the sidebar)
+  mainSections = ["post"]
+
+  # Date format (default: Jan 2, 2006)
+  # date_format = "Jan 2, 2006"
+
+  # Display post summaries instead of content in list templates (default: true)
+  # truncate = false
+
+  [params.sidebar]
+    # Whether to show the recent posts or not (default: true)
+    # showRecent = false
+
+    # Whether to show the taxonomies or not (default: true)
+    # showTaxonomy = false
+
+    # How many posts to show on the sidebar (Default: 5)
+    # num_recent_posts = 5
+
+
+  [params.sidebar2]
+    # Whether to show the recent posts or not (default: true)
+    # showRecent = false
+
+    # Whether to show the taxonomies or not (default: true)
+    # showTaxonomy = false
+
+    # How many posts to show on the sidebar (Default: 5)
+    # num_recent_posts = 3
+

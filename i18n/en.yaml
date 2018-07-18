@@ -1,0 +1,17 @@
+- id: by
+  translation: "by"
+
+- id: categories
+  translation: "Categories"
+
+- id: authors
+  translation: "Authors"
+
+- id: readMore
+  translation: "Read More →"
+
+- id: related
+  translation: "See also"
+
+- id: recentPosts
+  translation: "Recent Posts"

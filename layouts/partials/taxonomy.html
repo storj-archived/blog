@@ -1,0 +1,14 @@
+{{ $taxonomy := .taxonomy }}
+{{ $taxonomyname := .taxonomyname }}
+{{ $currentPage := . }}
+{{ with $taxonomy }}
+<h4 style="font-weight:600;">{{ i18n $taxonomyname}}</h4>
+
+    {{ range $name, $value := . }}
+    <a style="color:#333333;" href="{{ printf "/%s/" $taxonomyname | relLangURL }}{{ $name | urlize }}">{{ $name }}</a> <div class="spacer10"></div>
+    {{ end }}
+    <div class="spacer15"></div>
+
+{{ end }}
+
+

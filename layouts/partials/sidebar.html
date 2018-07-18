@@ -1,0 +1,7 @@
+<aside id="sidebar" class="col-10 col-lg-2 visible-md visible-lg ml-auto blog-sidebar">
+
+    {{ if default true .Site.Params.sidebar.showTaxonomy }}
+        {{ partial "taxonomies" . }}
+    {{ end }}
+
+</aside>

@@ -1,0 +1,50 @@
+{{ define "main" }}
+
+<div class="spacer45"></div>
+                        {{ partial "backToBlogSingle" . }}   
+                              <div class="spacer45"></div>
+
+<div class="container">
+        <div class="row">
+                <div class="col-10 col-lg-8 blog-main">
+                <header>
+                        <h2 class="blog-post-title">
+                            <a style="font-weight:600;"class="text-dark" href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+                        </h2>
+                        {{ partial "post-date" . }}
+                    </header>
+                    <div class="spacer45"></div>
+<article class="blog-post">
+        {{ if isset .Params "image" }}
+        <div class="row">
+        <div class="col-md-10">
+        <img class="img-responsive" src="{{ .Site.BaseURL}}{{ .Params.image }}"/>
+        </div>
+        </div>
+        {{ end }}
+    </br>
+    {{ .Content }}  
+</article>
+
+<div class="spacer45"></div>
+
+<!--disqus-->
+<div id="disqus_thread"></div>
+<script>
+(function() {
+var d = document, s = d.createElement('script');
+s.src = 'https://storjblog.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<div class="spacer15"></div>
+</div>
+<!--end-->
+
+{{ partial "sidebar2" .}}
+</div>
+
+</div>
+{{ end }}

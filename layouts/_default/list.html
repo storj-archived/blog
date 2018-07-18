@@ -1,0 +1,22 @@
+{{ define "main" }}
+{{ block "header" . }}
+{{ partial "header" . }}
+{{ end }}
+<div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-8 col-lg-offset-1 blog-main" style="padding-right:100px;">
+{{ $truncate := default true .Site.Params.truncate }}
+
+{{ range where .Paginator.Pages "Section" "post"}}
+    {{ if $truncate }}
+        {{ .Render "summary" }}
+    {{ else }}
+        {{ .Render "content" }}
+    {{ end }}
+{{ end }}
+{{ partial "paginator" . }}
+</div>
+{{ partial "sidebar" .}}
+</div>
+</div>
+{{ end }}
