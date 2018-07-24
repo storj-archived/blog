@@ -1,8 +1,8 @@
 backend:
   name: github
-  repo: storj/community-website
+  repo: storj/blog
   branch: master
-  base_url: https://community.staging.storj.io
+  base_url: https://storj.io/blog
   auth_endpoint: /oauth/auth
 
 media_folder: "static/img"
