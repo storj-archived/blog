@@ -18,7 +18,7 @@ paginatePath = "page"
 googleAnalytics = "UA-47268287-3"
 
 [permalinks]
-  post = "/:year/:month/:title/"
+  post = ":year/:month/:title/"
 
 [params]
   # Main sections (currently used for the recent posts in the sidebar)
