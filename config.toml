@@ -1,6 +1,7 @@
 baseURL = "https://storj.io/blog/"
 languageCode = "en-us"
 title = "Storj Blog"
+relativeURLs = true
 
 # Pagination
 paginate = 3
