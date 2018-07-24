@@ -1,7 +1,7 @@
 ---
 title: CapLinked Partners With Storj Labs
 date: '2017-10-11T13:43:00-04:00'
-image: /img/clnk.png
+image: /blog/img/clnk.png
 categories:
   - tutorials
 authors:

@@ -1,7 +1,7 @@
 ---
 title: An Update on FileZilla and Storj
 date: '2018-03-28T16:04:00-04:00'
-image: /img/sfz.png
+image: /blog/img/sfz.png
 categories:
   - business
 authors:

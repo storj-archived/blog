@@ -1,7 +1,7 @@
 ---
 title: 'ETHWaterloo Hackathon Second Place Winner for Storj Challenge: BIT'
 date: '2017-11-03T14:14:00-04:00'
-image: /img/bit1.png
+image: /blog/img/bit1.png
 categories:
   - tutorials
 authors:

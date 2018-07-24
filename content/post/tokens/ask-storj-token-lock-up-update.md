@@ -1,7 +1,7 @@
 ---
 title: 'Ask Storj: Token Lock-up Update'
 date: '2018-06-13T16:49:00-04:00'
-image: /img/ask.png
+image: /blog/img/ask.png
 categories:
   - tokens
 authors:

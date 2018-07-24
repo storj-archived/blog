@@ -1,7 +1,7 @@
 ---
 title: 'Ask Storj: Company Goals and Business Targets'
 date: '2018-06-22T16:54:00-04:00'
-image: /img/ask.png
+image: /blog/img/ask.png
 categories:
   - business
 authors:

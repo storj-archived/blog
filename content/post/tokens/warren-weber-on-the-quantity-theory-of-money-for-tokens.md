@@ -1,7 +1,7 @@
 ---
 title: Warren Weber on the Quantity Theory of Money for Tokens
 date: '2018-03-19T15:56:00-04:00'
-image: /img/purrty.jpg
+image: /blog/img/purrty.jpg
 categories:
   - tokens
 authors:
