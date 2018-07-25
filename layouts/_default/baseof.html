@@ -9,12 +9,11 @@
     </title>
 
     {{ partial "head-custom.html" . }}
-    <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
   <body>
-    
+
     {{ partial "nav.html" . }}
-     
+
     {{ block "body" . }}
           {{ block "main" . }}
           {{ end }}
@@ -27,8 +26,8 @@
       {{ partial "footer" . }}
     {{ end }}
 
-    <script src="js/jquery-2.1.1.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/segment.js"></script>
+    <script src="/blog/js/jquery-2.1.1.js"></script>
+    <script src="/blog/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/blog/js/segment.js"></script>
   </body>
 </html>
