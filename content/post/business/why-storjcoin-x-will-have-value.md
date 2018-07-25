@@ -1,7 +1,7 @@
 ---
 title: Why Storjcoin X will have value
 date: '2014-06-21T02:27:00-04:00'
-image: img/sjcxval.jpg
+image: /blog/img/sjcxval.jpg
 categories:
   - business
 authors:

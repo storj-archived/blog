@@ -1,7 +1,7 @@
 ---
 title: Personal Security in the Cloud
 date: '2014-06-15T02:18:00-04:00'
-image: img/psec.jpg
+image: /blog/img/psec.jpg
 categories:
   - business
 authors:

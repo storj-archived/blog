@@ -12,7 +12,7 @@ Storj’s P2P object storage network relies on a supply side, composed of people
 
 Each farmer is a node on the Storj network. We started with only one node, but the network has since grown significantly since inception (each dot on the map below represents one or more nodes):
 
-![image](img/map.jpg)
+![image](/blog/img/map.jpg)
 
 **One of the most interesting aspects of the Storj network is that as it grows, it gets more secure – there is a network effect for security.**
 
@@ -34,7 +34,7 @@ In short: because each file added to the network increases the number of operati
 
 Below is a basic graphical representation of the relationship between network size and the security of both individual files, and the network itself.
 
-![image](img/lgraf.jpg)
+![image](/blog/img/lgraf.jpg)
 
 We’re humbled by the 1.7x million growth rate that our network has experienced, the 3.4PB of storage capacity that Storj farmers have contributed to the network, and the exponential increase in the network’s security over the last year. We also look forward to launching commercial operations in July, and continuing to increase the security of our network as developers add large quantities of data to it.
 

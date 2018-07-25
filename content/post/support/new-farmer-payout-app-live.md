@@ -1,7 +1,7 @@
 ---
 title: New Farmer Payout App Live
 date: '2018-06-06T16:40:00-04:00'
-image: img/fpa.png
+image: /blog/img/fpa.png
 categories:
   - support
 authors:

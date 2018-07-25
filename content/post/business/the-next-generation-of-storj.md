@@ -1,7 +1,7 @@
 ---
 title: The Next Generation of Storj
 date: '2018-03-12T15:49:00-04:00'
-image: img/nexgen.jpg
+image: /blog/img/nexgen.jpg
 categories:
   - business
 authors:

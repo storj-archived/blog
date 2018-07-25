@@ -1,7 +1,7 @@
 ---
 title: Announcing a Campaign for a New Logo
 date: '2018-07-02T17:00:00-04:00'
-image: img/slc.png
+image: /blog/img/slc.png
 categories:
   - business
 authors:
@@ -11,7 +11,7 @@ Leading up to the launch of Storj network V3, we feel the time is right to updat
 
 <!--more-->
 
-![](img/slc.png)
+![](/blog/img/slc.png)
 
 The original Storj logo was designed in our early years, shortly after Shawn Wilkinson, our founder and chief strategy officer, won the Texas Bitcoin Hackathon in 2014 and before our first token sale that same year. We still love the logo and plan to employ it in certain use cases moving forward, however with V3’s launch being such a pivotal moment for our business, the time is right to refine our brand so it better communicates our values and encapsulates the vision of decentralized cloud storage.
 

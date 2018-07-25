@@ -1,7 +1,7 @@
 ---
 title: What is Storj?
 date: '2014-05-29T02:06:00-04:00'
-image: img/tumblr_inline_n6xc6ja0jw1sh4oh9.jpg
+image: /blog/img/tumblr_inline_n6xc6ja0jw1sh4oh9.jpg
 categories:
   - business
 authors:

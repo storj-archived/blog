@@ -1,7 +1,7 @@
 ---
 title: Storj Labs Announces STORJ ERC20 Tokens Now Listed on ShapeShift
 date: '2018-01-09T15:29:00-05:00'
-image: img/ssnowlist.png
+image: /blog/img/ssnowlist.png
 categories:
   - tokens
 authors:

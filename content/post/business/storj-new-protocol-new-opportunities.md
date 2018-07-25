@@ -1,7 +1,7 @@
 ---
 title: 'Storj: New Protocol, New Opportunities'
 date: '2017-04-14T12:56:00-04:00'
-image: img/proto.jpg
+image: /blog/img/proto.jpg
 categories:
   - business
 authors:

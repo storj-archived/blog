@@ -30,7 +30,7 @@ The florincoin feature is working in metachains, passing its unit test suite. I 
 **DriveShare**  
 Farming tests are in progress, no coins are being earned for the moment but you can see our new farmer uptime dashboard in the picture below!
 
-![image](img/dcs.png)
+![image](/blog/img/dcs.png)
 
 **Early Access Plans for DriveShare Beta Released**  
 A few days ago, we released the Early Access Plans for the DriveShare Beta, as announced on our forum and social media. Crowdsale participants get exclusive access to early farming software and applications.
@@ -59,7 +59,7 @@ More info here: [http://storj.io/earlyaccess.html](http://storj.io/earlyaccess.
 **New Storj.io Website Design**  
 Our website [Storj.io](http://storj.io) has been updated recently with a new design, quotes from great people and a new early access page. We will be adding more content to our website in the following weeks, be sure to check the site often.
 
-![image](img/earth.png)
+![image](/blog/img/earth.png)
 
 **Community Hangout and IRC Chat  
 **We hosted a live chat with the Community on IRC and Google Hangouts on Sunday, October 19. There was an incredible number of participants and we want to thank everyone who took the time to join us. We received quite a few questions from community members in response to the Hangout. The Hangout Video is available on [YouTube](https://www.youtube.com/watch?v=YV31XYDmRkM) and the IRC chat log is available on [StorjTalk](https://storjtalk.org/index.php?topic=1889.0).
