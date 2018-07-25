@@ -1,7 +1,7 @@
 ---
 title: Storj Payout Transparency
 date: '2017-01-30T12:28:00-05:00'
-image: /blog/img/pyout.jpg
+image: img/pyout.jpg
 categories:
   - tokens
 authors:

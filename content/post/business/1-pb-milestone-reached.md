@@ -1,7 +1,7 @@
 ---
 title: 1 PB Milestone Reached
 date: '2016-11-22T12:02:00-05:00'
-image: /blog/img/1pb.jpg
+image: img/1pb.jpg
 categories:
   - business
 authors:

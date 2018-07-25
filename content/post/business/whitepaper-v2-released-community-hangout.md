@@ -1,7 +1,7 @@
 ---
 title: Whitepaper v2 Released + Community Hangout
 date: '2016-12-15T12:15:00-05:00'
-image: /blog/img/wp.jpg
+image: img/wp.jpg
 categories:
   - business
 authors:

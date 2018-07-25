@@ -1,7 +1,7 @@
 ---
 title: Storj Comes Out of Beta
 date: '2017-03-13T12:40:00-04:00'
-image: /blog/img/oob.jpg
+image: img/oob.jpg
 categories:
   - engineering
 authors:

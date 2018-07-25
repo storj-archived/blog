@@ -1,7 +1,7 @@
 ---
 title: Our ETHDenver Hackathon Experience
 date: '2018-03-06T15:44:00-05:00'
-image: /blog/img/2ndpw.png
+image: img/2ndpw.png
 categories:
   - business
 authors:

@@ -1,7 +1,7 @@
 ---
 title: A Hitchhiker’s Guide to Distributed Systems
 date: '2018-03-26T15:59:00-04:00'
-image: /blog/img/panic.jpg
+image: img/panic.jpg
 categories:
   - engineering
 authors:

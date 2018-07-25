@@ -1,7 +1,7 @@
 ---
 title: Announcing a Campaign for a New Logo
 date: '2018-07-02T17:00:00-04:00'
-image: /blog/img/slc.png
+image: img/slc.png
 categories:
   - business
 authors:

@@ -1,7 +1,7 @@
 ---
 title: 'Ask Storj: Dealing with Crypto Scams'
 date: '2018-07-20T09:09:00-04:00'
-image: /blog/img/ask.png
+image: img/ask.png
 categories:
   - support
 authors:
