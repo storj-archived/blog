@@ -6,7 +6,7 @@ categories:
 authors:
   - Storj
 ---
-We would like to extensively thank our community members for their patience while we audited farmer payouts for March. [We committed](https://blog.storj.io/post/172871463238/updates-to-farmer-payouts-and-network-testing) to distributing payouts by April 30 and we are pleased to share we have met that goal and payments are currently underway. If you review the [payout sheet](https://docs.google.com/spreadsheets/d/1lcqSg68mlYim7lLh44De6BXlGcgCUDjGYy_LuNiWcyc/edit#gid=838345043) and find any discrepancy you need to have reviewed, please contact [support@storj.io](mailto:support@storj.io) and submit any supporting evidence you have.
+We would like to extensively thank our community members for their patience while we audited farmer payouts for March. [We committed](https://storj.io/blog/2018/04/updates-to-farmer-payouts-and-network-testing/) to distributing payouts by April 30 and we are pleased to share we have met that goal and payments are currently underway. If you review the [payout sheet](https://docs.google.com/spreadsheets/d/1lcqSg68mlYim7lLh44De6BXlGcgCUDjGYy_LuNiWcyc/edit#gid=838345043) and find any discrepancy you need to have reviewed, please contact [support@storj.io](mailto:support@storj.io) and submit any supporting evidence you have.
 
 <!--more-->
 
