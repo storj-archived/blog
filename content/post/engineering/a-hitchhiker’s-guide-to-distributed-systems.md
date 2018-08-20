@@ -27,7 +27,7 @@ The visionaries at [Vivint Smart Home](https://www.vivint.com/) saw our potentia
 
 **Why Storj**
 
-This history brings us to today, the first day of my second week as Director of Engineering at Storj. I am so lucky to have had these past experiences, and can’t wait to take some of the lessons I've learned from these previous projects and bring them to the masses. I'm excited about where Storj is today but I'm even more excited about getting to join the ride to [exabyte scale](https://blog.storj.io/post/169896892413/getting-from-petabytes-to-exabytes-the-road-ahead).
+This history brings us to today, the first day of my second week as Director of Engineering at Storj. I am so lucky to have had these past experiences, and can’t wait to take some of the lessons I've learned from these previous projects and bring them to the masses. I'm excited about where Storj is today but I'm even more excited about getting to join the ride to [exabyte scale](https://storj.io/blog/2018/01/getting-from-petabytes-to-exabytes-the-road-ahead/).
 
 To get to exabyte scale, we need to have a laser focus on the user experience. As we move towards mass adoption, we need greater decentralization, top-flight security, rock-solid reliability, yes, but we also need a dramatic increase in performance, functionality, and features. We don't want to be the electric car that people bought 10 years ago just because they were excited about electric cars, even though they only went five miles. We will be the Tesla of storage—better because it's decentralized, but better in all the other ways, too.
 
