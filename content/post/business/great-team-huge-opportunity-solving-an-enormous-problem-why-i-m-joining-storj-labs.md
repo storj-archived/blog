@@ -73,6 +73,6 @@ Executive Chairman and interim CEO is the right role for me and Storj Labs today
 
 This is a hugely exciting journey. I am excited to be sharing it with the Storj team and the broader Storj community. I’m expecting great things in the months and years ahead!
 
-Read about the genesis of Storj and its evolution in “[The Next Generation of Storj”](https://blog.storj.io/post/171794376433/the-next-generation-of-storj) by Shawn Wilkinson.
+Read about the genesis of Storj and its evolution in “[The Next Generation of Storj”](https://storj.io/blog/2018/03/the-next-generation-of-storj/) by Shawn Wilkinson.
 
 _\* If an individual node has a failure rate of p, and there are n completely independent nodes in a system, the chances of them all failing is something like n^p. So, if your network has nodes that have a 20 percent failure rate, but 10 have to fail for the system to fail, your system has something like 1- (.20)^10=99.9999% reliability. Farmers have incentives to have much higher reliability than in this example, and far more than 10 nodes need to fail for data loss to occur._
