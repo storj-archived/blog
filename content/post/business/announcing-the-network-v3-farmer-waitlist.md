@@ -15,7 +15,7 @@ Farmers who join the waitlist will be given early access to set up a storage nod
 
 **The Latest on Network V3**
 
-Our team has made significant progress building V3 of the Storj network. Just this week, [our engineering team released an update](https://storj.io/blog/2018/07/prod.-mgr-development-update-2/) that highlights the latest development milestones. We also [recently released a V3 overview video](https://blog.storj.io/post/174919908598/a-look-at-storj-labs-decentralized-cloud-storage) with Storj Labs Director of Engineering JT Olio, where he explains how the new network will overcome many of the limitations we’ve uncovered in the current system to improve reliability and scalability, while also achieving AWS S3 compatibility.
+Our team has made significant progress building V3 of the Storj network. Just this week, [our engineering team released an update](https://storj.io/blog/2018/07/prod.-mgr-development-update-2/) that highlights the latest development milestones. We also [recently released a V3 overview video](https://storj.io/blog/2018/06/a-look-at-storj-labs-decentralized-cloud-storage-architecture-with-jt-olio/) with Storj Labs Director of Engineering JT Olio, where he explains how the new network will overcome many of the limitations we’ve uncovered in the current system to improve reliability and scalability, while also achieving AWS S3 compatibility.
 
 **Stay Up to Date**
 
