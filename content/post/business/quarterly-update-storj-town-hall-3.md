@@ -12,7 +12,7 @@ Establishing a process for consistent monthly payments is one of our top goals. 
 
 <!--more-->
 
-John said we are committed to making payments more transparent and efficient, fixing any remaining issues from March and April, and making sure May payments go out on schedule. John introduced a new [app](https://payout.storj.io/) that we expect will improve the payout process. Learn more about it in [New Farmer Payout App Live](https://blog.storj.io/post/174630079933/new-farmer-payout-app-live) on the Storj Blog.
+John said we are committed to making payments more transparent and efficient, fixing any remaining issues from March and April, and making sure May payments go out on schedule. John introduced a new [app](https://payout.storj.io/) that we expect will improve the payout process. Learn more about it in [New Farmer Payout App Live](https://storj.io/blog/2018/06/new-farmer-payout-app-live/) on the Storj Blog.
 
 JT Olio, director of engineering, gave an update on V3 development. Quoting Google’s Jeff Dean, JT pointed out that the “right design at X may be very wrong at 10X or 100X.” We need to design for 10X growth, he said, and that necessitates a redesign. At a high level, what we’re building with V3 is a decentralized cloud storage network that can scale to the exabyte range. V3 will feature an Amazon S3-compatible gateway that customers download and run locally that uses a heavy client for metadata, and stores data on farmer nodes. “It takes data, breaks it up, uses Reed Solomon erasure coding, stores it on farmers, and keeps track of metadata on that customer’s account,” JT said.
 
