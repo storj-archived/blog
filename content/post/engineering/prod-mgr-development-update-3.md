@@ -40,6 +40,6 @@ In our next update, we plan to share our progress on these projects:
 *   Increasing the test coverage in our code base.  
     
 
-If you want to know what else we have been working on, take a look at our previous [development update](https://blog.storj.io/post/175749543543/development-update-2-from-storj-labs) or visit our [GitHub](https://github.com/storj/storj) repository. If you have questions, feel free to reach out by emailing [ask@storj.io](mailto:ask@storj.io) or through our [community forum](https://community.storj.io/).
+If you want to know what else we have been working on, take a look at our previous [development update](https://storj.io/blog/2018/07/prod.-mgr-development-update-2/) or visit our [GitHub](https://github.com/storj/storj) repository. If you have questions, feel free to reach out by emailing [ask@storj.io](mailto:ask@storj.io) or through our [community forum](https://community.storj.io/).
 
 \- _Brandon Iglesias, Product Manager_
