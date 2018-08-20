@@ -6,7 +6,7 @@ categories:
 authors:
   - Brandon Iglesias
 ---
-Since our [town hall earlier this month](https://blog.storj.io/post/174670517273/quarterly-update-storj-town-hall-3), our engineering team has made significant progress towards building V3 of the Storj network. To continue our goal of transparency, we will provide regular development updates to keep the community apprised of our progress and the milestones we meet. [You can also follow our GitHub](https://github.com/Storj), where we regularly commit updates to our repositories. 
+Since our [town hall earlier this month](https://storj.io/blog/2018/06/quarterly-update-storj-town-hall-3/), our engineering team has made significant progress towards building V3 of the Storj network. To continue our goal of transparency, we will provide regular development updates to keep the community apprised of our progress and the milestones we meet. [You can also follow our GitHub](https://github.com/Storj), where we regularly commit updates to our repositories. 
 
 **Recent development accomplishments:**
 
