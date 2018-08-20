@@ -6,7 +6,7 @@ categories:
 authors:
   - Storj
 ---
-In the two weeks since we announced we would make changes to our [farmer payout criteria](https://blog.storj.io/post/172871463238/updates-to-farmer-payouts-and-network-testing), we have made progress! We are close to finishing [SIP9](https://github.com/storj/sips/blob/master/sip-0009.md), and in our final testing phase.
+In the two weeks since we announced we would make changes to our [farmer payout criteria](https://storj.io/blog/2018/04/updates-to-farmer-payouts-and-network-testing/), we have made progress! We are close to finishing [SIP9](https://github.com/storj/sips/blob/master/sip-0009.md), and in our final testing phase.
 
 SIP9 will change the way we identify and rank farmer node reputation and store data across the Storj network. SIP9 includes many changes, but in general, farmers operating nominally with higher availability will receive more contracts than farmers who have lower availability. Farmers can monitor their reputation via the [Storj API](https://api.storj.io/contacts).
 
