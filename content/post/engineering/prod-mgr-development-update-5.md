@@ -5,7 +5,7 @@ image: /blog/img/developerupdates.png
 categories:
   - engineering
 authors:
-  - brandon iglesias
+  - Brandon Iglesias
 ---
 We are just one week away from the [Linux Foundation’s Open Source Summit ](https://ossna18.sched.com/event/FADk)[where Ben Golub and Shawn Wilkinson will be giving a keynote](https://ossna18.sched.com/event/FADk)! They will make some major announcements on stage so our team has been focusing on finishing everything they need. The V3 network has made tremendous progress since our last development update. Here is what we have been working on:
 
