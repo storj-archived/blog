@@ -1,5 +1,6 @@
 ---
 title: Storj Awarded Grant Funding to Help Advance Storj Technology
+date: '2017-01-19T17:00:00-04:00'
 categories:
   - business
 authors:
