@@ -1,0 +1,8 @@
+#!/bin/bash
+set -euo pipefail
+
+: "${CONTEXT:?Must be set}"
+: "${NAMESPACE:?Must be set}"
+: "${DEPLOYMENT:?Must be set}"
+: "${IMAGE:?Must be set}"
+kubectl --context "$CONTEXT" -n "$NAMESPACE" patch deployment "${DEPLOYMENT}" -p "{\"spec\":{\"template\":{\"spec\":{\"containers\":[{\"name\":\"$DEPLOYMENT\",\"image\":\"$IMAGE\"}]}}}}"
