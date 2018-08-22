@@ -37,3 +37,7 @@ endif
 clean:
 	-docker rmi storjlabs/blog:${TAG}
 	-docker rmi storjlabs/blog-redirect:${TAG}
+
+.PHONY: run-redirect
+run-redirect:
+	docker run --rm -it -p 80:80 --name redirect storjlabs/blog-redirect:${TAG}
