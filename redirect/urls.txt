@@ -59,9 +59,7 @@ https://blog.storj.io/post/173894491398/save-the-date-for-the-storj-q2-town-hall
 https://blog.storj.io/post/150203056528/sjcx-transparency-plan-pt1 https://storj.io/blog/2016/09/sjcx-transparency-plan-pt.1/
 https://blog.storj.io/post/167985829208/sonm-and-storj-labs-create-the-first-decentralized https://storj.io/blog/2017/11/sonm-and-storj-labs-create-the-first-decentralized-cloud-computing-platform/
 https://blog.storj.io/post/163215547738/storj-and-filezilla-integration-bringing https://storj.io/blog/2017/07/storj-and-filezilla-integration-bringing-blockchain-storage-to-15m-monthly-users/
-
-https://blog.storj.io/post/156092137613/storj-awarded-grant-funding-to-help-advance-storj 
-
+https://blog.storj.io/post/156092137613/storj-awarded-grant-funding-to-help-advance-storj https://storj.io/blog/2017/01/storj-awarded-grant-funding-to-help-advance-storj-technology/
 https://blog.storj.io/post/93121658748/storj-bitangels-presentation-first-public https://storj.io/blog/2014/07/storj-bit-angles-presentation/
 https://blog.storj.io/post/168761643398/storj-bytes-community-newsletter-q4-2017 https://storj.io/blog/2017/12/storj-bytes-community-newsletter-q4-2017/
 https://blog.storj.io/post/166579325628/storj-bytes-issue-01-september-17 https://storj.io/blog/2017/09/storj-bytes-community-quarterly-newsletter---september-2017/
@@ -88,9 +86,7 @@ https://blog.storj.io/post/113523630343/storj-news-march https://storj.io/blog/2
 https://blog.storj.io/post/101207370053/storj-news-october-28-2014 https://storj.io/blog/2014/10/development-update-1/
 https://blog.storj.io/post/166822654863/storj-now-on-poloniex https://storj.io/blog/2017/10/poloniex-now-listing-storj-erc20-token-for-trading/
 https://blog.storj.io/post/167207914008/storj-now-trading-on-binance https://storj.io/blog/2017/11/storj-now-trading-on-binance/
-
-https://blog.storj.io/post/144823820743/storj-open-beta-launch-events 
-
+https://blog.storj.io/post/144823820743/storj-open-beta-launch-events https://storj.io/blog/2016/05/storj-open-beta-launch-events/
 https://blog.storj.io/post/156584576553/storj-payout-transparency https://storj.io/blog/2017/01/storj-payout-transparency/
 https://blog.storj.io/post/101873935238/storj-presentation-video-at-the-midwestern-bitcoin https://storj.io/blog/2014/11/storj-presentation-video-at-the-midwestern-bitcoin-conference-2014/
 https://blog.storj.io/post/101909899578/storj-presenting-at-swarm-demo-day-2014-five https://storj.io/blog/2014/11/storj-presenting-at-swarm-demo-day-2014/
