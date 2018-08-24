@@ -9,6 +9,8 @@ authors:
 ---
 Since our last development update, a lot has happened here at Storj Labs. Two of our leaders, Ben Golub and Shawn Wilkinson, will be giving a keynote at [The Linux Foundation’s Open Source Summit in Vancouver on August 29th-31st](https://events.linuxfoundation.org/events/open-source-summit-north-america-2018/). We have been spending a lot of time getting ready for some major announcements that we will be making at the event so stay tuned for that news! Aside from that, we have made a lot of great progress on V3. Check out our latest accomplishments below.
 
+<!--more-->
+
 Recent development accomplishments:
 
 * We are now able to upload and download data on the V3 network!
@@ -25,7 +27,5 @@ In our next update, we plan to share updates on:
 * Adding the finishing touches to our bandwidth accounting protocol, which is being used to keep track of how much bandwidth farmers have used.
 
 If you want to know what else we have been working on, take a look at our previous development update or visit our [GitHub](https://github.com/storj/storj) repository. If you have questions, feel free to reach out by emailing [ask@storj.io](ask@storj.io) or through our [community forum](https://community.storj.io/home).
-
-
 
 \- Brandon Iglesias, Product Manager
