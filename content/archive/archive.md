@@ -1,5 +1,5 @@
 ---
-title: "Archive page"
-type: blogArchive
+title: "Archive"
+type: archive
 url: "archive/"
 ---
