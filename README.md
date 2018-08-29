@@ -5,7 +5,7 @@ by Faris Huskovic
 **Purpose: To explain how the Netlify CMS is configured and how fellow team members can add posts.**
 
 
-Demo Site can be seen [Here](https://dreamy-hoover-6cecf0.netlify.com/).
+[Now Live](https://storj.io/blog).
 
 
 
