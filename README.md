@@ -131,10 +131,10 @@ Click on "Publish now" in the upper right hand corner and your new post has been
 
 ---
 
-- Configure baseURL and Domain
+~~- Configure baseURL and Domain~~
 
-- Push to prod
+~~- Push to prod~~
 
-- Update links that point to the old blog
+~~- Update links that point to the old blog~~
 
-- Final UI updates
+~~- Final UI updates~~
