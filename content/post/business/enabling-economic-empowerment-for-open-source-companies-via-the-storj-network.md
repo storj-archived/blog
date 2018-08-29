@@ -28,8 +28,13 @@ Our Open Source Partner Program will help open source companies to remain open a
 
 Monetization has long been a challenge for open source companies. The beauty of our program is it generates revenue without impacting the end user, beyond them using Storj to store their data instead of a centralized cloud storage platform. And because Storj is AWS S3 compatible, it makes deployment extremely simple for companies currently using cloud storage buckets. 
 
-When you look at how far cloud computing has come in the past decade, and compare where we’re at with decentralization, it puts the massive opportunity on the horizon in perspective. The total cloud market is now worth over $200 billion dollars. Over 90% of all cloud workloads run on an open source operating system (Linux) and well over ⅔ of all cloud workloads are build using multiple open source components. Meanwhile, total revenue for all of the public open source companies is merely $5 billion, or less than 3% comparatively. We are proud to help lead this emerging, decentralized revolution in the cloud. 
+When you look at how far cloud computing has come in the past decade, and compare where we’re at with decentralization, it puts the massive opportunity on the horizon in perspective. The total cloud market is now worth over $200 billion dollars.(1) Over 90% of all cloud workloads run on an open source operating system (Linux) and well over ⅔ of all cloud workloads are built using multiple open source components. Meanwhile, total revenue for all of the public open source companies is merely $5 billion, or less than 3% comparatively.(2) We are proud to help lead this emerging, decentralized revolution in the cloud. 
 
 ![The virtuous cycle of open source and decentralization](/blog/img/the-virtuous-cycle-of-open-source-and-decentralization.png)
 
 We thank you, the decentralization and blockchain community, for your continued support. We also welcome the wider open source community. Together, we can both achieve more than we could alone.
+
+[Check out Shawn Wilkinson's blog to read more about Storj launching the public alpha of our V3 network.](https://storj.io/blog/2018/08/storj-launches-v3-private-alpha/)
+
+1. Source: Gartner and others
+2. Source: Public company filings for Red Hat (RHT), MongoDB (MDB), Cloudera (CLDR) , Hortonworks (HDP) , and Mulesoft (MULE--prior to acquisition by Salesforce.)
