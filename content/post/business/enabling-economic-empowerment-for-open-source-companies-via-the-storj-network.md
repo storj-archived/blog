@@ -18,7 +18,7 @@ Decentralized infrastructures offer a different approach. Storj managed to build
 
 Decentralization also presents the opportunity for a different approach to building demand. Since open source basically drives all demand to the existing public cloud, why not provide a direct mechanism and incentive for open source projects and companies to drive demand to our network, compensating those projects and companies directly as they help us build demand?
 
-![The differences between traditional datacenters, centralized cloud and decentralized infrastructure](/img/ben-ppt.png)
+![The differences between traditional datacenters, centralized cloud and decentralized infrastructure](/blog/img/ben-ppt.png)
 
 Today, we brought this vision to reality and launched our Open Source Partner Program. This program enables open source projects to generate revenue every time their users store data in the cloud.  Through a simple connector, Storj tracks usage on the network and returns a significant portion of the revenue earned when data from an open source project is stored on the platform. Critically, this enables open source projects to derive sustainable revenue from usage, whether by commercial customers or non-paying open source users.
 
