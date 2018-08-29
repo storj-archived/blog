@@ -18,7 +18,7 @@ Decentralized infrastructures offer a different approach. Storj managed to build
 
 Decentralization also presents the opportunity for a different approach to building demand. Since open source basically drives all demand to the existing public cloud, why not provide a direct mechanism and incentive for open source projects and companies to drive demand to our network, compensating those projects and companies directly as they help us build demand?
 
-![The differences between traditional datacenters, centralized cloud and decentralized infrastructure](/img/ben-1.png)
+![The differences between traditional datacenters, centralized cloud and decentralized infrastructure](/blog/img/ben-1.png)
 
 Today, we brought this vision to reality and launched our Open Source Partner Program. This program enables open source projects to generate revenue every time their users store data in the cloud.  Through a simple connector, Storj tracks usage on the network and returns a significant portion of the revenue earned when data from an open source project is stored on the platform. Critically, this enables open source projects to derive sustainable revenue from usage, whether by commercial customers or non-paying open source users. 
 
@@ -30,6 +30,6 @@ Monetization has long been a challenge for open source companies. The beauty of 
 
 When you look at how far cloud computing has come in the past decade, and compare where we’re at with decentralization, it puts the massive opportunity on the horizon in perspective. The total cloud market is now worth over $200 billion dollars. Over 90% of all cloud workloads run on an open source operating system (Linux) and well over ⅔ of all cloud workloads are build using multiple open source components. Meanwhile, total revenue for all of the public open source companies is merely $5 billion, or less than 3% comparatively. We are proud to help lead this emerging, decentralized revolution in the cloud. 
 
-![The virtuous cycle of open source and decentralization](/img/the-virtuous-cycle-of-open-source-and-decentralization.png)
+![The virtuous cycle of open source and decentralization](/blog/img/the-virtuous-cycle-of-open-source-and-decentralization.png)
 
 We thank you, the decentralization and blockchain community, for your continued support. We also welcome the wider open source community. Together, we can both achieve more than we could alone.
