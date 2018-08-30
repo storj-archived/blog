@@ -1,11 +1,11 @@
 VERSION := $(shell utils/version)
 export VERSION
 
-BRANCH := $(shell git rev-parse --abbrev-ref HEAD)
-ifeq (${BRANCH},master)
+BRANCH_NAME ?= $(shell git rev-parse --abbrev-ref HEAD)
+ifeq (${BRANCH_NAME},master)
 TAG := ${VERSION}
 else
-TAG := ${VERSION}-${BRANCH}
+TAG := ${VERSION}-${BRANCH_NAME}
 endif
 
 
@@ -15,7 +15,7 @@ build:
 	docker build -t storjlabs/blog-redirect:${TAG} -f redirect/Dockerfile .
 
 .PHONY: push
-ifeq (${BRANCH},master)
+ifeq (${BRANCH_NAME},master)
 push:
 	docker push storjlabs/blog:${TAG}
 	docker tag storjlabs/blog:${TAG} storjlabs/blog:$(shell echo '$${VERSION%.*}')
