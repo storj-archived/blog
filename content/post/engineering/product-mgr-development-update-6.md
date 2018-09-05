@@ -1,7 +1,7 @@
 ---
 title: Product Mgr Development Update 6
 date: '2018-09-05T13:58:19-04:00'
-image: /img/developerupdates.png
+image: /blog/img/developerupdates.png
 categories:
   - engineering
 authors:
