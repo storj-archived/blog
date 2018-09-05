@@ -29,6 +29,6 @@ In our next update, we plan to share updates on:
 * Improvements to the Storj V3 CLI tool.
 * Improving our bandwidth allocation protocol by pipelining the messages, which will increase performance. 
 
-
-
 If you want to know what else we have been working on, take a look at our [previous development update](https://storj.io/blog/2018/08/prod.-mgr-development-update-5/) or visit our [GitHub](https://github.com/storj/storj) repository. If you have questions, feel free to reach out by emailing [ask@storj.io](ask@storj.io) or through our [community forum](https://community.storj.io/).
+
+\- Brandon Iglesias, Product Manager
