@@ -9,4 +9,4 @@ RUN cd /site \
 FROM busybox
 COPY --from=builder /site/public /www
 EXPOSE 80
-ENTRYPOINT ["httpd", "-f", "-v", "-h", "/www"]
+ENTRYPOINT ["httpd", "-f", "-v", "-v", "-h", "/www"]
