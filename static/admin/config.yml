@@ -69,3 +69,15 @@ collections:
       - {label: "Category", name: "categories", widget: "list",default: ['tutorials', ]}
       - {label: "Author", name: "authors", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "community"
+    label: "Community posts"
+    folder: "content/post/community"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "image", widget: "image", required: false }
+      - {label: "Category", name: "categories", widget: "list",default: ['community', ]}
+      - {label: "Author", name: "authors", widget: "list"}
+      - {label: "Body", name: "body", widget: "markdown"}
