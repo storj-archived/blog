@@ -6,6 +6,11 @@ title = "Storj Blog"
 paginate = 3
 paginatePath = "page"
 
+[outputFormats]
+[outputFormats.RSS]
+  mediatype = "application/rss"
+  baseName = "feed"
+
 [mediaTypes]
   [mediaTypes."text/yaml"]
     suffix = "yml"
