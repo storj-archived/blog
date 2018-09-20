@@ -1,7 +1,7 @@
 ---
 title: 'Product Manager Development Update #7'
 date: '2018-09-20T14:55:27-04:00'
-image: /img/developerupdates.png
+image: /blog/img/developerupdates.png
 categories:
   - engineering
 authors:
