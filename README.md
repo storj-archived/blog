@@ -48,6 +48,9 @@ To add a new post to the blog
 
 ![UI](static/img/slct.png)
 
+**Note: If you do not see a category type for the post you would like to make, please request the config file be 
+updated accordingly so a new category type is created for you.**
+
 
 
 ## Step 3- Creating a Post

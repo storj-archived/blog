@@ -6,7 +6,7 @@ backend:
   auth_endpoint: /blog/oauth/auth
 
 media_folder: "static/img"
-public_folder: "/img"
+public_folder: "blog/img"
 
 collections:
   - name: "business"
