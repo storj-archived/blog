@@ -2,16 +2,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" property="description" content="{{ .Summary }}">
+    <meta name="description" content="{{ .Summary }}">
     <meta name="keywords" content="storj, storj labs, blockchain-based, zero-knowledge, distributed object storage, decentralized object storage, decentralized storage, object storage, decentralized cloud, decentralized, storage, secure, private, encrypted, metadisk, driveshare">
     <meta name="google-site-verification" content="R5u7lqzFhKoFiaEXbxfFSJ-CT9UyK-AqVWwd1g_zMeg" />
     <meta name="google-site-verification" content="8CIKbV4JUhwtw7xNI7_A__vnmpvuGfs1g3QVOInBtxQ" />
 
-    <title>{{ .Title }}</title>
+    <title>Storj Blog</title>
 
     <meta property="og:locale" content="en_US" />
-    <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
-    <meta property="og:title" content="{{ .Title }}"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{ .Title | markdownify }}"/>
     <meta property="og:description" content="{{ .Summary }}"/>
     <meta property="og:url" content="{{ .RelPermalink }}" />
     <meta property="og:site_name" content="Storj Blog" />
@@ -20,9 +20,8 @@
     {{else}}
     <meta property="og:image" content="https://storj.io/blog/img/storj-logo.jpg" />
     {{end}}
-
     <meta name="twitter:card" content="{{ .Summary }}"/>
-    <meta name="twitter:title" content="{{ .Title }}"/>
+    <meta name="twitter:title" content="{{ .Title | markdownify }}"/>
     <meta name="twitter:description" content="{{ .Summary }}"/>
     <meta name="twitter:site" content="@storjproject"/>
     {{if isset .Params "image"}}
