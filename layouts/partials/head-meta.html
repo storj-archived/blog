@@ -2,7 +2,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" property="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
+    <meta name="description" property="description" content="{{ .Summary }}">
     <meta name="keywords" content="storj, storj labs, blockchain-based, zero-knowledge, distributed object storage, decentralized object storage, decentralized storage, object storage, decentralized cloud, decentralized, storage, secure, private, encrypted, metadisk, driveshare">
     <meta name="google-site-verification" content="R5u7lqzFhKoFiaEXbxfFSJ-CT9UyK-AqVWwd1g_zMeg" />
     <meta name="google-site-verification" content="8CIKbV4JUhwtw7xNI7_A__vnmpvuGfs1g3QVOInBtxQ" />
@@ -12,7 +12,7 @@
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
     <meta property="og:title" content="{{ Params.title }}"/>
-    <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}"/>
+    <meta property="og:description" content="{{ .Summary }}"/>
     <meta property="og:url" content="{{ .RelPermalink }}" />
     <meta property="og:site_name" content="Storj Blog" />
     {{if isset .Params "image"}}
@@ -23,7 +23,7 @@
 
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:title" content="{{ .Params.title }}"/>
-    <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}"/>
+    <meta name="twitter:description" content="{{ .Summary }}"/>
     <meta name="twitter:site" content="@storjproject"/>
     {{if isset .Params "image"}}
     <meta name="twitter:image" content="{{ .Params.image }}"/>
