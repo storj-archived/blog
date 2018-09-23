@@ -7,20 +7,29 @@
     <meta name="google-site-verification" content="R5u7lqzFhKoFiaEXbxfFSJ-CT9UyK-AqVWwd1g_zMeg" />
     <meta name="google-site-verification" content="8CIKbV4JUhwtw7xNI7_A__vnmpvuGfs1g3QVOInBtxQ" />
 
-    <title>{{ Params.title }}</title>
+    <title>{{ .Title }}</title>
 
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
-    <meta property="og:title" content="{{ Params.title }}"/>
+    <meta property="og:title" content="{{ .Title }}"/>
     <meta property="og:description" content="{{ .Summary }}"/>
     <meta property="og:url" content="{{ .RelPermalink }}" />
     <meta property="og:site_name" content="Storj Blog" />
-    <meta property="og:image" content="{{if isset .Params 'image'}}{{ .Params.image }}{{else}}{{'https://storj.io/blog/img/storj-logo.jpg'}}{{end}}" />
+    {{if isset .Params "image"}}
+    <meta property="og:image" content="{{ .Params.image }}" />
+    {{else}}
+    <meta property="og:image" content="https://storj.io/blog/img/storj-logo.jpg" />
+    {{end}}
+
     <meta name="twitter:card" content="summary"/>
-    <meta name="twitter:title" content="{{ .Params.title }}"/>
+    <meta name="twitter:title" content="{{ .Title }}"/>
     <meta name="twitter:description" content="{{ .Summary }}"/>
     <meta name="twitter:site" content="@storjproject"/>
-    <meta name="twitter:image" content="{{if isset .Params 'image'}}{{ .Params.image }}{{else}}{{'https://storj.io/blog/img/storj-logo.jpg'}}{{end}}"/>
+    {{if isset .Params "image"}}
+    <meta name="twitter:image" content="{{ .Params.image }}"/>
+    {{else}}
+    <meta name="twitter:image" content="https://storj.io/blog/img/storj-logo.jpg"/>
+    {{end}}
 
 
     <script type="text/javascript" id="inspectletjs">
