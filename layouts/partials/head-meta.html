@@ -15,9 +15,9 @@
 
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="{{ .Title | markdownify }}"/>
+    <meta property="og:title" content="{{ .Title }}"/>
     <meta property="og:description" content="{{ .Summary }}"/>
-    <meta property="og:url" content="{{ .RelPermalink }}" />
+    <meta property="og:url" content="https://storj.io{{ .RelPermalink }}" />
     <meta property="og:site_name" content="Storj Blog" />
     {{if isset .Params "image"}}
     <meta property="og:image" content="https://storj.io{{ .Params.image }}" />
