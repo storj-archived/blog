@@ -20,8 +20,8 @@
     {{else}}
     <meta property="og:image" content="https://storj.io/blog/img/storj-logo.jpg" />
     {{end}}
-    <meta name="twitter:card" content="{{ .Summary }}"/>
-    <meta name="twitter:title" content="{{ .Title | markdownify }}"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="{{ .Title }}"/>
     <meta name="twitter:description" content="{{ .Summary }}"/>
     <meta name="twitter:site" content="@storjproject"/>
     {{if isset .Params "image"}}
