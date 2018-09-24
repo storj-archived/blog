@@ -34,6 +34,6 @@ In our next update, we plan to share updates on:
 
 
 
-If you want to know what else we have been working on, take a look at our [previous development update](https://storj.io/blog/2018/09/product-mgr-development-update-6/) or visit our [GitHub](https://github.com/storj/storj) repository. If you have questions, feel free to reach out by emailing [ask@storj.io](ask@storj.io) or through our [community forum](https://community.storj.io/).
+If you want to know what else we have been working on, take a look at our [previous development update](https://storj.io/blog/2018/09/product-mgr-development-update-6/) or visit our [GitHub](https://github.com/storj/storj) repository. If you have questions, feel free to reach out by emailing [ask@storj.io](mailto:ask@storj.io) or through our [community forum](https://community.storj.io/).
 
 \- Brandon Iglesias, Product Manager
