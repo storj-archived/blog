@@ -2,7 +2,7 @@ node('node') {
   try {
 
     stage('Checkout') {
-        checkout scm
+      checkout scm
     }
 
     stage('Build Images') {
@@ -10,16 +10,22 @@ node('node') {
     }
 
     stage('Push Images') {
-      if (env.BRANCH_NAME == "master") {
-        echo 'Push to Repo'
-        sh 'make push'
-      }
+      echo 'Push to Repo'
+      sh 'make push'
+    }
+
+    stage('Deploy') {
+      echo 'Deploying to Repo'
+      sh 'make deploy'
     }
 
   }
+
   catch (err) {
     currentBuild.result = "FAILURE"
 
+    echo 'Caught ERROR!'
+    echo "Error: ${err}"
   }
   finally {
 

@@ -1,0 +1,30 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+{{- if .Values.whitelist }}
+    nginx.ingress.kubernetes.io/whitelist-source-range: 104.200.143.66/32,104.196.58.99/32
+{{- end }}
+    kubernetes.io/ingress.class: nginx
+    kubernetes.io/tls-acme: "true"
+    nginx.ingress.kubernetes.io/proxy-redirect-to: /blog/
+    nginx.ingress.kubernetes.io/rewrite-target: /
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+  name: {{ .Values.fqdn | replace "." "-" }}-blog
+spec:
+  rules:
+  - host: {{ .Values.fqdn }}
+    http:
+      paths:
+      - backend:
+          serviceName: {{ .Values.fqdn | replace "." "-" }}-blog
+          servicePort: 80
+        path: /blog
+      - backend:
+          serviceName: {{ .Values.fqdn | replace "." "-" }}-blog-oauth
+          servicePort: 3000
+        path: /blog/oauth
+  tls:
+  - hosts:
+    - {{ .Values.fqdn }}
+    secretName: {{ .Values.fqdn | replace "." "-" }}-tls

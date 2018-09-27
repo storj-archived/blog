@@ -3,9 +3,13 @@ export VERSION
 
 BRANCH_NAME ?= $(shell git rev-parse --abbrev-ref HEAD)
 ifeq (${BRANCH_NAME},master)
-TAG := ${VERSION}
+TAG ?= ${VERSION}
+CLUSTER ?= prod
+DEPLOYMENT ?= storj-io-blog
 else
-TAG := ${VERSION}-${BRANCH_NAME}
+TAG ?= ${VERSION}-${BRANCH_NAME}
+CLUSTER ?= nonprod
+DEPLOYMENT ?= staging-storj-io
 endif
 
 
@@ -27,11 +31,19 @@ push:
 	docker tag storjlabs/blog-redirect:${TAG} storjlabs/blog-redirect:$(shell echo '$${VERSION%%.*}')
 	docker push storjlabs/blog-redirect:$(shell echo '$${VERSION%.*}')
 	docker push storjlabs/blog-redirect:$(shell echo '$${VERSION%%.*}')
+
 else
 push:
 	docker push storjlabs/blog:${TAG}
 	docker push storjlabs/blog-redirect:${TAG}
 endif
+
+.PHONY: deploy
+deploy:
+	-kubectl --context ${CLUSTER} -n websites patch deployment ${DEPLOYMENT}-blog \
+	-p'{"spec":{"template":{"spec":{"containers":[{"name":"www","image":"storjlabs/blog:${TAG}"}]}}}}'
+	-kubectl --context ${CLUSTER} -n websites patch deployment blog-${DEPLOYMENT} \
+	-p'{"spec":{"template":{"spec":{"containers":[{"name":"www-redirect","image":"storjlabs/blog-redirect:${TAG}"}]}}}}'
 
 .PHONY: clean
 clean:
