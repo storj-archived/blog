@@ -4,7 +4,7 @@
 {{ end }}
 <div class="container">
         <div class="row">
-          <div class="col-12 col-lg-8 col-lg-offset-1 blog-main" style="padding-right:100px;">
+          <div class="col-xs-11 col-xs-offset-1 col-sm-11 col-sm-offset-1 col-md-9 col-md-offset-1 col-lg-9 col-lg-offset-0 blog-main">
 {{ $truncate := default true .Site.Params.truncate }}
 
 {{ range where .Paginator.Pages "Section" "post"}}
@@ -14,9 +14,8 @@
         {{ .Render "content" }}
     {{ end }}
 {{ end }}
-{{ partial "paginator" . }}
 </div>
 {{ partial "sidebar" .}}
-</div>
+{{ partial "paginator" . }}
 </div>
 {{ end }}
