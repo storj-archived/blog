@@ -4,7 +4,7 @@
 <div class="blog-main" style="padding:0px;margin:0px;">
     <div class="row">
 <nav class="navigation paging-navigation col-xs-11 col-xs-offset-1 col-sm-11  col-sm-offset-1 col-md-9 col-md-offset-1 col-lg-9 col-lg-offset-0" role ="navigation">  
-            <a class="next {{ if not $pag.HasNext }}disabled{{ end }}" style="text-decoration:none;border-style:none;color:#333333; {{ if not $pag.HasNext }}color:#AAAAAA;{{ end }}" href="{{ if $pag.HasNext }}{{ $pag.Next.URL }}{{ end }}" aria-label="Next">&ltrif;Older Posts</span></a>
+            <a class="next {{ if not $pag.HasNext }}disabled{{ end }}" style="text-decoration:none;border-style:none;color:#333333; {{ if not $pag.HasNext }}color:#AAAAAA;{{ end }}" href="{{ if $pag.HasNext }}{{ $pag.Next.URL }}{{ end }}" aria-label="Next">&ltrif; Older Posts</span></a>
         {{ $.Scratch.Set "__paginator.ellipsed" false }}
         {{ range $pag.Pagers }}
             {{ $right := sub .TotalPages .PageNumber }}
@@ -18,7 +18,7 @@
                 {{ $.Scratch.Set "__paginator.ellipsed" true }}
             {{ end }}
         {{ end }}
-            <a class="previous {{ if not $pag.HasPrev }}disabled{{ end }}"style="text-decoration:none;border-style:none;color:#333333;float: right; {{ if not $pag.HasPrev }}color:#AAAAAA; {{ end }}"href="{{ if $pag.HasPrev }}{{ $pag.Prev.URL }}{{ end }}"><span aria-hidden="true"></span>Newer Posts&rtrif;</a>    
+            <a class="previous {{ if not $pag.HasPrev }}disabled{{ end }}"style="text-decoration:none;border-style:none;color:#333333;float: right; {{ if not $pag.HasPrev }}color:#AAAAAA; {{ end }}"href="{{ if $pag.HasPrev }}{{ $pag.Prev.URL }}{{ end }}"><span aria-hidden="true"></span>Newer Posts &rtrif;</a>    
     <div class="spacer35"></div>
     <div class="pager">
     <a style="text-decoration:underline;" href="{{ .Site.BaseURL }}/archive">Blog Archive</a>
