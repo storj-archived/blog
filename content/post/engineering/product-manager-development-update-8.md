@@ -7,7 +7,7 @@ categories:
 authors:
   - Brandon Iglesias
 ---
-Development Update #8 from Storj Labs
+Development Update 8 from Storj Labs
 
 Hey Storjlings! We hope everyone had a great summer. Even though summer has come to an end, the Storj team is still running HOT and making tons of progress on the V3 network. Below is a quick update from our engineering team.
 
