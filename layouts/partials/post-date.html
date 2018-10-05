@@ -1,7 +1,7 @@
 {{ $dateFormat := default "Jan 2, 2006" (index .Site.Params "date_format") }}
 
 {{ $author := .Params.authors | default .Site.Params.authors }}
-<div  class="blog-post-date text-secondary">
+<div  class="blog-post-date text-secondary" style="margin-top:-15px;">
 
 {{ range .Params.authors }}
         <a href="{{ "/authors/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
@@ -9,7 +9,7 @@
 on
 
 {{ range .Params.categories }}
-        <a  href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+        <a  href="{{ "/categories/" | relLangURL }}{{ . | urlize }}" style="text-transform: capitalize;">{{ . }}</a>
     {{ end }}
     &bull;
     {{ if not .Date.IsZero }}
