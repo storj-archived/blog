@@ -18,7 +18,8 @@ Recent development accomplishments:
 * We created a POC for multipart uploads on the V3 network.
 * We added the ability for storage node operators to set storage capacity limits.
 * We enhanced the overall user experience and fixed some bugs our OSS partners found. 
-* 
+
+
 
 In our next update, we plan to share updates on:
 
