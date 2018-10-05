@@ -21,12 +21,12 @@
                     <div class="row">
                         <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
                             {{ if isset .Params "image" }}
-                <img class="img-responsive" src="{{ .Params.image }}" style="width:98%;max-height: 300px"/>
+                <img class="img-responsive" src="{{ .Params.image }}" style="width:98%;"/>
                                 {{ end }}
                         <div class="spacer15"></div>
                         </div>
     </br>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="font-family: Montserrat-Regular;font-size:18px;color:#333333;line-height: 34px;">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="font-family: Montserrat-Regular;font-size:18px;color:#333333;line-height: 34px;padding-right:45px;">
                     {{ .Content }}  
                 </div>
                     </div>

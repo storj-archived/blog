@@ -9,13 +9,13 @@
         {{ partial "post-date" . }}
     </br>
     {{ if isset .Params "image" }}
-    <a href="{{ .RelPermalink }}"><img class="img-responsive" style="width:98%;max-height:300px;"src="{{ .Params.image }}"/></a>
+    <a href="{{ .RelPermalink }}"><img class="img-responsive" style="width:98%;"src="{{ .Params.image }}"/></a>
     <div class="spacer15"></div>
     {{ end }}
     
    </br>
 </div>
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="font-size: 16px;line-height: 28px;">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="font-size: 16px;line-height: 28px;padding-right:45px;">
     {{ .Summary }}
     <div class="spacer15"></div>
     <a href="{{ .RelPermalink }}">{{ i18n "readMore" }}</a>
