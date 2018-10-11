@@ -4,12 +4,12 @@
 <div  class="blog-post-date text-secondary" style="margin-top:-15px;">
 
 {{ range .Params.authors }}
-        <a href="{{ "/authors/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+        <a style="font-family: Montserrat;font-size: 18px;font-weight: 500;line-height: 22px;text-transform: capitalize;" href="{{ "/authors/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
     {{ end }}
 on
 
 {{ range .Params.categories }}
-        <a  href="{{ "/categories/" | relLangURL }}{{ . | urlize }}" style="text-transform: capitalize;">{{ . }}</a>
+        <a  style="font-family: Montserrat;font-size: 18px;font-weight: 500;line-height: 22px;text-transform: capitalize;" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
     {{ end }}
     &bull;
     {{ if not .Date.IsZero }}
