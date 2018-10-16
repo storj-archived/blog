@@ -13,8 +13,6 @@ A debate in the open source community recently erupted when Redis created a new 
 
 Today, the cloud industry is valued at $180 billion, while public open source software (OSS) companies have combined revenues of just $5B, but drive more than two-thirds of cloud workloads. As cloud continues to grow as the main model for computing, there is no question that it is impacting revenue opportunities for open source platforms. The major cloud companies offer open source software as a loss-leader to sell compute services; as such, traditional open source companies will never be able to compete here because of the scale of these cloud providers. We believe this is a dangerous scenario and that it’s critical to create a viable model for OSS to monetize the cloud.
 
-![Total cloud market in comparison with total revenue at public OSS companies. Sources: LinuxFoundation Keynote 2017, Red Hat, Hortonworks, Cloudera,  Mulesoft, MongoDB, and Gartner](/blog/img/cloudandopensource.png)
-
 We the community need to solve this challenge. Open source software leads innovation; it’s often considered the collaborative R&D department for the world. Businesses and developers depend on OSS projects and companies so we must ensure they are supported.
 
 We believe with decentralization, community and collaboration, we can uncover new ways to build sustainable open source businesses.
