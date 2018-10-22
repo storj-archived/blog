@@ -13,10 +13,10 @@ Recent development accomplishments:
 
 * We finished the initial implementation of Kademlia! Kademlia is the DHT (distributed hash table) we use to find out about other nodes on the network. 
 * We added the ability for storage node operators to set bandwidth usage limits.
-* We added functionality to audit Storage Nodes. Auditing is used to determine if the storage Nodes still have the data they should, and that the data has not been modified. 
+* We added functionality to audit Storage Nodes. Auditing is used to determine if the Storage Nodes still have the data they should, and that the data has not been modified. 
 * We are now encrypting the metadata that is generated for each object which is stored on the Satellite.
-* We also finished adding Satellite-signed proofs which allow storage nodes to verify that commands are coming from the Satellite who is responsible for the data. 
-* We bought another fridge and stacked them to create a super fridge cluster. The super fridge is capable of storing cold brew coffee and exponentially more creamer. We expect this to increase our productivity levels by 37.5 percent! 
+* We also finished adding Satellite-signed proofs which allow Storage Nodes to verify that commands are coming from the Satellite who is responsible for the data. 
+* We bought another fridge and stacked them to create a super fridge cluster. The cluster is capable of storing cold brew coffee and exponentially more creamer. We expect this to increase our productivity levels by 37.5 percent! 
 * We fixed an issue where we were handling windows paths incorrectly. 
 
 In our next update, we plan to share updates on:
