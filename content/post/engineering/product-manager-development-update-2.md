@@ -5,6 +5,8 @@ categories:
   - engineering
 authors:
   - Brandon Iglesias
+aliases:  
+  - /2018/07/prod.-mgr-development-update-2/
 ---
 Since our last [development update](https://storj.io/blog/2018/06/prod.-mgr-development-update-1/), our engineering team has completed several key pieces of the V3 platform. Here are some of the highlights; we hope you are as excited as we are about this new functionality!
 
