@@ -1,5 +1,5 @@
 ---
-title: Prod. Mgr Development Update 4
+title: Product Manager Development Update 4
 date: '2018-08-07T15:54:50-04:00'
 image: /blog/img/developerupdates.png
 categories:
