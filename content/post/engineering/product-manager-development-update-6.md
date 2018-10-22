@@ -6,6 +6,8 @@ categories:
   - engineering
 authors:
   - Brandon Iglesias
+aliases:  
+  - /2018/09/product-mgr-development-update-6/
 ---
 Hey everyone, we hope you were able to watch [Ben Golub and Shawn Wilkinson’s keynote presentation](https://www.youtube.com/watch?v=rNpaaqFX6tQ&feature=youtu.be) at The Linux Foundation's Open Source Summit last week. At the conference, we announced our new [Open Source Partner Program](https://storj.io/blog/2018/08/enabling-economic-empowerment-for-open-source-companies-via-the-storj-network/)! Through this program, open-source projects can generate revenue when their users store data on the Storj network. We are beyond excited about this program because it will financially empower our 10 new open-source partners to continue to make products we all love and use. 
 
