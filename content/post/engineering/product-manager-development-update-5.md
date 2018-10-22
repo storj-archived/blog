@@ -1,11 +1,13 @@
 ---
-title: Prod. Mgr Development Update 5
+title: Product Manager Development Update 5
 date: '2018-08-21T12:50:11-04:00'
 image: /blog/img/developerupdates.png
 categories:
   - engineering
 authors:
   - Brandon Iglesias
+aliases:
+  - /2018/08/prod.-mgr-development-update-5/
 ---
 We are just one week away from the [Linux Foundation’s Open Source Summit ](https://ossna18.sched.com/event/FADk)[where Ben Golub and Shawn Wilkinson will be giving a keynote](https://ossna18.sched.com/event/FADk)! They will make some major announcements on stage so our team has been focusing on finishing everything they need. The V3 network has made tremendous progress since our last development update. Here is what we have been working on:
 

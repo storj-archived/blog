@@ -1,10 +1,12 @@
 ---
-title: Prod. Mgr Development Update 3
+title: Product Manager Development Update 3
 date: '2018-07-24T21:13:16-04:00'
 categories:
   - engineering
 authors:
   - Brandon Iglesias
+aliases:
+  - /2018/07/prod.-mgr-development-update-3/
 ---
 We hope you are staying cool during these hot summer months, here at Storj we are just starting to heat up! We have continued to make great progress towards V3 and want to keep you in the loop on the latest updates.
 

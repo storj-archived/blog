@@ -1,11 +1,13 @@
 ---
-title: Prod. Mgr Development Update 4
+title: Product Manager Development Update 4
 date: '2018-08-07T15:54:50-04:00'
 image: /blog/img/developerupdates.png
 categories:
   - engineering
 authors:
   - Brandon Iglesias
+aliases:  
+  - /2018/08/prod.-mgr-development-update-4/
 ---
 Since our last development update, a lot has happened here at Storj Labs. Two of our leaders, Ben Golub and Shawn Wilkinson, will be giving a keynote at [The Linux Foundation’s Open Source Summit in Vancouver on August 29th-31st](https://events.linuxfoundation.org/events/open-source-summit-north-america-2018/). We have been spending a lot of time getting ready for some major announcements that we will be making at the event so stay tuned for that news! Aside from that, we have made a lot of great progress on V3. Check out our latest accomplishments below.
 
