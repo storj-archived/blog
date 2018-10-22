@@ -1,5 +1,5 @@
 ---
-title: Prod. Mgr Development Update 1
+title: Product Manager Development Update 1
 date: '2018-06-27T20:12:20-04:00'
 categories:
   - engineering
