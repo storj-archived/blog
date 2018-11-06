@@ -9,7 +9,7 @@ authors:
     - JT Olio
 ---
 
-Hi! JT Olio here. We recently launched the white paper for our V3 network! The document offers 90 pages of detail about what we’ve built and are now working on for our near-term roadmap, and it’s wonderful to finally have it out!
+Hi! JT Olio here. We [recently launched the white paper for our V3 network](https://storj.io/blog/2018/10/introducing-the-storj-v3-white-paper/)! The document offers 90 pages of detail about what we’ve built and are now working on for our near-term roadmap, and it’s wonderful to finally have it out!
 
 I would have loved to go into this amount of detail during my conversation with David Vorick of Siacoin a few months ago. We were talking about how this V3 architecture is fundamentally better than other approaches, but I was unable to go into why at that time. Now, with the release of our white paper, we can finally dive into those reasons.
 
@@ -20,10 +20,10 @@ There are a number of potentially controversial claims our paper makes, and the 
 ## Durability and expansion factor
 
 In a decentralized storage network, any storage node could go offline permanently at any time. A storage network’s redundancy strategy must store data in a way that provides access with high probability, even though any given number of individual nodes may be in an
-offline state. To achieve a specific level of durability (defined as the probability that data remains available in the face of failures), many products in this space (Filecoin, MaidSafe, Siacoin, GFS, Ceph, IPFS, etc.) by default use replication, which means simply having multiple copies of the data stored on different nodes.
+offline state. To achieve a specific level of *durability* (defined as the probability that data remains available in the face of failures), many products in this space (Filecoin, MaidSafe, Siacoin, GFS, Ceph, IPFS, etc.) by default use replication, which means simply having multiple copies of the data stored on different nodes.
 
 <img align="left" src="/blog/img/presidents.png" style="width:350px;max-width:600px;max-height:420px;margin:10px;"/>
-Unfortunately, replication anchors durability to the network expansion factor, which is the storage overhead for reliably storing data. If you want more durability, you need more copies. For every increase of durability you desire, you must spend another multiple of the data size in bandwidth when storing or repairing the data, as nodes churn in and out of the network.
+Unfortunately, replication anchors durability to the network *expansion factor*, which is the storage overhead for reliably storing data. If you want more durability, you need more copies. For every increase of durability you desire, you must spend another multiple of the data size in bandwidth when storing or repairing the data, as nodes churn in and out of the network.
 
 For example, suppose your desired durability level requires a replication strategy that makes eight copies of the data. This yields an expansion factor of 8x, or 800%. This data then needs to be stored on the network, using bandwidth in the process. Thus, more replication results in more bandwidth usage for a fixed amount of data.
 
@@ -40,7 +40,7 @@ An erasure code is often described by two numbers, *k* and *n*. If a block of da
 
 If a block of data is *s* bytes large, each of the *n* erasure shares are roughly *s*/*k* bytes. For example, if a block is 10 MB, and you’re using a *k* = 10, *n* = 20 erasure code scheme, each erasure share of that block will only be 1 MB. This means that with *k* = 10, *n* = 20, the expansion factor is only 2x. For a 10 MB block, only 20 MB total is used, because there are twenty 1-MB shares. The same expansion factor holds with *k* = 20, *n* = 40, where there are forty 512-KB shares.
 
-Interestingly, the durability of a *k* = 20, *n* = 40 erasure code is better than a *k* = 10, *n* = 20 erasure code, even though the expansion factor (2x) is the same for both. This is because the risk is spread across more nodes in the *k* = 20, *n* = 40 case. To help drive this point home, we calculated the durability for various erasure code configuration choices in a network with a churn of 10%. We talked more about the math behind this table in section 3.4 of our paper, and we’ll discuss more about churn in an upcoming blog post, but suffice it to say, we hope these calculated values are illustrative:
+Interestingly, the durability of a *k* = 20, *n* = 40 erasure code is better than a *k* = 10, *n* = 20 erasure code, even though the expansion factor (2x) is the same for both. This is because the risk is spread across more nodes in the *k* = 20, *n* = 40 case. To help drive this point home, we calculated the durability for various erasure code configuration choices in a network with a churn of 10%. We talked more about the math behind this table in section 3.4 of [our paper](https://storj.io/storjv3.pdf), and we’ll discuss more about churn in an upcoming blog post, but suffice it to say, we hope these calculated values are illustrative:
 
 <img src="/blog/img/stats1.png" style="width:100%;max-width:800px;"/>
 
@@ -48,7 +48,7 @@ Notice how increasing the amount of storage nodes involved increases the amount 
 
 <img src="/blog/img/graph.png" style="width:100%;max-width:800px;max-height:400px;"/>
 
-Admittedly, this graph is a little disingenuous: the chances of you caring about having thirty-two 9s of durability is… low, to say the least. The National Weather Service estimates the likelihood of you not getting hit by lightning this year at only six 9s after all. But you should still be able to see that a *k* = 2, *n* = 4 is less durable than a *k* = 16, *n* = 32 configuration.
+Admittedly, this graph is a little disingenuous: the chances of you caring about having thirty-two 9s of durability is… low, to say the least. The National Weather Service [estimates](https://www.weather.gov/safety/lightning-odds) the likelihood of you not getting hit by lightning this year at only six 9s after all. But you should still be able to see that a *k* = 2, *n* = 4 is less durable than a *k* = 16, *n* = 32 configuration.
 
 In contrast, replication requires significantly higher expansion factors for the same durability. The following table shows durability with a replication scheme:
 
@@ -60,7 +60,7 @@ If you want to learn more about how erasure codes work, you can read [this intro
 
 ## Okay, erasure codes take less disk space. But isn’t repairing data more expensive?
 
-It’s true that replication makes repair simpler. Every time a node is lost, only one of the remaining nodes is necessary for recovery. On the flip side, erasure codes require several nodes to be involved for each repair. Though this feels like a problem, it’s actually not.
+It’s true that replication makes repair *simpler*. Every time a node is lost, only one of the remaining nodes is necessary for recovery. On the flip side, erasure codes require several nodes to be involved for each repair. Though this feels like a problem, it’s actually not.
 
 To understand why, let’s set up both scenarios, replication at 9x and erasure codes at *k* = 18, *n* = 36, and consider what it costs us. These numbers are chosen because they have similar durability (9x replication has six 9s of durability assuming 10% of node churn, and *k* = 18, *n* = 36 erasure coding has seven). We’ll consider what happens when we are storing a data block that is 18 MB and we suddenly lose one-third of our nodes.
 
@@ -76,7 +76,7 @@ Erasure coding also required a designated node to do the repair. While this comp
 
 <img align="right" src="/blog/img/chopper.png" style="width:50%;max-width:300px;max-height:800px;margin:15px;"/>
 
-Notably, erasure coding does not complicate streaming. Remember how I said erasure codes are used for satellite communication and CDs? As long as erasure coding is batched into small operations, streaming continues to work just fine. See Figure 4.2 and sections 4.1.2 and 4.8 in our white paper for more details about how we can pull native video streaming off.
+Notably, erasure coding does *not* complicate streaming. Remember how I said erasure codes are used for satellite communication and CDs? As long as erasure coding is batched into small operations, streaming continues to work just fine. See Figure 4.2 and sections 4.1.2 and 4.8 in [our white paper](https://storj.io/storjv3.pdf) for more details about how we can pull native video streaming off.
 
 ## Upsides?
 
