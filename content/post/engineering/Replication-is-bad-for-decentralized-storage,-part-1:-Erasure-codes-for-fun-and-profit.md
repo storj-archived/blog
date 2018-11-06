@@ -1,6 +1,6 @@
 ---
 title: 'Replication is bad for decentralized storage, part 1: Erasure codes for fun and profit'
-date: '2018-11-05T19:29:00-05:00'
+date: '2018-11-06'
 image: /blog/img/replicationbad.png
 categories:
     - engineering
