@@ -7,7 +7,7 @@ categories:
 authors:
   - Brandon Iglesias
 ---
-Hey Storjlings! Now that we are in the Sputnik release (public alpha for developers), and our white paper has been published, we would love for the community to start contributing to the project. We have [opened a number of GitHub issues](https://github.com/storj/storj/issues) for open source developers within the community to tackle, if they if they would like to get involved.
+Hey Storjlings! Now that we are in the Sputnik release (public alpha for developers), and our white paper has been published, we would love for the community to start contributing to the project. We have [opened a number of GitHub issues](https://github.com/storj/storj/issues) for open source developers within the community to tackle, if they would like to get involved.
 
 **Recent development accomplishments:**
 
