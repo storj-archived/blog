@@ -1,5 +1,5 @@
 ---
-title: Storj Development Update 11
+title: Product Manager Development Update 11
 date: '2018-11-19T10:44:19-07:00'
 image: /blog/img/developerupdates.png
 categories:
@@ -25,4 +25,4 @@ Hey Storjlings! Now that we are in the Sputnik release (public alpha for develop
 * Integrating the auditor with the data repair checker. This will provide confidence that we have enough pieces of a file to maintain its integrity, and that those pieces are valid.  
 * Standardizing node IDs across the code base.  
 
-If you want to know what else we have been working on, please take a look at our [product roadmap](https://storjlabs.aha.io/published/01ee405b4bd8d14208c5256d70d73a38?page=1) and [development update](https://storj.io/blog/2018/10/product-manager-development-update-9/). If you want to dig into the code visit our [GitHub](https://github.com/storj/storj) repository. If you have questions, feel free to reach out by emailing <mailto:ask@storj.io> or through our [community forum](https://community.storj.io/).
+If you want to know what else we have been working on, please take a look at our [product roadmap](https://storjlabs.aha.io/published/01ee405b4bd8d14208c5256d70d73a38?page=1) and our [previous development update](https://storj.io/blog/2018/11/product-manager-development-update-10/). If you want to dig into the code visit our [GitHub](https://github.com/storj/storj) repository. If you have questions, feel free to reach out by emailing <mailto:ask@storj.io> or through our [community forum](https://community.storj.io/).
