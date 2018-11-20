@@ -8,6 +8,8 @@ authors:
 ---
 Suppose you want to take a unique and disruptive approach to cloud storage and launch a new product into the established market. Where do you start? Sure, you want to be half the price of the most dominant provider. You’ll also want to be just as reliable, as well as faster and much more secure. But once you’ve checked all those boxes, what’s really going to move the needle in terms of adoption? As it turns out, it’s not more differentiation. It’s compatibility. As such, compatibility was a huge priority for us as we planned the build-out of our new decentralized cloud storage network.
 
+<!--more-->
+
 To aggressively compete in the wider cloud storage industry and bring decentralized cloud storage into the mainstream, ease of adoption and a frictionless transition from existing solutions are non-negotiable. Until a native decentralized cloud storage protocol becomes widely adopted, Amazon S3 compatibility affords a graceful transition path for migrating from centralized providers. 
 
 Today, the most widely deployed public cloud is Amazon Web Services. The cloud computing giant’s first product was Amazon S3 and most cloud storage products provide some form of compatibility with the platform’s application program interface (API) architecture. If new players hadn´t done this, they would have always struggled to grow and achieve adoption. 
