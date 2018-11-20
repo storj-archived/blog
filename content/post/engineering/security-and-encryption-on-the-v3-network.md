@@ -9,7 +9,7 @@ authors:
 Data privacy and security are very important components of the Storj network and are primarily maintained through client-side encryption of file paths, content, and metadata. By encrypting client-side, we avoid the danger of making this data available to attackers, and anyone else who is unable to derive the necessary encryption keys.
 
 When designing our method for encryption, we had to consider future features and how our encryption method might impact them. For example, we plan to implement bucket, file, and directory sharing, which places constraints on how files and file paths are encrypted. We need to maintain the security of encrypted components while still allowing for the possibility of decryption without direct control of the root secret used to upload files. In the new V3 network, we make this possible by hierarchically deriving keys based on the root secret and file path. This method is detailed more below.
-
+<!--more-->
 We also designed our encryption method to avoid using the same keys for content encryption of different files and different segments of the same file. This is advantageous not only because it makes file sharing of encrypted files more secure, but because it does not put other segments or files at risk if one of them is compromised.
 
 The encryption algorithm we used for content and metadata is easily configurable between AES-GCM and “[Secretbox](https://nacl.cr.yp.to/secretbox.html),” which are both authenticated encryption algorithms. This means that if any encrypted data is tampered with, the client downloading the data will know about it once the data is decrypted.
