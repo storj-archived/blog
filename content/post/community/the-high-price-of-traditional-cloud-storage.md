@@ -12,9 +12,9 @@ In such an environment, wouldn’t you expect cloud storage prices to drop?
 
 Unfortunately, the answer is no.
 
-There are only three major cloud storage providers in the world outside of China: Amazon, Google, and Microsoft. While cloud storage prices initially dropped when Google entered the market, prices have essentially stagnated for the past five years, although the cost of hard drives have decreased by about 50 percent over that same timeframe (dollar-per-gigabyte) [[source](https://www.forbes.com/sites/tomcoughlin/2017/12/20/digital-storage-projections-for-2018-part-1/#41e9a3a13a20)].
+There are only three major cloud storage providers in the world outside of China: Amazon, Google, and Microsoft. While cloud storage prices initially dropped when Google entered the market, prices have essentially stagnated for the past five years, although the cost of hard drives have decreased by about 50 percent over that same timeframe [dollar-per-gigabyte](https://www.forbes.com/sites/tomcoughlin/2017/12/20/digital-storage-projections-for-2018-part-1/#41e9a3a13a20).
 
-<img src="/blog/img/charts-storage-providers-timeline.png" alt="Price of cloud storage from 2010 to 2018" width="710"/>
+<img src="/blog/img/charts-storage-providers-timeline.png" alt="Price of cloud storage from 2010 to 2018" width="100%"/>
 
 [Cisco estimates](https://www.cisco.com/c/m/en_us/solutions/service-provider/vni-forecast-highlights.html) that by 2021, there will be four internet-connected devices for every person in the world. That’s a lot of data, and it’s not even counting technology that isn’t connected to the internet like 4k cameras and other devices that create some of our biggest datasets. In spite of this proliferation of data, the cost to store data is remaining flat. That means those who are responsible for storing data (and paying to have it stored) are seeing their costs rise at the same rate as we create data. So if your storage bill is roughly 10% of your total costs, in 12-18 months, it will be closer to 18%, assuming all other numbers remain the same. This ratio can quickly become burdensome to small, open source projects or free services that we all use on a daily basis. 
 
