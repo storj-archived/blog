@@ -1,5 +1,5 @@
 ---
-title: Product Manager Development Update 12 from Storj Labs
+title: 'Product Manager Development Update 12 '
 date: '2018-11-29T15:36:26-07:00'
 image: /blog/img/developerupdates.png
 categories:
