@@ -1,6 +1,6 @@
 ---
 title: 'Product Manager Development Update 12 '
-date: '2018-11-29T15:36:26-07:00'
+date: '2018-11-28T17:36:26-05:00'
 image: /blog/img/developerupdates.png
 categories:
   - engineering
