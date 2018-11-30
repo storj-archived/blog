@@ -5,7 +5,7 @@ BRANCH_NAME ?= $(shell git rev-parse --abbrev-ref HEAD)
 ifeq (${BRANCH_NAME},master)
 TAG ?= ${VERSION}
 CLUSTER ?= prod
-DEPLOYMENT ?= storj-io-blog
+DEPLOYMENT ?= storj-io
 else
 TAG ?= ${VERSION}-${BRANCH_NAME}
 CLUSTER ?= nonprod
