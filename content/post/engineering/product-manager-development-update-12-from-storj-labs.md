@@ -7,7 +7,7 @@ categories:
 authors:
   - Brandon Iglesias
 ---
-Instead of spending the week shopping for online holiday deals, we have been busy making huge amounts of progress on the V3 network. Our next major milestone is the Explorer release, which will allow storage nodes to start joining the V3 alpha network. Most of our efforts have been focused around building out features related to this. 
+Instead of spending the week shopping for online holiday deals,  we have been busy making huge amounts of progress on the V3 network. Our next major milestone is the Explorer release, which will allow storage nodes to start joining the V3 alpha network. Most of our efforts have been focused around building out features related to this. 
 
 **Recent development accomplishments:**
 
