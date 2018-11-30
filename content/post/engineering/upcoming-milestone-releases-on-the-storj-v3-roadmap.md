@@ -10,6 +10,8 @@ The recent release of our [white paper](https://storj.io/white-paper) was a huge
 
 Our public roadmap includes a series of alpha releases leading up to a beta release and ultimately, the production launch of our V3 network. The composition and sequence of the releases is designed to accelerate the launch of the production network with SLAs. This blog post provides some additional information about each of the most recent and upcoming releases.  Quick disclaimer - this document contains forward-looking statements about our product direction. The development, release, and timing of any features or functionality described for our products remains at the sole discretion of Storj Labs. The information herein is not a commitment to deliver any material, code or functionality, and should not be relied upon in making purchase decisions.
 
+<!--more-->
+
 ### Mogul: Private Alpha for OSS Partners - Q3 2018
 
 Release Description: The private alpha for OSS partners was our first V3 network release. With this release, we launched a private V3 network for these partners to evaluate the new network. Our Open Source Partner Program provides our open source partners with a share of the revenue generated when the end-users of their software store data on the Storj network. This alpha enabled them to test our Uplink command-line interface tool and S3 gateway. Storj hosts all of the satellites and storage nodes for this release.
