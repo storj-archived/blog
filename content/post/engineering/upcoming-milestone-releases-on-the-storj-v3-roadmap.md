@@ -1,6 +1,7 @@
 ---
 title: Upcoming Milestone Releases on the Storj V3 Roadmap
 date: '2018-11-30T11:16:35-07:00'
+image: /blog/img/product-roadmap.png
 categories:
   - engineering
 authors:
