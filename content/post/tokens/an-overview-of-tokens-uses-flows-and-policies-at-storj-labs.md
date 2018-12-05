@@ -34,9 +34,12 @@ We believe that all these members of our community must have confidence in the S
 
 In the next few days, we will release the following documents and articles related to the STORJ token.
 
-**1. The STORJ Token Balances and Flows Report:** This report will document the current balances/supply of STORJ tokens, the major reserves, and the uses/flows of tokens since the token sale in May of 2017. We plan to publish this report quarterly, in conjunction with our quarterly town hall meeting, [the next of which is scheduled to be held on January 16](https://zoom.us/webinar/register/WN_XEhP62m2TQSlE9_t1zhcgg). 
+**1. The STORJ Token Balances and Flows Report:** This report will document the current balances/supply of STORJ tokens, the major reserves, and the uses/flows of tokens since the token sale in May of 2017. We plan to publish this report quarterly, in conjunction with our quarterly town hall meeting, [the next of which is scheduled to be held on January 16](https://zoom.us/webinar/register/WN_XEhP62m2TQSlE9_t1zhcgg).
+ 
 **2. Treasury and Cryptographic Controls:** This post will describe the various classes of token reserves held by Storj Labs, and provide an overview of the policies by which we ensure the security and proper use of those STORJ tokens (as well as other cryptocurrencies held by the company).
+
 **3. The Timelock Policy: **The largest single reserve of STORJ tokens is the 245 M tokens, which have been held in cryptographic timelock since the token sale. To date, we have relocked these tokens in rolling 6-month intervals. We will be adopting a longer term and more nuanced policy when the current timelock expires, and this overview outlines that new policy. 
+
 **4. Additional Usage Policies and Governance:** We are putting in place additional controls to make sure that Storj Labs and our service providers appropriately handle tokens that they own. We also expect to put in place a governance board to oversee company policies such as those mentioned in this post. We hope to have all of those items finalized in time for our next town hall.
 
 As always, we appreciate community input. And, in true open source spirit, we encourage others to take, use, and modify these policies and documents freely. We think that the promulgation of best practices will be key for our industry as a whole to grow and prosper. 
