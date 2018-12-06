@@ -3,13 +3,13 @@ kind: Deployment
 metadata:
   annotations:
   labels:
-    app: {{ .Values.redirect.fqdn | replace "." "-" }}
-  name: {{ .Values.redirect.fqdn | replace "." "-" }}
+    app: {{ .Values.redirect.subdomain }}-{{ .Values.fqdn | replace "." "-" }}
+  name: {{ .Values.redirect.subdomain }}-{{ .Values.fqdn | replace "." "-" }}
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: {{ .Values.redirect.fqdn | replace "." "-" }}
+      app: {{ .Values.redirect.subdomain }}-{{ .Values.fqdn | replace "." "-" }}
   strategy:
     rollingUpdate:
       maxSurge: 1
@@ -19,7 +19,7 @@ spec:
     metadata:
       creationTimestamp: null
       labels:
-        app: {{ .Values.redirect.fqdn | replace "." "-" }}
+        app: {{ .Values.redirect.subdomain }}-{{ .Values.fqdn | replace "." "-" }}
     spec:
       containers:
       - image: storjlabs/blog-redirect:{{ .Values.docker_image_tag }}
