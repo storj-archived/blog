@@ -10,19 +10,19 @@ Storj Labs will be adopting a detailed policy for the management of all of our c
 
 There are several important parts of this policy, including:
 
-**Oversight: **We have a set of internal and external individuals who are responsible for providing review and oversight.
+**Oversight:** We have a set of internal and external individuals who are responsible for providing review and oversight.
 
 **Roles and Responsibilities:** We detail the roles and responsibilities of various individuals within Storj, including keyholders, the CEO, the CFO, and our newly appointed Chief Compliance Officer. For reasons of independence, the Chief Compliance Officer is an employee of a reputable accounting firm with expertise in cryptocurrency.
 
 **Reporting and Audit:** We have established a regular schedule of quarterly reports and internal audits. Externally, this includes publishing the STORJ Token Balances and Flows Report publicly on a quarterly basis. Internally, this includes things like ensuring that the outflow of STORJ tokens to storage node operators is consistent with the totals from our [payment app](https://payout.storj.io), that the outflow of STORJ tokens from the converter wallet matches the inflow of SJCX into the converter wallet, etc., and that payments to service providers match entries in our internal accounts payable systems. One of the nice aspects of blockchains is that any third party, once they know an address, can easily verify total reserves and any individual transactions associated with that address.
 
-**Physical and Cryptographic Controls: **These are the steps that we take to make sure that we don’t lose cryptographic assets due to actions by bad external actors, to inadvertent loss or corruption of keys, or to a rogue employee. In designing these policies, we have attempted to adhere to industry best practices. Among these practices are controls to ensure that the vast majority of crypto is stored<sup>2</sup> in so-called COLD wallets that are offline, physically stored in safe deposit boxes, and require multiple individuals in order to unlock. In addition, there are controls to make sure that only a limited number of individuals are able to authorize transfers from warm or hot wallets and that there are quantity limits on different types of wallets.
+**Physical and Cryptographic Controls:** These are the steps that we take to make sure that we don’t lose cryptographic assets due to actions by bad external actors, to inadvertent loss or corruption of keys, or to a rogue employee. In designing these policies, we have attempted to adhere to industry best practices. Among these practices are controls to ensure that the vast majority of crypto is stored (2) in so-called COLD wallets that are offline, physically stored in safe deposit boxes, and require multiple individuals in order to unlock. In addition, there are controls to make sure that only a limited number of individuals are able to authorize transfers from warm or hot wallets and that there are quantity limits on different types of wallets.
 
 The following table provides a summary of our different wallets and the major policies associated with them.
 
-![Wallets and their corresponding policies.](/blog/img/chart-1.png)
+<img src="/blog/img/chart-1.png" alt="Wallets and their corresponding policies." width="100%"/>
 
-## **Converter Wallet**
+## Converter Wallet
 
 We have a special purpose wallet (the converter wallet) which has been associated with our contract to convert the legacy SJCX token to STORJ token. This wallet is a cold, multi-signature wallet, with approximately 6.9 M STORJ tokens. To enable the converter to continually and efficiently execute SJCX to STORJ token exchanges, we have created an authorized spender account for the converter, which has a balance of sufficient STORJ tokens to execute what we believe to be the next 3 months of conversion. That spender account will be authorized for additional STORJ tokens on an as-needed basis, but doing so requires that the converter wallet be brought online temporarily and requires multiple signatures. The address of our converter wallet is made public so that the public can confirm total remaining reserves and the rate of conversion of SJCX to STORJ tokens.
 
