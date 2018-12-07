@@ -46,8 +46,8 @@ The bulk of STORJ tokens in existence are the 245 M tokens in our timelocked res
 
 ## Disclaimer
 
-The STORJ token is intended to facilitate the provision and receipt of data storage and related services through Storj Labs’ software application, which serves as a user interface and development platform on the network. The STORJ token is not intended to be a digital currency, security, commodity or any other kind of financial instrument.
+_The STORJ token is intended to facilitate the provision and receipt of data storage and related services through Storj Labs’ software application, which serves as a user interface and development platform on the network. The STORJ token is not intended to be a digital currency, security, commodity or any other kind of financial instrument._
 
-The contents of this publication contain a high-level overview of the network and the STORJ token and is subject to change as Storj Labs refines its plans. Changes to the network, the STORJ token, and the policies referenced in this post are entirely within the discretion of Storj Labs and could result from commercial, technical or legal issues, among others.
+_The contents of this publication contain a high-level overview of the network and the STORJ token and is subject to change as Storj Labs refines its plans. Changes to the network, the STORJ token, and the policies referenced in this post are entirely within the discretion of Storj Labs and could result from commercial, technical or legal issues, among others._
 
 (1) Technically, “stored” means that the private key for any given address is stored.
