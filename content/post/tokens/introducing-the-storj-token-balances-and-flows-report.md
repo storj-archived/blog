@@ -10,7 +10,7 @@ Today, we are pleased to publish our first quarterly STORJ token balances and fl
 
 We plan to update this report for the next town hall, which is currently scheduled for January 2019, and then continue to publish it quarterly at each subsequent town hall. While it is possible to recreate this information directly from the Ethereum blockchain, we think it is helpful for storage node operators, customers, satellite operators, and others who use the token to have this information presented in a transparent manner for easy consumption. In the same spirit that we make our code, roadmaps, and other items publicly available and transparent, we want to make the token flows accessible as well. As with all of our posts concerning the token, the disclaimer found at the bottom of this document applies.
 
-The detailed STORJ token balances and flows report is [here](https://storj.io/blog/2018/12/storj-token-balances-and-flows-report-nov-30-2018/). The quick summary of our token balances as of November 30, 2018 is: 
+The detailed STORJ token balances and flows report is [here](https://storj.io/blog/2018/12/storj-token-balances-and-flows-report-nov.-30-2018/). The quick summary of our token balances as of November 30, 2018 is: 
 
 ```
 a. our token sale put 75.1 M STORJ into circulation. 
