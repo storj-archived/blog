@@ -1,6 +1,7 @@
 ---
 title: 'STORJ Token Balances and Flows Report: Nov. 30, 2018'
 date: '2018-12-07T07:14:44-07:00'
+image: /blog/img/blog-4.png
 categories:
   - tokens
 authors:
