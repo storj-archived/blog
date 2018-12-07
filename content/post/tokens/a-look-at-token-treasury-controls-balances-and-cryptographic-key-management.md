@@ -1,6 +1,6 @@
 ---
 title: 'A Look at Token Treasury Controls, Balances and Cryptographic Key Management'
-date: '2018-12-06T18:11:57-07:00'
+date: '2018-12-07T07:10:57-07:00'
 categories:
   - tokens
 authors:
