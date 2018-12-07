@@ -1,6 +1,6 @@
 ---
 title: Introducing the STORJ Token Balances and Flows Report
-date: '2018-12-07T07:12:39-07:00'
+date: '2018-12-07T07:20:00-07:00'
 categories:
   - tokens
 authors:
