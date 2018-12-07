@@ -12,19 +12,17 @@ We will update this report for the next town hall in January 2019 and then we ex
 
 The detailed report is below but the quick summary is:
 
-```
-a) our token sale put 75.1 M STORJ into circulation.
+&nbsp; &nbsp; a) our token sale put 75.1 M STORJ into circulation.
 
-b) of the 50.1 M STORJ reserved for conversion of the legacy SJCX token, 43.1 M have been used for conversion, and there are approximately 6.9 M still in reserve for conversion.
+&nbsp; &nbsp; b) of the 50.1 M STORJ reserved for conversion of the legacy SJCX token, 43.1 M have been used for conversion, and there are approximately 6.9 M still in reserve for conversion.
 
-c) of the 54.8 M in operational reserves initially held by Storj Labs after the sale, approximately 5.8 M have been used, primarily for paying storage node operators and other third-party service providers, leaving 49.1 M in our operational reserves.
+&nbsp; &nbsp; c) of the 54.8 M in operational reserves initially held by Storj Labs after the sale, approximately 5.8 M have been used, primarily for paying storage node operators and other third-party service providers, leaving 49.1 M in our operational reserves.
 
-e) Finally, 245.0 M STORJ remain in timelock, which is explained in greater detail below.
+&nbsp; &nbsp; e) Finally, 245.0 M STORJ remain in timelock, which is explained in greater detail below.
 
-f) This means that 75.1 + 43.1 + 5.8 = approximately 124.0 M STORJ are in circulation. Another 49.1 M + 6.9 M = 56.0 M are in non-timelocked conversion and operational reserves.
+&nbsp; &nbsp; f) This means that 75.1 + 43.1 + 5.8 = approximately 124.0 M STORJ are in circulation. Another 49.1 M + 6.9 M = 56.0 M are in non-timelocked conversion and operational reserves.
 
-g) The total number of STORJ is the 124.0 M in circulation plus the 56.0 M in non-timelocked reserves plus 245.0 M in timelocked reserves = 425.0 M.
-```
+&nbsp; &nbsp; g) The total number of STORJ is the 124.0 M in circulation plus the 56.0 M in non-timelocked reserves plus 245.0 M in timelocked reserves = 425.0 M.
 
 We've provided addresses for our major reserves below, so that totals can be easily verified.
 
@@ -46,12 +44,10 @@ During the course of the 2017, 500M STORJ tokens were generated and subsequently
 
 To provide a better understanding of the sale and what has subsequently happened, see table II below, which breaks STORJ token holdings and flows into four categories:
 
-```
- a)Tokens sold/released in the token sale
- b)Tokens used for conversion of SJCX
- c)Tokens for regular network operations (operational reserves)
- d)Tokens in long term lockup (long term reserves)
-```
+&nbsp; &nbsp;  a)Tokens sold/released in the token sale
+&nbsp; &nbsp;  b)Tokens used for conversion of SJCX
+&nbsp; &nbsp;  c)Tokens for regular network operations (operational reserves)
+&nbsp; &nbsp;  d)Tokens in long term lockup (long term reserves)
 
 ## Tokens Sold/released in the Token Sale
 
