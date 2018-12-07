@@ -1,5 +1,5 @@
 ---
-title: 'STORJ Token Balances and Flows Report: NOV 30, 2018'
+title: 'STORJ Token Balances and Flows Report: Nov. 30, 2018'
 date: '2018-12-07T07:14:44-07:00'
 categories:
   - tokens
@@ -30,11 +30,11 @@ We've provided addresses for our major reserves below, so that totals can be eas
 
 The success of the Storj community depends on all participants having confidence in and understanding of the STORJ token. If you have questions, clarifications, or suggestions on how we can better present this information in the future, please let us know!
 
-## **Overview**
+## Overview
 
 In May of 2017, Storj Labs BVI, a wholly owned subsidiary of Storj Labs Inc., conducted a public token sale. While most of our focus in the past year has been on building our company and our network, we want to provide a detailed update on token flows since launching the network. As a reminder, we intend to provide a quarterly update on the business and network through our quarterly town hall meeting. It is our intention to produce this token report on a quarterly basis.
 
-## **Background**
+## Background
 
 In 2014, the Storj Project created 500M SJCX tokens to start the Storj network. 50.0 M SJCX were sold at $0.01/token, raising $500K to fund the first version of the project. A total of 51.2 M SJCX were ever in circulation, and the remainder were never used or issued.
 
@@ -53,17 +53,17 @@ To provide a better understanding of the sale and what has subsequently happened
  d)Tokens in long term lockup (long term reserves)
 ```
 
-## **Tokens Sold/released in the Token Sale**
+## Tokens Sold/released in the Token Sale
 
 72.1 M STORJ tokens were sold during the sale (line 1) and 2.9 M were allocated to service providers associated with the sale (line 2). No tokens were given to Storj employees or founders as part of the token sale. Approximately 0% of the token sale proceeds went to funding Lamborghinis or other sports cars for our founders or employees.
 
 As a result, a total of 75.1 M tokens (line 4) were put into circulation as part of the sale.
 
-## **Tokens Used for Conversion of SJCX**
+## Tokens Used for Conversion of SJCX
 
 In parallel, we also launched a token converter application to convert SJCX tokens to STORJ tokens at a predefined rate of 1:1. We reserved a total of 50.1 M STORJ tokens for conversion purposes (line 7). As of today, 43.1 M (line 5) of this reserve have been used to convert, and an additional 6.9 M (line 6) remain to be converted. (3)
 
-## **Tokens Used for Regular Network Operations (Operating Reserves)**
+## Tokens Used for Regular Network Operations (Operating Reserves)
 
 Storj Labs reserved 54.8 M tokens for regular network operations (line 13). These tokens are held by Storj Labs and are intended to be used only for operations as described below.
 
@@ -79,11 +79,11 @@ Finally, we have a small bonus program for Storj Labs employees that is primaril
 
 The total amount of circulating supply added through network operations was therefore 5.8 M (line 12) and Storj Labs' operating reserves dropped from 54.8 M to 49.1 M (line 13).
 
-## **Long-term Lockup**
+## Long-term Lockup
 
 An additional 245 M STORJ are held by Storj Labs for future use (line 15). These tokens are also under strict controls. In addition, these tokens have been placed under a 6-month cryptographic lockup. When the current lockup ends in December of 2019, we currently expect to relock the 245 M tokens, replacing the current lockup scheme with a longer term and more nuanced approach. That new approach will be described in a subsequent post.
 
-## **Totals**
+## Totals
 
 The total circulating supply of STORJ tokens after the sale (line 17) was 75.1 M. As of November 30, 2018, this has increased by 48.9 M to 124.0 M due to the conversion of 43.1 M SJCX tokens (line 5) and the use of 5.8M STORJ tokens for network operations.
 
@@ -93,21 +93,21 @@ The maximum total that could be in circulation is, as stated above, 425.0 M (lin
 
 ![Circulating STORJ tokens](/blog/img/chart-2.png)
 
-## **Reserves**
+## Reserves
 
 To aid in the reconciliation of the above numbers with the appropriate reserves, we have provided a list of the major reserves of STORJ tokens held by Storj Labs below, along with their corresponding addresses.
 
 There are 6.9 M STORJ tokens reserved for the converter (lines 6 and 21). There are 245.0 M STORJ tokens in long term timelock (lines 15 and 22). There are 49.1 M STORJ tokens in our operating reserves (line 13), of which 44.2 M are stored in our main COLD wallet (line 23) and the remaining 4.9 M are held in various warm and hot wallets (line 24). As there are 124 M STORJ tokens in circulation (line 17 and line 26), this leaves a total of 425 M STORJ (lines 16 and 27).
 
+<img src="/blog/img/chart-3.png" alt="STORJ token reserves" width="100%"/>
+
 ## Disclaimer
 
-This report is provided to the many individuals in the Storj ecosystem, concerning the circulating supply and flows of the STORJ token.
+_This report is provided to the many individuals in the Storj ecosystem, concerning the circulating supply and flows of the STORJ token._
 
-The STORJ tokens are intended to facilitate the provision and receipt of data storage and related services through Storj Labs' software application, which serves as a user interface and development platform on the network. The STORJ tokens are not intended to be a digital currency, security, commodity or any other kind of financial instrument.
+_The STORJ tokens are intended to facilitate the provision and receipt of data storage and related services through Storj Labs' software application, which serves as a user interface and development platform on the network. The STORJ tokens are not intended to be a digital currency, security, commodity or any other kind of financial instrument._
 
-The contents of this publication contain a high-level overview of the network and the STORJ tokens and is subject to change as Storj Labs refines its plans. Changes to the network, the STORJ tokens, and other information referenced in this post are entirely within the discretion of Storj Labs and could result from commercial, technical or legal issues, among others. We believe that greater transparency around the STORJ token will contribute to willingness of users, storage node operators, and other service providers to participate in the network. While we have made every attempt to be accurate and thorough in the production of this report, it is provided as is, and you should not rely on this report for any decisions regarding the use, acquisition, or disposition of STORJ tokens.
-
-![STORJ token reserves](/blog/img/chart-3.png)
+_The contents of this publication contain a high-level overview of the network and the STORJ tokens and is subject to change as Storj Labs refines its plans. Changes to the network, the STORJ tokens, and other information referenced in this post are entirely within the discretion of Storj Labs and could result from commercial, technical or legal issues, among others. We believe that greater transparency around the STORJ token will contribute to willingness of users, storage node operators, and other service providers to participate in the network. While we have made every attempt to be accurate and thorough in the production of this report, it is provided as is, and you should not rely on this report for any decisions regarding the use, acquisition, or disposition of STORJ tokens._
 
 1. The sale was conducted under the terms found here: <https://storj.io/sale-terms.pdf>.
 2. Slightly over 50 M STORJ were reserved for conversion of the outstanding SJCX.
