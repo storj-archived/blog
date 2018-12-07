@@ -12,19 +12,19 @@ We plan to update this report for the next town hall, which is currently schedul
 
 The detailed STORJ token balances and flows report is [here](https://storj.io/blog/2018/12/storj-token-balances-and-flows-report-nov.-30-2018/). The quick summary of our token balances as of November 30, 2018 is: 
 
-```
-a. our token sale put 75.1 M STORJ into circulation. 
 
-b. of the 50.1 M STORJ reserved for conversion of the legacy SJCX token, 43.1 M have been used for conversion, and there are approximately 6.9 M still in reserve for conversion. 
+&nbsp; a. our token sale put 75.1 M STORJ into circulation. 
 
-c. of the 54.8 M in operational reserves initially held by Storj Labs after the sale, approximately 5.8 M have been used, primarily for paying storage node operators and other service providers. This leaves 49.1 M in our operational reserves. 
+&nbsp; b. of the 50.1 M STORJ reserved for conversion of the legacy SJCX token, 43.1 M have been used for conversion, and there are approximately 6.9 M still in reserve for conversion. 
 
-e. Finally, 245.0 M STORJ remain in timelock. 
+&nbsp; c. of the 54.8 M in operational reserves initially held by Storj Labs after the sale, approximately 5.8 M have been used, primarily for paying storage node operators and other service providers. This leaves 49.1 M in our operational reserves. 
 
-f. This means that 75.1 + 43.1 + 5.8 = 124.0 M STORJ are in circulation. Another 49.1 M + 6.9 M = 56.0 M are in non-timelocked reserves. 
+&nbsp; e. Finally, 245.0 M STORJ remain in timelock. 
 
-g. The total number of STORJ now and in the future is the 124.0 M in circulation plus the 56.0 M in non-timelocked reserves plus 245.0 M in timelocked reserves = 425.0 M. 
-```
+&nbsp; f. This means that 75.1 + 43.1 + 5.8 = 124.0 M STORJ are in circulation. Another 49.1 M + 6.9 M = 56.0 M are in non-timelocked reserves. 
+
+&nbsp; g. The total number of STORJ now and in the future is the 124.0 M in circulation plus the 56.0 M in non-timelocked reserves plus 245.0 M in timelocked reserves = 425.0 M. 
+
 
 We’ve provided addresses for our major reserves, so that totals can be easily verified. The success of the Storj community depends on all participants having confidence in, and understanding of, the STORJ token. If you have questions, clarifications, or suggestions on how we can better present this information in the future, please let us know!
 
