@@ -35,8 +35,8 @@ We believe that all these members of our community must have confidence in the S
 
 In the next few days, we will release the following documents and articles related to the STORJ token.
 
-**1. The STORJ Token Balances and Flows Report:** This report will document the current balances/supply of STORJ tokens, the major reserves, and the uses/flows of tokens since the token sale in May of 2017. We plan to publish this report quarterly, in conjunction with our quarterly town hall meeting, [the next of which is scheduled to be held on January 16](https://zoom.us/webinar/register/WN_XEhP62m2TQSlE9_t1zhcgg).
- 
+**1. The STORJ Token Balances and Flows Report:** This report will document the current balances/supply of STORJ tokens, the major reserves, and the uses/flows of tokens since the token sale in May of 2017. We plan to publish this report quarterly, in conjunction with our quarterly town hall meeting, [the next of which is scheduled to be held on January 16](https://zoom.us/webinar/register/WN_XEhP62m2TQSlE9_t1zhcgg). 
+
 **2. Treasury and Cryptographic Controls:** This post will describe the various classes of token reserves held by Storj Labs, and provide an overview of the policies by which we ensure the security and proper use of those STORJ tokens (as well as other cryptocurrencies held by the company).
 
 **3. The Timelock Policy:** The largest single reserve of STORJ tokens is the 245 M tokens, which have been held in cryptographic timelock since the token sale. To date, we have relocked these tokens in rolling 6-month intervals. We will be adopting a longer term and more nuanced policy when the current timelock expires, and this overview outlines that new policy. 
@@ -47,6 +47,6 @@ As always, we appreciate community input. And, in true open source spirit, we en
 
 ## Disclaimer
 
-The STORJ token is intended to facilitate the provision and receipt of data storage and related services through Storj Labs’ software application, which serves as a user interface and development platform on the network. The STORJ token is not intended to be a digital currency, security, commodity or any other kind of financial instrument.
+_The STORJ token is intended to facilitate the provision and receipt of data storage and related services through Storj Labs’ software application, which serves as a user interface and development platform on the network. The STORJ token is not intended to be a digital currency, security, commodity or any other kind of financial instrument._
 
-The contents of this publication contain a high-level overview of the network and the STORJ token and is subject to change as Storj Labs refines its plans. Changes to the network, the STORJ token, and the policies referenced in this post are entirely within the discretion of Storj Labs and could result from commercial, technical or legal issues, among others.
+_The contents of this publication contain a high-level overview of the network and the STORJ token and is subject to change as Storj Labs refines its plans. Changes to the network, the STORJ token, and the policies referenced in this post are entirely within the discretion of Storj Labs and could result from commercial, technical or legal issues, among others._
