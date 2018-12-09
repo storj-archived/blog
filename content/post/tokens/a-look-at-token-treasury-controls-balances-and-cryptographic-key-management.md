@@ -1,6 +1,7 @@
 ---
 title: 'A Look at Token Treasury Controls, Balances and Cryptographic Key Management'
 date: '2018-12-07T07:10:57-07:00'
+image: /blog/img/treasury-controls-policy.png
 categories:
   - tokens
 authors:
