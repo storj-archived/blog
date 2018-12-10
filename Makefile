@@ -43,7 +43,7 @@ deploy:
 	-kubectl --context ${CLUSTER} -n websites patch deployment ${DEPLOYMENT}-blog \
 	-p'{"spec":{"template":{"spec":{"containers":[{"name":"www","image":"storjlabs/blog:${TAG}"}]}}}}'
 	-kubectl --context ${CLUSTER} -n websites patch deployment blog-${DEPLOYMENT} \
-	-p'{"spec":{"template":{"spec":{"containers":[{"name":"www-redirect","image":"storjlabs/blog-redirect:${TAG}"}]}}}}'
+	-p'{"spec":{"template":{"spec":{"containers":[{"name":"blog-redirect","image":"storjlabs/blog-redirect:${TAG}"}]}}}}'
 
 .PHONY: clean
 clean:
