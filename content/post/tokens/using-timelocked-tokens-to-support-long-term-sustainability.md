@@ -12,7 +12,7 @@ We have previously discussed the major reserves and flows of STORJ tokens, and t
 
 This post is about the largest reserve of STORJ tokens, the 245 M STORJ tokens currently in a 6-month lockup. That lockup ends mid-December of this year. Previously, every time this tranche of tokens came unlocked, we relocked the entire set for another 6 months. The lock is cryptographically enforced. In other words, once we lock a tranche of tokens, nobody (including Storj Labs) can use or transfer them until the lock expires. 
 
-**When the current lock expires, rather than lock up the entire 245 M for an additional 6 months, we are going to implement a longer-term and more nuanced lockup. In essence, we are replacing the current 6 month lockup with an 8 quarter rolling lockup. **
+**When the current lock expires, rather than lock up the entire 245 M for an additional 6 months, we are going to implement a longer-term and more nuanced lockup. In essence, we are replacing the current 6 month lockup with an 8 quarter rolling lockup.**
 
 We will break our current long-term reserve of 245 M tokens into 8 different tranches of 30.625 M tokens each. These tranches will have lock expiration dates spaced 1 quarter apart over 8 successive quarters. This will set a cryptographically-enforced maximum on the number of tokens that could be unlocked or put into circulation in any given quarter over the next 2 years.
 
@@ -28,13 +28,13 @@ To make this clearer, the table below shows the situation with various tranches 
 
 **PATTERN IF NO TOKENS ARE UNLOCKED OVER THE NEXT 6 QUARTERS**
 
-![Token relock example over 6 quarters](/blog/img/lock1.png)
+<img src="/blog/img/lock1.png" alt="Token relock example over 6 quarters" width="100%"/>
 
 If we ever do determine that we need to transfer tokens from our long-term reserves, we will provide advanced notice (e.g. at the prior town hall meeting.) In the example below, let’s say that we determine that we want to transfer 15 M tokens from long-term into operating reserves at the end of December of 2019. To do so, we would first need to announce this in advance, preferably at the October 2019 town hall. When the next tranche time lock expires in December 2019, we would transfer 15 M tokens into our operational cold wallet, and then relock the remaining 15.6 M tokens for an additional 8 quarters. Assuming we don’t have further need, the original pattern would continue in subsequent quarters.
 
 **SAMPLE: ILLUSTRATING IF WE WISH TO UNLOCK 15M AT THE END OF 2019**
 
-![Token unlock example](/blog/img/lock2.png)
+<img src="/blog/img/lock2.png" alt="Token unlock example" width="100%"/>
 
 We hope that this will help prevent sudden and unexpected changes to the supply of STORJ tokens in circulation, while giving us the flexibility to tap into long-term reserves if there is a market need to do so (e.g. if there is a sustained imbalance between amount of STORJ tokens paid to storage node operators and the amount of STORJ tokens received from customers vs. fiat currency). 
 
