@@ -39,7 +39,7 @@ In the next few days, we will release the following documents and articles relat
 
 **2.Treasury and Cryptographic Controls:** [This post](https://storj.io/blog/2018/12/a-look-at-token-treasury-controls-balances-and-cryptographic-key-management/) will describe the various classes of token reserves held by Storj Labs, and provide an overview of the policies by which we ensure the security and proper use of those STORJ tokens (as well as other cryptocurrencies held by the company).
 
-**3. The Timelock Policy:** The largest single reserve of STORJ tokens is the 245 M tokens, which have been held in cryptographic timelock since the token sale. To date, we have relocked these tokens in rolling 6-month intervals. We will be adopting a longer term and more nuanced policy when the current timelock expires, and this overview outlines that new policy. 
+**3. The Timelock Policy:** The largest single reserve of STORJ tokens is the 245 M tokens, which have been held in cryptographic timelock since the token sale. To date, we have relocked these tokens in rolling 6-month intervals. We will be adopting a longer term and more nuanced policy when the current timelock expires, and [this overview outlines that new policy](https://storj.io/blog/2018/12/using-timelocked-tokens-to-support-long-term-sustainability/). 
 
 **4. Additional Usage Policies and Governance:** We are putting in place additional controls to make sure that Storj Labs and our service providers appropriately handle tokens that they own. We also expect to put in place a governance board to oversee company policies such as those mentioned in this post. We hope to have all of those items finalized in time for our next town hall.
 
