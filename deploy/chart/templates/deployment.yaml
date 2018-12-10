@@ -21,6 +21,16 @@ spec:
       labels:
         app: {{ .Values.fqdn | replace "." "-" }}-blog
     spec:
+      affinity:
+        podAntiAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+          - labelSelector:
+              matchExpressions:
+              - key: app
+                operator: In
+                values:
+                - {{ .Values.fqdn | replace "." "-" }}-blog
+            topologyKey: "kubernetes.io/hostname"
       containers:
         - image: storjlabs/blog:{{ .Values.docker_image_tag }}
           imagePullPolicy: Always
