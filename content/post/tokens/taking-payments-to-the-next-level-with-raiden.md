@@ -31,14 +31,14 @@ The Raiden platform stood out because it was furthest along in development, and 
 
 As we stated before, we've already successfully sent as many as 150,000 payments a month on the current Storj network (V2). So we decided it made sense to begin testing Raiden with 1,000 payments, then ramp up to 10,000, and finally 100,000 payments, which approximates the scale that we previously established. The scripts we used for these tests can be found [here](https://github.com/stefanbenten/raiden-on-storj/) and we invite anyone who needs to process massive volumes of payments to check them out. We hope our efforts will be in some way helpful to you.
 
-![Payment Channels with Raiden](/blog/img/raiden-node-payment-channel.png)
+<img src="/blog/img/raiden-node-payment-channel.png" alt="Payment Channels with Raiden" width="100%"/>
 
 For our initial round of tests, we set up two Raiden nodes, created and funded a micropayment channel between them, and then used these nodes to send a defined number of payments  to completion. We found that, after this process was finished, we could send a payment between the nodes at an average rate of about one every 1.5 seconds. Here are the raw results:
 
-| 1,000 payments       | 25 minutes                  |
-| -------------------- | --------------------------- |
-| 10,000 payments      | 4 hours and 11 minutes      |
-| 100,000 payments     | 44 hours and 30 minutes     |
+| 1,000 payments   | 25 minutes              |
+| ---------------- | ----------------------- |
+| 10,000 payments  | 4 hours and 11 minutes  |
+| 100,000 payments | 44 hours and 30 minutes |
 
 Although we encountered some issues early on in our tests, we made fairly simple adjustments, and were able to scale our throughput up to production-level on the current network.
 
