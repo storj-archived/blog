@@ -1,6 +1,7 @@
 ---
 title: 'Using Timelocked Tokens to Support Long-term Sustainability '
 date: '2018-12-10T08:42:28-05:00'
+image: /blog/img/timelock.png
 categories:
   - tokens
 authors:
