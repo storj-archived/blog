@@ -7,8 +7,6 @@ categories:
 authors:
   - Shawn Wilkinson
 ---
-**Taking Payments to The Next Level with Raiden**
-
 At Storj, we are building a next-generation decentralized cloud storage platform. We make decentralization possible by enabling anyone to rent out their extra hard drive space, similar to how you would rent out an extra room on Airbnb, or your car on Turo. One of the challenges we face is implementing a payments system that is accurate, timely, and can scale to millions of users.
 
 In October, our CTO Philip Hutchins published an article in Forbes about [creating scalability on the Ethereum blockchain](https://www.forbes.com/sites/forbestechcouncil/2018/10/02/creating-scalability-on-ethereum/#504c0b655226), which detailed some of the difficulties and challenges we've experienced sending token payments to our hundreds of thousands of storage node operators. Every month, Storj pays the nodes for the bandwidth and storage capacity provided. At the time of peak usage of our V2 Storj network ([we are currently working on a ground up rewrite called V3](https://storj.io/white-paper)), we were sending payments to over 150,000 nodes in more than 180 countries and territories. The current version of the Ethereum network can processes about 15 payments per second, meaning if the network only handled our STORJ payments, it would have taken the entire Ethereum network over four hours to complete all those transactions. At the peak of our payment processing, our transactions accounted for about 8 %of all Ethereum transactions.
@@ -35,10 +33,9 @@ As we stated before, we've already successfully sent as many as 150,000 payments
 
 For our initial round of tests, we set up two Raiden nodes, created and funded a micropayment channel between them, and then used these nodes to send a defined number of payments  to completion. We found that, after this process was finished, we could send a payment between the nodes at an average rate of about one every 1.5 seconds. Here are the raw results:
 
-| 1,000 payments   | 25 minutes              |
-| ---------------- | ----------------------- |
-| 10,000 payments  | 4 hours and 11 minutes  |
-| 100,000 payments | 44 hours and 30 minutes |
+**1,000 payments **in 25 minutes\
+**10,000 payments** in 4 hours and 11 minutes 
+**100,000 payments** in 44 hours and 30 minutes
 
 Although we encountered some issues early on in our tests, we made fairly simple adjustments, and were able to scale our throughput up to production-level on the current network.
 
