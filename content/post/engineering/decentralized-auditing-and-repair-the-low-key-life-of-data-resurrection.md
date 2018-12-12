@@ -19,8 +19,7 @@ To better understand how the auditing process works, let’s first break down th
 **Satellites** function as a collection of services that perform duties such as node discovery, caching node addresses, storing object metadata, recording storage node reputation, securing billing data, paying storage nodes, auditing, repairing, and managing user accounts. 
 
 <img src="/blog/img/audit-image-1.png" alt="Figure 4.1 from our white paper" width="100%"/>
-
-Figure 4.1 from our white paper.
+<p style="text-align: center;">Figure 4.1 from our white paper.</p>
 
 **Storage nodes** store data for others and are paid each month for the bandwidth they provide to the network and for the amount of (correct and untampered!) data they store. This creates a built-in incentive for storage nodes to behave “rationally” and not delete data upon receiving it or something, uh, unthinkable like that. Obviously we’re not naive to the fact that wild little animals do exist out there who would do such a thing. This is why we have audits and repairs. However, we do rely on the fact that majority of storage nodes are honest, upstanding nodes.
 
@@ -39,8 +38,7 @@ We also consider **data durability**, referring to the probability of data remai
 It’s also important to know that when your secret garage band MP3s are first uploaded into our network, those files are first sectioned into data **segments** of a certain length. Those segments are encrypted, and then further divided into **stripes**, which are small ranges of bytes. The Uplinks use erasure encoding on stripes, which generates something called **erasure shares**. Erasure shares are the output of erasure encoding that can be processed to later reconstruct the original file.
 
 <img src="/blog/img/audit-image-2.gif" alt="Animation by Moby von Briesen" width="100%"/>
-
-Animation by Moby von Briesen.
+<p style="text-align: center;">Animation by Moby von Briesen.</p>
 
 Erasure codes are also often described by two numbers, _k_ and _n_. In the context of our network, _n_ total erasure shares are generated for every stripe of data, and _k_ number of erasure shares are required to reconstruct that stripe. For example, if we used a 20/40 scheme, encoding would generate 40 erasure shares. However it would be okay if we lose any 20 of those erasure shares to the ether because we only need any 20 to recover the original stripe.
 
@@ -63,8 +61,7 @@ Zooming out a bit, this auditing process occurs as a continuous job, running at 
 When files are uploaded and divided into segments, the Satellite creates something called a **pointer** that correlates to each segment. The pointer is a data type that contains information such as a list of pieces and their corresponding node IDs. The pointer also contains indices where erasure shares are located within a piece. Pointers are saved in the metadata database that is also located on the Satellite. The audit system’s cursor selects a random pointer. Then it selects a random stripe from this pointer and hands it off to the verifier to verify the data.
 
 <img src="/blog/img/audit-image-4.png" alt="Figure 4.2 from our white paper" width="100%"/>
-
-Figure 4.2 from our white paper.
+<p style="text-align: center;">Figure 4.2 from our white paper.</p>
 
 While every byte stored has an equal probability of being audited, we don’t require that audits are performed on every byte or every file. We also used probabilistic testing to ensure that we’re auditing storage nodes frequently enough to have have the statistical basis in determining how well-behaved they are.
 
