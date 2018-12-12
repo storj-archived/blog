@@ -21,7 +21,7 @@ There are several important parts of this policy, including:
 
 The following table provides a summary of our different wallets and the major policies associated with them.
 
-<img src="/blog/img/chart-1.png" alt="Wallets and their corresponding policies." width="100%"/>
+<img src="/blog/img/chart-1.1.png" alt="Wallets and their corresponding policies." width="100%"/>
 
 ## Converter Wallet
 
