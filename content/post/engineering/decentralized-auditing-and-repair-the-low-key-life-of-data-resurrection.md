@@ -1,6 +1,7 @@
 ---
 title: 'Decentralized Auditing and Repair! The Low-key Life of Data Resurrection '
 date: '2018-12-12T10:42:51-07:00'
+image: /blog/img/decentralized-auditing-repair.png
 categories:
   - engineering
 authors:
