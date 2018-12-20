@@ -10,9 +10,10 @@ authors:
 We are excited to announce that the Q4 2018 community town hall will take place on January 16, 2019 at 1:00 p.m. EST (see below for other timezones). 
 
 During the meeting, you’ll hear from the Storj executive team, including Ben Golub, our executive chairman and interim CEO; Shawn Wilkinson, co-founder and chief strategy officer; JT Olio, director of engineering; and John Gleeson, vice president of operations. We will also plan to share our next [STORJ Token Flows and Balances Report](https://storj.io/blog/2018/12/storj-token-balances-and-flows-report-nov.-30-2018) on this date. 
-<!--more-->
 
 [Please register for the town hall here](https://zoom.us/webinar/register/WN_XEhP62m2TQSlE9_t1zhcgg). 
+
+<!--more-->
 
 We have a lot to share with you at this quarter’s town hall. Here is a sneak peak at the topics we’ll be discussing:
 
