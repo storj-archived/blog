@@ -21,7 +21,6 @@ We have a lot to share with you at this quarter’s town hall. Here is a sneak p
 * Progress we’ve made around building and testing the V3 network, upcoming milestones on the roadmap and release timelines 
 * An overview of the [updated white paper ](https://storj.io/white-paper) 
 * Farmer requirements for the V3 network 
-* An in-action demo of the V3 network 
 
 As always, if you have questions for Storj that you would like answered during the town hall, please send them to <mailto:ask@storj.io> and we’ll be sure to answer them during the Q&A portion of the meeting. 
 
