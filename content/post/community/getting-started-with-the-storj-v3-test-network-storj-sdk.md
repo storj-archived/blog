@@ -242,9 +242,9 @@ This will generate a URL and will allow live video streaming from your browser (
 
 Below is an example using a video of a rocket taking flight, shown in the gif:
 
-<img src="/blog/img/alpha-walkthrough-image-6.gif" alt="Storj streaming" width="100%"/>
+<img src="/blog/img/alpha-walkthrough-image-6.gif" alt="Storj streaming video" width="100%"/>
 
-<img src="/blog/img/alpha-walkthrough-image-7.gif" alt="Woah!="100%"/>
+<img src="/blog/img/alpha-walkthrough-image-7.gif" alt="Woah!" width="100%"/>
 <p style="text-align: center;">Woah!</p>
 
 #### **Conclusion, and Clean Up**
