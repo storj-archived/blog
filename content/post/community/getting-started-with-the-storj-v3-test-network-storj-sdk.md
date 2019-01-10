@@ -11,7 +11,7 @@ Storj is a decentralized object storage network where data is encrypted client-s
 The goal for Storj’s V3 network is to provide developers with an object storage solution that is more secure, economical and performant than existing cloud storage options. This is made possible through protocol features like concurrency, parallelism, client-side encryption, and erasure coding (Reed-Solomon). 
 
 <img src="/blog/img/audit-image-1.png" alt="The Storj test network (storj-sdk) enables you to run all the components of the Storj platform (Satellite, Uplink client, and storage nodes) and test them on your local machine." width="100%"/>
-<p style="text-align: center;">_The Storj test network (storj-sdk) enables you to run all the components of the Storj platform (Satellite, Uplink client, and storage nodes) and test them on your local machine._</p>
+<p style="text-align: center;">\\_The Storj test network (storj-sdk) enables you to run all the components of the Storj platform (Satellite, Uplink client, and storage nodes) and test them on your local machine.\\_</p>
 <br>
 The V3 network is designed to be compatible with existing bucket/object storage protocols (namely Amazon S3) and should be familiar for developers who have used these services in the past.
 
@@ -34,16 +34,13 @@ Before configuring the storj-sdk V3 testnet, you must have the following:
 We will begin by opening a new terminal window, cloning the storj directory from GitHub, and installing it by entering:
 
 ```
-//The folder must be outside of the GOPATH. Otherwise you will see errors.
-
 $ git clone https://github.com/storj/storj.git storj
 $ cd storj
 
-$ go install ./cmd/{storj-sdk,
-,storagenode,gateway,uplink}
+$ go install ./cmd/{storj-sdk,storagenode,gateway,uplink}
 ```
 
-This will install the `storj-sdk` `satellite` `storage node` `gateway` and `uplink`binaries to wherever Go is configured to output binaries on your system. By default, this is ~/go/bin.
+This will install the `storj-sdk` `satellite` `storage node` `gateway` and `uplink`binaries to wherever Go is configured to output binaries on your system. By default, this is ~/go/bin. The folder must be outside of the GOPATH. Otherwise you will see errors. 
 
 Next, run the setup:
 
@@ -58,9 +55,9 @@ You should see an output showing the generation of the identity certifications f
 The terminal output should look like this:
 
 <img src="/blog/img/alpha-walkthrough-image-1.png" alt="As shown above, the config is generate certificates for the storage nodes. The public key of the node’s certificate authority determines its node ID (which is is the hash of the public key and acts as a proof-of-work threshold)." width="100%"/>
-<p style="text-align: center;">_As shown above, the config is generate certificates for the storage nodes. The public key of the node’s certificate authority determines its node ID (which is is the hash of the public key and acts as a proof-of-work threshold)._</p>
+<p style="text-align: center;">\\_As shown above, the config is generate certificates for the storage nodes. The public key of the node’s certificate authority determines its node ID (which is is the hash of the public key and acts as a proof-of-work threshold).\\_</p>
 <br>
-You have now configured a Storj test network with the default configuration — which generates one Satellite and 10 storage nodes. For a deeper dive into the various peer classes and their functions, review section 4.2 in the \[Storj V3 white paper](storj.io/white-paper).
+You have now configured a Storj test network with the default configuration — which generates one Satellite and 10 storage nodes. For a deeper dive into the various peer classes and their functions, review section 4.2 in the \\\[Storj V3 white paper](storj.io/white-paper).
 
 * You might also want to take a look at the config by navigating to the root directory `--config-dir` where all the configs are specified. 
 * You can use vim to tweak the default configuration settings. You can also see what is being overwritten on the command-line level with `storj-sdk -x network run`. Just look for the lines containing “running”.
@@ -80,7 +77,7 @@ A technical overview into the “audit and repair” process can be [found here]
 Observe the output for the gateway generation and take note of its output. You should see something similar to what is shown below:
 
 <img src="/blog/img/alpha-walkthrough-image-2.png" alt="The ‘network run’ command will boot up the satellite and ten storage nodes." width="100%"/>
-<p style="text-align: center;">_The ‘network run’ command will boot up the satellite and ten storage nodes._</p>
+<p style="text-align: center;">\\_The ‘network run’ command will boot up the satellite and ten storage nodes.\\_</p>
 <br>
 
 The test network assigns ports in the following way:
@@ -91,10 +88,10 @@ The test network assigns ports in the following way:
 
 ### Using the Minio Browser GUI interface
 
-To navigate to the Minio interface, copy and paste the URL for the gateway into your browser (in this case the above output, labeled “Endpoint,” shows 127.0.0.1:9000)
+To navigate to the Minio interface, copy and paste the URL for the gateway into your browser (in this case the above output, labeled `Endpoint`, shows `127.0.0.1:9000`)
 
 <img src="/blog/img/alpha-walkthrough-image-3.png" alt="Navigating to the Minio interface will prompt a login screen, asking for the key credentials" width="100%"/>
-<p style="text-align: center;">_Navigating to the Minio interface will prompt a login screen, asking for the key credentials._</p>
+<p style="text-align: center;">\\_Navigating to the Minio interface will prompt a login screen, asking for the key credentials.\\_</p>
 <br>
 
 By default, in the local testnetwork, the access key and secret key should look something like:
@@ -128,8 +125,7 @@ You can think of the Uplink as an ‘access point’ for your all of your object
 Set up your Uplink by navigating to the go/bin directory and running the following command in a new terminal window. This will configure your Uplink to communicate with the Storj Satellite bootstrapped in the storj-sdk:
 
 ```
-$ uplink setup --api-key abc123 --satellite-addr 127.0.0.1:9000 \
-  --enc-key highlydistributedridiculouslyresilient
+$ uplink setup --api-key abc123 --satellite-addr 127.0.0.1:9000 \ --enc-key highlydistributedridiculouslyresilient
 ```
 
 You can now run Storj CLI commands on the local network instance. In this guide, all the text string inside the brackets “\[ ]” can be replaced with your own naming convention.
@@ -245,11 +241,12 @@ This will generate a URL and will allow live video streaming from your browser (
 Below is an example using a video of a rocket taking flight, shown in the gif:
 
 <img src="/blog/img/alpha-walkthrough-image-6.png" alt="Storj streaming video" width="100%"/>
-<br>
+<br> 
+<br> 
 <img src="/blog/img/alpha-walkthrough-image-7.gif" alt="Woah!" width="100%"/>
-<p style="text-align: center;">_Woah!_</p>
+<p style="text-align: center;">\\_Woah!\\_</p>
 <br>
-#### **Conclusion, and Clean Up**
+#### \\*\\*Conclusion, and Clean Up\\*\\*
 
 We have successfully walked through the configuration process for `storj-sdk`.
 In the production network, the Satellite, storage nodes, and Uplink are all run
