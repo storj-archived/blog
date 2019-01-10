@@ -24,8 +24,8 @@ Let’s get started!
 
 Before configuring the storj-sdk V3 testnet, you must have the following:
 
-* The latest release of **Git **(<https://git-scm.com/downloads>)
-* **Go, **at least version 1.11 (<https://golang.org/doc/install>)
+* The latest release of **Git** (<https://git-scm.com/downloads>)
+* **Go,** at least version 1.11 (<https://golang.org/doc/install>)
 * The **AWS CLI** tool (<https://docs.aws.amazon.com/cli/latest/userguide/installing.html>)
 
 ### **Getting Started**
@@ -144,19 +144,19 @@ Here are a few commands to get started:
 $ uplink mb sj://[bucket-name]
 ```
 
-**Upload an object: **
+**Upload an object:**
 
 ```
 $ uplink cp ~/Desktop/[file-name.extension] sj://[bucket-name]
 ```
 
-**List the object in the bucket: **
+**List the object in the bucket:**
 
 ```
 $ uplink ls sj://[bucket-name]/
 ```
 
-**Download the object to your machine: **
+**Download the object to your machine:**
 
 ```
 $ uplink cp sj://[bucket-name]/[file-name.extension] ~/Desktop/[file-name.extension]
@@ -171,7 +171,7 @@ to save an object or two for the next section!
 $ uplink rm sj://bucket-name/file-name.extension
 ```
 
-**Remove a bucket: **
+**Remove a bucket:**
 
 ```
 $ uplink rb sj://bucket-name
