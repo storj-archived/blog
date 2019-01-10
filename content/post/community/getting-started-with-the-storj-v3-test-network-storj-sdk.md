@@ -11,7 +11,7 @@ Storj is a decentralized object storage network where data is encrypted client-s
 The goal for Storj’s V3 network is to provide developers with an object storage solution that is more secure, economical and performant than existing cloud storage options. This is made possible through protocol features like concurrency, parallelism, client-side encryption, and erasure coding (Reed-Solomon). 
 
 <img src="/blog/img/audit-image-1.png" alt="The Storj test network (storj-sdk) enables you to run all the components of the Storj platform (Satellite, Uplink client, and storage nodes) and test them on your local machine." width="100%"/>
-<p style="text-align: center;">\_The Storj test network (storj-sdk) enables you to run all the components of the Storj platform (Satellite, Uplink client, and storage nodes) and test them on your local machine.\_</p>
+<p style="text-align: center;">_The Storj test network (storj-sdk) enables you to run all the components of the Storj platform (Satellite, Uplink client, and storage nodes) and test them on your local machine._</p>
 <br>
 The V3 network is designed to be compatible with existing bucket/object storage protocols (namely Amazon S3) and should be familiar for developers who have used these services in the past.
 
@@ -94,7 +94,7 @@ The test network assigns ports in the following way:
 To navigate to the Minio interface, copy and paste the URL for the gateway into your browser (in this case the above output, labeled “Endpoint,” shows 127.0.0.1:9000)
 
 <img src="/blog/img/alpha-walkthrough-image-3.png" alt="Navigating to the Minio interface will prompt a login screen, asking for the key credentials" width="100%"/>
-<p style="text-align: center;">_Navigating to the Minio interface will prompt a login screen, asking for the key credentials_</p>
+<p style="text-align: center;">_Navigating to the Minio interface will prompt a login screen, asking for the key credentials._</p>
 <br>
 
 By default, in the local testnetwork, the access key and secret key should look something like:
@@ -116,7 +116,7 @@ Through Minio, we are able to create buckets, upload objects into buckets, delet
 The gif below shows the GUI process of creating a bucket, uploading a video to the bucket, and generating a streamable link for it:
 
 <img src="/blog/img/alpha-walkthrough-image-4.gif" alt="GUI process of creating a bucket" width="100%"/>
-
+<br>
 ### Configuring the Uplink
 
 With Captplanet running in another terminal window, let’s walk through the steps of configuring the Uplink client.
@@ -199,7 +199,7 @@ An S3 gateway was bootstrapped, and the terminal outputted a sample access and
 secret key, which we used in the Minio section (see below):
 
 <img src="/blog/img/alpha-walkthrough-image-5.png" alt="Starting Storj S3-compatible gateway" width="100%"/>
-
+<br>
 We can also use these credentials to point the AWS command line tool toward a Storj Satellite. 
 
 Now, with the AWS command line installed on your machine, open up a new terminal window, and run:
@@ -245,10 +245,10 @@ This will generate a URL and will allow live video streaming from your browser (
 Below is an example using a video of a rocket taking flight, shown in the gif:
 
 <img src="/blog/img/alpha-walkthrough-image-6.png" alt="Storj streaming video" width="100%"/>
-
+<br>
 <img src="/blog/img/alpha-walkthrough-image-7.gif" alt="Woah!" width="100%"/>
 <p style="text-align: center;">_Woah!_</p>
-
+<br>
 #### **Conclusion, and Clean Up**
 
 We have successfully walked through the configuration process for `storj-sdk`.
@@ -270,4 +270,4 @@ That’s it! :)
 _This walkthrough was produced for a version of storj-sdk released (01/08/2019). The walkthrough may become out of date as Storj marches toward production launch._
 
 * _Overview of the roadmap here:_ [_https://storj.io/blog/2018/11/upcoming-milestone-releases-on-the-storj-v3-roadmap_](https://storj.io/blog/2018/11/upcoming-milestone-releases-on-the-storj-v3-roadmap)
-* _Full network overview here: _[_https://storj.io/white-paper_](https://storj.io/white-paper)
+* _Full network overview here:_ [_https://storj.io/white-paper_](https://storj.io/white-paper)
