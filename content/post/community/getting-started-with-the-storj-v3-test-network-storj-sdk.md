@@ -1,6 +1,7 @@
 ---
 title: Getting Started with the Storj V3 Test Network (storj-sdk)
 date: '2019-01-10T13:55:31-07:00'
+image: /blog/img/storj-v3-getting-started.png
 categories:
   - community
 authors:
