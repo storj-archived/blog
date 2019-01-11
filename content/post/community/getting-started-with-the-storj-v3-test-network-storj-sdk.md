@@ -126,7 +126,7 @@ You can think of the Uplink as an ‘access point’ for your all of your object
 Set up your Uplink by navigating to the go/bin directory and running the following command in a new terminal window. This will configure your Uplink to communicate with the Storj Satellite bootstrapped in the storj-sdk:
 
 ```
-$ uplink setup --api-key abc123 --satellite-addr 127.0.0.1:9000 \ --enc-key highlydistributedridiculouslyresilient
+$ uplink setup --satellite-addr 127.0.0.1:10000 --enc-key [securekey]
 ```
 
 You can now run Storj CLI commands on the local network instance. In this guide, all the text string inside the brackets “\[ ]” can be replaced with your own naming convention.
