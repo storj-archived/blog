@@ -31,7 +31,7 @@ Let’s also assume both hypothetical networks use a 4/8 Reed-Solomon erasure co
 
 As it turns out, if you know the target durability, you know the MTTF for nodes, and you know the erasure coding scheme, you can calculate the amount of data churn in a given time period. The formula for calculating data churn is:
 
-![null](/blog/img/rvsec-formula-1.png)
+https://storj.io/blog/img/rvsec-formula-1.png
 
 where  is the churn rate, B is the number of bytes on the network, n is the total number of erasure shares, m is the repair threshold, and k is the number of pieces needed for rebuild.
 
@@ -46,7 +46,7 @@ So, let’s take that math and apply it to our two hypothetical networks. The fi
 
 To calculate the durability of a replicated or erasure-coded file, we consider the CDF of the Poisson distribution, given by the formula: 
 
-![null](/blog/img/rvsec-formula-2.png)
+<img src="/blog/img/rvsec-formula-2.png" width="50%"/>
 
 where D is the event that the most n-k pieces have been lost. In the case of simple replication, k=1, so a file is still recoverable when at most n-1 of the pieces have been lost; that is, if at least one of the copies is still on the network, the data is still accessible. When considering replication on a file that has already been subjected to erasure encoding, the calculation changes. 
 
@@ -54,7 +54,7 @@ Suppose that a file undergoes k=4, n=8 erasure-encoding (where 8 pieces are crea
 
 Thus, rather than having a single factor of P(D) determining the durability (with at most n-1 pieces being lost), one has a factor of P(D) for each unique set required for rebuild, since there are now k sets of which each one must not have lost more than r-1 pieces, where the expansion factor r determines the number of copies that are made (with there being r-1 copies made to achieve an expansion factor of r, including the original file). Calculating this probability requires the use of the Binomial distribution, where we let p be the probability that at most r-1 copies have been lost from a set. Then, to calculate the probability that there are at least k sets containing at least 1 copy each, we find the area of the upper tail of the Binomial CDF:
 
-![null](/blog/img/rvsec-formula-3.png)
+<img src="/blog/img/rvsec-formula-3.png" width="50%"/>
 
 Let’s first look at the impact of node churn on durability based on the two hypothetical scenarios, one using replication+erasure coding, and the other optimizing for erasure coding alone. Based on the above formulas, the results are as follows:
 
