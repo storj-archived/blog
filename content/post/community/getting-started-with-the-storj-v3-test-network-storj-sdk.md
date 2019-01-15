@@ -38,7 +38,7 @@ We will begin by opening a new terminal window, cloning the storj directory from
 $ git clone https://github.com/storj/storj.git storj
 $ cd storj
 
-$ go install ./cmd/{storj-sdk,storagenode,gateway,uplink}
+$ go install storj.io/storj/cmd/{storj-sdk,bootstrap,satellite,storagenode,uplink,gateway}
 ```
 
 This will install the `storj-sdk` `satellite` `storage node` `gateway` and `uplink`binaries to wherever Go is configured to output binaries on your system. By default, this is ~/go/bin. The folder must be outside of the GOPATH. Otherwise you will see errors. 
