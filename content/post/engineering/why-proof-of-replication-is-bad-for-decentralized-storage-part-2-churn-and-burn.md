@@ -31,7 +31,7 @@ Let’s also assume both hypothetical networks use a 4/8 Reed-Solomon erasure co
 
 As it turns out, if you know the target durability, you know the MTTF for nodes, and you know the erasure coding scheme, you can calculate the amount of data churn in a given time period. The formula for calculating data churn is:
 
-https://storj.io/blog/img/rvsec-formula-1.png
+<img src="/blog/img/rvsec-formula-1.png" width="50%"/>
 
 where  is the churn rate, B is the number of bytes on the network, n is the total number of erasure shares, m is the repair threshold, and k is the number of pieces needed for rebuild.
 
