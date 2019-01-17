@@ -11,8 +11,8 @@ Storj is a decentralized object storage network where data is encrypted client-s
 
 The goal for Storj’s V3 network is to provide developers with an object storage solution that is more secure, economical and performant than existing cloud storage options. This is made possible through protocol features like concurrency, parallelism, client-side encryption, and erasure coding (Reed-Solomon). 
 
-<img src="/blog/img/audit-image-1.png" alt="The Storj test network (storj-sdk) enables you to run all the components of the Storj platform (Satellite, Uplink client, and storage nodes) and test them on your local machine." width="100%"/>
-<p style="text-align: center;">_The Storj test network (storj-sdk) enables you to run all the components of the Storj platform (Satellite, Uplink client, and storage nodes) and test them on your local machine._</p>
+<img src="/blog/img/audit-image-1.png" alt="The Storj test network (storj-sim) enables you to run all the components of the Storj platform (Satellite, Uplink client, and storage nodes) and test them on your local machine." width="100%"/>
+<p style="text-align: center;">\\\_The Storj test network (storj-sim) enables you to run all the components of the Storj platform (Satellite, Uplink client, and storage nodes) and test them on your local machine.\\\_</p>
 <br>
 The V3 network is designed to be compatible with existing bucket/object storage protocols (namely Amazon S3) and should be familiar for developers who have used these services in the past.
 
@@ -24,7 +24,7 @@ Let’s get started!
 
 ### **Prerequisites**
 
-Before configuring the storj-sdk V3 testnet, you must have the following:
+Before configuring the storj-sim V3 testnet, you must have the following:
 
 * The latest release of **Git** (<https://git-scm.com/downloads>)
 * **Go,** at least version 1.11 (<https://golang.org/doc/install>)
@@ -38,17 +38,17 @@ We will begin by opening a new terminal window, cloning the storj directory from
 $ git clone https://github.com/storj/storj.git storj
 $ cd storj
 
-$ go install storj.io/storj/cmd/{storj-sdk,bootstrap,satellite,storagenode,uplink,gateway}
+$ make install-sim
 ```
 
-This will install the `storj-sdk` `satellite` `storage node` `gateway` and `uplink`binaries to wherever Go is configured to output binaries on your system. By default, this is ~/go/bin. The folder must be outside of the GOPATH. Otherwise you will see errors. 
+This will install the `storj-sim` `satellite` `storage node` `gateway` and `uplink`binaries to wherever Go is configured to output binaries on your system. By default, this is ~/go/bin. The folder must be outside of the GOPATH. Otherwise you will see errors. 
 
 Next, run the setup:
 
 ```
 $ cd ~/storj/go/bin
 
-$ storj-sdk network setup
+$ storj-sim network setup
 ```
 
 You should see an output showing the generation of the identity certifications for the Satellite, as well as 10 storage nodes, and the Uplink. 
@@ -56,17 +56,17 @@ You should see an output showing the generation of the identity certifications f
 The terminal output should look like this:
 
 <img src="/blog/img/alpha-walkthrough-image-1.png" alt="As shown above, the config is generate certificates for the storage nodes. The public key of the node’s certificate authority determines its node ID (which is is the hash of the public key and acts as a proof-of-work threshold)." width="100%"/>
-<p style="text-align: center;">_As shown above, the config is generate certificates for the storage nodes. The public key of the node’s certificate authority determines its node ID (which is is the hash of the public key and acts as a proof-of-work threshold)._</p>
+<p style="text-align: center;">\\\_As shown above, the config is generate certificates for the storage nodes. The public key of the node’s certificate authority determines its node ID (which is is the hash of the public key and acts as a proof-of-work threshold).\\\_</p>
 <br>
-You have now configured a Storj test network with the default configuration — which generates one Satellite and 10 storage nodes. For a deeper dive into the various peer classes and their functions, review section 4.2 in the [Storj V3 white paper](storj.io/white-paper).
+You have now configured a Storj test network with the default configuration — which generates one Satellite and 10 storage nodes. For a deeper dive into the various peer classes and their functions, review section 4.2 in the \\\[Storj V3 white paper](storj.io/white-paper).
 
 * You might also want to take a look at the config by navigating to the root directory `--config-dir` where all the configs are specified. 
-* You can use vim to tweak the default configuration settings. You can also see what is being overwritten on the command-line level with `storj-sdk -x network run`. Just look for the lines containing “running”.
+* You can use vim to tweak the default configuration settings. You can also see what is being overwritten on the command-line level with `storj-sim -x network run`. Just look for the lines containing “running”.
 
 Now that the configuration has been completed, we can fire up the test network with:
 
 ```
-$ storj-sdk network run
+$ storj-sim network run
 ```
 
 This will start a Satellite and connect it to the 10 local storage nodes.
@@ -78,7 +78,7 @@ A technical overview into the “audit and repair” process can be [found here]
 Observe the output for the gateway generation and take note of its output. You should see something similar to what is shown below:
 
 <img src="/blog/img/alpha-walkthrough-image-2.png" alt="The ‘network run’ command will boot up the satellite and ten storage nodes." width="100%"/>
-<p style="text-align: center;">_The ‘network run’ command will boot up the satellite and ten storage nodes._</p>
+<p style="text-align: center;">\\\_The ‘network run’ command will boot up the satellite and ten storage nodes.\\\_</p>
 <br>
 
 The test network assigns ports in the following way:
@@ -92,7 +92,7 @@ The test network assigns ports in the following way:
 To navigate to the Minio interface, copy and paste the URL for the gateway into your browser (in this case the above output, labeled `Endpoint`, shows `127.0.0.1:9000`)
 
 <img src="/blog/img/alpha-walkthrough-image-3.png" alt="Navigating to the Minio interface will prompt a login screen, asking for the key credentials" width="100%"/>
-<p style="text-align: center;">_Navigating to the Minio interface will prompt a login screen, asking for the key credentials._</p>
+<p style="text-align: center;">\\\_Navigating to the Minio interface will prompt a login screen, asking for the key credentials.\\\_</p>
 <br>
 
 By default, in the local testnetwork, the access key and secret key should look something like:
@@ -115,6 +115,7 @@ The gif below shows the GUI process of creating a bucket, uploading a video to t
 
 <img src="/blog/img/alpha-walkthrough-image-4.gif" alt="GUI process of creating a bucket" width="100%"/>
 <br>
+
 ### Configuring the Uplink
 
 With Captplanet running in another terminal window, let’s walk through the steps of configuring the Uplink client.
@@ -123,7 +124,7 @@ In the V3 network, an Uplink represents any application or service that implemen
 
 You can think of the Uplink as an ‘access point’ for your all of your object data.
 
-Set up your Uplink by navigating to the go/bin directory and running the following command in a new terminal window. This will configure your Uplink to communicate with the Storj Satellite bootstrapped in the storj-sdk:
+Set up your Uplink by navigating to the go/bin directory and running the following command in a new terminal window. This will configure your Uplink to communicate with the Storj Satellite bootstrapped in the storj-sim:
 
 ```
 $ uplink setup --satellite-addr 127.0.0.1:10000 --enc-key [securekey]
@@ -189,7 +190,7 @@ Next up, we will reconfigure the AWS command line interface to communicate with 
 When we ran the command 
 
 ```
-$ storj-sdk network run
+$ storj-sim network run
 ```
 
 An S3 gateway was bootstrapped, and the terminal outputted a sample access and
@@ -245,11 +246,29 @@ Below is an example using a video of a rocket taking flight, shown in the gif:
 <br> 
 <br> 
 <img src="/blog/img/alpha-walkthrough-image-7.gif" alt="Woah!" width="100%"/>
-<p style="text-align: center;">_Woah!_</p>
+<p style="text-align: center;">\\\_Woah!\\\_</p>
 <br>
+
+#### Running Tests
+
+`storj-sim network test <command>` can be used to run tests.
+
+`storj-sim` will start up the network and once it's up and running it will execute the specified `<command>`.
+
+The information about the network is exposed via environment flags. All the flags start with a prefix and an index.
+
+* Address: `STORAGENODE_0_ADDR`, `SATELLITE_0_ADDR`, `GATEWAY_0_ADDR`
+* Keys: `GATEWAY_0_ACCESS_KEY`, `GATEWAY_0_SECRET_KEY`
+* Directory: `STORAGENODE_0_DIR`, `SATELLITE_0_DIR`, `GATEWAY_0_DIR`
+
+For a real-world example you can check out:
+
+<https://github.com/storj/storj/blob/master/scripts/test-sim.sh> and <https://github.com/storj/storj/blob/master/scripts/test-sim-aws.sh> 
+<br>
+
 #### **Conclusion, and Clean Up**
 
-We have successfully walked through the configuration process for `storj-sdk`.
+We have successfully walked through the configuration process for `storj-sim`.
 In the production network, the Satellite, storage nodes, and Uplink are all run
 on separate machines, but for the purpose of this walkthrough, all three
 components are in parallel.
@@ -258,14 +277,14 @@ Finally, to clean up your local environment and remove all traces of this demo
 from your computer, run:
 
 ```
-$ rm -r $HOME/storj
+$ storj-sim network destroy$ rm -r $HOME/storj
 
 $ rm -r $HOME/.storj
 ```
 
 That’s it! :)
 
-_This walkthrough was produced for a version of storj-sdk released (01/08/2019). The walkthrough may become out of date as Storj marches toward production launch._
+_This walkthrough was produced for a version of storj-sim released (01/08/2019). The walkthrough may become out of date as Storj marches toward production launch._
 
 * _Overview of the roadmap here:_ [_https://storj.io/blog/2018/11/upcoming-milestone-releases-on-the-storj-v3-roadmap_](https://storj.io/blog/2018/11/upcoming-milestone-releases-on-the-storj-v3-roadmap)
 * _Full network overview here:_ [_https://storj.io/white-paper_](https://storj.io/white-paper)
