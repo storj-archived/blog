@@ -19,11 +19,11 @@ The detailed report is below but the quick summary is:
 
 &nbsp; &nbsp; c) of the 54.8 M in operational reserves initially held by Storj Labs after the sale, approximately 5.8 M have been used, primarily for paying storage node operators and other third-party service providers, leaving 49.1 M in our operational reserves.
 
-&nbsp; &nbsp; e) Finally, 245.0 M STORJ remain in timelock, which is explained in greater detail below.
+&nbsp; &nbsp; d) Finally, 245.0 M STORJ remain in timelock, which is explained in greater detail below.
 
-&nbsp; &nbsp; f) This means that 75.1 + 43.1 + 5.8 = approximately 124.0 M STORJ are in circulation. Another 49.1 M + 6.9 M = 56.0 M are in non-timelocked conversion and operational reserves.
+&nbsp; &nbsp; e) This means that 75.1 + 43.1 + 5.8 = approximately 124.0 M STORJ are in circulation. Another 49.1 M + 6.9 M = 56.0 M are in non-timelocked conversion and operational reserves.
 
-&nbsp; &nbsp; g) The total number of STORJ is the 124.0 M in circulation plus the 56.0 M in non-timelocked reserves plus 245.0 M in timelocked reserves = 425.0 M.
+&nbsp; &nbsp; f) The total number of STORJ is the 124.0 M in circulation plus the 56.0 M in non-timelocked reserves plus 245.0 M in timelocked reserves = 425.0 M.
 
 We've provided addresses for our major reserves below, so that totals can be easily verified.
 
