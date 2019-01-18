@@ -11,12 +11,13 @@ The STORJ token is an integral part of the Storj network, providing an efficient
 
 We produced the initial version of this document in November, and have updated it for publication in conjunction with the town hall held on January 16, 2019. We expect to publish it quarterly at each subsequent town hall. While it is possible to recreate this information directly from the Ethereum blockchain, we think it is helpful for storage node operators, customers, satellite operators, and others who use the token, to have this information presented in a transparent manner for easy consumption. In the same spirit that we make our code, roadmaps, and other items publicly available and transparent, we want to make the token flows accessible as well. As with all of our posts concerning the token, please see the disclaimer at the bottom of this post.
 
-There have been no material changes since November. The detailed report is below but the quick summary is: 
-a) our token sale put 75.1 M STORJ into circulation.
-b) of the 50.1 M STORJ reserved for conversion of the legacy SJCX token, 43.1 M have been used for conversion, and there are approximately 6.9 M still in reserve for conversion. Less than 100,000 SJCX converted in the month of December, so this number is essentially unchanged from November.
+There have been no material changes since November. The detailed report is below but the quick summary is:
+<br>
+a) our token sale put 75.1 M STORJ into circulation.\
+b) of the 50.1 M STORJ reserved for conversion of the legacy SJCX token, 43.1 M have been used for conversion, and there are approximately 6.9 M still in reserve for conversion. Less than 100,000 SJCX converted in the month of December, so this number is essentially unchanged from November.\
 c) of the 54.8 M STORJ in operational reserves initially held by Storj Labs after the sale, approximately 6.4 M have been used, an increase of 600 K in December, primarily for paying storage node operators and other third-party service providers, leaving 48.4 M in our operational reserves.\
-e) Finally, 245.0 M STORJ remain in timelock, which is explained in greater detail below.
-f) This means that 75.1 + 43.1 + 6.4 = approximately 124.6 M STORJ are in circulation. Another 48.4 M + 6.9 M = 55.4 M are in non-timelocked conversion and operational reserves. \
+e) Finally, 245.0 M STORJ remain in timelock, which is explained in greater detail below.\
+f) This means that 75.1 + 43.1 + 6.4 = approximately 124.6 M STORJ are in circulation. Another 48.4 M + 6.9 M = 55.4 M are in non-timelocked conversion and operational reserves.\ 
 g) The total number of STORJ is the 124.6 M in circulation plus the 55.4 M in non-timelocked reserves plus 245.0 M in timelocked reserves = 425.0 M.\
 
 We’ve provided addresses for our major reserves below, so that totals can be easily verified. 
