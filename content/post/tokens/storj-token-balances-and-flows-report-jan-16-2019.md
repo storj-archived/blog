@@ -40,10 +40,10 @@ During the course of the 2017, 500M STORJ tokens were generated and subsequently
 
 To provide a better understanding of the sale and what has subsequently happened, see table II below, which breaks STORJ token holdings and flows into four categories:
 
-&nbsp; &nbsp;  a)Tokens sold/released in the token sale
-&nbsp; &nbsp;  b)Tokens used for conversion of SJCX
-&nbsp; &nbsp;  c)Tokens for regular network operations (operational reserves)
-&nbsp; &nbsp;  d)Tokens in long term lockup (long term reserves)
+&nbsp; &nbsp;  a)Tokens sold/released in the token sale\
+&nbsp; &nbsp;  b)Tokens used for conversion of SJCX\
+&nbsp; &nbsp;  c)Tokens for regular network operations (operational reserves)\
+&nbsp; &nbsp;  d)Tokens in long term lockup (long term reserves)\
 
 ## Tokens Sold/released in the Token Sale
 
