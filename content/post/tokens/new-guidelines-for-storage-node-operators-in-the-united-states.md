@@ -1,6 +1,7 @@
 ---
 title: New Guidelines for Storage Node Operators in the United States
 date: '2019-01-22T14:00:04-07:00'
+image: /blog/img/blog-us-tax-note.png
 categories:
   - tokens
 authors:
