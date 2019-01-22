@@ -17,7 +17,7 @@ There have been no material changes since November. The detailed report is below
 &nbsp; &nbsp; b) of the 50.1 M STORJ reserved for conversion of the legacy SJCX token, 43.1 M have been used for conversion, and there are approximately 6.9 M still in reserve for conversion. Less than 100,000 SJCX converted in the month of December, so this number is essentially unchanged from November.\
 &nbsp; &nbsp; c) of the 54.8 M STORJ in operational reserves initially held by Storj Labs after the sale, approximately 6.4 M have been used, an increase of 600 K in December, primarily for paying storage node operators and other third-party service providers, leaving 48.4 M in our operational reserves.\
 &nbsp; &nbsp; d) Finally, 245.0 M STORJ remain in timelock, which is explained in greater detail below.\
-&nbsp; &nbsp; e) This means that 75.1 + 43.1 + 6.4 = approximately 124.6 M STORJ are in circulation. Another 48.4 M + 6.9 M = 55.4 M are in non-timelocked conversion and operational reserves.\ 
+&nbsp; &nbsp; e) This means that 75.1 + 43.1 + 6.4 = approximately 124.6 M STORJ are in circulation. Another 48.4 M + 6.9 M = 55.4 M are in non-timelocked conversion and operational reserves. 
 &nbsp; &nbsp; f) The total number of STORJ is the 124.6 M in circulation plus the 55.4 M in non-timelocked reserves plus 245.0 M in timelocked reserves = 425.0 M.\
 
 We’ve provided addresses for our major reserves below, so that totals can be easily verified. 
