@@ -34,7 +34,7 @@ We received an overwhelming response to our storage node operator survey with 4,
 
 So, based on the questions we asked the community, how do we stack up? Well, let’s take a look.
 
-** 1. Can you dedicate one processor core to operate a storage node?**
+**1. Can you dedicate one processor core to operate a storage node?**
 
 **Answer:**
 
