@@ -1,5 +1,5 @@
 ---
-title: What Every Node Operator Wants (and Needs) to Know About the Explorer Release!
+title: What Every Node Operator Wants (and Needs) to Know About the Explorer Release
 date: '2019-01-25T15:27:44-07:00'
 categories:
   - community
