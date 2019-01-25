@@ -43,7 +43,7 @@ So, based on the questions we asked the community, how do we stack up? Well, let
 
 We were pretty confident this would be a fairly low bar. We didn’t ask about the quality of that processor, but operating a storage node is fairly low demand when it comes to compute. While we expect a mix of faster processors, low-power devices like Raspberry Pis, and mid-level NAS devices, the one area that this matters is proof of work. Proof of work might be a challenge for the low power devices, but we’ll provide a tutorial for completing proof of work and generating a NodeID on a faster machine, then transfer that NodeID to the low power device. But so far, we're off to a good start.
 
-2. **How much unused hard drive space can you share on the V3 network?**
+**2. How much unused hard drive space can you share on the V3 network?**
 
 **Answer:**
 
@@ -54,7 +54,7 @@ We were pretty confident this would be a fairly low bar. We didn’t ask about t
 
 It was surprising to see that such a large percentage of our community members have more than 16 TB of storage capacity to share on the V3 network! Because our survey consisted of 4,258 community members, 47% of whom (that’s 2,000 people) have more than 16 TB of storage capacity to share on the network, that means we will have access to 32 PB of total capacity just counting those at the top of the spectrum. We actually expect that the total capacity will be well over double that, once our entire waitlist has been connected to the network. 
 
-** 3. How much bandwidth volume can you contribute to the network each month?** 
+**3. How much bandwidth volume can you contribute to the network each month?** 
 
 **Answer:** 
 
@@ -64,7 +64,7 @@ It was surprising to see that such a large percentage of our community members h
 
 Bandwidth volume measures how much storage can be uploaded and downloaded from a storage node. It also has the biggest earning potential for storage node operators. We expect that [ISP bandwidth caps](https://storj.io/blog/2018/12/a-free-and-open-internet-is-vital-and-is-under-siege/) are the biggest limiting factor for our community here, namely those that have less than 2 TB of bandwidth to spare per month. In many parts of the US, ISPs artificially limit how much data a user can download or upload in a month, shutting down service or imposing overcharges if the bandwidth cap is exceeded. They impose their limits evenly to all websites and are a big stiffler of innovation for decentralized architectures. While we relentlessly optimize the V3 network to operate in a bandwidth-constrained environment, it’s good to see that 79% of the respondents have more - and in some cases significantly more - than the minimum recommended bandwidth and almost half have the preferred amount of bandwidth. Overall, we’re pretty happy with what we’re seeing on bandwidth availability.
 
-** 4. How much upload bandwidth speed can you contribute to the network?** 
+**4. How much upload bandwidth speed can you contribute to the network?** 
 
 **Answer:** 
 
@@ -77,7 +77,7 @@ Upload bandwidth speed is critical to delivering data to developers, partners an
 
 Again, It’s good to see that 90% of the respondents have more, and in some cases significantly more than, the minimum recommended bandwidth. Overall, we’re pretty happy with what we’re seeing on bandwidth availability.
 
-** 5. How much download bandwidth speed can you contribute to the network?**
+**5. How much download bandwidth speed can you contribute to the network?**
 
 **Answer:** 
 
