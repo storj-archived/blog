@@ -8,7 +8,7 @@ authors:
 ---
 We asked and you answered! The results of the Storage Node Operator Survey are in. We have a long [waitlist of storage node operators](https://storj.io/sign-up-farmer) interested in sharing their hard drives and bandwidth on the Storj V3 network. We asked this group of future storage node operators some questions about their network environment, hardware, available storage, and a number of other data points that will help us understand what we can expect on the launch of the Explorer release. In this post, we’re going to share what we learned and what it means for the network. In addition, since our future storage node operators were kind enough to share this information with us, we’re going to provide some more detail on the upcoming release.
 
-![](/blog/img/survey-you-win.png)
+![null](/blog/img/survey-you-win.png)
 
 #### The results are in: There is a lot of storage capacity out there
 
@@ -39,7 +39,7 @@ So, based on the questions we asked the community, how do we stack up? Well, let
 **Answer:**
 
 * Yes: 98%
-* No: 2%
+* No: 2% 
 
 We were pretty confident this would be a fairly low bar. We didn’t ask about the quality of that processor, but operating a storage node is fairly low demand when it comes to compute. While we expect a mix of faster processors, low-power devices like Raspberry Pis, and mid-level NAS devices, the one area that this matters is proof of work. Proof of work might be a challenge for the low power devices, but we’ll provide a tutorial for completing proof of work and generating a NodeID on a faster machine, then transfer that NodeID to the low power device. But so far, we're off to a good start.
 
