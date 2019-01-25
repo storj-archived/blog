@@ -43,7 +43,7 @@ So, based on the questions we asked the community, how do we stack up? Well, let
 
 We were pretty confident this would be a fairly low bar. We didn’t ask about the quality of that processor, but operating a storage node is fairly low demand when it comes to compute. While we expect a mix of faster processors, low-power devices like Raspberry Pis, and mid-level NAS devices, the one area that this matters is proof of work. Proof of work might be a challenge for the low power devices, but we’ll provide a tutorial for completing proof of work and generating a NodeID on a faster machine, then transfer that NodeID to the low power device. But so far, we're off to a good start.
 
-** 2. How much unused hard drive space can you share on the V3 network?**
+2. **How much unused hard drive space can you share on the V3 network?**
 
 **Answer:**
 
