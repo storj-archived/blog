@@ -48,11 +48,8 @@ We were pretty confident this would be a fairly low bar. We didn’t ask about t
 **Answer:**
 
 * At least 500 GB: 94%
-* 2 TB: 21%
-* 2-16 TB: 32%
-* 16 TB: 47%
 
-It was surprising to see that such a large percentage of our community members have more than 16 TB of storage capacity to share on the V3 network! Because our survey consisted of 4,258 community members, 47% of whom (that’s 2,000 people) have more than 16 TB of storage capacity to share on the network, that means we will have access to 32 PB of total capacity just counting those at the top of the spectrum. We actually expect that the total capacity will be well over double that, once our entire waitlist has been connected to the network. 
+We were happy to see that such a large percentage of our community members have more than 500 GB of storage capacity to share on the V3 network! Based on our survey consisting of 4,258 community members, we will have access to 2 PB of capacity just counting the minimum end of the spectrum. We actually expect that the total capacity will be several times that, once our entire waitlist has been connected to the network. 
 
 **3. How much bandwidth volume can you contribute to the network each month?** 
 
