@@ -36,7 +36,7 @@ Before we get into the numbers of how much STORJ you can earn by participating i
 
 All of the network incentives, checks, and balances are geared to maximize the economic rewards for storage node operators who do those three things. In an upcoming blog post on updates to the storage node operator terms and conditions for the V3 network, we’ll share the new rules, but rest assured they are consistent with the principles outlined above.
 
-#### Overview of storage node operator payments
+#### Overview of Storage Node Operator Payments
 
 With that foundation established, let’s review how storage node operators earn STORJ tokens on the network. Our goal is to pass along approximately 60% of the revenue generated on the network to our storage node operators. The structure of how we compensate storage node operators has three components, two that carry over from the V2 network and a new additional component - repair bandwidth:
 
@@ -101,7 +101,7 @@ Once a storage node has been disqualified, if the storage node operator wishes t
 Along with the disqualification process, there will be an automated way to appeal disqualifications based on technical errors in very limited circumstances. 
 
 <img src="/blog/img/sno-payment-flow-chart.png" alt="Example Outlines for SNO Payments" width="100%"/>
-_The flow chart above outlines the anticipated lifecycle for storage nodes, with the expectation that nodes will operate successfully and profitably on the network for multiple years._
+\_The flow chart above outlines the anticipated lifecycle for storage nodes, with the expectation that nodes will operate successfully and profitably on the network for multiple years.\_
 
 #### Calculating Potential Earnings for Storage Node Operators
 
@@ -118,7 +118,7 @@ In advance of the V3 network launch, it’s difficult to anticipate what the dem
 
 * **Network demand** - The network will operate at approximately 50% of capacity, meaning that we’ll use about 50% of the storage and bandwidth available on average from storage node operators. 
 * **Egress bandwidth** - The network will operate at approximately 50% of data downloaded per month. 
-* Ingress bandwidth - The network will operate with about 40% new data being uploaded per month, whether representing network growth or replacement of deleted data. 
+* **Ingress bandwidth** - The network will operate with about 40% new data being uploaded per month, whether representing network growth or replacement of deleted data. 
 * **Node churn** - Storage nodes will stay on the network for longer than 12 months on average. 
 * **Repair** - The calculations assume that about 10% of data will be repaired on the network each month. 
 
@@ -174,7 +174,7 @@ This is a lot of information, I get it. This, combined with the other blog posts
 
 The only thing that could possibly make this easier would be to publish a calculator to help estimate potential earnings for storage nodes based on their storage hardware and network characteristics.
 
-The good news? We have one of those too! Along with this blog post, we’ve published [an interactive calculator](https://snocalc.firebaseapp.com/) to help people considering becoming storage node operators decide if it’s right for them. 
+The good news? We have one of those too! Along with this blog post, we’ve published [an interactive calculator](https://storj.io/storage-node-estimator) to help people considering becoming storage node operators decide if it’s right for them. 
 
 Keep in mind, this simple calculator is only an estimate of possible earnings and not a guarantee of any kind. So many factors are involved in payout calculations, from the amount of demand, types of data and use  cases, and general load on the network, to your node and network characteristics and uptime. , Actual network behavior is very difficult to predict.  If you decide to become a storage node operator, any payout will be made based on actual data stored and bandwidth used, pursuant to the [Storage Sharing Terms and Conditions](https://storj.io/storj-share-terms.html).
 
