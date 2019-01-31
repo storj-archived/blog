@@ -101,7 +101,7 @@ Once a storage node has been disqualified, if the storage node operator wishes t
 Along with the disqualification process, there will be an automated way to appeal disqualifications based on technical errors in very limited circumstances. 
 
 <img src="/blog/img/sno-payment-flow-chart.png" alt="Example Outlines for SNO Payments" width="100%"/>
-\_The flow chart above outlines the anticipated lifecycle for storage nodes, with the expectation that nodes will operate successfully and profitably on the network for multiple years.\_
+_The flow chart above outlines the anticipated lifecycle for storage nodes, with the expectation that nodes will operate successfully and profitably on the network for multiple years._
 
 #### Calculating Potential Earnings for Storage Node Operators
 
