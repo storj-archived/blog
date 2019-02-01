@@ -1,6 +1,7 @@
 ---
 title: What Every Node Operator Wants (and Needs) to Know About the Explorer Release
 date: '2019-01-25T15:27:44-07:00'
+image: /blog/img/blog-storage-node.png
 categories:
   - community
 authors:
