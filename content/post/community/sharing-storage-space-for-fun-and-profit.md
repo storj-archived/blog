@@ -59,11 +59,11 @@ Too much node churn can potentially drive up the cost of storage and could even 
 
 If you haven’t picked up on this from the preceding blog posts and the discussion above, we relentlessly optimize to reduce the impact of node churn on the network. In addition to continuously optimizing the repair processes and erasure code ratios, there are also three additional parts of the incentive model designed to reduce the amount of node churn and data repair. All of these are new with the V3 network.
 
-#### Escrow/withholding Model
+#### Held Amount Model
 
 With the V3 network, we’re introducing a new component to the payout model to provide storage node operators with a way to exit the network without taking their files offline when they do. This creates an incentive to exit the network in a way that does the least amount of harm to the community. The concept maintains a balance between a very low cost of entry with a way to insulate against the cost of data repair. 
 
-Nodes do not need to provide any up-front stake to start earning STORJ tokens as a storage node operator. Rather, during the first 9 months of storage node operation, a percentage of earnings are placed in an escrow account. These funds are held until a storage node operator chooses to leave the network. At 15 months, a portion of the balance is returned to the storage node operator, while the remainder is held indefinitely. 
+Nodes do not need to provide any up-front stake to start earning STORJ tokens as a storage node operator. Rather, during the first 9 months of storage node operation, a percentage of earnings are placed in a holding account. These funds are held until a storage node operator chooses to leave the network. At 15 months, a portion of the balance is returned to the storage node operator, while the remainder is held indefinitely. 
 
 If the storage node operator uses the graceful exit function (described more fully below) when leaving the network, the funds will be returned to the storage node operator after the exit is complete. If the storage node operator exits the network abruptly without completing the graceful exit, the funds will be forfeited to offset the cost of data repair caused by the storage node exit.
 
@@ -87,7 +87,7 @@ The sequence of events following the triggering of the graceful exit function is
 2. Each Satellite returns a list of new storage nodes to which the node should upload the pieces of data stored on the storage node 
 3. The storage node uploads the pieces to the appropriate nodes and updates the appropriate Satellites when complete 
 4. Satellites disqualify the Node ID associated with the gracefully exited storage node in order to signal that the business relationship between the node associated with this Node ID and the Satellite has concluded 
-5. Satellites pay out the balance of STORJ withheld in escrow during the next pay cycle 
+5. Satellites pay out the balance of STORJ withheld during the next pay cycle 
 
 Graceful exit is designed for nodes that intend to permanently exit the network. Ultimately, storage nodes will maximize potential earnings through consistent, reliable, long-term operation. 
 
@@ -161,13 +161,13 @@ Given the assumptions and calculations above, the following table shows how much
 
 <img src="/blog/img/sno-payments-2.png" alt="Example SNO 1" width="100%"/>
 
-As you can see, once the storage node has met its 9-month escrow, monthly earnings reach approximately $58.80 per month, or $705.60 annually. When the node hits its 15 month mark, half of the $262.08 held in escrow ($131.08) would be returned to the storage node operator. For someone with a lot of extra storage and bandwidth capacity, it’s a non-trivial amount.
+As you can see, once the storage node has met its 9-month withholding amount, monthly earnings reach approximately $58.80 per month, or $705.60 annually. When the node hits its 15 month mark, half of the $262.08 withheld ($131.08) would be returned to the storage node operator. For someone with a lot of extra storage and bandwidth capacity, it’s a non-trivial amount.
 
 The next table shows the maximum amount a hypothetical storage node operator could earn in the first year of operating a storage node based on the second example. 
 
 <img src="/blog/img/sno-payments-3.png" alt="Example SNO 2" width="100%"/>
 
-In the case of a smaller node in a more bandwidth-constrained environment, once the storage node has met its 9-month escrow, monthly earnings reach approximately $8.10 per month, or 97.20 annually. When the node hits its 15 month mark, half of the $34.67 held in escrow ($17.34) would be returned to the storage node operator. 
+In the case of a smaller node in a more bandwidth-constrained environment, once the storage node has met its 9-month withholding amount, monthly earnings reach approximately $8.10 per month, or 97.20 annually. When the node hits its 15 month mark, half of the $34.67 withheld ($17.34) would be returned to the storage node operator. 
 
 #### So, are you in?
 
