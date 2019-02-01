@@ -1,6 +1,7 @@
 ---
 title: Sharing Storage Space for Fun and Profit
 date: '2019-01-31T11:30:00-07:00'
+image: /blog/img/blog-ill-sharing-storage.png
 categories:
   - community
 authors:
