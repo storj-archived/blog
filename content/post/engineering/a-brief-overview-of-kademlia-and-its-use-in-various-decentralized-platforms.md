@@ -87,7 +87,7 @@ For this reason, we have implemented a number of the [S/Kademlia extensions](htt
 
 S/Kademlia also provides a base layer of protection against certain attacks against distributed systems, specifically:
 
-1. **Sybil Attacks **— where a user generates an extreme number of arbitrary identities (NodeIDs) to flood the network. 
+1. **Sybil Attacks**— where a user generates an extreme number of arbitrary identities (NodeIDs) to flood the network. 
 2. **Eclipse Attacks** — where an attacker attempts to isolate a node or set of nodes in the network graph by ensuring that all outbound connections reach malicious nodes. 
 
 The S/Kademlia extensions prevent sybil attacks on the address space by creating a minimum work threshold for node generation. Rather than the proof of work implemented in Bitcoin (and similar consensus protocols), storage NodeID generation requires trailing bits of 0s. This allows us to continue to use Kademlia XOR routing.
@@ -156,6 +156,6 @@ Hopefully this post acts as a good overview of Kademlia and its application in m
 
 - - -
 
-_Have any comments, or a code change you think would make Storj better? Please send a pull request along. All of our code for the Storj V3 network is open source, and you can check out our current Kademlia implementation through our repo, [here](https://github.com/storj/storj)._
+_Have any comments, or a code change you think would make Storj better? Please send a pull request along. All of our code for the Storj V3 network is open source, and you can check out our current Kademlia implementation through [our repo on GitHub](https://github.com/storj/storj)._
 
 _You can learn more about Kademlia usage in Storj by checking out our [V3 Network White Paper](https://storj.io/white-paper)._
