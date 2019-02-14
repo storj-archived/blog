@@ -1,6 +1,6 @@
 ---
 title: A brief overview of Kademlia and its use in various decentralized platforms
-date: '2019-02-14T16:28:00-07:00'
+date: '2019-02-14T04:28:00-07:00'
 image: /blog/img/kademlia-locating-a-node-by-its-id.png
 categories:
   - engineering
@@ -21,9 +21,8 @@ Kademlia’s big breakthrough was to minimize internode messaging through its us
 
 Thus, if the distance is expressed as log2(n) nodes, this means that for a network with 10,000,000 Kademlia nodes, only about 20 hops would be necessary at most for communication with any subset of nodes.
 
-<img src="/blog/img/kademlia-locating-a-node-by-its-id.png" alt="The shortest distance between two points is not always a straight line." width="100%"/>
-
-<p style="text-align: center;">"\[The shortest distance between two points is not always a straight line.](https://metaquestions.me/2014/08/01/shortest-distance-between-two-points-is-not-always-a-straight-line/)" Image Source: (\[Maymounkov, et al.](https://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf))</p>
+<img src="/blog/img/kademlia-locating-a-node-by-its-id.png" alt="The shortest distance between two points is not always a straight line." width="100%"/>\
+"[The shortest distance between two points is not always a straight line](https://metaquestions.me/2014/08/01/shortest-distance-between-two-points-is-not-always-a-straight-line/)." Image Source: [Maymounkov, et al](https://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf)._
 
 Another advantage of Kademlia is that the protocol naturally prefers long-lived nodes over newer entrants. The figure below (pulled from the Kademlia paper) illustrates the fact that the longer a node has been alive, the more likely it is to remain online into the future. 
 
@@ -31,7 +30,7 @@ This preference toward node ‘liveliness’ plays naturally into our distribute
 
 <img src="/blog/img/kademlia-probability-of-remaining-online-another-hour-as-a-function-of-uptime.png" alt="Kademlia - probability of remaining online another hour as a function of uptime" width="100%"/>
 
-<p style="text-align: center;">Source: (\[Maymounkov, et al.](https://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf))</p>
+_Image Source: Image Source: [Maymounkov, et al](https://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf)._
 
 The process of joining a Kademlia network requires discovery of only one peer, whereby the node then broadcasts its appearance. The initiator then collects the NodeID from each response and adds it to its own peer table. (This is where the term ‘distributed hash table’ comes from.)
 
