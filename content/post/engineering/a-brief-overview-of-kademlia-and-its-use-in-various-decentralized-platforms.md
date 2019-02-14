@@ -1,7 +1,7 @@
 ---
 title: A brief overview of Kademlia and its use in various decentralized platforms
 date: '2019-02-14T04:28:00-07:00'
-image: /blog/img/kademlia-locating-a-node-by-its-id.png
+image: ''
 categories:
   - engineering
 authors:
@@ -22,8 +22,9 @@ Kademlia’s big breakthrough was to minimize internode messaging through its us
 Thus, if the distance is expressed as log2(n) nodes, this means that for a network with 10,000,000 Kademlia nodes, only about 20 hops would be necessary at most for communication with any subset of nodes.
 
 <img src="/blog/img/kademlia-locating-a-node-by-its-id.png" alt="The shortest distance between two points is not always a straight line." width="100%"/>
-"[The shortest distance between two points is not always a straight line](https://metaquestions.me/2014/08/01/shortest-distance-between-two-points-is-not-always-a-straight-line/)." Image Source: [Maymounkov, et al](https://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf)._
-
+"[The shortest distance between two points is not always a straight line](https://metaquestions.me/2014/08/01/shortest-distance-between-two-points-is-not-always-a-straight-line/)." Image Source: [Maymounkov, et al](https://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf).
+<br>
+<br>
 Another advantage of Kademlia is that the protocol naturally prefers long-lived nodes over newer entrants. The figure below (pulled from the Kademlia paper) illustrates the fact that the longer a node has been alive, the more likely it is to remain online into the future. 
 
 This preference toward node ‘liveliness’ plays naturally into our distributed storage system where node-churn leads to a scenario where [repair costs must be minimized](https://storj.io/blog/2019/01/why-proof-of--replication-is-bad-for-decentralized-storage-part-2-churn-and-burn/).
@@ -31,7 +32,8 @@ This preference toward node ‘liveliness’ plays naturally into our distribute
 <img src="/blog/img/kademlia-probability-of-remaining-online-another-hour-as-a-function-of-uptime.png" alt="Kademlia - probability of remaining online another hour as a function of uptime" width="100%"/>
 
 _Image Source: Image Source: [Maymounkov, et al](https://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf)._
-
+<br>
+<br>
 The process of joining a Kademlia network requires discovery of only one peer, whereby the node then broadcasts its appearance. The initiator then collects the NodeID from each response and adds it to its own peer table. (This is where the term ‘distributed hash table’ comes from.)
 
 This leads to a third advantage, where Kademlia’s usage of parallel and asynchronous queries prevents timeout delays or ‘retrieval hold-ups’ from failed nodes which have dropped off or left the network.
@@ -64,10 +66,10 @@ Decentralized protocols like Kademlia require that peers speak the same language
 
 The Kademlia protocol consists of four Remote Procedure Calls (RPCs):
 
-1. **PING**: probes a node to see if it’s online 
-2. **STORE**: instructs a node to store a key-value pair 
-3. **FIND_NODE**: returns information about the k nodes closest to the target id 
-4. **FIND_VALUE**: similar to the FIND_NODE RPC, but if the recipient has received a STORE for the given key, it just returns the stored value 
+**1. PING**: probes a node to see if it’s online 
+**2. STORE**: instructs a node to store a key-value pair 
+**3. FIND_NODE**: returns information about the k nodes closest to the target id 
+**4. FIND_VALUE**: similar to the FIND_NODE RPC, but if the recipient has received a STORE for the given key, it just returns the stored value 
 
 #### Kademlia in Storj
 
