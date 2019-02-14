@@ -32,7 +32,7 @@ This preference toward node ‘liveliness’ plays naturally into our distribute
 
 <img src="/blog/img/kademlia-probability-of-remaining-online-another-hour-as-a-function-of-uptime.png" alt="Kademlia - probability of remaining online another hour as a function of uptime" width="100%"/>
 
-_Image Source: Image Source: [Maymounkov, et al](https://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf)._
+<p style="text-align: center;">_Image Source: Image Source: [Maymounkov, et al](https://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf)._</p>
 <br>
 <br>
 <br>
