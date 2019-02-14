@@ -22,7 +22,7 @@ Kademlia’s big breakthrough was to minimize internode messaging through its us
 Thus, if the distance is expressed as log2(n) nodes, this means that for a network with 10,000,000 Kademlia nodes, only about 20 hops would be necessary at most for communication with any subset of nodes.
 
 <img src="/blog/img/kademlia-locating-a-node-by-its-id.png" alt="The shortest distance between two points is not always a straight line." width="100%"/>
-"[The shortest distance between two points is not always a straight line](https://metaquestions.me/2014/08/01/shortest-distance-between-two-points-is-not-always-a-straight-line/)." Image Source: [Maymounkov, et al](https://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf).
+<p style="text-align: center;">"[The shortest distance between two points is not always a straight line](https://metaquestions.me/2014/08/01/shortest-distance-between-two-points-is-not-always-a-straight-line/)." Image Source: [Maymounkov, et al](https://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf).</p>
 <br>
 <br>
 <br>
