@@ -1,7 +1,7 @@
 ---
 title: A brief overview of Kademlia and its use in various decentralized platforms
 date: '2019-02-14T04:28:00-07:00'
-image: /blog/img/kademlia-locating-a-node-by-its-id.png
+image: ''
 categories:
   - engineering
 authors:
