@@ -22,7 +22,7 @@ Thus, if the distance is expressed as log2(n) nodes, this means that for a netwo
 
 <img src="/blog/img/kademlia-locating-a-node-by-its-id.png" alt="The shortest distance between two points is not always a straight line." width="100%"/>
 
-<p style="text-align: center;">"[The shortest distance between two points is not always a straight line.](https://metaquestions.me/2014/08/01/shortest-distance-between-two-points-is-not-always-a-straight-line/)" Image Source: ([Maymounkov, et al.](https://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf))</p>
+<p style="text-align: center;">"\[The shortest distance between two points is not always a straight line.](https://metaquestions.me/2014/08/01/shortest-distance-between-two-points-is-not-always-a-straight-line/)" Image Source: (\[Maymounkov, et al.](https://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf))</p>
 
 Another advantage of Kademlia is that the protocol naturally prefers long-lived nodes over newer entrants. The figure below (pulled from the Kademlia paper) illustrates the fact that the longer a node has been alive, the more likely it is to remain online into the future. 
 
@@ -64,10 +64,10 @@ Decentralized protocols like Kademlia require that peers speak the same language
 
 The Kademlia protocol consists of four Remote Procedure Calls (RPCs):
 
-1. PING: probes a node to see if it’s online 
-2. STORE: instructs a node to store a key-value pair 
-3. FIND_NODE: returns information about the k nodes closest to the target id 
-4. FIND_VALUE: similar to the FIND_NODE RPC, but if the recipient has received a STORE for the given key, it just returns the stored value 
+1. **PING**: probes a node to see if it’s online 
+2. **STORE**: instructs a node to store a key-value pair 
+3. **FIND_NODE**: returns information about the k nodes closest to the target id 
+4. **FIND_VALUE**: similar to the FIND_NODE RPC, but if the recipient has received a STORE for the given key, it just returns the stored value 
 
 #### Kademlia in Storj
 
@@ -85,8 +85,8 @@ For this reason, we have implemented a number of the [S/Kademlia extensions](htt
 
 S/Kademlia also provides a base layer of protection against certain attacks against distributed systems, specifically:
 
-1. Sybil Attacks — where a user generates an extreme number of arbitrary identities (NodeIDs) to flood the network. 
-2. Eclipse Attacks — where an attacker attempts to isolate a node or set of nodes in the network graph by ensuring that all outbound connections reach malicious nodes. 
+1. **Sybil Attacks **— where a user generates an extreme number of arbitrary identities (NodeIDs) to flood the network. 
+2. **Eclipse Attacks** — where an attacker attempts to isolate a node or set of nodes in the network graph by ensuring that all outbound connections reach malicious nodes. 
 
 The S/Kademlia extensions prevent sybil attacks on the address space by creating a minimum work threshold for node generation. Rather than the proof of work implemented in Bitcoin (and similar consensus protocols), storage NodeID generation requires trailing bits of 0s. This allows us to continue to use Kademlia XOR routing.
 
@@ -154,6 +154,6 @@ Hopefully this post acts as a good overview of Kademlia and its application in m
 
 - - -
 
-_Have any comments, or a code change you think would make Storj better? Please send a pull request along. All of our code for the Storj V3 network is open source, and you can check out our current Kademlia implementation through our repo, _[_here_](https://github.com/storj/storj)_. _
+_Have any comments, or a code change you think would make Storj better? Please send a pull request along. All of our code for the Storj V3 network is open source, and you can check out our current Kademlia implementation through our repo, _[_here_](https://github.com/storj/storj)._
 
-_You can learn more about Kademlia usage in Storj by checking out our _[_V3 Network White paper_](https://storj.io/white-paper)_._
+_You can learn more about Kademlia usage in Storj by checking out our [V3 Network White paper](https://storj.io/white-paper)._
