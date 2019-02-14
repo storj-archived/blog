@@ -1,6 +1,7 @@
 ---
 title: A brief overview of Kademlia and its use in various decentralized platforms
-date: '2019-02-13T16:28:30-07:00'
+date: '2019-02-14T16:28:00-07:00'
+image: /blog/img/kademlia-locating-a-node-by-its-id.png
 categories:
   - engineering
 authors:
@@ -154,6 +155,6 @@ Hopefully this post acts as a good overview of Kademlia and its application in m
 
 - - -
 
-_Have any comments, or a code change you think would make Storj better? Please send a pull request along. All of our code for the Storj V3 network is open source, and you can check out our current Kademlia implementation through our repo, _[_here_](https://github.com/storj/storj)._
+_Have any comments, or a code change you think would make Storj better? Please send a pull request along. All of our code for the Storj V3 network is open source, and you can check out our current Kademlia implementation through our repo, [here](https://github.com/storj/storj)._
 
-_You can learn more about Kademlia usage in Storj by checking out our [V3 Network White paper](https://storj.io/white-paper)._
+_You can learn more about Kademlia usage in Storj by checking out our [V3 Network White Paper](https://storj.io/white-paper)._
