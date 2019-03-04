@@ -15,7 +15,7 @@ In addition to earning reputation to increase your ultimate payout, a benefit of
 
 * Static Storage (on-node HD space): paid at $1.50 per terabyte month (TBM) 
 * Egress bandwidth (downloads by Uplinks): $20 per TB of utilized bandwidth 
-* Repair bandwidth (uploads and downloads from Satellites): $10 per TB of utilized bandwidth 
+* Repair bandwidth (downloads by Satellites): $10 per TB of utilized bandwidth 
 
 It’s important to note that at the time of publication, Storj Labs is paying only for the Mars and Olio Satellites. Your storage node must be connected to one of these Satellites if you would like to be compensated. Because all of our software is open source, there may be other parties setting up Satellites and running storage environments. If you are connected to—and storing data for—a third party Satellite, you may not be compensated. Don’t worry, in your storage node configuration, you will be able to whitelist the Satellites from which you’ll accept data.
 
