@@ -35,7 +35,8 @@ Every month, we generate a payment report that includes each NodeID, rollup data
 
 where _b_ = 5 and _n_ = total hours.
 
-![Storage Node Static Data](/blog/img/payment-example.png)
+</blog/img/payment-example.png" alt="Storage Node Static Data" width="100%"/>
+<p style="text-align: center;">Storage Node Static Data</p>
 
 Finally, it’s payday! Within 2 weeks after the end of each month, we will send STORJ tokens valued in USD to the wallet addresses provided by storage node operators. Make sure yours is correct, as there’s no way to re-send payments to an incorrect address after the fact. In our example, if you’ve been well behaved, you could expect the following payout for the month of Feb (before withholdings): 
 
