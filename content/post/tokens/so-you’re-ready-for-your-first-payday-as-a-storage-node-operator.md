@@ -56,5 +56,3 @@ In addition, we will be paying for all data stored, regardless of reputation. Th
 As we move forward in the months to come, release new versions of our alpha, and begin to implement a production payout model, we will share more info around payouts. 
 
 Last but not least, we’re excited to continue [testing the Raiden network](https://storj.io/blog/2018/12/taking-payments-to-the-next-level-with-raiden/) and have high hopes for integrating their technology into our product, making storage node payments smoother and faster. If you have any questions about how payments work on V3, please don’t hesitate to reach out on [our community Rocket.Chat](https://storj.io/community/)!
-
-`$$\sum_{k=1}^{n} k$$`
