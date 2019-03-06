@@ -22,7 +22,6 @@ Aside from SNO payments, we are full steam ahead on the Vanguard release (the al
 
 **In our next post, we plan to share updates on:**
 
-* Our efforts around working to provide other secure cryptographic options besides elliptic curve P-256, including adding support for Ed25519. 
 * Wrapping up the invoicing work so that we can generate invoices for clients.  
 * The first iteration of Libuplink for our V3 library in golang! This will allow partners and clients to integrate with our services programmatically.  
 * Writing tests and fixing bugs for our data repair system. This is how we ensure files don't get lost on the network because of node churn and other factors.  
