@@ -11,7 +11,7 @@ To keep the community apprised of our efforts here at Storj Labs, we like to hol
 
 Town hall attendees will hear from Storj leaders, including Ben Golub, our executive chairman and interim CEO; JT Olio, director of engineering; John Gleeson, vice president of operations; and myself, Jocelyn Matthews, community manager. We will also share an updated [STORJ Token Flows and Balances Report](https://storj.io/blog/2019/01/storj-token-balances-and-flows-report-jan.-16-2019/) during the town hall and on our website afterwards. 
 
-[**Please register for the town hall here**](https://zoom.us/webinar/register/WN_WbG7BYRFSzqZ8OE8_uhuWw)**. **
+[**Please register for the town hall here.**](https://zoom.us/webinar/register/WN_WbG7BYRFSzqZ8OE8_uhuWw).
 
 #### Town Hall Topics
 
@@ -32,8 +32,8 @@ If you cannot attend the meeting, we will share [a recording of the town hall on
 
 **Where:** The town hall meeting will be live-streamed on the Zoom.us platform. Livestream links will be emailed, along with a reminder, the day of the event. [Please use this link to pre-register on Zoom.us.](https://zoom.us/webinar/register/WN_WbG7BYRFSzqZ8OE8_uhuWw) Be prepared to join the meeting by downloading the Zoom.us software before the meeting starts. 
 
-**Date: **Wednesday, April 10, 2019
+**Date:** Wednesday, April 10, 2019
 
-**Time: **10:00 a.m. PDT; 1:00 p.m. EDT; 5:00 p.m. GMT; 8:00 p.m. MSK; and 1:00 am CST (Thursday, January 17). Please check your local time.
+**Time:** 10:00 a.m. PDT; 1:00 p.m. EDT; 5:00 p.m. GMT; 8:00 p.m. MSK; and 1:00 am CST (Thursday, January 17). Please check your local time.
 
-**Format: **20-minute presentation and a 40-minute Q&A.
+**Format:** 20-minute presentation and a 40-minute Q&A.
