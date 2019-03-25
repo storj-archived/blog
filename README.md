@@ -8,21 +8,6 @@ by Faris Huskovic
 [Now Live](https://storj.io/blog).
 
 
-
-## Pre-requisites
----
-
-**Quick note before starting**
-
-Below is a screenshot of our authorization configuration
-
-![login](static/img/Auth.png)
-
-Notice that we are set up to login using either our Google or Github credentials.
-
-Also notice you may only access the CMS if you are invited to it via email. 
-Please email faris@storj.io to request access.
-
 ## Step 1-Navigate to CMS and login
 
 ---
