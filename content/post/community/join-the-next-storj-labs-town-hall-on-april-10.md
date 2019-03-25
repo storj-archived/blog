@@ -34,6 +34,6 @@ If you cannot attend the meeting, we will share [a recording of the town hall on
 
 **Date:** Wednesday, April 10, 2019
 
-**Time:** 10:00 a.m. PDT; 1:00 p.m. EDT; 5:00 p.m. GMT; 8:00 p.m. MSK; and 1:00 am CST (Thursday, January 17). Please check your local time.
+**Time:** 10:00 a.m. PDT; 1:00 p.m. EDT; 5:00 p.m. GMT; 8:00 p.m. MSK; and 1:00 am CST (Thursday, April 11). Please check your local time.
 
 **Format:** 20-minute presentation and a 40-minute Q&A.
