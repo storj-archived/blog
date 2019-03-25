@@ -98,28 +98,6 @@ Look at the example above and notice where the comment was inserted when the pos
 ## Step 6 - Publish/Deploy
 ---
 
-Click on "Publish now" in the upper right hand corner and your new post has been created. Lets just take a closer look at what actually happened using the picture below.
-
-![done](static/img/dne.png)
-
-- 1- Publish is pressed and initiates a git push origin master
-
-- 2- New md file is placed in content(under the appropriate collection type) in the Github repo.
-
-- 3- Netlify detects the change and deploys the update to the live site.
-
-- 4- The deploy log can be used to determine exactly where in the deployment the update is as well as a very useful resource for debugging.
+Click on "Publish now" in the upper right hand corner and your new post has been created via pushing a new md file to master in the repo
 
 
-
-## To-do list
-
----
-
-~~- Configure baseURL and Domain~~
-
-~~- Push to prod~~
-
-~~- Update links that point to the old blog~~
-
-~~- Final UI updates~~
