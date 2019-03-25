@@ -14,9 +14,6 @@ by Faris Huskovic
 
 Start by appending "admin" to the end of the blog url.
 
-![Append](static/img/addAdmin.png)
-
-
 ## Step 2-Select Collection + initiate new post
 ---
 Below is the Netlify CMS UI you will see upon login. 
