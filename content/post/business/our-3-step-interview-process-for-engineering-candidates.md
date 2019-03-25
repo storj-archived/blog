@@ -30,15 +30,11 @@ Fortunately, a welcoming, inclusive, diverse team has a number of benefits that 
 
 Did you know that [workforces with more gender, ethnic, or racial diversity tend to perform better financially](https://www.mckinsey.com/business-functions/organization/our-insights/why-diversity-matters)? According to McKinsey:
 
-```
-Companies in the top quartile for racial and ethnic diversity are 35 percent more likely to have financial returns above their respective national industry medians.
-```
+> Companies in the top quartile for racial and ethnic diversity are 35 percent more likely to have financial returns above their respective national industry medians.
 
 [According to Catalyst](https://www.catalyst.org/knowledge/bottom-line-corporate-performance-and-womens-representation-boards-20042008):
 
-```
-Companies with sustained high representation of women board directors (WBD), defined as those with three or more WBD in at least four of five years, significantly outperformed those with sustained low representation by 84 percent on return on sales, by 60 percent on return on invested capital, and by 46 percent on return on equity.
-```
+> Companies with sustained high representation of women board directors (WBD), defined as those with three or more WBD in at least four of five years, significantly outperformed those with sustained low representation by 84 percent on return on sales, by 60 percent on return on invested capital, and by 46 percent on return on equity.
 
 When you look at the hard data, it's clear that more diverse teams are more flexible, efficient, and effective. We want those benefits for our team too!
 
@@ -66,17 +62,11 @@ The recruiting stage of our pipeline is simply finding people who may want to co
 
 In an interview with Christiane Amanpour, Jon Stewart had this to say about diversity in comedy:
 
-```
-It started out as a male-dominated field. It's not a particularly welcoming field—you sort of have to come out there and cut your teeth on it. I'll tell you a story: So we had, on The Daily Show, there was an article about us that said it was a sexist environment, we didn't have women writers. And I got very offended by that. I was very mad. I was like, "Are you saying I'm not a feminist?" I was raised by a single mother. She wore a T-shirt that said, "A woman needs a man like a fish needs a bicycle." And me and my brother were like, "I think we might be men?" So I was mad—how can they say such a thing? And I went back to the writers room, and I was like, "You believe this, Steve? What do you think, Greg? Dave? Tom? Mike?" And then I was like, Oooohhh. And it was right.
-```
-
-```
-But the reason it was right was not necessarily one that we had seen before. We had put in a system of getting writers where there were no names on it. We thought that's color-blind, gender-blind, et cetera. But what you don't realize is the system itself—the tributaries that feed us those submissions—is polluted itself...
-```
-
-```
-But do you see what I mean? It's a systemic issue, and I think what can mostly help change is when you open up new tributaries to bring in talent, and then they grow, and then they help grow their communities and tell their stories.
-```
+> It started out as a male-dominated field. It's not a particularly welcoming field—you sort of have to come out there and cut your teeth on it. I'll tell you a story: So we had, on The Daily Show, there was an article about us that said it was a sexist environment, we didn't have women writers. And I got very offended by that. I was very mad. I was like, "Are you saying I'm not a feminist?" I was raised by a single mother. She wore a T-shirt that said, "A woman needs a man like a fish needs a bicycle." And me and my brother were like, "I think we might be men?" So I was mad—how can they say such a thing? And I went back to the writers room, and I was like, "You believe this, Steve? What do you think, Greg? Dave? Tom? Mike?" And then I was like, Oooohhh. And it was right.
+>
+> But the reason it was right was not necessarily one that we had seen before. We had put in a system of getting writers where there were no names on it. We thought that's color-blind, gender-blind, et cetera. But what you don't realize is the system itself—the tributaries that feed us those submissions—is polluted itself...
+>
+> But do you see what I mean? It's a systemic issue, and I think what can mostly help change is when you open up new tributaries to bring in talent, and then they grow, and then they help grow their communities and tell their stories.
 
 Does this sound like the tech industry to you? It's not enough to simply say that you encourage candidates who might add diversity to your team to apply. You must find inputs to your recruiting funnel that represent greater diversity than the diversity in your field. It takes extra energy and effort.
 
