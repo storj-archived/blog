@@ -13,7 +13,7 @@ Town hall attendees will hear from Storj leaders, including Ben Golub, our execu
 
 [**Please register for the town hall here.**](https://zoom.us/webinar/register/WN_WbG7BYRFSzqZ8OE8_uhuWw).
 
-#### Town Hall Topics
+#### Agenda Topics
 
 During this town hall, we have a lot to cover, especially since our Vanguard release is only a few weeks away! Topics for the meeting include: 
 
@@ -28,7 +28,7 @@ If you have questions that you would like answered during the Q&A portion of the
 
 If you cannot attend the meeting, we will share [a recording of the town hall on the Storj Labs YouTube channel](https://www.youtube.com/watch?v=x0tMoueAi9Y&list=PLNq8osZgyMoBr53aMHCYZkvog7JjJt7wm).
 
-#### Storj Town Hall Details
+#### Town Hall Details
 
 **Where:** The town hall meeting will be live-streamed on the Zoom.us platform. Livestream links will be emailed, along with a reminder, the day of the event. [Please use this link to pre-register on Zoom.us.](https://zoom.us/webinar/register/WN_WbG7BYRFSzqZ8OE8_uhuWw) Be prepared to join the meeting by downloading the Zoom.us software before the meeting starts. 
 
