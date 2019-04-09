@@ -24,6 +24,8 @@ We’ve provided addresses for our major reserves below, so that totals can be e
 
 The success of the Storj community depends on all participants having confidence in, and understanding of, the STORJ token. If you have questions, clarifications, or suggestions on how we can better present this information in the future, please let us know!
 
+<img src="/blog/img/q4-18-token-report.png" alt="STORJ token reserves" width="100%"/>
+
 ## Overview
 
 In May of 2017, Storj Labs BVI, a wholly owned subsidiary of Storj Labs Inc., conducted a public token sale. While most of our focus in the past year has been on building our company and our network, we want to provide a detailed update on token flows since launching the network. As a reminder, we intend to provide a quarterly update on the business and network through our quarterly town hall meeting. It is our intention to produce this token report on a quarterly basis.
