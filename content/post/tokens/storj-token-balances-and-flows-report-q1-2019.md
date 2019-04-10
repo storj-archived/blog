@@ -75,7 +75,7 @@ Line 18 is the total circulating supply of STORJ tokens, which is the number of 
 
 The maximum total that could be in circulation is 425.0 M (line 19)
 
-#### CONFIRMATION
+#### Confirmation
 
 We’ve provided addresses for our major reserves below, so that totals can be easily verified. 
 
@@ -85,8 +85,8 @@ If you have questions, clarifications, or suggestions on how we can better prese
 
 **DISCLAIMER**
 
-This report is provided to the many individuals in the Storj ecosystem, concerning the circulating supply and flows of the STORJ token. 
+_This report is provided to the many individuals in the Storj ecosystem, concerning the circulating supply and flows of the STORJ token. _
 
-The STORJ tokens are intended to facilitate the provision and receipt of data storage and related services through Storj Labs’ software application, which serves as a user interface and development platform on the network. The STORJ tokens are not intended to be a digital currency, security, commodity or any other kind of financial instrument.
+_The STORJ tokens are intended to facilitate the provision and receipt of data storage and related services through Storj Labs’ software application, which serves as a user interface and development platform on the network. The STORJ tokens are not intended to be a digital currency, security, commodity or any other kind of financial instrument._
 
-The contents of this publication contain a high-level overview of the network and the STORJ tokens, and are subject to change as Storj Labs refines its plans. Changes to the network, the STORJ tokens, and other information referenced in this post are entirely within the discretion of Storj Labs, and could result from commercial, technical or legal issues, among others. We believe that greater transparency around the STORJ token will contribute to the willingness of users, storage node operators, and other service providers to participate in the network. While we have made every attempt to be accurate and thorough in the production of this report, it is provided as is, and you should not rely on this report for any decisions regarding the use, acquisition, or disposition of STORJ tokens.
+_The contents of this publication contain a high-level overview of the network and the STORJ tokens, and are subject to change as Storj Labs refines its plans. Changes to the network, the STORJ tokens, and other information referenced in this post are entirely within the discretion of Storj Labs, and could result from commercial, technical or legal issues, among others. We believe that greater transparency around the STORJ token will contribute to the willingness of users, storage node operators, and other service providers to participate in the network. While we have made every attempt to be accurate and thorough in the production of this report, it is provided as is, and you should not rely on this report for any decisions regarding the use, acquisition, or disposition of STORJ tokens._
