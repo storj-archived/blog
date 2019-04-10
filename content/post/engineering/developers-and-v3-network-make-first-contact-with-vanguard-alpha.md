@@ -15,7 +15,7 @@ Since the Explorer release in February, we’ve been inviting storage node opera
 
 #### What to expect during this release
 
-Over the course of the next few weeks, we will be publishing a few blogs that outline various important parts of the alpha. The first two were published today—this post and another post announcing the Tardigrade network, Storj’s network of V3 Satellites with service level agreements (SLAs). 
+Over the course of the next few weeks, we will be publishing a few blogs that outline various important parts of the alpha. The first two were published today—this post and [another post announcing the Tardigrade network](https://storj.io/blog/2019/04/introducing-tardigrade---decentralized-cloud-storage-from-storj-labs/), Storj’s network of V3 Satellites with service level agreements (SLAs). 
 
 During the Vanguard alpha, clients will be limited to a single project, 25 GB of disk space and 25 GB of egress per month, and will not be charged for usage. Over the course of the alpha, we do expect those limits to increase as the network of storage node operators increases as well (it’s currently at about 1 PB of capacity). The purpose of this alpha is to allow clients to start integrating and using the network so that they can provide us with feedback ahead of our beta release in a few months. If you find a bug please report it [via email to our support team](mailto:Support@storj.io) and if you have ideas on how we can improve the network, please [submit them through our ideas portal.](https://ideas.storj.io/)
 
