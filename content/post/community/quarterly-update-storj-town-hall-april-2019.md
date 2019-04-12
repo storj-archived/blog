@@ -11,4 +11,4 @@ This week, we held our quarterly community town hall meeting where we shared the
 
 Check out our YouTube channel to watch a recording of the Town Hall, if you missed the event! If you have follow-up questions, feel free to reach out at ask@storj.io. 
 
-<iframe width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=ZSw2RJmARPw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
