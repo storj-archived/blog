@@ -28,9 +28,7 @@ We will have three Tardigrade Satellites to start. These Satellites will come wi
 
 Once you’ve created an account on a Satellite, you’re ready to get started. The next step is creating a project. 
 
-Our team was annoyed while trying to manage [multiple projects/apps in AWS](https://winterwindsoftware.com/managing-separate-projects-in-aws/).  So we scratched our own itch and enabled developers to utilize projects within user accounts to streamline this process. You simply click “Create Project” in the top right corner to get started. Within your project, you can invite team members, specify roles, manage 
-
-billing (each project can have unique payment methods), and manage API keys for any applications or users you wish to share access with.  
+Our team was annoyed while trying to manage [multiple projects/apps in AWS](https://winterwindsoftware.com/managing-separate-projects-in-aws/).  So we scratched our own itch and enabled developers to utilize projects within user accounts to streamline this process. You simply click “Create Project” in the top right corner to get started. Within your project, you can invite team members, specify roles, manage billing (each project can have unique payment methods), and manage API keys for any applications or users you wish to share access with.  
 
 We try to make onboarding as simple as possible. Once you’ve made your account you can create your project in seconds. Our platform abstracts the minutiae and annoyances associated with traditional providers. As you create additional projects on the Tardigrade network, you can come back here to easily access each of them, by simply toggling between projects in the main navigation. 
 
