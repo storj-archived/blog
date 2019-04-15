@@ -61,4 +61,4 @@ Whether you call them water bears, moss piglets or just tardigrades, we view the
 
 Stay tuned in our community forum and our newsletter for a notification of when to vote for Tardigrade’s upcoming mascot. 
 
-Follow us on twitter [@tarigrade_io](https://twitter.com/Tardigrade_io) for a chance to win a Tardigrade backpack, cup, and other swag bag items.
+Follow us on twitter [@tardigrade_io](https://twitter.com/Tardigrade_io) for a chance to win a Tardigrade backpack, cup, and other swag bag items.
