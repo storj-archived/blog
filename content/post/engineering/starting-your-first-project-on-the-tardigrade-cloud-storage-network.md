@@ -68,11 +68,11 @@ To start, you will not be able to perform tasks such as creating buckets or uplo
 
 The commands should also look pretty familiar:
 
-<img src="/blog/img/GUI4.png" width="100%"/>
+<img src="/blog/img/gui4.png" width="100%"/>
 
 Another option is to use our S3 Gateway, which provides an S3-compatible, drop-in interface for users and applications that need to store data but don’t want to bother with the intricacies of distributed storage directly. We’d recommend using this CLI for users experienced with S3, as it feels similar to using S3, with the benefits of our distributed storage service!
 
-<img src="/blog/img/GUI5.png" width="100%"/>
+<img src="/blog/img/gui5.png" width="100%"/>
 
 #### Manage project members 
 
@@ -80,7 +80,7 @@ Ready to add members to your project? Simply click the ‘Team’ link in the si
 
 In the public alpha, we will only have one role - Admin. However, as IAM features evolve, this will have implications to the team roles you can select as well. 
 
-<img src="/blog/img/GUI6.png" width="100%"/>
+<img src="/blog/img/gui6.png" width="100%"/>
 
 #### Buckets and usage
 
@@ -88,7 +88,7 @@ As you continue to use Tardigrade storage, you will be able to keep track of you
 
 During our public alpha, users will receive 25GB of free storage. However, we are also giving the first 10,000 developers 1TB of free storage for the first 30 days during our production release. [Join the waitlist here](http://tardigrade.io/waitlist).  
 
-<img src="/blog/img/GUI7.png" width="100%"/>
+<img src="/blog/img/gui7.png" width="100%"/>
 
 #### Next steps
 
