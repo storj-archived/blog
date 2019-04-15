@@ -13,7 +13,6 @@ A primary goal of ours has been to give our developers and community members a s
 We redesigned our network from the ground up to emphasize simplicity and ease of integration for developers interfacing with the network. A significant part of the straight-forward experience is our Tardigrade Satellite web interface, which acts as our storage web dashboard. It provides an intuitive web experience to our developers for managing projects, user access, API keys, and billing. 
 
 <img src="/blog/img/gui1.png" width="100%"/>
-<p style="text-align: center;">Storj GUI</p>
 
 #### Selecting a Satellite
 
@@ -36,7 +35,6 @@ billing (each project can have unique payment methods), and manage API keys for 
 We try to make onboarding as simple as possible. Once you’ve made your account you can create your project in seconds. Our platform abstracts the minutiae and annoyances associated with traditional providers. As you create additional projects on the Tardigrade network, you can come back here to easily access each of them, by simply toggling between projects in the main navigation. 
 
 <img src="/blog/img/gui2.png" width="100%"/>
-<p style="text-align: center;">Creating a project</p>
 
 #### Generating API keys
 
@@ -45,7 +43,6 @@ You’ve made a project and you’re ready to start uploading files. What’s ne
 You’ll need to create an API key. An API key gives access to the project to create buckets, upload files to the network, and read them when they are needed. Once you’ve created your API key, you’re ready to interact with the network. 
 
 <img src="/blog/img/gui3.png" width="100%"/>
-<p style="text-align: center;">Generating API keys</p>
 
 ##### Coming Soon: Enhanced Identity and Access Management Features
 
@@ -72,12 +69,10 @@ To start, you will not be able to perform tasks such as creating buckets or uplo
 The commands should also look pretty familiar:
 
 <img src="/blog/img/GUI4.png" width="100%"/>
-<p style="text-align: center;">Uplink CLI</p>
 
 Another option is to use our S3 Gateway, which provides an S3-compatible, drop-in interface for users and applications that need to store data but don’t want to bother with the intricacies of distributed storage directly. We’d recommend using this CLI for users experienced with S3, as it feels similar to using S3, with the benefits of our distributed storage service!
 
 <img src="/blog/img/GUI5.png" width="100%"/>
-<p style="text-align: center;">S3 Gateway</p>
 
 #### Manage project members 
 
@@ -86,7 +81,6 @@ Ready to add members to your project? Simply click the ‘Team’ link in the si
 In the public alpha, we will only have one role - Admin. However, as IAM features evolve, this will have implications to the team roles you can select as well. 
 
 <img src="/blog/img/GUI6.png" width="100%"/>
-<p style="text-align: center;">Manage project members</p>
 
 #### Buckets and usage
 
@@ -95,7 +89,6 @@ As you continue to use Tardigrade storage, you will be able to keep track of you
 During our public alpha, users will receive 25GB of free storage. However, we are also giving the first 10,000 developers 1TB of free storage for the first 30 days during our production release. [Join the waitlist here](http://tardigrade.io/waitlist).  
 
 <img src="/blog/img/GUI7.png" width="100%"/>
-<p style="text-align: center;">Buckets and usage</p>
 
 #### Next steps
 
