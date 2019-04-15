@@ -44,7 +44,7 @@ You’ll need to create an API key. An API key gives access to the project to cr
 
 <img src="/blog/img/gui3.png" width="100%"/>
 
-##### Coming Soon: Enhanced Identity and Access Management Features
+#### Coming Soon: Enhanced Identity and Access Management Features
 
 In the next phase of our alpha release in a few months (which is named Beacon), we will be further building out our identity and access management (IAM) features. This will enable users to have much more flexibility around how they share objects, buckets and project access with applications and other users. To do this, we will utilize macaroons, which allow you to add restrictions on usage like when, where, by who, and for what purpose a target service should authorize requests. [Read more here.](https://theory.stanford.edu/~ataly/Papers/macaroons.pdf)  
 
