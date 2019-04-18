@@ -34,6 +34,7 @@ However, the better option (from a performance/economic perspective) is to use t
 
 Here are all the details you need to know regarding the various capabilities of libuplink, so you can start connecting your application’s object storage to the decentralized cloud!
 <br>
+
 #### The Libuplink API
 
 An Uplink is an entry point into the Storj network. It connects to a specific Satellite and caches connections and resources, allowing users to create sessions. At its core, Libuplink is a Go library that you can use to programmatically interact with the Storj network. 
@@ -76,6 +77,7 @@ These methods are described in detail on our [LibUplink repo](https://github.com
 
 In the near future, additional library language wrappers will be released, allowing you to programmatically interface the Storj network with other programming languages. The first language bindings that we are planning to release are for C, Java (Android), and iOS - with additional language bindings planned through community bounties.
 <br>
+
 #### Getting Started
 
 To get started, the first thing you will need to do is select a Satellite and generate an API key. Also, check out this [walkthrough of the Satellite GUI for the Tardigrade Network](https://storj.io/blog/2019/04/starting-your-first-project-on-the-tardigrade-cloud-storage-network/).
