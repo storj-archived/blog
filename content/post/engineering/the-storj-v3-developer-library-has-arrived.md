@@ -78,7 +78,7 @@ In the near future, additional library language wrappers will be released, allow
 
 #### Getting Started
 
-To get started, the first thing you will need to do is select a Satellite and generate an API Key. Also check out this [walkthrough of the Satellite GUI for the Tardigrade Network is available](https://storj.io/blog/2019/04/starting-your-first-project-on-the-tardigrade-cloud-storage-network/).
+To get started, the first thing you will need to do is select a Satellite and generate an API key. Also, check out this [walkthrough of the Satellite GUI for the Tardigrade Network is available](https://storj.io/blog/2019/04/starting-your-first-project-on-the-tardigrade-cloud-storage-network/).
 
 Now that we have created a project and generated an API key, let’s get started with some code! We are going to write a Go program with functions that will upload a file to a project that we created on the Satellite in the previous walkthrough. The full code for this walkthrough can be found on [GitHub](https://gist.github.com/kaloyan-raev/d4a857f09f2ab3e3d83d6ed72858a579).
 
@@ -113,7 +113,7 @@ In this example, `satellite` will define the Satellite URL,
 * `myBucket` will be an example bucket, created on the satellite in the [previous walkthrough](https://storj.io/blog/2019/04/starting-your-first-project-on-the-tardigrade-cloud-storage-network/), (ie. `uplink mb sj://example-bucket` 
 * `myUploadPath` will take the path 
 * `myData` will be the data that you are uploading 
-* `myAPIKey` will be the API Key generated previously in the [previous walkthrough](https://storj.io/blog/2019/04/starting-your-first-project-on-the-tardigrade-cloud-storage-network/) 
+* `myAPIKey` will be the API key generated previously in the [previous walkthrough](https://storj.io/blog/2019/04/starting-your-first-project-on-the-tardigrade-cloud-storage-network/) 
 
 Write: 
 
