@@ -321,7 +321,7 @@ Finally, Go has the ability to automatically generate documentation for packages
 Now go on, code, and decentralize all the things!
 <br>
 <br>
-For the full file, visit [GitHub](https://github.com/storj/storj/wiki/Libuplink-Walkthrough) or see below:
+For the full file, visit [GitHub],(https://github.com/storj/storj/wiki/Libuplink-Walkthrough) or see below:
 
 ```
 // Copyright (C) 2019 Storj Labs, Inc.
