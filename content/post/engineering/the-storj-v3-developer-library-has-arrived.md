@@ -7,7 +7,7 @@ categories:
 authors:
   - Kevin Leffew
 ---
-Since the start of the new year, our team here at Storj Labs has made major progress toward the production launch of the V3 network. In February, [we launched the V3 Explorer alpha release](https://storj.io/blog/2019/02/announcing-the-storj-v3-explorer-release/), which enabled anyone to with underutilized hardware or bandwidth resources to join the Storj network and start earning STORJ token in exchange for their contributions.
+Since the start of the new year, our team here at Storj Labs has made major progress toward the production launch of the V3 network. In February, [we launched the V3 Explorer alpha release](https://storj.io/blog/2019/02/announcing-the-storj-v3-explorer-release/), which enabled anyone with underutilized hardware or bandwidth resources to join the Storj network and start earning STORJ token in exchange for their contributions.
 
 Since the Explorer launch, we have been letting small groups of storage node operators onto the network each day. As of today, our network is looking rather healthy! 
 
