@@ -319,7 +319,8 @@ Congrats! You have now written a basic Go program with functions that upload a f
 Finally, Go has the ability to automatically generate documentation for packages we write in a similar way to the standard package documentation, called GoDoc. The documentation for the entire libuplink API is located here: <https://godoc.org/storj.io/storj/lib/uplink>
 
 Now go on, code, and decentralize all the things!
-
+<br>
+<br>
 For the full file, visit [GitHub](https://github.com/storj/storj/wiki/Libuplink-Walkthrough) or see below:
 
 ```
