@@ -272,9 +272,7 @@ To download it, let’s add another method to call the file back. We want to dow
 }
 ```
 
-Now that we have defined our primary functions,
-
-To wrap everything up, let’s write a main function that ingests the const parameters. Write:
+Now that we have defined our primary functions, let’s write a main function that ingests the const parameters to wrap everything up. Write:
 
 ```
 funcmain() {
