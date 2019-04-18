@@ -106,7 +106,6 @@ import (
 )
 ```
 
-
 Let’s define our constants that we have pulled from the Satellite. In Go, constants are declared like variables, but with the `const` keyword. These constants include constants for our API key, Satellite address, bucket name, upload path, and encryption key. The following values are fillers for what you would be using in real life. 
 
 In this example, `satellite` will define the Satellite URL, 
@@ -134,7 +133,6 @@ Write:
 )
 ```
 
-
 Next, let’s define a function, `WorkWithLibUplink`, that uploads data to a specified path in a bucket, ingesting a Satellite address, encryption key, and API key, bucket name, upload path, and data to upload as parameters.
 
 ```
@@ -148,7 +146,6 @@ funcWorkWithLibUplink(satelliteAddress string, encryptionKey *storj.Key, apiKey 
 
     ctx := context.Background()
 ```
-
 
 Now, let’s get started and upload an object programmatically. To do so, we will need to initialize our Uplink and open a project and bucket that we are working with. Write:
 
@@ -202,7 +199,6 @@ Now, let’s get started and upload an object programmatically. To do so, we wil
     defer bucket.Close()
 ```
 
-
 Now that we have finished setting everything up, let’s write some code to upload an object!
 
 ```
@@ -216,7 +212,6 @@ Now that we have finished setting everything up, let’s write some code to uplo
 
         return fmt.Errorf("could not upload: %v", err)
 ```
-
 
 To download it, let’s add another method to call the file back. We want to download the whole file, so let’s specify the range from 0 to -1. We will also want to read everything from the stream. Write:
 
@@ -271,7 +266,6 @@ To download it, let’s add another method to call the file back. We want to dow
 }
 ```
 
-
 Now that we have defined our primary functions, let’s write a main function that ingests the const parameters to wrap everything up. Write:
 
 ```
@@ -308,15 +302,14 @@ funcmain() {
 }
 ```
 
-
 Congrats! You have now written a basic Go program with functions that upload a file from the Tardigrade Network and download it back to your machine!
 
 Finally, Go has the ability to automatically generate documentation for packages we write in a similar way to the standard package documentation, called GoDoc. The documentation for the entire libuplink API is located here: <https://godoc.org/storj.io/storj/lib/uplink>
 
 Now go on, code, and decentralize all the things!
 
+For the full file, visit [GitHub](https://github.com/storj/storj/wiki/Libuplink-Walkthrough) or see below:
 
-For the full file, see below:
 ```
 // Copyright (C) 2019 Storj Labs, Inc.
 // See LICENSE for copying information.
