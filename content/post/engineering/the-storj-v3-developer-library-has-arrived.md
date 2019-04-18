@@ -78,11 +78,11 @@ In the near future, additional library language wrappers will be released, allow
 
 #### Getting Started
 
-To get started, the first thing you will need to do is select a Satellite and generate an API key. Also, check out this [walkthrough of the Satellite GUI for the Tardigrade Network is available](https://storj.io/blog/2019/04/starting-your-first-project-on-the-tardigrade-cloud-storage-network/).
+To get started, the first thing you will need to do is select a Satellite and generate an API key. Also, check out this [walkthrough of the Satellite GUI for the Tardigrade Network](https://storj.io/blog/2019/04/starting-your-first-project-on-the-tardigrade-cloud-storage-network/).
 
 Now that we have created a project and generated an API key, let’s get started with some code! We are going to write a Go program with functions that will upload a file to a project that we created on the Satellite in the previous walkthrough. The full code for this walkthrough can be found on [GitHub](https://gist.github.com/kaloyan-raev/d4a857f09f2ab3e3d83d6ed72858a579).
 
-First, we need to list the package and import dependencies related to the Uplink. Every Go program must be a part of some package - and because this is a standalone executable Go program, we must first make a `package main` declaration, and import some additional package dependencies as well. Write:
+First, we need to list the package and import dependencies related to the Uplink. Every Go program must be a part of some package, and because this is a standalone executable Go program, we must first make a `package main` declaration, and import some additional package dependencies as well. Write:
 
 ```
 import (
@@ -219,7 +219,7 @@ Now that we have finished setting everything up, let’s write some code to uplo
 
     }
 
-To download it, let’s another method to call the file back. We want to download the whole file, so let’s specify the range from 0 to -1. We will also want to read everything from the stream. Write:
+To download it, let’s add another method to call the file back. We want to download the whole file, so let’s specify the range from 0 to -1. We will also want to read everything from the stream. Write:
 
 ```
     // Initiate a download of the same object again
