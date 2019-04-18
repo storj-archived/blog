@@ -26,7 +26,7 @@ There are more than a number of reasons why you may wish to utilize decentralize
 
 Libuplink contains a number of interesting components, including pre-written code and subroutines, classes, values or type specifications, message templates, configuration walkthroughs, and [great documentation](https://godoc.org/storj.io/storj/lib/uplink).
 
-The most exciting part about Libuplink is how easy it is to switch off AWS onto a more economical, decentralized, and fault-tolerant alternative. 
+The most exciting part about Libuplink is how easy it is to switch from AWS to a more economical, decentralized, and fault-tolerant alternative. 
 
 If you are currently using Amazon S3, you can connect directly to Storj through an S3 gateway hosted alongside your application server. This means that switching to the decentralized cloud and reaping the cost, performance and privacy benefits is as easy as changing two lines in your config file! No new code needed! [The walkthrough for the Gateway can be found on our documentation page](https://github.com/storj/docs).
 
@@ -112,14 +112,16 @@ Let’s define our constants that we have pulled from the Satellite. In Go, con
 
 In this example, `satellite` will define the Satellite URL, 
 
-* `myBucket` will be an example bucket, created on the satellite in the [previous walkthrough](https://storj.io/blog/2019/04/starting-your-first-project-on-the-tardigrade-cloud-storage-network/), (ie. `uplink mb sj://example-bucket` 
+* `myBucket` will be an example bucket, created on the satellite in the [previous walkthrough](https://storj.io/blog/2019/04/starting-your-first-project-on-the-tardigrade-cloud-storage-network/), ie. `uplink mb sj://example-bucket` 
 * `myUploadPath` will take the path 
 * `myData` will be the data that you are uploading 
 * `myAPIKey` will be the API key generated previously in the [previous walkthrough](https://storj.io/blog/2019/04/starting-your-first-project-on-the-tardigrade-cloud-storage-network/) 
 
 Write: 
 
-```const (
+```
+    const (
+
     myAPIKey = "change-me-to-the-api-key-created-in-satellite-gui"
 
     satellite       = "mars.tardigrade.io:7777"
