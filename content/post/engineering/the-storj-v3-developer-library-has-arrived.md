@@ -51,7 +51,7 @@ These methods are described in detail on our [LibUplink repo](https://github.com
 **uplink.go**
 
 1. `NewUplink` creates a new Uplink 
-2. `OpenProject` returns a Project handle with the given APIKey 
+2. `OpenProject` returns a project handle with the given API key 
 
 **project.go**
 
@@ -59,16 +59,16 @@ These methods are described in detail on our [LibUplink repo](https://github.com
 2. `DeleteBucket` deletes a bucket if authorized 
 3. `ListBuckets` will list the buckets that a user is authorized to see 
 4. `GetBucketInfo` returns info about the requested bucket if authorized 
-5. `OpenBucket` returns a Bucket handle with the given EncryptionAccess information 
-6. `Close` closes the Project
+5. `OpenBucket` returns a bucket handle with the given EncryptionAccess information 
+6. `Close` closes the project
 
 **bucket.go**
 
-1. `OpenObject` returns an Object handle, if authorized
+1. `OpenObject` returns an object handle, if authorized
 2. `UploadObject` uploads a new object, if authorized
 3. `DeleteObject` removes an object, if authorized
 4. `ListObjects` lists objects a user is authorized to see
-5. `Close` closes the Bucket session
+5. `Close` closes the bucket session
 
 **object.go**
 
