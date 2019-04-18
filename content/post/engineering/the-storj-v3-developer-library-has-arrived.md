@@ -33,8 +33,8 @@ If you are currently using Amazon S3, you can connect directly to Storj through 
 However, the better option (from a performance/economic perspective) is to use the Libuplink developer library. 
 
 Here are all the details you need to know regarding the various capabilities of libuplink, so you can start connecting your application’s object storage to the decentralized cloud!
-
-
+<br>
+<br>
 #### The Libuplink API
 
 An Uplink is an entry point into the Storj network. It connects to a specific Satellite and caches connections and resources, allowing users to create sessions. At its core, Libuplink is a Go library that you can use to programmatically interact with the Storj network. 
@@ -76,8 +76,8 @@ These methods are described in detail on our [LibUplink repo](https://github.com
 1. `DownloadRange` returns an object’s data. A length of -1 will mean (Object.Size - offset) 
 
 In the near future, additional library language wrappers will be released, allowing you to programmatically interface the Storj network with other programming languages. The first language bindings that we are planning to release are for C, Java (Android), and iOS - with additional language bindings planned through community bounties.
-
-
+<br>
+<br>
 #### Getting Started
 
 To get started, the first thing you will need to do is select a Satellite and generate an API key. Also, check out this [walkthrough of the Satellite GUI for the Tardigrade Network](https://storj.io/blog/2019/04/starting-your-first-project-on-the-tardigrade-cloud-storage-network/).
@@ -105,8 +105,8 @@ import (
 
 )
 ```
-
-
+<br>
+<br>
 
 Let’s define our constants that we have pulled from the Satellite. In Go, constants are declared like variables, but with the `const` keyword. These constants include constants for our API key, Satellite address, bucket name, upload path, and encryption key. The following values are fillers for what you would be using in real life. 
 
@@ -134,8 +134,8 @@ Write:
 
 )
 ```
-
-
+<br>
+<br>
 
 Next, let’s define a function, `WorkWithLibUplink`, that uploads data to a specified path in a bucket, ingesting a Satellite address, encryption key, and API key, bucket name, upload path, and data to upload as parameters.
 
@@ -150,8 +150,8 @@ funcWorkWithLibUplink(satelliteAddress string, encryptionKey *storj.Key, apiKey 
 
     ctx := context.Background()
 ```
-
-
+<br>
+<br>
 
 Now, let’s get started and upload an object programmatically. To do so, we will need to initialize our Uplink and open a project and bucket that we are working with. Write:
 
@@ -204,8 +204,8 @@ Now, let’s get started and upload an object programmatically. To do so, we wil
 
     defer bucket.Close()
 ```
-
-
+<br>
+<br>
 
 Now that we have finished setting everything up, let’s write some code to upload an object!
 
@@ -220,8 +220,8 @@ Now that we have finished setting everything up, let’s write some code to uplo
 
         return fmt.Errorf("could not upload: %v", err)
 ```
-
-
+<br>
+<br>
 
 To download it, let’s add another method to call the file back. We want to download the whole file, so let’s specify the range from 0 to -1. We will also want to read everything from the stream. Write:
 
@@ -275,8 +275,8 @@ To download it, let’s add another method to call the file back. We want to dow
 
 }
 ```
-
-
+<br>
+<br>
 
 Now that we have defined our primary functions, let’s write a main function that ingests the const parameters to wrap everything up. Write:
 
@@ -313,7 +313,8 @@ funcmain() {
 
 }
 ```
-
+<br>
+<br>
 Congrats! You have now written a basic Go program with functions that upload a file from the Tardigrade Network and download it back to your machine!
 
 Finally, Go has the ability to automatically generate documentation for packages we write in a similar way to the standard package documentation, called GoDoc. The documentation for the entire libuplink API is located here: <https://godoc.org/storj.io/storj/lib/uplink>
