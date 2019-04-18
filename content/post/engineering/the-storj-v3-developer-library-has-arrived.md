@@ -33,7 +33,7 @@ If you are currently using Amazon S3, you can connect directly to Storj through 
 However, the better option (from a performance/economic perspective) is to use the Libuplink developer library. 
 
 Here are all the details you need to know regarding the various capabilities of libuplink, so you can start connecting your application’s object storage to the decentralized cloud!
-<br>
+
 
 #### The Libuplink API
 
@@ -76,7 +76,7 @@ These methods are described in detail on our [LibUplink repo](https://github.com
 1. `DownloadRange` returns an object’s data. A length of -1 will mean (Object.Size - offset) 
 
 In the near future, additional library language wrappers will be released, allowing you to programmatically interface the Storj network with other programming languages. The first language bindings that we are planning to release are for C, Java (Android), and iOS - with additional language bindings planned through community bounties.
-<br>
+
 
 #### Getting Started
 
@@ -106,6 +106,8 @@ import (
 )
 ```
 
+
+
 Let’s define our constants that we have pulled from the Satellite. In Go, constants are declared like variables, but with the `const` keyword. These constants include constants for our API key, Satellite address, bucket name, upload path, and encryption key. The following values are fillers for what you would be using in real life. 
 
 In this example, `satellite` will define the Satellite URL, 
@@ -133,6 +135,8 @@ Write:
 )
 ```
 
+
+
 Next, let’s define a function, `WorkWithLibUplink`, that uploads data to a specified path in a bucket, ingesting a Satellite address, encryption key, and API key, bucket name, upload path, and data to upload as parameters.
 
 ```
@@ -146,6 +150,8 @@ funcWorkWithLibUplink(satelliteAddress string, encryptionKey *storj.Key, apiKey 
 
     ctx := context.Background()
 ```
+
+
 
 Now, let’s get started and upload an object programmatically. To do so, we will need to initialize our Uplink and open a project and bucket that we are working with. Write:
 
@@ -199,6 +205,8 @@ Now, let’s get started and upload an object programmatically. To do so, we wil
     defer bucket.Close()
 ```
 
+
+
 Now that we have finished setting everything up, let’s write some code to upload an object!
 
 ```
@@ -212,6 +220,8 @@ Now that we have finished setting everything up, let’s write some code to uplo
 
         return fmt.Errorf("could not upload: %v", err)
 ```
+
+
 
 To download it, let’s add another method to call the file back. We want to download the whole file, so let’s specify the range from 0 to -1. We will also want to read everything from the stream. Write:
 
@@ -265,6 +275,8 @@ To download it, let’s add another method to call the file back. We want to dow
 
 }
 ```
+
+
 
 Now that we have defined our primary functions, let’s write a main function that ingests the const parameters to wrap everything up. Write:
 
