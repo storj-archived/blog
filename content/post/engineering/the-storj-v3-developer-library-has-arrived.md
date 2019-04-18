@@ -97,8 +97,6 @@ import (
 
 "log"
 
-  
-
 "storj.io/storj/lib/uplink"
 
 "storj.io/storj/pkg/storj"
@@ -119,8 +117,6 @@ Write:
 
 ```const (
     myAPIKey = "change-me-to-the-api-key-created-in-satellite-gui"
-
-  
 
     satellite       = "mars.tardigrade.io:7777"
 
