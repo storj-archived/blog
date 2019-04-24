@@ -1,7 +1,5 @@
 ---
-title: >-
-  Tardigrade Pricing: Cloud Storage Prices Haven’t Changed Much in 4
-  Years–They’re About To
+title: Cloud Storage Prices Haven’t Changed Much in 4 Years–They’re About To
 date: '2019-04-24T15:38:57-06:00'
 image: /blog/img/blog-storage-pricing-1.jpg
 categories:
