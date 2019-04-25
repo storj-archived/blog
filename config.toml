@@ -13,7 +13,7 @@ paginatePath = "page"
 
 [mediaTypes]
   [mediaTypes."text/yaml"]
-    suffix = "yml"
+    suffixes = ["yml"]
 
 [taxonomies]
   category = "categories"
