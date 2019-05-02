@@ -7,11 +7,11 @@ categories:
 authors:
   - Brandon Iglesias
 ---
-The Beacon release is within our sights! We are hitting our stride and continue to be listed as one of the [top Ethereum projects by developer activity](https://media.consensys.net/the-20-blockchain-projects-with-the-most-dev-activity-on-github-april-2019-b7449cc876a6)! The Beacon release will enable clients to share objects with others and we have a hand full of features we need to implement to make that happen. We are now sending invitations for the Vanguard release so If you want to get access to store data on the network, make sure to sign up on the [waitlist](https://storj.io/sign-up/). 
+The Beacon release is within our sights! We are hitting our stride and continue to be listed as one of the [top Ethereum projects by developer activity](https://media.consensys.net/the-20-blockchain-projects-with-the-most-dev-activity-on-github-april-2019-b7449cc876a6)! The Beacon release will enable clients to share objects with others, and we have a hand full of features we need to implement to make that happen. We are now sending invitations for the Vanguard release so If you want to get access to store data on the network, make sure to sign up on the [waitlist](https://storj.io/sign-up/). 
 
 #### Recent development accomplishments:
 
-* Completed improvements to the data repair system. Thus far, the system has been functioning properly and we will continue to monitor it, and make improvements, as time goes on.  
+* Completed improvements to the data repair system. Thus far, the system has been functioning properly. We will continue to monitor it and make improvements as time goes on.  
 * We enhanced the user experience and fixed some bugs in our Satellite web interface based off of user feedback sessions while onboarding clients.  
 * We started designing some of the components we need to build for our next couple of releases (Beacon and Pioneer). 
 * We updated the Uplink CLI to use the libuplink library in order to remove the requirement of having to create an identity. This greatly enhances the user experience for clients storing data on the network.  
@@ -26,7 +26,7 @@ The Beacon release is within our sights! We are hitting our stride and continue 
 * Adding a wizard to our S3 gateway binary so that it can easily be configured by clients storing data on the network.  
 * Investigating areas in our code base where we can improve performance.  
 
-#### For more information: 
+#### For more information:
 
 * Look at our [product roadmap](https://storjlabs.aha.io/published/01ee405b4bd8d14208c5256d70d73a38?page=1) and previous [development update](https://storj.io/blog/2019/04/development-update-21-from-storj-labs/).  
 * Dig into the code or contribute to the project by visiting our [GitHub](https://github.com/storj/storj) repository.  
