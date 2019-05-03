@@ -37,7 +37,7 @@ This chain can be continued for many more steps, allowing Macaroons of significa
 
 We expect to bring you access control by way of Macaroons in one of the next few Alpha releases. Stay tuned for more details!
 
-_(1) Macaroons: Cookies with Contextual Caveats for Decentralized Authorization in the Cloud, by Arnar Birgisson et al., Network and Distributed System Security Symposium, Internet Society (2014). [https://ai.google/research/pubs/pub41892](https://ai.google/research/pubs/pub41892)_ <br>
+_(1) Macaroons: Cookies with Contextual Caveats for Decentralized Authorization in the Cloud, by Arnar Birgisson et al., Network and Distributed System Security Symposium, Internet Society (2014). [https://ai.google/research/pubs/pub41892](https://ai.google/research/pubs/pub41892) <br>
 (2)  To be entirely accurate, Satellites also need to keep track of the signatures of revoked tokens, so that it is possible to withdraw access to something after having given it. But this can be done without storing each one in full; for example, they could be put into a probabilistic data structure such as a bloom filter.<br>
 (3)  Ok, fine, probably not you personally, but software on your computer working on your behalf.<br>
 (4)  It is difficult to explain how this works by analogy to the physical world, but if you are familiar with basic cryptography, there is a secret key known only to the Satellite, and the Satellite can use that to calculate an HMAC over the top-level token. Subsequent signatures are also HMACs over their respective tokens, but there we use the signature being removed from the previous token in the chain as the HMAC key instead of the Satellite’s secret key._
