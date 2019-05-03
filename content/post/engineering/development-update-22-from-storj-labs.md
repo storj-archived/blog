@@ -7,7 +7,7 @@ categories:
 authors:
   - Brandon Iglesias
 ---
-The Beacon release is within our sights! We are hitting our stride and continue to be listed as one of the [top Ethereum projects by developer activity](https://media.consensys.net/the-20-blockchain-projects-with-the-most-dev-activity-on-github-april-2019-b7449cc876a6)! The Beacon release will enable clients to share objects with others, and we have a hand full of features we need to implement to make that happen. We are now sending invitations for the Vanguard release so If you want to get access to store data on the network, make sure to sign up on the [waitlist](https://storj.io/sign-up/). 
+The Beacon release is within our sights! We are hitting our stride and continue to be listed as one of the [top Ethereum projects by developer activity](https://media.consensys.net/the-20-blockchain-projects-with-the-most-dev-activity-on-github-april-2019-b7449cc876a6)! The Beacon release will enable clients to share objects with others, and we have a hand full of features we need to implement to make that happen. We are now sending invitations for the Vanguard release so, if you want to get access to store data on the network, make sure to sign up on the [waitlist](https://storj.io/sign-up/). 
 
 #### Recent development accomplishments:
 
