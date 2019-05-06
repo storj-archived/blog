@@ -22,6 +22,7 @@ collections:
       - {label: "Category", name: "categories", widget: "list", default: ['business', ]}
       - {label: "Author", name: "authors", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name: "engineering"
     label: "Engineering posts"
     folder: "content/post/engineering"
@@ -34,6 +35,7 @@ collections:
       - {label: "Category", name: "categories", widget: "list",default: ['engineering', ]}
       - {label: "Author", name: "authors", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name: "support"
     label: "Support posts"
     folder: "content/post/support"
@@ -46,6 +48,7 @@ collections:
       - {label: "Category", name: "categories", widget: "list",default: ['support', ]}
       - {label: "Author", name: "authors", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name: "tokens"
     label: "Token posts"
     folder: "content/post/tokens"
@@ -58,6 +61,7 @@ collections:
       - {label: "Category", name: "categories", widget: "list",default: ['tokens', ]}
       - {label: "Author", name: "authors", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name: "tutorials"
     label: "Tutorial posts"
     folder: "content/post/tutorials"
@@ -70,6 +74,7 @@ collections:
       - {label: "Category", name: "categories", widget: "list",default: ['tutorials', ]}
       - {label: "Author", name: "authors", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name: "community"
     label: "Community posts"
     folder: "content/post/community"
@@ -82,3 +87,5 @@ collections:
       - {label: "Category", name: "categories", widget: "list",default: ['community', ]}
       - {label: "Author", name: "authors", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
+
