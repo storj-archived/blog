@@ -24,8 +24,6 @@ Blockchain consensus offers very strong guarantees, but this comes at a heavy co
 
 We recently announced Tardigrade[⁵](https://storj.io/blog/2019/04/introducing-tardigrade---decentralized-cloud-storage-from-storj-labs/), a production environment of the Storj network run and maintained by Storj Labs. It’s an enterprise, production-ready version of the Storj network, complete with guaranteed SLAs. All user uploads and downloads on Tardigrade go through Tardigrade [Satellites which are special nodes on the network that audit storage nodes](https://storj.io/blog/2018/12/decentralized-auditing-and-repair-the-low-key-life-of-data-resurrection/) and ensure they’re properly storing files and managing metadata for users storing data on the network. 
 
-![](/blog/img/audit-image-1.png)
-
 <img src="/blog/img/audit-image-1.png" alt="Figure 1. Storj network architecture" width="100%"/>
 <p style="text-align: center;">_Figure 1. Storj network architecture_</p>
 
