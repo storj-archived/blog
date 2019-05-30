@@ -24,8 +24,8 @@ Blockchain consensus offers very strong guarantees, but this comes at a heavy co
 
 We recently announced Tardigrade[⁵](https://storj.io/blog/2019/04/introducing-tardigrade---decentralized-cloud-storage-from-storj-labs/), a production environment of the Storj network run and maintained by Storj Labs. It’s an enterprise, production-ready version of the Storj network, complete with guaranteed SLAs. All user uploads and downloads on Tardigrade go through Tardigrade [Satellites which are special nodes on the network that audit storage nodes](https://storj.io/blog/2018/12/decentralized-auditing-and-repair-the-low-key-life-of-data-resurrection/) and ensure they’re properly storing files and managing metadata for users storing data on the network. 
 
-<img src="audit-image-1.png" alt="Figure 1. Storj network architecture" width="100%"/>
-<p style="text-align: center;">Figure 1. Storj network architecture</p>
+<img src="/blog/img/audit-image-1.png" alt="Figure 1. Storj network architecture" width="100%"/>
+<p style="text-align: center;">_Figure 1. Storj network architecture_</p>
 
 As shown in Figure 1, storage nodes and Satellites in the Storj network architecture are both capable of being decentralized. The Storj network can leverage the decentralized nature of storage nodes and Satellites to create partitions in the network to isolate users and file transfers from each other, which helps minimize coordination across the Storj network. For extremely high throughput demands, organizations can run their own Satellite. This avoids coordination overhead with the rest of the Tardigrade network and allows users to make their own decisions about what database infrastructure their Satellite will use and relax consistency guarantees if they wish.
 
@@ -37,9 +37,9 @@ We believe our approach of decentralizing both storage and metadata tiers in the
 
 \-—-
 
-_¹[The Digitization of the World from Edge to Core](https://www.seagate.com/files/www-content/our-story/trends/files/idc-seagate-dataage-whitepaper.pdf) 
-²[What Storage Node Operators Need to Know About Satellites](https://storj.io/blog/2019/04/what-storage-node-operators-need-to-know-about-satellites/) 
-³[Replication is bad for decentralized storage, part 1: Erasure codes for fun and profit](https://storj.io/blog/2018/11/replication-is-bad-for-decentralized-storage-part-1-erasure-codes-for-fun-and-profit/) 
-⁴[Coordination Avoidance in Database Systems](http://www.vldb.org/pvldb/vol8/p185-bailis.pdf) 
-⁵[Introducing Tardigrade - Decentralized Cloud Storage from Storj Labs](https://storj.io/blog/2019/04/introducing-tardigrade---decentralized-cloud-storage-from-storj-labs/) 
-⁶[Coordination avoidance section 2.10  Storj v3 whitepaper](https://storj.io/storjv3.pdf)_
+_¹[The Digitization of the World from Edge to Core](https://www.seagate.com/files/www-content/our-story/trends/files/idc-seagate-dataage-whitepaper.pdf)_ <br>
+_²[What Storage Node Operators Need to Know About Satellites](https://storj.io/blog/2019/04/what-storage-node-operators-need-to-know-about-satellites/)_  <br>
+_³[Replication is bad for decentralized storage, part 1: Erasure codes for fun and profit](https://storj.io/blog/2018/11/replication-is-bad-for-decentralized-storage-part-1-erasure-codes-for-fun-and-profit/)_  <br>
+_⁴[Coordination Avoidance in Database Systems](http://www.vldb.org/pvldb/vol8/p185-bailis.pdf)_  <br>
+_⁵[Introducing Tardigrade - Decentralized Cloud Storage from Storj Labs](https://storj.io/blog/2019/04/introducing-tardigrade---decentralized-cloud-storage-from-storj-labs/)_  <br>
+_⁶[Coordination avoidance section 2.10  Storj v3 whitepaper](https://storj.io/storjv3.pdf)_
