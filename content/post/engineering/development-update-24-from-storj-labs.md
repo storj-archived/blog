@@ -16,11 +16,11 @@ As part of the Vanguard release, we’re still sending invitations to developers
 
 #### Recent development accomplishments:
 
-* We’ve added the validation logic for Macaroons onto the Satellite. This addition will allow the Satellite to verify if a Macaroon is valid and if the user should be able to access those files or folders.  
+* We’ve added the validation logic for macaroons onto the Satellite. This addition will allow the Satellite to verify if a macaroon is valid and if the user should be able to access those files or folders.  
 * We finished creating Android bindings for the libuplink library so that clients can create mobile applications with our network.  
 * We added the ability to create invoices for clients on the Satellite. We’ll be publishing more information about our pricing structure in the coming weeks. 
 * All of the design docs created by the Development team for functionality has been moved to our public [GitHub repository](https://github.com/storj/storj/tree/master/docs/design) so you can learn why and how we implement changes.  
-* We changed the location of the Uplink’s encryption key. It was previously stored in the config.YAML file but is now located in a file in memory.  
+* We changed the location of the Uplink’s encryption key. It was previously stored in the config. YAML file but is now located in a file in memory.  
 * We added IP filtering during the node selection process so that the files on the network are spread out more evenly, making them inherently more durable. 
 * Squashing bugs left and right.  
 * We created automated performance benchmark tests to ensure our code doesn’t slow down our upload/download speeds as we add features and functionality.  
