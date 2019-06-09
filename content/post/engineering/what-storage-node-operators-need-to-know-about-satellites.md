@@ -23,7 +23,7 @@ Since this relationship is so important, we want to outline what storage node op
 
 As mentioned, anyone can run a Satellite on the Storj network. Providers might want to operate Satellite as a service, or a company may want to run their own Satellite to build their own decentralized cloud storage network. There are likely many other reasons someone may choose to operate their own Satellite. Due to this, we expect there to be a large variation in quality. 
 
-Storj Labs will offer a high-quality credentialing system for Satellites called Tardigrade. [Read more on this in previous blog posts](https://storj.io/blog/2019/04/introducing-tardigrade---decentralized-cloud-storage-from-storj-labs). Any Satellite that is officially “Tardigrade quality” will meet high standards for durability, resilience, and reliability. There will be compliance and quality controls to ensure that storage nodes are paid fairly and that the Tardigrade quality continuously meets the predetermined SLAs. 
+Storj Labs will offer a high-quality credentialing system for Satellites called Tardigrade. [Read more on this in previous blog posts](https://storj.io/blog/2019/04/introducing-tardigrade-decentralized-cloud-storage-from-storj-labs). Any Satellite that is officially “Tardigrade quality” will meet high standards for durability, resilience, and reliability. There will be compliance and quality controls to ensure that storage nodes are paid fairly and that the Tardigrade quality continuously meets the predetermined SLAs. 
 
 #### Which Satellites Do Storage Nodes Work With
 
