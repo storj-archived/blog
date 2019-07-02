@@ -7,7 +7,7 @@ image: /blog/img/storj-blog-beacon-alpha.jpg
 categories:
   - engineering
 authors:
-  - Brandon Iglesias
+  - JT Olio
 draft: false
 ---
 Today we crossed another major milestone off our list on the road to production. We’re happy to announce the release of Beacon. This is the last update ahead of our Pioneer 1 (Beta), which we’re planning to release mid-July. 
