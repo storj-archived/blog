@@ -2,9 +2,9 @@ VERSION := $(shell utils/version)
 export VERSION
 
 BRANCH_NAME ?= $(shell git rev-parse --abbrev-ref HEAD)
-@echo "$BRANCH_NAME"
+@echo $(BRANCH_NAME)
 SANITIZED_BRANCH_NAME ?= $(shell echo $BRANCH_NAME | tr : __)
-@echo "$SANITIZED_BRANCH_NAME"
+@echo $(SANITIZED_BRANCH_NAME)
 ifeq (${BRANCH_NAME},master)
 TAG ?= ${VERSION}
 CLUSTER ?= prod
