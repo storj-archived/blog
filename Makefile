@@ -2,12 +2,13 @@ VERSION := $(shell utils/version)
 export VERSION
 
 BRANCH_NAME ?= $(shell git rev-parse --abbrev-ref HEAD)
+SANITIZED_BRANCH_NAME ?= $(shell echo $BRANCH_NAME | tr : __)
 ifeq (${BRANCH_NAME},master)
 TAG ?= ${VERSION}
 CLUSTER ?= prod
 DEPLOYMENT ?= storj-io
 else
-TAG ?= ${VERSION}-${BRANCH_NAME}
+TAG ?= ${VERSION}-${SANITIZED_BRANCH_NAME}
 CLUSTER ?= nonprod
 DEPLOYMENT ?= staging-storj-io
 endif
