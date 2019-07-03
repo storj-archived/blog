@@ -15,8 +15,8 @@ endif
 
 .PHONY: build
 build:
-	@echo $(BRANCH_NAME)
-	@echo $(SANITIZED_BRANCH_NAME)
+	echo $(BRANCH_NAME)
+	echo $(SANITIZED_BRANCH_NAME)
 	docker build -t storjlabs/blog:${TAG} .
 	docker build -t storjlabs/blog-redirect:${TAG} -f redirect/Dockerfile .
 
