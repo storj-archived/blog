@@ -15,9 +15,15 @@ endif
 
 
 .PHONY: build
+ifeq (${BRANCH_NAME}, master)
 build:
 	docker build -t storjlabs/blog:${TAG} .
 	docker build -t storjlabs/blog-redirect:${TAG} -f redirect/Dockerfile .
+else
+build:
+	docker build --build-arg hugo_args='-D' -t storjlabs/blog:${TAG} .
+	docker build --build-arg hugo_args='-D' -t storjlabs/blog-redirect:${TAG} -f redirect/Dockerfile .
+endif
 
 .PHONY: push
 ifeq (${BRANCH_NAME},master)
