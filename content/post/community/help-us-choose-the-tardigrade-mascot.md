@@ -21,16 +21,16 @@ We want a mascot that embodies our decentralized cloud storage platform. Though 
 #### How our brand attributes should relate to the mascot
 
 **Simplicity**
-We’re making distributed cloud storage easy to use and available to the masses. We think this concept is best visualized with simple, basic shapes, instead of overly detailed realism and anatomical accuracy.
+<br>We’re making distributed cloud storage easy to use and available to the masses. We think this concept is best visualized with simple, basic shapes, instead of overly detailed realism and anatomical accuracy.
 
 **Security**
-We take privacy very seriously and believe no one should have access to your data but you. While the Tardigrade mascot should be charismatic and charming, it should be equally robust and trustworthy.
+<br>We take privacy very seriously and believe no one should have access to your data but you. While the Tardigrade mascot should be charismatic and charming, it should be equally robust and trustworthy.
 
 **Resiliency**
-Distributed networks are inherently more resilient and durable. We used this as the inspiration for choosing Tardigrade as our product and name. Tardigrades thrive in the absolute harshest of conditions. From volcanoes and arctic regions to the vacuum of space, this tiny creature can handle the most brutal environments, and our mascot should too!
+<br>Distributed networks are inherently more resilient and durable. We used this as the inspiration for choosing Tardigrade as our product and name. Tardigrades thrive in the absolute harshest of conditions. From volcanoes and arctic regions to the vacuum of space, this tiny creature can handle the most brutal environments, and our mascot should too!
 
 **Decentralization**
-We believe the internet shouldn't be confined to server farms and single points of failure. The more distributed the network, the less risk of a network failure. This is the future of cloud technology, and it should be everywhere all the time. Ultimately, we'd love to see this idea come to life by showing our mascot in various outfits, costumes, and environments.
+<br>We believe the internet shouldn't be confined to server farms and single points of failure. The more distributed the network, the less risk of a network failure. This is the future of cloud technology, and it should be everywhere all the time. Ultimately, we'd love to see this idea come to life by showing our mascot in various outfits, costumes, and environments.
 
 #### How we're selecting our mascot
 
