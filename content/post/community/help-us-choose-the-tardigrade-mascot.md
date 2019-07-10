@@ -36,7 +36,7 @@ We want a mascot that embodies our decentralized cloud storage platform. Though 
 
 Keeping these attributes in mind, while reviewing over 100 mascot variations, we’ve narrowed things down to our top three favorites. However, we’re having trouble deciding which one we love the most, so we’re asking for your help. Over the years, our community has been right by our side. You’ve helped us build the Storj network, provided valuable feedback, and contributed to our open source project. Now we want you to help choose the Tardigrade mascot. Click below to cast your vote before July 15, 2019.
 
-[**Cast Your Vote**](https://app.usabilityhub.com/do/b53cf40a3ca8/cdca)
+# [**Cast Your Vote**](https://app.usabilityhub.com/do/b53cf40a3ca8/cdca)
 
 <img src="/blog/img/mascots.png" alt="Which mascot? You decide." width="100%"/>
 
