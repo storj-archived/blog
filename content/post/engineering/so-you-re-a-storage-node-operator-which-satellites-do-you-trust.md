@@ -1,5 +1,5 @@
 ---
-title: So You're a Storage Node Operator. Which Satellites Do You Trust?
+title: Community Satellite Discovery - Opt-in Versus Opt-out
 date: '2019-08-05T09:40:50-06:00'
 image: /blog/img/blog-satellite-discovery.jpg
 categories:
