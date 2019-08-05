@@ -80,16 +80,14 @@ Satellite operators wait for storage node operators to add their Satellite, at w
 
 **Cons**
 
-* New Satellite operators still do not get full access to the network automatically, unlike the original opt-out approach. 
+* New Satellite operators still do not get full access to the network automatically, unlike the original opt out approach. 
 * Satellite operators must convince storage node operators and list hosts to add them via other means (there is no in-network messaging system). 
 
 After weighing out all the pros and cons of the options, we decided Door #3, “Opt in - Storage node operator select,” would be the best approach. We believe it better balances the needs of Satellite operators with those of storage node operators.
 
 #### A Twist!, by M. Night Shyamalan
 
-![](/blog/img/hewasdeadallalong.png)
-
-
+![null](/blog/img/hewasdeadallalong.png)
 
 This third choice had some unexpected ramifications to our network. We currently use Kademlia, a distributed hash table, to enable storage nodes to discover Satellites. With storage node operators selecting which Satellites they work with using addresses directly and trusted lists, we actually eliminate the need for Kademlia! Surprise! The only thing we used Kademlia for was node discovery (although if you read our white paper, it’s not actually a surprise), and node discovery now happens in a way that is better for users. The system remains just as decentralized but can operate in a much simpler and efficient way. 
 
