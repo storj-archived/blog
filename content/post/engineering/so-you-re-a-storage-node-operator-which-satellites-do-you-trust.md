@@ -67,7 +67,7 @@ Satellites would recruit storage nodes by sending them requests asking them to s
 
 #### Opt in - Storage node operator select
 
-Satellite operators wait for storage node operators to add their Satellite, at which time they get a new connection. Storage nodes can manually add storage nodes by address or through community-hosted lists. Satellites added to these lists would automatically be added to the storage nodes’ list of trusted Satellites. 
+Satellite operators wait for storage node operators to add their Satellite, at which time they get a new connection. Storage nodes can manually add Satellites by address or through community-hosted lists. Satellites added to these lists would automatically be added to the storage nodes’ list of trusted Satellites. 
 
 **Pros**
 
