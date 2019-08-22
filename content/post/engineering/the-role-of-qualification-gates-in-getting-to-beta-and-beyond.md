@@ -1,6 +1,7 @@
 ---
 title: The Role of Qualification Gates in Getting to Beta and Beyond
 date: '2019-08-22T05:55:54-07:00'
+image: /blog/img/gates.png
 categories:
   - engineering
 authors:
