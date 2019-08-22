@@ -29,7 +29,7 @@ A subset of those gates you’ll find outlined in the table below. In the first 
 
 You’ll see that we’ve not only met all of the gates heading into beta, but in many cases, we’ve also met or exceeded our gates for beta 2 and production.
 
-![](/blog/img/screen-shot-2019-08-21-at-10.54.02-pm.png)
+<img src="/blog/img/Launch-Gates-Chart.png" alt="Storj Labs launch gates for beta 1, beta 2, and production." width="100%"/>
 
 A few notes of explanation about the gates:
 
@@ -43,7 +43,7 @@ As a reminder, each file is broken up into one or more segments of 64 MB each. E
 
 As you can see from the graph below, we constantly measure the number of pieces available for segments in our network. We report the median number of pieces for each segment, the distribution of pieces, and the segment with the lowest number of pieces. This means the “least healthy” segment has never dipped below 57 pieces, and the median is holding steady at around 75. As is the case with many of our metrics, durability should only improve as we add more nodes to the network and a broader distribution of nodes.
 
-![](/blog/img/segment-health-percentiles.png)
+<img src="/blog/img/segment-health-percentiles.png" alt="Figure 2: Segment Health Chart (Segments must have a minimum of 29 pieces to be reconstituted)." width="100%"/>
 
 Figure 2: Segment Health Chart (Segments must have a minimum of 29 pieces to be reconstituted).
 
