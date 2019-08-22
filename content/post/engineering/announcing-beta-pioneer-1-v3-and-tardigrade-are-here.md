@@ -29,4 +29,4 @@ We can’t wait to see what our OSPP members and their users do with Tardigrade.
 
 Want can’t wait for you to try Tardigrade out yourself and take advantage of the improvements to the V3 network.
 
-Join the waitlist today.
+[Join the waitlist today](https://tardigrade.io/waitlist/).
