@@ -27,6 +27,6 @@ Tardigrade users can incorporate the Minio S3 gateway and start storing data on 
 
 We can’t wait to see what our OSPP members and their users do with Tardigrade. Connectors are coming soon that will allow you to financially support your favorite OSS every time you store data in the cloud. Take a look at our [partner’s page](https://tardigrade.io/partner/) to see who is already utilizing Tardigrade to their benefit.
 
-Want can’t wait for you to try Tardigrade out yourself and take advantage of the improvements to the V3 network.
+We can’t wait for you to try Tardigrade out yourself and take advantage of the improvements to the V3 network.
 
 [Join the waitlist today](https://tardigrade.io/waitlist/).
