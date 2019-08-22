@@ -14,10 +14,11 @@ Tardigrade is built on the Storj network and is backed by enterprise-grade SLAs 
 Here are some of the key features of the Pioneer beta release that Tardigrade enterprise users will enjoy: 
 
 * **Scalability** - Tardigrade has been designed to scale to support exabytes of data. 
-* **Performant** - Tardigrade will deliver performance comparable to Amazon S3 and other centralized cloud storage providers. Even while in beta, Tardigrade has delivered upload and download speeds that are on par with S3. For example, a 10 MB file can be uploaded to the network with a median time of 2.55 seconds and downloaded with a median time of 2.18 seconds. Even more impressively, even at the 95th percentile, those times change by less than a second. 
-* **Durability** - Since the final alpha network wipe, Tardigrade has delivered 100% durability (i.e. no file loss), with file availability (i,e, ability to get your file at the time you want) at over 99.95%. 
+* **Performance** - Tardigrade will deliver performance comparable to Amazon S3 and other centralized cloud storage providers. Even while in beta, Tardigrade has delivered upload and download speeds that are on par with or better than S3. For example, a 10 MB file can be uploaded to the network with a median time of 2.15 seconds and downloaded with a median time of 1.69 seconds. Even more impressively, even at the 95th percentile, those times change by less than a quarter of a second. 
+* **Durability** - Since the final alpha network wipe, Tardigrade has delivered 100% durability (i.e. no file loss). 
+* **Retrievability** - The ability to download a file on the first attempt is over 99.93%. 
 * **Affordability** - At half the price of centralized cloud storage providers, Tardigrade can save users millions on their cloud storage bills.  
-* **Easy-to-use** - Designed specifically for users to be intuitive and simple to use with built-in Amazon S3 compatibility.    
+* **Easy-to-use** - Designed specifically for users to be intuitive and simple to use with built-in Amazon S3 compatibility.  
 * **Resilient** - Decentralized storage is architected to be inherently more reliable and resilient than centralized offerings. 
 * **Private** - Default client-side encryption and file sharding spread over a decentralized network ensures that only people with encryption keys can access data.   
 
