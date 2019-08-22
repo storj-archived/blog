@@ -29,7 +29,7 @@ A subset of those gates you’ll find outlined in the table below. In the first 
 
 You’ll see that we’ve not only met all of the gates heading into beta, but in many cases, we’ve also met or exceeded our gates for beta 2 and production.
 
-<img src="/blog/img/Launch-Gates-Chart.png" alt="Storj Labs launch gates for beta 1, beta 2, and production." width="100%"/>
+<img src="/blog/img/launch-gates-chart.png" alt="Storj Labs launch gates for beta 1, beta 2, and production." width="100%"/>
 
 A few notes of explanation about the gates:
 
@@ -59,13 +59,13 @@ This measures how many attempts to download a segment per day are successful. We
 
 We measure the time it takes to upload a 10 MB file and then we repeat this test for 100 files. We then compare the results to AWS, which is generally considered the gold standard for centralized cloud service. We not only look at the median time to upload, we also look at the long tail performance. Across a really broad range of file sizes and locations, we are comparable to (and at times faster than) AWS.For a beta, that’s pretty encouraging. Moreover, we have a really tight distribution.  Our 95th percentile time is only .16 s slower than our median time. (i.e. the slowest 5 files uploaded almost as fast as the median). This points to the power of decentralization and should only get better as we add more nodes and continue to add nodes that are distributed closer to the end users (ultimately, the speed of light becomes a factor).
 
-![](/blog/img/gates-chart-1.png)
+![null](/blog/img/gates-chart-1.png)
 
 The above results are uploading from a location in Virginia (i.e. Eastern US) in conjunction with a satellite in Iowa (i.e Central  US)
 
 When we look at Uploading from Belgium to a satellite in the Iowa, the times still look really good.
 
-![](/blog/img/gates-chart-2.png)
+![null](/blog/img/gates-chart-2.png)
 
 NB: We intend to publish results for different file sizes and different geographies before Beta 2.  We’re also exploring [COSBench](https://github.com/intel-cloud/cosbench) benchmarking.
 
@@ -73,13 +73,13 @@ NB: We intend to publish results for different file sizes and different geograph
 
 We measure the time it takes to download and reconstitute a 10 MB file. We repeat this test for 100 files, and then compare the results to AWS. Across a really broad range of file sizes and locations, we are comparable to (and at times faster than) AWS. Our median download time is 1.69 seconds. We’re especially excited about our tight distribution. Our 95th percentile time is only .19 s slower than our median time. (i.e. the slowest 5 files uploaded almost as fast as the median). This points to the power of decentralization and should only get better as we add more nodes and continue to add nodes that are distributed closer to the end users (ultimately, the speed of light becomes a factor).
 
-![](/blog/img/gates-chart-3.png)
+![null](/blog/img/gates-chart-3.png)
 
 The above results are downloading to a location in Virginia (i.e. Eastern US) in conjunction with a satellite in Iowa (i.e Central  US)
 
 When we look at downloading to a location in  Belgium in conjunction with a  satellite in the Iowa, the times still look really good.
 
-![](/blog/img/gates-chart-4.png)
+![null](/blog/img/gates-chart-4.png)
 
 NB: We intend to publish results for different file sizes and different geographies before Beta 2.  We’re also exploring [COSBench](https://github.com/intel-cloud/cosbench) benchmarking.
 
