@@ -1,6 +1,6 @@
 ---
 title: 'Announcing Beta: Pioneer 1 V3 and Tardigrade Are Here'
-date: '2019-08-21T16:57:18-07:00'
+date: '2019-08-22T06:00:00-07:00'
 categories:
   - engineering
 authors:
