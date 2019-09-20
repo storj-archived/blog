@@ -20,7 +20,7 @@ So what you can find on the new Node Dashboard? The Dashboard displays stats for
 * Total storage allocated to the network 
 * Total storage used by the network 
 * Total remaining storage capacity 
-*  Day-to-day storage statistics 
+* Day-to-day storage statistics 
 
 #### Bandwidth 
 
