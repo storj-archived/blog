@@ -44,7 +44,7 @@ We'll also allow Storage Node Operators to choose how they want to explore their
 * **All Satellites** - This view will show detailed data of your overall Node usage statistics. This is the default option on every dashboard.  
 * **Specific Satellite Information** - This view allows users to see all the data described above, but for a single Satellite. In this view, you can also see your reputation and disqualification status for a specific Satellite. 
 
-If you have any new ideas for the Node Dashboard, please make sure to submit them to the [Ideas Portal.](https://ideas.storj.io/)
+[Check out our documentation](https://documentation.storj.io/setup/dashboard) to get started and if you have any new ideas for the Node Dashboard, please make sure to submit them to the [Ideas Portal.](https://ideas.storj.io/)
 
 We have a ton of great updates coming soon, and the whole team at Storj Labs is working hard to improve the Node Operator experience. We hope to deliver a great experience on the world's biggest and most reliable decentralized cloud storage network. Thanks for being a part of the decentralized future.
 
