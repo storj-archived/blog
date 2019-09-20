@@ -1,6 +1,7 @@
 ---
 title: Introducing the Storage Node Operator Dashboard
 date: '2019-09-20T10:43:09-07:00'
+image: /blog/img/storj-blog-node-dashboard.jpg
 categories:
   - engineering
 authors:
