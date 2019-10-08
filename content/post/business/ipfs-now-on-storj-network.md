@@ -1,6 +1,7 @@
 ---
 title: IPFS Now on Storj Network
 date: '2019-10-06T18:33:58-06:00'
+image: /blog/img/storj-blog-storjipfs.jpg
 categories:
   - business
 authors:
@@ -23,6 +24,6 @@ Traditional IPFS architecture requires copies of a file spread amongst multiple 
 
 When an IPFS node is backed by the [Tardigrade Network](https://tardigrade.io), we are able to solve many of the problems that IPFS developers face; problems including data decentralization, data persistence, and default encryption at rest. The Storj network architecture has a native repair system built into it that ensures files remain alive, even when nodes go offline. This reference implementation provides IPFS addressability with durability and reliability on par with the best centralized cloud providers in the industry.
 
-The IPFS gateway isn’t the only solution for developers on the Storj network. When it comes to reliable, performant, secue, and economical storage for decentralized apps, the native Storj platform is the best option. Storj offers a wide range of developer tools, including a CLI, S3-compatible gateway, and Go library with language bindings for C, Python, Node.js, .NET, Java, Android, and Swift.
+The IPFS gateway isn’t the only solution for developers on the Storj network. When it comes to reliable, performant, secure, and economical storage for decentralized apps, the native Storj platform is the best option. Storj offers a wide range of developer tools, including a CLI, S3-compatible gateway, and Go library with language bindings for C, Python, Node.js, .NET, Java, Android, and Swift.
 
 To gain access to the Storj network and Tardigrade Service, sign up for the developer waitlist here: [https://tardigrade.io/waitlist](https://tardigrade.io/waitlist/).
