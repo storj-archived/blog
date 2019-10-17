@@ -1,7 +1,7 @@
 ---
 title: Open Source Revenue Models in the Cloud Era
 date: '2018-10-16T12:12:30-06:00'
-image: /blog/img/storjopensource.jpeg
+image: /img/storjopensource.jpeg
 categories:
   - business
 authors:

@@ -1,7 +1,7 @@
 ---
 title: Development Update 25 from Storj Labs
 date: '2019-06-28T14:18:38-06:00'
-image: /blog/img/developerupdates.png
+image: /img/developerupdates.png
 categories:
   - engineering
 authors:
@@ -10,7 +10,7 @@ draft: false
 ---
 It has been almost a month since we posted our last development update, so strap in, this is a long one. Since our last update, we’ve merged over 250 PRs, which equates to about 30,000 lines of code added and 10,000 lines deleted. This code is for the functionality we’re building into the network for our Beacon and Pioneer releases. Part of our team has been focused on finishing out the last bits of functionality for Beacon, while the rest of our team has been focused on Pioneer.
 
-![null](/blog/img/willy-wonka-scarcasm-oh-really-meme.jpg)
+![null](/img/willy-wonka-scarcasm-oh-really-meme.jpg)
 
 **Recent development accomplishments:**
 

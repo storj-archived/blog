@@ -1,7 +1,7 @@
 ---
 title: Cloud Storage Prices Haven’t Changed Much in 4 Years but They’re About To
 date: '2019-04-24T16:30:40-06:00'
-image: /blog/img/blog-storage-pricing-1.jpg
+image: /img/blog-storage-pricing-1.jpg
 categories:
   - business
 authors:

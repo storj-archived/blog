@@ -1,7 +1,7 @@
 ---
 title: Q2 2019 Town Hall Recap
 date: '2019-07-15T15:30:04-06:00'
-image: /blog/img/stor-blog-hero-exec-update.png
+image: /img/stor-blog-hero-exec-update.png
 categories:
   - business
 authors:

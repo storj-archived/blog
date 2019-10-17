@@ -1,7 +1,7 @@
 ---
 title: Coordination Avoidance On The Storj Network
 date: '2019-05-30T10:05:03-06:00'
-image: /blog/img/blog-coordination-avoidance.jpg
+image: /img/blog-coordination-avoidance.jpg
 categories:
   - engineering
 authors:
@@ -24,7 +24,7 @@ Blockchain consensus offers very strong guarantees, but this comes at a heavy co
 
 We recently announced Tardigrade[⁵](https://storj.io/blog/2019/04/introducing-tardigrade---decentralized-cloud-storage-from-storj-labs/), a production environment of the Storj network run and maintained by Storj Labs. It’s an enterprise, production-ready version of the Storj network, complete with guaranteed SLAs. All user uploads and downloads on Tardigrade go through Tardigrade [Satellites which are special nodes on the network that audit storage nodes](https://storj.io/blog/2018/12/decentralized-auditing-and-repair-the-low-key-life-of-data-resurrection/) and ensure they’re properly storing files and managing metadata for users storing data on the network. 
 
-<img src="/blog/img/audit-image-1.png" alt="Figure 1. Storj network architecture" width="100%"/>
+<img src="/img/audit-image-1.png" alt="Figure 1. Storj network architecture" width="100%"/>
 <p style="text-align: center;">_Figure 1. Storj network architecture_</p>
 
 As shown in Figure 1, storage nodes and Satellites in the Storj network architecture are both capable of being decentralized. The Storj network can leverage the decentralized nature of storage nodes and Satellites to create partitions in the network to isolate users and file transfers from each other, which helps minimize coordination across the Storj network. For extremely high throughput demands, organizations can run their own Satellite. This avoids coordination overhead with the rest of the Tardigrade network and allows users to make their own decisions about what database infrastructure their Satellite will use and relax consistency guarantees if they wish.

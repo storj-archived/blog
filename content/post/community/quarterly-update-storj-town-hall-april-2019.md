@@ -1,7 +1,7 @@
 ---
 title: 'Quarterly Update: Storj Town Hall, April 2019'
 date: '2019-04-11T16:04:19-04:00'
-image: /blog/img/q12019-speakers-1-.png
+image: /img/q12019-speakers-1-.png
 categories:
   - community
 authors:

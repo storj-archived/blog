@@ -1,7 +1,7 @@
 ---
 title: Reputation Matters When it Comes to Storage Nodes
 date: '2019-01-21T13:56:39-07:00'
-image: /blog/img/reputation-on-storj-v3-network.png
+image: /img/reputation-on-storj-v3-network.png
 categories:
   - engineering
 authors:

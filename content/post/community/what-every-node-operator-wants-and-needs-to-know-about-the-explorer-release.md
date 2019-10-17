@@ -1,7 +1,7 @@
 ---
 title: What Every Node Operator Wants (and Needs) to Know About the Explorer Release
 date: '2019-01-25T15:27:44-07:00'
-image: /blog/img/blog-storage-node.png
+image: /img/blog-storage-node.png
 categories:
   - community
 authors:
@@ -9,7 +9,7 @@ authors:
 ---
 We asked and you answered! The results of the Storage Node Operator Survey are in. We have a long [waitlist of storage node operators](https://storj.io/sign-up-farmer) interested in sharing their hard drives and bandwidth on the Storj V3 network. We asked this group of future storage node operators some questions about their network environment, hardware, available storage, and a number of other data points that will help us understand what we can expect on the launch of the Explorer release. In this post, we’re going to share what we learned and what it means for the network. In addition, since our future storage node operators were kind enough to share this information with us, we’re going to provide some more detail on the upcoming release.
 
-![null](/blog/img/survey-you-win.png)
+![null](/img/survey-you-win.png)
 
 #### The results are in: There is a lot of storage capacity out there
 

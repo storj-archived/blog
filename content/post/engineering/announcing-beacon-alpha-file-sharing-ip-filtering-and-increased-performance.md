@@ -3,7 +3,7 @@ title: >-
   Announcing Beacon Alpha - File sharing, IP filtering, and increased
   performance
 date: '2019-07-02T13:56:45-06:00'
-image: /blog/img/storj-blog-beacon-alpha.jpg
+image: /img/storj-blog-beacon-alpha.jpg
 categories:
   - engineering
 authors:

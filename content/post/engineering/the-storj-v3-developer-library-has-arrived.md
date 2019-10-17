@@ -1,7 +1,7 @@
 ---
 title: The Storj V3 Developer Library Has Arrived
 date: '2019-04-18T11:04:18-06:00'
-image: /blog/img/blog-dev-library.jpg
+image: /img/blog-dev-library.jpg
 categories:
   - engineering
 authors:

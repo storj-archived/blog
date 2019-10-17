@@ -1,7 +1,7 @@
 ---
 title: Introducing Tardigrade - Decentralized Cloud Storage from Storj Labs
 date: '2019-04-10T01:10:00-04:00'
-image: /blog/img/blog-tar-announce.png
+image: /img/blog-tar-announce.png
 categories:
   - business
 authors:
@@ -13,7 +13,7 @@ On the Storj network, we have many types of community members. The two main cate
 
 Because of this, we have created a separate brand where customers (primarily developers) can go to purchase our storage services, without getting lost in the massive amounts of content we provide for storage node operators. Today, Storj Labs would like to introduce [Tardigrade.io](https://tardigrade.io/), our new home for customers and developers to buy decentralized cloud storage. 
 
-![](/blog/img/tardigrade-logo-logotype-vertical-halfwidth.png)
+![](/img/tardigrade-logo-logotype-vertical-halfwidth.png)
 
 For 8 months now, we’ve been teasing tardigrade use as our mascot without much clarity of when and how we intended to use it. Today, you will find out!
 

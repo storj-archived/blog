@@ -1,7 +1,7 @@
 ---
 title: Storj Labs Joins the Microsoft Azure Blockchain Ecosystem
 date: '2016-04-07T06:56:00-04:00'
-image: /blog/img/msoft.jpg
+image: /img/msoft.jpg
 categories:
   - business
 authors:

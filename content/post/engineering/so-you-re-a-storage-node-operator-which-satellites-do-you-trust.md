@@ -1,7 +1,7 @@
 ---
 title: So You're a Storage Node Operator. Which Satellites Do You Trust?
 date: '2019-08-05T09:40:50-06:00'
-image: /blog/img/blog-satellite-discovery.jpg
+image: /img/blog-satellite-discovery.jpg
 categories:
   - engineering
 authors:
@@ -87,7 +87,7 @@ After weighing out all the pros and cons of the options, we decided Door #3, “
 
 #### A Twist!, by M. Night Shyamalan
 
-![null](/blog/img/hewasdeadallalong.png)
+![null](/img/hewasdeadallalong.png)
 
 This third choice had some unexpected ramifications to our network. We currently use Kademlia, a distributed hash table, to enable storage nodes to discover Satellites. With storage node operators selecting which Satellites they work with using addresses directly and trusted lists, we actually eliminate the need for Kademlia! Surprise! The only thing we used Kademlia for was node discovery (although if you read our white paper, it’s not actually a surprise), and node discovery now happens in a way that is better for users. The system remains just as decentralized but can operate in a much simpler and efficient way. 
 

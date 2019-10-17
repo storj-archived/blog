@@ -1,7 +1,7 @@
 ---
 title: Announcing The Storj V3 Explorer Release
 date: '2019-02-01T11:11:37-07:00'
-image: /blog/img/blog-explorer-release.png
+image: /img/blog-explorer-release.png
 categories:
   - community
 authors:

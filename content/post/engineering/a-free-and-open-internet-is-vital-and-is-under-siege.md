@@ -1,7 +1,7 @@
 ---
 title: A free and open internet is vital and is under siege!
 date: '2018-12-13T14:48:11-07:00'
-image: /blog/img/net-neutrality-blog-post-alt.png
+image: /img/net-neutrality-blog-post-alt.png
 categories:
   - engineering
 authors:

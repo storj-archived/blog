@@ -1,7 +1,7 @@
 ---
 title: Storage Nodes Are Now Supported on Windows Home
 date: '2019-10-09T03:53:02-04:00'
-image: /blog/img/windows-home-blog-2.jpg
+image: /img/windows-home-blog-2.jpg
 categories:
   - support
 authors:
