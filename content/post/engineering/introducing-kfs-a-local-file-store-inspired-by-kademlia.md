@@ -25,7 +25,7 @@ S-Buckets are limited to 32 GiB, giving a total capacity of 8 TiB. They're then 
 Opening, and closing buckets is cheap and fast, so we can do it on the fly as files and requests come in. We don't even have to create the bucket until we sort a file into it. Using exclusive-or between an evenly distributed value like a cryptographic hash and a key provides an even distribution of results. This means that buckets fill at approximately the same rate, regardless of index. And any given read or write operation has an even chance of using any particular bucket. Ergo usage and operations are spread evenly (probabilistically speaking) across all buckets, as shown in the chart below.  
   
 
-![image](/blog/img/ch1.png)
+![image](/img/ch1.png)
 
   
 Within a bucket, files are stored as a set of keyed 64 KiB chunks. For maximum performance of reads and writes, we want to store chunks consecutively. LevelDB sorts lexicographically by key, so chunks are keyed by concatenating an index to their hash. For example, chunk 0 is keyed by `[HASH] 000000`, and chunk 671 is keyed by `[HASH] 000671`. This ensures that all file reads and writes are a series of small, fast, consecutive 64 KiB reads or writes. It also allows for efficient partial reads at arbitrary indexes.
@@ -39,7 +39,7 @@ Horizontally scaling many LevelDB instances has a number of benefits to scalabil
 Previously compaction would lock the entire database. With KFS it locks only individual buckets, leaving many others available to read and write. Operations and compaction are distributed evenly across hundreds of buckets, meaning the chance of an operation being blocked by compaction is small. Whereas previously compaction would block the entire fileset for several seconds (or longer on low-end hardware), it now blocks only small sections of the file set for a much shorter time period.  
   
 
-![image](/blog/img/ch2.png)
+![image](/img/ch2.png)
 
   
 As a result, in our initial tests KFS performs faster for all tested operations and file sizes. It also performs more consistently for writes and unlinks. To reach these conclusions, we ran hundreds of tests with file sizes from 8 MiB to 512 MiB on reads, writes, and unlinks, and we intend to keep testing with a variety of hardware and parameter tweaks. See the full methodology [here](https://storj.github.io/kfs/tutorial-performance-testing.html) (credit to our data scientist, [Patrick Gerbes](https://github.com/pgerbes1)).

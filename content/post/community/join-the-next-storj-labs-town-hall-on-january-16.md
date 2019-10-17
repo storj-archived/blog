@@ -1,7 +1,7 @@
 ---
 title: Join the Next Storj Labs Town Hall on January 16
 date: '2018-12-20T11:07:20-07:00'
-image: /blog/img/town-hall-q4-2018.png
+image: /img/town-hall-q4-2018.png
 categories:
   - community
 authors:

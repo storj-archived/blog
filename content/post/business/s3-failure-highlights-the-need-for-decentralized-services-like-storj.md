@@ -21,7 +21,7 @@ Because Storj doesn’t host infrastructure, but instead uses a distributed and 
 
   
 
-![image](/blog/img/tpgrfy.png)
+![image](/img/tpgrfy.png)
 
   
 

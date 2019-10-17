@@ -1,7 +1,7 @@
 ---
 title: 'Quarterly Update: Storj Town Hall, January 2019'
 date: '2019-01-16T18:38:31-05:00'
-image: /blog/img/town-hall-q4-2018.png
+image: /img/town-hall-q4-2018.png
 categories:
   - community
 authors:

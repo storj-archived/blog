@@ -1,7 +1,7 @@
 ---
 title: 'A Look at Token Treasury Controls, Balances and Cryptographic Key Management'
 date: '2018-12-07T07:10:57-07:00'
-image: /blog/img/treasury-controls-policy.png
+image: /img/treasury-controls-policy.png
 categories:
   - tokens
 authors:
@@ -21,7 +21,7 @@ There are several important parts of this policy, including:
 
 The following table provides a summary of our different wallets and the major policies associated with them.
 
-<img src="/blog/img/chart-1.1.png" alt="Wallets and their corresponding policies." width="100%"/>
+<img src="/img/chart-1.1.png" alt="Wallets and their corresponding policies." width="100%"/>
 
 ## Converter Wallet
 

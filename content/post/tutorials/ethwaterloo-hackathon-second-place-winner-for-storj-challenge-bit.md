@@ -1,7 +1,7 @@
 ---
 title: 'ETHWaterloo Hackathon Second Place Winner for Storj Challenge: BIT'
 date: '2017-11-03T14:14:00-04:00'
-image: /blog/img/bit1.png
+image: /img/bit1.png
 categories:
   - tutorials
 authors:
@@ -40,13 +40,13 @@ The following is an end-user example of how someone would use the BIT app:
 
 **Step 1:  **Use Facebook to log into BIT
 
-![image](/blog/img/bit2.png)
+![image](/img/bit2.png)
 
 **Step 2:**  Authenticate your profile. After this, BIT retrieves your email address and other personal informations to create your unique ID token.
 
 **Step 3:** Input your address from [MyEtherWallet](https://www.myetherwallet.com/) or another ERC20 compatible wallet.
 
-![image](/blog/img/bit3.png)
+![image](/img/bit3.png)
 
 After completing these three simple steps, you can access Storj or Toshi. Here is a code snippet of how BIT accesses Storj to upload a file:
 
@@ -90,6 +90,6 @@ Our BIT app was a challenging project, but in the end we pulled it off together,
 
 **From left to right:** BIT team courtesy of  @benarnon  on instagram
 
-![image](/blog/img/bit4.jpg)
+![image](/img/bit4.jpg)
 
 Jonathan Tsang, Steve Veerman, Kaustav Haldar, Eddy Guo

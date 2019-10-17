@@ -1,7 +1,7 @@
 ---
 title: Sharing Storage Space for Fun and Profit
 date: '2019-01-31T11:30:00-07:00'
-image: /blog/img/blog-ill-sharing-storage.png
+image: /img/blog-ill-sharing-storage.png
 categories:
   - community
 authors:
@@ -101,7 +101,7 @@ Once a storage node has been disqualified, if the storage node operator wishes t
 
 Along with the disqualification process, there will be an automated way to appeal disqualifications based on technical errors in very limited circumstances. 
 
-<img src="/blog/img/sno-payment-flow-chart.png" alt="Example Outlines for SNO Payments" width="100%"/>
+<img src="/img/sno-payment-flow-chart.png" alt="Example Outlines for SNO Payments" width="100%"/>
 _The flow chart above outlines the anticipated lifecycle for storage nodes, with the expectation that nodes will operate successfully and profitably on the network for multiple years._
 
 #### Calculating Potential Earnings for Storage Node Operators
@@ -151,7 +151,7 @@ It’s worth restating that storage node operators will maximize their earning p
 
 The following examples are based on two different storage nodes with different bandwidth caps. Note that the amount of data stored is inclusive of the expansion factor. 
 
-<img src="/blog/img/sno-payments-1.png" alt="Example Outlines for SNO Payments" width="100%"/>
+<img src="/img/sno-payments-1.png" alt="Example Outlines for SNO Payments" width="100%"/>
 
 You’ll notice that maximum throughput for upload (lines 11, 12), download (lines 13, 14), and repair (lines 15, 16) can be calculated two different ways - either based on the bandwidth cap or based on maximum throughput speeds up and down. How much you can earn as a storage node operator will always be limited by the lesser of the two possible values. This has nothing to do with Storj, it’s just how the math works.
 
@@ -159,13 +159,13 @@ You’ll notice that maximum throughput for upload (lines 11, 12), download (lin
 
 Given the assumptions and calculations above, the following table shows how much a 4TB storage node can earn, including the expansion factor for example 1. The table below shows the maximum amount the hypothetical storage node operator could earn in the first year of operating a storage node. The table also shows the amount of withholdings and total amount of withholdings after completing the probationary period.One thing worth noting is that while the larger amount hard drive space does provide the opportunity to earn more income than the smaller amount of shared hard drive space in the second example, It’s the relatively unconstrained bandwidth that really makes a difference.
 
-<img src="/blog/img/sno-payments-2.png" alt="Example SNO 1" width="100%"/>
+<img src="/img/sno-payments-2.png" alt="Example SNO 1" width="100%"/>
 
 As you can see, once the storage node has met its 9-month withholding amount, monthly earnings reach approximately $58.80 per month, or $705.60 annually. When the node hits its 15 month mark, half of the $262.08 withheld ($131.08) would be returned to the storage node operator. For someone with a lot of extra storage and bandwidth capacity, it’s a non-trivial amount.
 
 The next table shows the maximum amount a hypothetical storage node operator could earn in the first year of operating a storage node based on the second example. 
 
-<img src="/blog/img/sno-payments-3.png" alt="Example SNO 2" width="100%"/>
+<img src="/img/sno-payments-3.png" alt="Example SNO 2" width="100%"/>
 
 In the case of a smaller node in a more bandwidth-constrained environment, once the storage node has met its 9-month withholding amount, monthly earnings reach approximately $8.10 per month, or 97.20 annually. When the node hits its 15 month mark, half of the $34.67 withheld ($17.34) would be returned to the storage node operator. 
 

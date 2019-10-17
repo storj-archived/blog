@@ -1,7 +1,7 @@
 ---
 title: What Storage Node Operators Need to Know About Satellites
 date: '2019-04-26T10:37:06-06:00'
-image: /blog/img/blog-sat-sno.jpg
+image: /img/blog-sat-sno.jpg
 categories:
   - engineering
 authors:
@@ -11,7 +11,7 @@ The Storj network includes three main components: the storage node, the Satellit
 
 The storage node’s role is to store and return data. The Uplink is the software or service that puts and gets data onto and from the network. The role of Satellites is to act as the mediator between Uplinks and storage nodes, facilitating the storage interaction, and deciding which storage nodes will store what files.
 
-<img src="/blog/img/audit-image-1.png" alt="The Circle of Life on a decentralized cloud storage network" width="100%"/>
+<img src="/img/audit-image-1.png" alt="The Circle of Life on a decentralized cloud storage network" width="100%"/>
 
 The Satellite’s relationship with the storage node is an important one. The Satellite is responsible for paying the storage node for the storage and bandwidth utilized by the network. The storage node wants to store the most data it can for the network so it can make the most money and it’s heavily dependent on the Satellite for that.
 

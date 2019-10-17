@@ -1,7 +1,7 @@
 ---
 title: IPFS Now on Storj Network
 date: '2019-10-06T18:33:58-06:00'
-image: /blog/img/storj-blog-storjipfs.jpg
+image: /img/storj-blog-storjipfs.jpg
 categories:
   - business
 authors:

@@ -1,7 +1,7 @@
 ---
 title: Our 3-Step Interview Process for Engineering Candidates
 date: '2019-03-25T09:42:04-06:00'
-image: /blog/img/interview-process-blog.png
+image: /img/interview-process-blog.png
 categories:
   - business
 authors:

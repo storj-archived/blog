@@ -1,7 +1,7 @@
 ---
 title: 'STORJ Token Balances and Flows Report: Q1 2019'
 date: '2019-04-10T01:05:00-04:00'
-image: /blog/img/blog-token-balances.png
+image: /img/blog-token-balances.png
 categories:
   - tokens
 authors:
@@ -25,7 +25,7 @@ d) There were 124.7 M STORJ in circulation on December 31, 2018. That number was
 
 e) The total number of STORJ is the 126.8 M in circulation plus the 53.2 M in non-timelocked reserves plus 245.0 M in timelocked reserves = 425.0 M.
 
-<img src="/blog/img/q1-19-token-report-numbers-1.png" alt="/blog/img/q1-19-token-report-numbers-1.png" width="100%"/>
+<img src="/img/q1-19-token-report-numbers-1.png" alt="/img/q1-19-token-report-numbers-1.png" width="100%"/>
 
 #### Overview
 
@@ -81,7 +81,7 @@ We’ve provided addresses for our major reserves below, so that totals can be e
 
 If you have questions, clarifications, or suggestions on how we can better present this information in the future, please let us know!
 
-<img src="/blog/img/q1-2019-token-report-addresses-2.png" alt="/blog/img/q1-2019-token-report-addresses-2.png" width="100%"/>
+<img src="/img/q1-2019-token-report-addresses-2.png" alt="/img/q1-2019-token-report-addresses-2.png" width="100%"/>
 
 **DISCLAIMER**
 

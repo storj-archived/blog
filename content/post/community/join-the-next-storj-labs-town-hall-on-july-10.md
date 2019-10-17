@@ -1,7 +1,7 @@
 ---
 title: Join the Next Storj Labs Town Hall on July 10
 date: '2019-07-01T16:48:33-06:00'
-image: /blog/img/town-hall-q2-19.png
+image: /img/town-hall-q2-19.png
 categories:
   - community
 authors:

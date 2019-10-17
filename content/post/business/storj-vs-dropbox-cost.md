@@ -1,7 +1,7 @@
 ---
 title: 'Storj vs DropBox : Cost'
 date: '2014-06-09T02:11:00-04:00'
-image: /blog/img/tumblr_inline_n6x6np43jw1sh4oh9.jpg
+image: /img/tumblr_inline_n6x6np43jw1sh4oh9.jpg
 categories:
   - business
 authors:
@@ -17,13 +17,13 @@ Dropbox is known to use Amazon's S3 cloud storage services for their backend [\[
 
 Storj plans to drop the cost of cloud storage dramatically. Storj will only charge for storage used, not capacity. The Storj network will run on the users’ existing computers, so operating costs will be much cheaper than a centralized provider. The network will have no full-time employees, no offices, no heating and cooling expenses, and no shareholders to demand profits.
 
-![image](/blog/img/storj-vs-dropbox-1.jpg)
+![image](/img/storj-vs-dropbox-1.jpg)
 
 Whereas Dropbox’s $99 per year plan provides 100GB of storage for $8.25 per month, a VPS provider like Digital Ocean could host a Storj node with 1 TB of monthly transfer capacity for $5 a month. This is about $0.0049 per GB at full utilization, or $1.47 per GB at 100 GB of use. With the 3x redundancy standard (i.e. data is backed up three times after being uploaded to a storage service) and $0.49 to download the stored data, a user would only have to pay $2.96 for the bandwidth at the time of use.
 
 Storj could also make use of dedicated service providers, such as Hivelocity, which has 125 MB/s and 324,000 GB of transfer capacity for $638 per month. Taking 3x redundancy into account and charging Dropbox-like prices, a node-operator could reach $8,528 of monthly gross profit using Hivelocity.
 
-![image](/blog/img/storj-vs-dropbox-2.jpg)
+![image](/img/storj-vs-dropbox-2.jpg)
 
 A person running a public Storj node at home could (assuming world-average 2.1MB/s bandwidth, 3x redundancy, and Dropbox-like prices) reach as much as $150 in profits per month \[4\].
 
