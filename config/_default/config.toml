@@ -1,4 +1,4 @@
-baseURL = "https://storj.io/blog/"
+baseURL = "https://thirsty-austin-89166b.netlify.com/blog/"
 languageCode = "en-us"
 title = "Storj Blog"
 
@@ -55,4 +55,3 @@ googleAnalytics = "UA-47268287-3"
 
     # How many posts to show on the sidebar (Default: 5)
     # num_recent_posts = 3
-
