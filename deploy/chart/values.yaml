@@ -1,7 +1,5 @@
 docker_image_tag: 0.2
 fqdn: storj.io
-redirect:
-  subdomain: blog
 whitelist: true
 oauth:
   image_tag: 1.0.1
