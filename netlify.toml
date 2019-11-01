@@ -1,6 +1,6 @@
 [build]
-publish = "public"
-command = "hugo --gc --minify"
+publish = "/blog/public"
+command = "hugo --gc --minify -d /blog"
 baseUrl = "https://thirsty-austin-89166b.netlify.com/blog"
 
 [context.production.environment]
