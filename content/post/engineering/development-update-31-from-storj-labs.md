@@ -29,6 +29,6 @@ Hello Storjlings! It's finally feeling like winter, but our team is only heating
 
 #### For More Information: 
 
-* Look at our [product roadmap](https://storjlabs.aha.io/published/01ee405b4bd8d14208c5256d70d73a38?page=1) and previous [development updates](https://storj.io/blog/2019/09/development-update-29-from-storj-labs/).  
+* Look at our [product roadmap](https://storjlabs.aha.io/published/01ee405b4bd8d14208c5256d70d73a38?page=1) and previous [development updates](https://storj.io/blog/2019/10/development-update-30-from-storj-labs/).  
 * Dig into the code or contribute to the project by visiting our [GitHub](https://github.com/storj/storj) repository.  
 * Reach out by emailing ask@storj.io or through our [community forum](https://forum.storj.io).
