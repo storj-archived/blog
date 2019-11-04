@@ -1,7 +1,7 @@
 ---
 title: Development Update 26 from Storj Labs
 date: '2019-07-18T14:36:07-06:00'
-image: /img/developerupdates.png
+image: /blog/img/developerupdates.png
 categories:
   - engineering
 authors:

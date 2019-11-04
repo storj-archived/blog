@@ -1,7 +1,7 @@
 ---
 title: 'An Overview of Tokens Uses, Flows and Policies at Storj Labs'
 date: '2018-12-05T08:15:51-07:00'
-image: /img/token-1.png
+image: /blog/img/token-1.png
 categories:
   - tokens
 authors:

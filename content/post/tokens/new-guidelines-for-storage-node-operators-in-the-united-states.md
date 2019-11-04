@@ -1,7 +1,7 @@
 ---
 title: New Guidelines for Storage Node Operators in the United States
 date: '2019-01-22T14:00:04-07:00'
-image: /img/blog-us-tax-note.png
+image: /blog/img/blog-us-tax-note.png
 categories:
   - tokens
 authors:
@@ -21,7 +21,7 @@ The information we are required to gather is very simple and we are building it 
 
 In preparing for our V3 release, we have outlined a simple process to make compliance with this rule as simple as possible to our node operators. 
 
-<img src="/img/workflow-for-new-snos.png" alt="Workflow for new storage node operators" width="100%"/>
+<img src="/blog/img/workflow-for-new-snos.png" alt="Workflow for new storage node operators" width="100%"/>
 <br>
 We’ll be publishing a blog post on the economics of operating a storage node, and a calculator to help estimate potential earnings, in the coming weeks. We’ll explore the economics of operating a storage node, looking at how much nodes can earn given the characteristics of the node and network environment within a given set of assumptions about the level of use and the types of use on the network. That will also help you understand whether this rule is likely to apply to you. **Again, this will only impact storage node operators within the larger US.**
 

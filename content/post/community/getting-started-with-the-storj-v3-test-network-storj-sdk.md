@@ -1,7 +1,7 @@
 ---
 title: Getting Started with the Storj V3 Test Network (storj-sdk)
 date: '2019-01-10T13:55:31-07:00'
-image: /img/storj-v3-getting-started.png
+image: /blog/img/storj-v3-getting-started.png
 categories:
   - community
 authors:
@@ -11,7 +11,7 @@ Storj is a decentralized object storage network where data is encrypted client-s
 
 The goal for Storj’s V3 network is to provide developers with an object storage solution that is more secure, economical and performant than existing cloud storage options. This is made possible through protocol features like concurrency, parallelism, client-side encryption, and erasure coding (Reed-Solomon). 
 
-<img src="/img/audit-image-1.png" alt="The Storj test network (storj-sim) enables you to run all the components of the Storj platform (Satellite, Uplink client, and storage nodes) and test them on your local machine." width="100%"/>
+<img src="/blog/img/audit-image-1.png" alt="The Storj test network (storj-sim) enables you to run all the components of the Storj platform (Satellite, Uplink client, and storage nodes) and test them on your local machine." width="100%"/>
 <p style="text-align: center;">_The Storj test network (storj-sim) enables you to run all the components of the Storj platform (Satellite, Uplink client, and storage nodes) and test them on your local machine._</p>
 <br>
 The V3 network is designed to be compatible with existing bucket/object storage protocols (namely Amazon S3) and should be familiar for developers who have used these services in the past.
@@ -55,7 +55,7 @@ You should see an output showing the generation of the identity certifications f
 
 The terminal output should look like this:
 
-<img src="/img/alpha-walkthrough-image-1.png" alt="As shown above, the config is generate certificates for the storage nodes. The public key of the node’s certificate authority determines its node ID (which is is the hash of the public key and acts as a proof-of-work threshold)." width="100%"/>
+<img src="/blog/img/alpha-walkthrough-image-1.png" alt="As shown above, the config is generate certificates for the storage nodes. The public key of the node’s certificate authority determines its node ID (which is is the hash of the public key and acts as a proof-of-work threshold)." width="100%"/>
 <p style="text-align: center;">_As shown above, the config is generate certificates for the storage nodes. The public key of the node’s certificate authority determines its node ID (which is is the hash of the public key and acts as a proof-of-work threshold)._</p>
 <br>
 You have now configured a Storj test network with the default configuration — which generates one Satellite and 10 storage nodes. For a deeper dive into the various peer classes and their functions, review section 4.2 in the \\[Storj V3 white paper](storj.io/white-paper).
@@ -77,7 +77,7 @@ A technical overview into the “audit and repair” process can be [found here]
 
 Observe the output for the gateway generation and take note of its output. You should see something similar to what is shown below:
 
-<img src="/img/alpha-walkthrough-image-2.png" alt="The ‘network run’ command will boot up the satellite and ten storage nodes." width="100%"/>
+<img src="/blog/img/alpha-walkthrough-image-2.png" alt="The ‘network run’ command will boot up the satellite and ten storage nodes." width="100%"/>
 <p style="text-align: center;">_The ‘network run’ command will boot up the satellite and ten storage nodes._</p>
 <br>
 
@@ -91,7 +91,7 @@ The test network assigns ports in the following way:
 
 To navigate to the Minio interface, copy and paste the URL for the gateway into your browser (in this case the above output, labeled `Endpoint`, shows `127.0.0.1:9000`)
 
-<img src="/img/alpha-walkthrough-image-3.png" alt="Navigating to the Minio interface will prompt a login screen, asking for the key credentials" width="100%"/>
+<img src="/blog/img/alpha-walkthrough-image-3.png" alt="Navigating to the Minio interface will prompt a login screen, asking for the key credentials" width="100%"/>
 <p style="text-align: center;">_Navigating to the Minio interface will prompt a login screen, asking for the key credentials._</p>
 <br>
 
@@ -113,7 +113,7 @@ Through Minio, we are able to create buckets, upload objects into buckets, delet
 
 The gif below shows the GUI process of creating a bucket, uploading a video to the bucket, and generating a streamable link for it:
 
-<img src="/img/alpha-walkthrough-image-4.gif" alt="GUI process of creating a bucket" width="100%"/>
+<img src="/blog/img/alpha-walkthrough-image-4.gif" alt="GUI process of creating a bucket" width="100%"/>
 <br>
 
 ### Configuring the Uplink
@@ -196,7 +196,7 @@ $ storj-sim network run
 An S3 gateway was bootstrapped, and the terminal outputted a sample access and
 secret key, which we used in the Minio section (see below):
 
-<img src="/img/alpha-walkthrough-image-5.png" alt="Starting Storj S3-compatible gateway" width="100%"/>
+<img src="/blog/img/alpha-walkthrough-image-5.png" alt="Starting Storj S3-compatible gateway" width="100%"/>
 <br> 
 We can also use these credentials to point the AWS command line tool toward a Storj Satellite. 
 
@@ -242,10 +242,10 @@ This will generate a URL and will allow live video streaming from your browser (
 
 Below is an example using a video of a rocket taking flight, shown in the gif:
 
-<img src="/img/alpha-walkthrough-image-6.png" alt="Storj streaming video" width="100%"/>
+<img src="/blog/img/alpha-walkthrough-image-6.png" alt="Storj streaming video" width="100%"/>
 <br> 
 <br> 
-<img src="/img/alpha-walkthrough-image-7.gif" alt="Woah!" width="100%"/>
+<img src="/blog/img/alpha-walkthrough-image-7.gif" alt="Woah!" width="100%"/>
 <p style="text-align: center;"> _Woah!_ </p>
 <br>
 

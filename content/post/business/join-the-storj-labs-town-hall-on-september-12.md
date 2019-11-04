@@ -1,7 +1,7 @@
 ---
 title: Join the Storj Labs Town Hall on September 12
 date: '2018-08-13T17:04:37-04:00'
-image: /img/q3townhall.png
+image: /blog/img/q3townhall.png
 categories:
   - business
 authors:

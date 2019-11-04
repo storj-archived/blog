@@ -14,17 +14,17 @@ Unfortunately, the answer is no.
 
 There are only three major cloud storage providers in the world outside of China: Amazon, Google, and Microsoft. While cloud storage prices initially dropped when Google entered the market, prices have essentially stagnated for the past five years, although the cost of hard drives have decreased by about 50 percent over that same timeframe [dollar-per-gigabyte](https://www.forbes.com/sites/tomcoughlin/2017/12/20/digital-storage-projections-for-2018-part-1/#41e9a3a13a20).
 
-<img src="/img/charts-storage-providers-timeline.png" alt="Price of cloud storage from 2010 to 2018" width="100%"/>
+<img src="/blog/img/charts-storage-providers-timeline.png" alt="Price of cloud storage from 2010 to 2018" width="100%"/>
 
 [Cisco estimates](https://www.cisco.com/c/m/en_us/solutions/service-provider/vni-forecast-highlights.html) that by 2021, there will be four internet-connected devices for every person in the world. That’s a lot of data, and it’s not even counting technology that isn’t connected to the internet like 4k cameras and other devices that create some of our biggest datasets. In spite of this proliferation of data, the cost to store data is remaining flat. That means those who are responsible for storing data (and paying to have it stored) are seeing their costs rise at the same rate as we create data. So if your storage bill is roughly 10% of your total costs, in 12-18 months, it will be closer to 18%, assuming all other numbers remain the same. This ratio can quickly become burdensome to small, open source projects or free services that we all use on a daily basis. 
 
-![](/img/awslol.jpg)
+![](/blog/img/awslol.jpg)
 
 **Cost of Innovation**
 
 One such case is [transfer.sh, a command line file transfer tool](https://transfer.sh/) created by Remco Verhoef. In an average month, transfer.sh is used more than 1,000,000 times to easily transfer files worldwide. The project started out as all projects do - Remco wanted to simplify his own life by making it easier to send file transfers from one place to another. His open source project quickly generated interest and users quickly grew. The service was free, but that meant that Remco was the one footing the storage bill. A few months ago, transfer.sh announced it could no longer afford its Amazon S3 bill and would shut down at the end of November. 
 
-![S3 bill is too damn high](/img/s3-bill-is-too-damn-high.jpg)
+![S3 bill is too damn high](/blog/img/s3-bill-is-too-damn-high.jpg)
 
 I’d never heard about transfer.sh at the time, but when it was announced the service would shut down for financial reasons, its passionate community quickly rallied to find a solution. I did some research and knew that Storj could help transfer.sh stay alive! I recently contacted Mr. Verhoef to discuss my findings, and  we’ve been working with the transfer.sh team to store their data on our internal infrastructure while we fine tune our new network for production launch.
 

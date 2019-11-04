@@ -1,7 +1,7 @@
 ---
 title: 'Using Timelocked Tokens to Support Long-term Sustainability '
 date: '2018-12-10T08:42:28-05:00'
-image: /img/timelock.png
+image: /blog/img/timelock.png
 categories:
   - tokens
 authors:
@@ -29,13 +29,13 @@ To make this clearer, the table below shows the situation with various tranches 
 
 **PATTERN IF NO TOKENS ARE UNLOCKED OVER THE NEXT 6 QUARTERS**
 
-<img src="/img/lock1.png" alt="Token relock example over 6 quarters" width="100%"/>
+<img src="/blog/img/lock1.png" alt="Token relock example over 6 quarters" width="100%"/>
 
 If we ever do determine that we need to transfer tokens from our long-term reserves, we will provide advanced notice (e.g. at the prior town hall meeting.) In the example below, let’s say that we determine that we want to transfer 15 M tokens from long-term into operating reserves at the end of December of 2019. To do so, we would first need to announce this in advance, preferably at the October 2019 town hall. When the next tranche time lock expires in December 2019, we would transfer 15 M tokens into our operational cold wallet, and then relock the remaining 15.6 M tokens for an additional 8 quarters. Assuming we don’t have further need, the original pattern would continue in subsequent quarters.
 
 **SAMPLE: ILLUSTRATING IF WE WISH TO UNLOCK 15M AT THE END OF 2019**
 
-<img src="/img/lock2.png" alt="Token unlock example" width="100%"/>
+<img src="/blog/img/lock2.png" alt="Token unlock example" width="100%"/>
 
 We hope that this will help prevent sudden and unexpected changes to the supply of STORJ tokens in circulation, while giving us the flexibility to tap into long-term reserves if there is a market need to do so (e.g. if there is a sustained imbalance between amount of STORJ tokens paid to storage node operators and the amount of STORJ tokens received from customers vs. fiat currency). 
 

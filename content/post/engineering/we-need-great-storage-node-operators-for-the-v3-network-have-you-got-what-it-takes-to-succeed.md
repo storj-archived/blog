@@ -3,7 +3,7 @@ title: >-
   We need great storage node operators for the V3 network! Have you got what it
   takes to succeed?
 date: '2019-01-17T14:44:38-05:00'
-image: /img/want-to-join-the-v3-network.png
+image: /blog/img/want-to-join-the-v3-network.png
 categories:
   - engineering
 authors:
@@ -11,7 +11,7 @@ authors:
 ---
 With the the previous version of the Storj network, we learned from experience what it takes to scale a distributed storage network to over 100 petabytes. That experience and expertise has led to the development of the V3 network. As it turns out, the network design for petabyte scale isn’t the same as the design for exabyte scale. There are significant differences in all three peer classes in our decentralized and distributed network. In this post, we will focus on what’s new and different when it comes to storage nodes. With the upcoming Explorer release, the public alpha that will allow storage node operators to join the network and share their excess hard drive capacity, you’re going to hear a lot about what it takes to be successful, so let’s dive in!
 
-![null](/img/i-m-doing-my-part.gif)
+![null](/blog/img/i-m-doing-my-part.gif)
 
 As we’ve referenced in a number of previous blog posts and communications,  distributed networks possess some key factors that have a huge impact on efficiency, durability and performance, related to how nodes operate. We’ve communicated extensively on our [design choices around using erasure codes](https://storj.io/blog/2018/11/replication-is-bad-for-decentralized-storage-part-1-erasure-codes-for-fun-and-profit/), and we’ve discussed [the impact of node churn](https://storj.io/blog/2019/01/why-proof-of--replication-is-bad-for-decentralized-storage-part-2-churn-and-burn/), particularly as it relates to bandwidth. Most of these articles have discussed these elements from the perspective of operating the network. As we approach the Explorer release, we’re turning the discussion around to look at things from the storage node operator perspective.
 

@@ -1,7 +1,7 @@
 ---
 title: Welcome to the New Storj.io
 date: '2016-04-15T07:04:00-04:00'
-image: /img/newsite.png
+image: /blog/img/newsite.png
 categories:
   - business
 authors:

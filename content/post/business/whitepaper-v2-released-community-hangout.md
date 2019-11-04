@@ -1,7 +1,7 @@
 ---
 title: Whitepaper v2 Released + Community Hangout
 date: '2016-12-15T12:15:00-05:00'
-image: /img/wp.jpg
+image: /blog/img/wp.jpg
 categories:
   - business
 authors:
@@ -25,7 +25,7 @@ It has taken over two years of hard work, tons of community feedback, and many n
 As usual around this time of the year, and specially for this occasion, we have arranged a Community Hangout which is going live in a few hours, at 4PM EST.  
   
 
-![](/img/comhang.jpg)
+![](/blog/img/comhang.jpg)
 
   
 Remember to also join our Community Chat at [https://community.storj.io](http://storj.us8.list-manage.com/track/click?u=edba9fc4ce8b9095a31859cba&id=8f6547a291&e=813daa4cbf), if you haven’t already, to be able to ask questions directly to the team in the #chat channel. We will also be monitoring for queries in the live chat on the right side of the hangout.   

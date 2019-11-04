@@ -1,7 +1,7 @@
 ---
 title: Developers and V3 Network Make First Contact with Vanguard Alpha
 date: '2019-04-10T01:15:00-04:00'
-image: /img/blog-vanguard.png
+image: /blog/img/blog-vanguard.png
 categories:
   - engineering
 authors:
