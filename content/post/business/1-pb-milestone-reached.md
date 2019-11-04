@@ -1,7 +1,7 @@
 ---
 title: 1 PB Milestone Reached
 date: '2016-11-22T12:02:00-05:00'
-image: /img/1pb.jpg
+image: /blog/img/1pb.jpg
 categories:
   - business
 authors:
@@ -21,7 +21,7 @@ Earlier this month at Venture Atlanta 2016, we announced our first Fortune 500 c
 Clients and farmers now report on file transfer performance via a system we call “exchange reports.” Reporting will help us identify inactive and poorly performing nodes quicker, which will help improve stability, performance, and reliability within our network. We are also re-architecting tunneling and data channels for our v6.0 release. This new architecture will enable a very exciting integration coming at the beginning of next year. No details yet; we don’t want to spoil the surprise!  
   
 
-![](/img/rm.jpg)
+![](/blog/img/rm.jpg)
 
   
 Stay tuned for exciting news and updates to come! Follow us on Twitter and join our Community on RocketChat at [https://community.storj.io](https://community.storj.io) where you can meet the team, troubleshoot issues, discuss ideas, and socialize with other Storj fans!  

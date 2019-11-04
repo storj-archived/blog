@@ -3,7 +3,7 @@ title: >-
   Early feedback from V3 storage node operators: You’ve got questions, we’ve got
   answers!
 date: '2019-02-15T11:18:05-07:00'
-image: /img/want-to-join-the-v3-network.png
+image: /blog/img/want-to-join-the-v3-network.png
 categories:
   - community
 authors:

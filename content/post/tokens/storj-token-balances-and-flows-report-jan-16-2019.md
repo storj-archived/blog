@@ -1,7 +1,7 @@
 ---
 title: 'STORJ Token Balances and Flows Report: Jan. 16, 2019'
 date: '2019-01-16T16:31:12-05:00'
-image: /img/blog-4.png
+image: /blog/img/blog-4.png
 categories:
   - tokens
 authors:
@@ -24,7 +24,7 @@ We’ve provided addresses for our major reserves below, so that totals can be e
 
 The success of the Storj community depends on all participants having confidence in, and understanding of, the STORJ token. If you have questions, clarifications, or suggestions on how we can better present this information in the future, please let us know!
 
-<img src="/img/q4-18-token-report.png" alt="STORJ token reserves" width="100%"/>
+<img src="/blog/img/q4-18-token-report.png" alt="STORJ token reserves" width="100%"/>
 
 ## Overview
 
@@ -85,7 +85,7 @@ Although we don't think that it is a meaningful number, if all unlocked tokens w
 
 The maximum total that could be in circulation is, as stated above, 425.0 M (line 20). (4)
 
-![Circulating STORJ tokens](/img/chart-2.png)
+![Circulating STORJ tokens](/blog/img/chart-2.png)
 
 ## Reserves
 
@@ -93,7 +93,7 @@ To aid in the reconciliation of the above numbers with the appropriate reserves,
 
 There are 6.9 M STORJ tokens reserved for the converter (lines 6 and 21). There are 245.0 M STORJ tokens in long term timelock (lines 15 and 22). There are 49.1 M STORJ tokens in our operating reserves (line 13), of which 44.2 M are stored in our main COLD wallet (line 23) and the remaining 4.9 M are held in various warm and hot wallets (line 24). As there are 124 M STORJ tokens in circulation (line 17 and line 26), this leaves a total of 425 M STORJ (lines 16 and 27).
 
-<img src="/img/chart-3.png" alt="STORJ token reserves" width="100%"/>
+<img src="/blog/img/chart-3.png" alt="STORJ token reserves" width="100%"/>
 
 ## Disclaimer
 

@@ -1,7 +1,7 @@
 ---
 title: Join the Next Storj Labs Town Hall on April 10
 date: '2019-03-22T11:56:27-06:00'
-image: /img/q12019-speakers-1-.png
+image: /blog/img/q12019-speakers-1-.png
 categories:
   - community
 authors:

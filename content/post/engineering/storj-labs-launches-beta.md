@@ -1,7 +1,7 @@
 ---
 title: Storj Labs Launches Beta
 date: '2016-04-09T07:01:00-04:00'
-image: /img/lonch.png
+image: /blog/img/lonch.png
 categories:
   - engineering
 authors:

@@ -3,7 +3,7 @@ title: >-
   Great team. Huge opportunity. Solving an enormous problem: Why I'm joining
   Storj Labs
 date: '2018-03-12T15:52:00-04:00'
-image: /img/gang.jpg
+image: /blog/img/gang.jpg
 categories:
   - business
 authors:

@@ -1,7 +1,7 @@
 ---
 title: Why Use a Token?
 date: '2017-04-03T12:53:00-04:00'
-image: /img/ysjcx.jpg
+image: /blog/img/ysjcx.jpg
 categories:
   - tokens
 authors:

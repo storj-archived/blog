@@ -799,7 +799,7 @@ canvas {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: url("../img/alt-bg.jpg") center center no-repeat;
+	background: url("../blog/img/alt-bg.jpg") center center no-repeat;
   background-size: cover;
     -webkit-transition: transform 0.1s ease-in-out;
     -moz-transition: transform 0.1s ease-in-out;
@@ -1485,7 +1485,7 @@ Video
 }
 
 .video-thumbnail {
-	background: url('../img/video-thumbnail.png') no-repeat center;
+	background: url('../blog/img/video-thumbnail.png') no-repeat center;
 	background-size: 100%;
 	background-color: #fff;
 	cursor:pointer;
@@ -1510,7 +1510,7 @@ Footer
 footer {
 	padding-top: 3.5em;
 	background: #0e2338;
-	background: url("../img/new-storj-background.jpg") center top no-repeat;
+	background: url("../blog/img/new-storj-background.jpg") center top no-repeat;
 	background-size: cover;
 	text-align: left;
 }
@@ -2102,7 +2102,7 @@ Press
 -------------------------------- */
 
 .not-found {
-  background: url('../img/404.jpg');
+  background: url('../blog/img/404.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2384,7 +2384,7 @@ Token Sale
 
 .tokensale-banner {
   background: #2683ff;
-  background-image: url(../img/banner-bg.jpg);
+  background-image: url(../blog/img/banner-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -2992,7 +2992,7 @@ Media Queries
   .blog-header, .blog-post, .blog-pagination {
     margin-bottom: 2rem;
   }
-  
+
   /* Make sure the image size is reasonable. */
   .blog-post img {
     max-width: 100%;

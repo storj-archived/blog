@@ -21,7 +21,7 @@ Kademlia’s big breakthrough was to minimize internode messaging through its us
 
 Thus, if the distance is expressed as log2(n) nodes, this means that for a network with 10,000,000 Kademlia nodes, only about 20 hops would be necessary at most for communication with any subset of nodes.
 
-<img src="/img/kademlia-locating-a-node-by-its-id.png" alt="The shortest distance between two points is not always a straight line." width="100%"/>
+<img src="/blog/img/kademlia-locating-a-node-by-its-id.png" alt="The shortest distance between two points is not always a straight line." width="100%"/>
 <p style="text-align: center;">"[The shortest distance between two points is not always a straight line](https://metaquestions.me/2014/08/01/shortest-distance-between-two-points-is-not-always-a-straight-line/)." Image Source: [Maymounkov, et al](https://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf).</p>
 <br>
 <br>
@@ -29,7 +29,7 @@ Another advantage of Kademlia is that the protocol naturally prefers long-lived 
 
 This preference toward node ‘liveliness’ plays naturally into our distributed storage system where node-churn leads to a scenario where [repair costs must be minimized](https://storj.io/blog/2019/01/why-proof-of--replication-is-bad-for-decentralized-storage-part-2-churn-and-burn/).
 
-<img src="/img/kademlia-probability-of-remaining-online-another-hour-as-a-function-of-uptime.png" alt="Kademlia - probability of remaining online another hour as a function of uptime" width="100%"/>
+<img src="/blog/img/kademlia-probability-of-remaining-online-another-hour-as-a-function-of-uptime.png" alt="Kademlia - probability of remaining online another hour as a function of uptime" width="100%"/>
 
 <p style="text-align: center;">_Image Source: Image Source: [Maymounkov, et al](https://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf)._</p>
 <br>

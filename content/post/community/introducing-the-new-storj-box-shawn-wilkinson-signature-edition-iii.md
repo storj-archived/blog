@@ -11,7 +11,7 @@ The irony is that the internet, which we all use to search for billions of thing
 
 **Introducing the New Storj Box, Shawn Wilkinson Signature Edition III**
 
-![null](/img/storj-box.png)
+![null](/blog/img/storj-box.png)
 
 It’s bold, it’s powerful, it’s essentially spun of gold. It makes all of your decentralized and distributed dreams come true. This confirms, once and for all, that Storj truly is [the real Pied Piper](https://www.wired.com/2017/06/pied-pipers-new-internet-isnt-just-possible-almost/). 
 

@@ -1,7 +1,7 @@
 ---
 title: 'Storj: The Crowdsale Deck'
 date: '2014-07-26T02:49:00-04:00'
-image: /img/screen-shot-2018-07-11-at-2.49.15-am.png
+image: /blog/img/screen-shot-2018-07-11-at-2.49.15-am.png
 categories:
   - business
 authors:

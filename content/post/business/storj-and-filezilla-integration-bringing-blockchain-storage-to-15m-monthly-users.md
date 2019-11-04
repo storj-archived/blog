@@ -3,7 +3,7 @@ title: >-
   Storj and FileZilla Integration: Bringing Blockchain Storage to 15M Monthly
   Users
 date: '2017-07-20T13:09:00-04:00'
-image: /img/fzint.jpg
+image: /blog/img/fzint.jpg
 categories:
   - business
 authors:

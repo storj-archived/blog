@@ -1,7 +1,7 @@
 ---
 title: Introducing the Tardigrade Mascot
 date: '2019-07-19T15:01:25-06:00'
-image: /img/mascot-blog-hero.png
+image: /blog/img/mascot-blog-hero.png
 categories:
   - community
 authors:
@@ -12,7 +12,7 @@ During the [Storj Town Hall ](https://youtu.be/S5coCag7vR4?t=880)on July 10th, w
 
 Our community members voted for their favorites, told us why they love the mascot they selected and ranked their selection from one (worst mascot ever) to five (best mascot ever) with a pretty clear crowd favorite. After pouring through the votes and reading your comments, we made a few small updates to the winner, and we're thrilled to announce our new best friend.  
 
- <img src="/img/tar-mascot-front.png" alt="Meet Our Mascot" width="50%"/>
+ <img src="/blog/img/tar-mascot-front.png" alt="Meet Our Mascot" width="50%"/>
 
 Some of our favorite community comments mention Tardigrade.io's brand attributes along with some comments we're excited to share:
 

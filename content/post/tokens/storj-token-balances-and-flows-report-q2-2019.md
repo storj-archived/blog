@@ -1,7 +1,7 @@
 ---
 title: 'STORJ Token Balances and Flows Report: Q2 2019'
 date: '2019-07-10T09:16:00-04:00'
-image: /img/blog-token-balances.png
+image: /blog/img/blog-token-balances.png
 categories:
   - tokens
 authors:
@@ -26,7 +26,7 @@ d) There were 126.8 M STORJ in circulation on March 31, 2019. That number was eq
 
 e) The total non-circulating supply is 295.5 M, comprised of the 50.5 in non-time locked reserves plus 245.0M in timelocked reserves. The total supply is 129.5 M in circulation, plus the 295.5 M non-circulating supply = 425.0 M.
 
-<img src="/img/q2-2019-token-report-chart-1.png" alt="Q2 2019 Token Report Chart" width="100%"/>
+<img src="/blog/img/q2-2019-token-report-chart-1.png" alt="Q2 2019 Token Report Chart" width="100%"/>
 
 #### Overview
 
@@ -82,7 +82,7 @@ We’ve provided addresses for our major reserves below, so that totals can be e
 
 If you have questions, clarifications, or suggestions on how we can better present this information in the future, please let us know!
 
-<img src="/img/q2-2019-token-report-chart-2.png" alt="Q2 2019 Token Report Chart" width="100%"/>
+<img src="/blog/img/q2-2019-token-report-chart-2.png" alt="Q2 2019 Token Report Chart" width="100%"/>
 
 Note: To confirm timestamp in etherscan.io, click on a wallet address link above. Then, select the “filtered by token holder” link, and then click the “Read Contract” link. Item 5 is the timestamp.
 

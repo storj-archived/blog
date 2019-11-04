@@ -1,7 +1,7 @@
 ---
 title: Storj Labs Raises $3 Million in Seed Funding
 date: '2017-02-23T12:30:00-05:00'
-image: /img/funs.jpg
+image: /blog/img/funs.jpg
 categories:
   - business
 authors:

@@ -1,7 +1,7 @@
 ---
 title: Storj Labs Statement on Bitcoin Fork
 date: '2017-07-27T13:12:00-04:00'
-image: /img/btcfrk.jpg
+image: /blog/img/btcfrk.jpg
 categories:
   - tokens
 authors:
