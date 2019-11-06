@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: storj/blog
-  branch: master
+  repo: storj
+  branch: netlify-test
   base_url: https://storj.io
   auth_endpoint: /blog/oauth/auth
   site_domain: storj.io/blog
