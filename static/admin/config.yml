@@ -3,6 +3,7 @@ backend:
   repo: storj/blog
   branch: master
   base_url: https://storj.io
+  auth_endpoint: /blog/oauth/auth
   site_domain: storj.io/blog
 
 media_folder: "static/img"
