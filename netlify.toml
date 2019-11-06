@@ -1,7 +1,7 @@
 [build]
 publish = "public"
 command = "hugo --gc --minify"
-baseUrl = "https://agitated-kowalevski-811886.netlify.com/blog"
+baseUrl = "https://storj.io/blog"
 
 [context.production.environment]
 HUGO_VERSION = "0.58.3"
