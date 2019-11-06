@@ -1,9 +1,10 @@
 backend:
   name: github
   repo: storj/blog
-  branch: master
+  branch: netlify-test
   base_url: https://storj.io
   auth_endpoint: /blog/oauth/auth
+  site_domain: storj.io/blog
 
 media_folder: "static/img"
 public_folder: "blog/img"
@@ -88,4 +89,3 @@ collections:
       - {label: "Author", name: "authors", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
-
