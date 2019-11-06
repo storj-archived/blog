@@ -3,6 +3,7 @@ backend:
   repo: storj/blog
   branch: netlify-test
   site_domain: storj.io/blog
+  auth_endpoint: auth
 
 media_folder: "static/img"
 public_folder: "blog/img"
