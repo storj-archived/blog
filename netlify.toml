@@ -3,13 +3,6 @@ publish = "public"
 command = "hugo --gc --minify"
 baseUrl = "https://storj.io/blog"
 
-[[redirects]]
-  from = "/*"
-  to = "https://storj.io/blog/:splat"
-  status = 200
-  force = true
-
-
 [context.production.environment]
 HUGO_VERSION = "0.58.3"
 HUGO_ENV = "production"
