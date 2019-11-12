@@ -3,6 +3,777 @@ publish = "public"
 command = "hugo --gc --minify"
 baseUrl = "https://storj.io/blog"
 
+[[redirects]]
+<<<<<<< HEAD
+  from = "/"
+  to = "https://storj.io/blog/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/153537047443/1-pb-milestone-reached"
+  to = "https://storj.io/blog/2016/11/1-pb-milestone-reached/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/166582183413/5-pb-milestone-reached"
+  to = "https://storj.io/blog/2017/10/5pb-milestone-reached/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/171094445313/a-conversation-with-doc-ai"
+  to = "https://storj.io/blog/2018/02/the-future-of-healthcare-a-conversation-with-walter-de-brouwer/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/172275100478/a-hitchhikers-guide-to-distributed-systems"
+  to = "https://storj.io/blog/2018/03/a-hitchhikers-guide-to-distributed-systems/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/168735310988/an-announcement-about-storj-token-lock-ups"
+  to = "https://storj.io/blog/2017/12/an-announcement-about-storj-token-lock-ups/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/172347236663/an-update-on-filezilla-and-storj"
+  to = "https://storj.io/blog/2018/03/an-update-on-filezilla-and-storj/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/175478958003/announcing-a-campaign-for-a-new-logo"
+  to = "https://storj.io/blog/2018/07/announcing-a-campaign-for-a-new-logo/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/175853164878/announcing-the-network-v3-farmer-waitlist"
+  to = "https://storj.io/blog/2018/07/announcing-the-network-v3-farmer-waitlist/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/175140890223/ask-storj-company-goals-and-business-targets"
+  to = "https://storj.io/blog/2018/06/ask-storj-company-goals-and-business-targets/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/176093844168/ask-storj-dealing-with-crypto-scams"
+  to = "https://storj.io/blog/2018/07/ask-storj-dealing-with-crypto-scams/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/174856164558/ask-storj-token-lock-up-update"
+  to = "https://storj.io/blog/2018/06/ask-storj-token-lock-up-update/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/170921985723/building-the-decentralized-future-at-ethdenver"
+  to = "https://storj.io/blog/2018/02/building-the-decentralized-future-at-ethdenver/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/166303581118/caplinked-partners-with-storj-labs"
+  to = "https://storj.io/blog/2017/10/caplinked-partners-with-storj-labs/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/163660720958/converter-temporarily-disabled"
+  to = "https://storj.io/blog/2017/07/converter-temporarily-disabled/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/92967127968/crowdsale-deck"
+  to = "https://storj.io/blog/2014/07/storj-the-crowdsale-deck/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/102600843558/decentral-vancouver-salon-talks-with-shawn-at"
+  to = "https://storj.io/blog/2014/11/decentral-vancouver-salon-talks-with-shawn-at-storj/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/175315575823/development-update-1-from-storj-labs"
+  to = "https://storj.io/blog/2018/06/prod.-mgr-development-update-1/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/175749543543/development-update-2-from-storj-labs"
+  to = "https://storj.io/blog/2018/07/prod.-mgr-development-update-2/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/176241778218/development-update-3-from-storj-labs"
+  to = "https://storj.io/blog/2018/07/prod.-mgr-development-update-3/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/176743349808/development-update-4-from-storj-labs"
+  to = "https://storj.io/blog/2018/08/prod.-mgr-development-update-4/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/177240226328/development-update-5-from-storj-labs"
+  to = "https://storj.io/blog/2018/08/prod.-mgr-development-update-5/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/105455226783/driveshare-beta-launch-test-group-a"
+  to = "https://storj.io/blog/2014/12/driveshare-beta-launch---test-group-a/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/134067184008/driveshare-gui-released"
+  to = "https://storj.io/blog/2015/11/driveshare-gui-released/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/137110091173/driveshare-gui-v05-released"
+  to = "https://storj.io/blog/2016/01/driveshare-gui-v0.5-released/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/141850818018/driveshare-mandatory-restart-required"
+  to = "https://storj.io/blog/2016/03/driveshare-mandatory-restart-required/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/118706366258/driveshare-test-group-b-plan"
+  to = "https://storj.io/blog/2015/05/driveshare-test-group-b-plan/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/101200728818/eb46-shawn-wilkinson-storj-and-the"
+  to = "https://storj.io/blog/2014/10/shawn-wilkinson-storj-and-the-decentralization-of-the-cloud/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/167088949233/ethwaterloo-hackathon-second-place-winner-for"
+  to = "https://storj.io/blog/2017/11/ethwaterloo-hackathon-second-place-winner-for-storj-challenge-bit/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/92967029488/general-deck"
+  to = "https://storj.io/blog/2014/06/storj-the-general-deck/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/169896892413/getting-from-petabytes-to-exabytes-the-road-ahead"
+  to = "https://storj.io/blog/2018/01/getting-from-petabytes-to-exabytes-the-road-ahead/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/138065545243/great-storj-explainer-courtesy-of-the-daily"
+  to = "https://storj.io/blog/2016/01/what-is-storj-and-how-does-it-work-/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/171794380463/great-team-huge-opportunity-solving-an-enormous"
+  to = "https://storj.io/blog/2018/03/great-team.-huge-opportunity.-solving-an-enormous-problem-why-im-joining-storj-labs/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/94188798148/hangout-with-shawn-wilkinson-of-storj-with"
+  to = "https://storj.io/blog/2014/08/hangout-with-shawn-wilkinson/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/95376799893/how-big-is-the-cloud"
+  to = "https://storj.io/blog/2014/08/how-big-is-the-cloud/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/110416906278/how-much-will-i-make-from-driveshare"
+  to = "https://storj.io/blog/2015/02/how-much-will-i-make-from-driveshare-/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/145305561698/how-storj-increases-object-storage-security"
+  to = "https://storj.io/blog/2016/06/how-storj-increases-object-storage-security-exponentially/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/151141372148/how-to-ddos-yourself"
+  to = "https://storj.io/blog/2016/09/how-to-ddos-yourself/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/127256189103/installing-dataserv-client-on-a-synology-nas-using"
+  to = "https://storj.io/blog/2015/08/installing-dataserv-client-on-a-synology-nas-using-debian-chroot/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/150825969108/introducing-kfs-a-local-file-store-inspired-by"
+  to = "https://storj.io/blog/2016/09/introducing-kfs-a-local-file-store-inspired-by-kademlia/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/176962790373/join-the-storj-labs-town-hall-on-september-12"
+  to = "https://storj.io/blog/2018/08/join-the-storj-labs-town-hall-on-september-12/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/173960094048/last-chance-to-convert-sjcx-to-storj-this-year"
+  to = "https://storj.io/blog/2018/05/last-chance-to-convert-sjcx-to-storj-this-year/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/160772112083/leadership-update-from-storj"
+  to = "https://storj.io/blog/2017/05/leadership-update-from-storj/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/173461024823/march-farmer-payouts"
+  to = "https://storj.io/blog/2018/04/march-farmer-payouts/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/173301213503/march-farmer-payouts-on-track"
+  to = "https://storj.io/blog/2018/04/march-farmer-payouts-on-track/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/140811990373/metadisk-alpha-release-50000-sjcx-rewards"
+  to = "https://storj.io/blog/2016/03/metadisk-alpha-release---50000-sjcx-rewards/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/158740607128/migration-from-counterparty-to-ethereum"
+  to = "https://storj.io/blog/2017/03/migration-from-counterparty-to-ethereum/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/174630079933/new-farmer-payout-app-live"
+  to = "https://storj.io/blog/2018/06/new-farmer-payout-app-live/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/104382249453/not-on-my-drive-saying-no-to-illegal-content-on"
+  to = "https://storj.io/blog/2014/12/not-on-my-drive-saying-no-to-illegal-content-on-storj/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/171661806628/our-ethdenver-hackathon-experience"
+  to = "https://storj.io/blog/2018/03/our-ethdenver-hackathon-experience/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/97521475738/our-vision"
+  to = "https://storj.io/blog/2014/09/our-vision/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/97521475738/our-vision"
+  to = "https://storj.io/blog/2014/09/our-vision/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/88868121983/personal-security-in-the-cloud"
+  to = "https://storj.io/blog/2014/06/personal-security-in-the-cloud/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/98182880593/personal-security-online-current-issues-and-best"
+  to = "https://storj.io/blog/2014/09/personal-security-online-current-issues-and-best-practices/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/176783580368/planned-network-testing-ahead-of-v3-launch"
+  to = "https://storj.io/blog/2018/08/planned-network-testing-ahead-of-v3-launch/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/171592880988/quarterly-update-storj-town-hall-2"
+  to = "https://storj.io/blog/2018/03/quarterly-update-storj-town-hall-2/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/174670517273/quarterly-update-storj-town-hall-3"
+  to = "https://storj.io/blog/2018/06/quarterly-update-storj-town-hall-3/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/158115522373/s3-failure-highlights-the-need-for-decentralized"
+  to = "https://storj.io/blog/2017/03/s3-failure-highlights-the-need-for-decentralized-services-like-storj/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/173894491398/save-the-date-for-the-storj-q2-town-hall"
+  to = "https://storj.io/blog/2018/05/save-the-date-for-the-storj-q2-town-hall/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/150203056528/sjcx-transparency-plan-pt1"
+  to = "https://storj.io/blog/2016/09/sjcx-transparency-plan-pt.1/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/167985829208/sonm-and-storj-labs-create-the-first-decentralized"
+  to = "https://storj.io/blog/2017/11/sonm-and-storj-labs-create-the-first-decentralized-cloud-computing-platform/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/163215547738/storj-and-filezilla-integration-bringing"
+  to = "https://storj.io/blog/2017/07/storj-and-filezilla-integration-bringing-blockchain-storage-to-15m-monthly-users/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://blog.storj.io/post/156092137613/storj-awarded-grant-funding-to-help-advance-storj"
+  to = "https://storj.io/blog/2017/01/storj-awarded-grant-funding-to-help-advance-storj-technology/"
+  status = 200
+  force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/93121658748/storj-bitangels-presentation-first-public"
+    to = "https://storj.io/blog/2014/07/storj-bit-angles-presentation/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/168761643398/storj-bytes-community-newsletter-q4-2017"
+    to = "https://storj.io/blog/2017/12/storj-bytes-community-newsletter-q4-2017/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/166579325628/storj-bytes-issue-01-september-17"
+    to = "https://storj.io/blog/2017/09/storj-bytes-community-quarterly-newsletter---september-2017/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/158359154453/storj-comes-out-of-beta"
+    to = "https://storj.io/blog/2017/03/storj-comes-out-of-beta/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/135180318553/storj-community-hangout"
+    to = "https://storj.io/blog/2015/12/storj-community-hangout/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/101201576298/storj-community-hangout-and-irc-chat-updates-on"
+    to = "https://storj.io/blog/2014/10/storj-community-hangout-and-irc-chat/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/148417575358/storj-community-hangout-tgc-milestone-1"
+    to = "https://storj.io/blog/2016/08/storj-community-hangout---tgc-milestone-1/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/102325319628/storj-decentralizing-cloud-storage-the-storj"
+    to = "https://storj.io/blog/2014/07/storjdecentralizing-cloud-storage-in-60-secondsvideo/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/92898501043/storj-decentralizing-cloud-storage-the-storj"
+    to = "https://storj.io/blog/2014/07/storjdecentralizing-cloud-storage-in-60-secondsvideo/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/103485981048/storj-driveshare-farming-demo-an-overview-of"
+    to = "https://storj.io/blog/2014/11/storj---driveshare-farming-demo/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/95916767823/storj-dropbox"
+    to = "https://storj.io/blog/2014/08/storj-is-not-dropbox/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/109325067248/storj-is-a-black-duck-software-open-source-rookie"
+    to = "https://storj.io/blog/2015/01/storj-is-a-black-duck-software-open-source-rookie-of-the-year/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/146957136288/storj-labs-adds-michael-cohn-tyler-scriven-and"
+    to = "https://storj.io/blog/2016/07/storj-labs-adds-michael-cohn-tyler-scriven-and-warren-weber-to-technical-advisory-board/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/169508766373/storj-labs-announces-storj-erc20-tokens-now-listed"
+    to = "https://storj.io/blog/2018/01/storj-labs-announces-storj-erc20-tokens-now-listed-on-shapeshift/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/123108661673/storj-labs-inc-taking-ownership-of-storj-funds"
+    to = "https://storj.io/blog/2015/07/storj-labs-inc.-taking-ownership-of-storj-funds/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/142435522148/storj-labs-joins-the-microsoft-azure-blockchain"
+    to = "https://storj.io/blog/2016/04/storj-labs-joins-the-microsoft-azure-blockchain-ecosystem/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/157615681743/storj-labs-raises-3-million-in-seed-funding"
+    to = "https://storj.io/blog/2017/02/storj-labs-raises-3-million-in-seed-funding/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/163496165578/storj-labs-statement-on-bitcoin-fork"
+    to = "https://storj.io/blog/2017/07/storj-labs-statement-on-bitcoin-fork/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/151390093908/storj-master-plan"
+    to = "https://storj.io/blog/2016/10/storj-master-plan/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/159566947133/storj-new-protocol-new-opportunities"
+    to = "https://storj.io/blog/2017/04/storj-new-protocol-new-opportunities/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/121444332213/storj-news-june"
+    to = "https://storj.io/blog/2015/06/news-update/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/113523630343/storj-news-march"
+    to = "https://storj.io/blog/2015/03/development-update-2/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/101207370053/storj-news-october-28-2014"
+    to = "https://storj.io/blog/2014/10/development-update-1/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/166822654863/storj-now-on-poloniex"
+    to = "https://storj.io/blog/2017/10/poloniex-now-listing-storj-erc20-token-for-trading/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/167207914008/storj-now-trading-on-binance"
+    to = "https://storj.io/blog/2017/11/storj-now-trading-on-binance/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/144823820743/storj-open-beta-launch-events"
+    to = "https://storj.io/blog/2016/05/storj-open-beta-launch-events/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/156584576553/storj-payout-transparency"
+    to = "https://storj.io/blog/2017/01/storj-payout-transparency/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/101873935238/storj-presentation-video-at-the-midwestern-bitcoin"
+    to = "https://storj.io/blog/2014/11/storj-presentation-video-at-the-midwestern-bitcoin-conference-2014/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/101909899578/storj-presenting-at-swarm-demo-day-2014-five"
+    to = "https://storj.io/blog/2014/11/storj-presenting-at-swarm-demo-day-2014/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/146323281143/storj-test-group-c"
+    to = "https://storj.io/blog/2016/06/test-group-c/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/147103128303/storj-test-group-c-is-live"
+    to = "https://storj.io/blog/2016/07/storj-test-group-c-is-live-/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/167246682123/storj-town-hall-meeting-q417"
+    to = "https://storj.io/blog/2017/11/storj-town-hall-meeting-q417/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/88303701698/storj-vs-dropbox-cost"
+    to = "https://storj.io/blog/2014/06/storj-vs-dropbox--cost/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/151110816768/submit-your-ideas"
+    to = "https://storj.io/blog/2016/09/submit-your-ideas/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/132160542478/technical-advisory-committee-announcement"
+    to = "https://storj.io/blog/2015/10/technical-advisory-committee-announcement/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/129665738578/test-group-b-1pb-milestone-reached"
+    to = "https://storj.io/blog/2015/09/test-group-b---1pb-milestone-reached/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/138099531088/test-group-b-2-pb-milestone-reached"
+    to = "https://storj.io/blog/2016/01/test-group-b-2-pb-milestone-reached/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/127577318448/test-group-b-is-live"
+    to = "https://storj.io/blog/2015/08/test-group-b-is-live/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/129124216778/test-group-b-mandatory-client-update"
+    to = "https://storj.io/blog/2015/09/test-group-b---mandatory-client-update/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/126574703173/test-group-b-preliminary-test-with-rewards"
+    to = "https://storj.io/blog/2015/08/test-group-b---preliminary-test-with-rewards/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/171794376433/the-next-generation-of-storj"
+    to = "https://storj.io/blog/2018/03/the-next-generation-of-storj/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/163723119658/token-converter-re-enabled"
+    to = "https://storj.io/blog/2017/08/token-converter-re-enabled/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/159746056098/token-migration-plan-pt1"
+    to = "https://storj.io/blog/2017/04/token-migration-plan-pt.1/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/160448088948/token-migration-plan-pt2"
+    to = "https://storj.io/blog/2017/05/token-migration-plan-pt.2/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/164043066648/token-sale-details-coming-soon"
+    to = "https://storj.io/blog/2017/08/token-sale-details-coming-soon/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/165553434093/token-sale-wrap-up-details"
+    to = "https://storj.io/blog/2017/09/token-sale-wrap-up-details/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/168456571168/token-summit-ii-new-partnerships-and-new-features"
+    to = "https://storj.io/blog/2017/12/token-summit-ii-new-partnerships-and-new-features/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/152353080533/try-storj-on-heroku"
+    to = "https://storj.io/blog/2016/10/try-storj-on-heroku/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/154283337433/updated-storj-whitepaper-community-hangout"
+    to = "https://storj.io/blog/2016/12/updated-storj-whitepaper---community-hangout/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/172871463238/updates-to-farmer-payouts-and-network-testing"
+    to = "https://storj.io/blog/2018/04/updates-to-farmer-payouts-and-network-testing/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/162907139748/updates-to-storj-leadership"
+    to = "https://storj.io/blog/2017/07/updates-to-storj-leadership/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/154251496573/using-the-storj-add-on-with-heroku"
+    to = "https://storj.io/blog/2016/12/using-the-storj-add-on-with-heroku/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/172033039573/warren-weber-on-the-quantity-theory-of-money-for"
+    to = "https://storj.io/blog/2018/03/warren-weber-on-the-quantity-theory-of-money-for-tokens/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/142848412773/welcome-to-the-new-storjio"
+    to = "https://storj.io/blog/2016/04/welcome-to-the-new-storj.io/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/87251450053/what-is-storj"
+    to = "https://storj.io/blog/2014/05/what-is-storj/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/146711695563/what-is-storj-part-1-of-3-the-storj-network"
+    to = "https://storj.io/blog/2016/06/what-is-storj--part-1-of-3-the-storj-network/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/147241544533/what-is-storj-part-2-of-3-the-storj-toolset"
+    to = "https://storj.io/blog/2016/07/what-is-storj--part-2-of-3-the-storj-toolset/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/148001577503/what-is-storj-part-3-of-3-the-storj-community"
+    to = "https://storj.io/blog/2016/07/what-is-storj-part-3-of-3-the-storj-community/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/154508553273/whitepaper-v2-released-community-hangout"
+    to = "https://storj.io/blog/2016/12/whitepaper-v2-released---community-hangout/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/111594471093/why-sjcx-why-not-bitcoin"
+    to = "https://storj.io/blog/2015/02/why-sjcx-why-not-bitcoin/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/131496872463/why-storj-labs-is-good-for-you-the-farmer"
+    to = "https://storj.io/blog/2015/10/why-storj-labs-is-good-for-you-the-farmer/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/89462873953/why-storjcoin-x-will-have-value"
+    to = "https://storj.io/blog/2014/06/why-storjcoin-x-will-have-value/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/159156338473/why-use-a-token"
+    to = "https://storj.io/blog/2017/04/why-use-a-token/"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "https://blog.storj.io/post/171176124898/youre-invited-next-storj-town-hall-feb-27"
+    to = "https://storj.io/blog/2018/02/youre-invited-next-storj-town-hall-feb.-27/"
+    status = 200
+    force = true
+
+=======
+  from = "/*"
+  to = "https://storj.io/blog/:splat"
+  status = 200
+  force = true
+
+>>>>>>> parent of 16b86d9... remove redirect
+
 [context.production.environment]
 HUGO_VERSION = "0.58.3"
 HUGO_ENV = "production"
