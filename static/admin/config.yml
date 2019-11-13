@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: storj/blog
-  branch: master
+  branch: netlify-test
 
 media_folder: "static/img"
 public_folder: "blog/img"
