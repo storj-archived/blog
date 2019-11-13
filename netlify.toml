@@ -3,6 +3,13 @@ publish = "public"
 command = "hugo --gc --minify"
 baseUrl = "https://storj.io/blog"
 
+[[redirects]]
+
+  from = "/*"
+  to = "https://storj.io/blog/:splat"
+  status = 200
+  force = true
+
 
 [context.production.environment]
 HUGO_VERSION = "0.58.3"
@@ -17,16 +24,16 @@ HUGO_VERSION = "0.58.3"
 HUGO_ENV = "production"
 
 [context.deploy-preview]
-command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+command = "hugo --gc --minify --buildFuture"
 
 [context.deploy-preview.environment]
 HUGO_VERSION = "0.58.3"
 
 [context.branch-deploy]
-command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+command = "hugo --gc --minify"
 
 [context.branch-deploy.environment]
-HUGO_VERSION = "0.58.3"
+HUGO_VERSION = "ç"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
