@@ -1,5 +1,5 @@
 ---
-title: Measuring Production-Readiness Using Qualification Gates
+title: How to Measure Whether Your Application is Ready for Prime Time
 date: 2019-11-18T21:13:27.931Z
 image: /blog/img/gates.png
 categories:
