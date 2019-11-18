@@ -6,7 +6,7 @@ categories:
   - engineering
 authors:
   - JT Olio and Brandon Iglesias
-draft: false
+draft: true
 ---
 So, you’re about to launch a product that will be used for business-critical use cases. Everyone speaks about being “production-ready,” and “enterprise-grade.” How can you make those vague concepts concrete?
 
