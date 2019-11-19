@@ -1,6 +1,6 @@
 ---
 title: Announcing Pioneer 2 and Tardigrade.io Pricing
-date: 2019-11-19T11:05:00.000Z
+date: 2019-11-19T10:14:00.000Z
 image: /blog/img/beta2-pricing.png
 categories:
   - business
