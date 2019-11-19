@@ -10,7 +10,7 @@ draft: true
 ---
 So, you’re about to launch a product that will be used for business-critical use cases. Everyone speaks about being “production-ready,” and “enterprise-grade.” How can you make those vague concepts concrete?
 
-There is an old saying that "You never get a second chance to make a first impression." In the enterprise storage world, the corollary is you never get a second chance to be trusted with someone’s data. With Tardigrade, we are asking users to consider storing production data on a decentralized service. So, what does it mean to be "production grade" and how can you measure if you've achieved it?
+There is an old saying that "You never get a second chance to make a first impression." In the enterprise storage world, the corollary is: “You never get a second chance to be trusted with someone’s data.” With Tardigrade, we are asking users to consider storing production data on a decentralized service. So, what does it mean to be "production grade" and how can you measure if you've achieved it?
 
 To measure whether your new service is ready for the world to start using is not as easy as it sounds. You have to answer a number of questions, including but not limited to:
 
