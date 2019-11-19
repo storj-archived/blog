@@ -1,6 +1,6 @@
 ---
 title: Measuring Production-Readiness Using Qualification Gates
-date: 2019-11-18T21:13:27.931Z
+date: 2019-11-19T10:13:00.000Z
 image: /blog/img/gates.png
 categories:
   - engineering
@@ -61,7 +61,7 @@ The above results are downloading to a location in Toronto (i.e. Eastern US) in 
 
 #### Proven Capacity
 
-Proven capacity measures the total available capacity shared by all of our Storage Node Operators. Our Storage Node Operators have offered up over 15 PB of capacity. Using very conservative statistical models, we can state with a 95% confidence that we have at least 7 PB.
+Proven capacity measures the total available capacity shared by all of our Storage Node Operators. Our Storage Node Operators have offered up over 15 PB of capacity. Using very conservative statistical models, we can state with a 95% confidence that we have at least 7 PB. 
 
 Note that while we believe the capacity of the network is significantly higher, we hold ourselves to this more conservative, proven number. This number is more than an order of magnitude lower than the V2 network, which had a capacity of 150 PB at its peak. While we have several partners and Beta customers with several petabytes of capacity, we’re aiming to grow the network more gradually, so that we generally only have about three months of excess capacity at a time. This helps us ensure that all Nodes are receiving economically compelling payouts. 
 
