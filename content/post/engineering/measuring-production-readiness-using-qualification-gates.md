@@ -28,7 +28,6 @@ We call these metrics “launch gates” and for us to enter a new milestone—f
 Here are the details on where we currently are, how it compares to our Beta 2 launch gates, and what we need to do to reach production. 
 
 <img src="/blog/img/launch-gates-beta-2.png" alt="Beta 2 Updated Launch Gates" width="100%"/>
-<p style="text-align: center;">Beta 2 Updated Launch Gates</p>
 
 #### Availability
 
@@ -40,7 +39,9 @@ File durability measures the likelihood that one of your files could go missing.
 
 Now, you may be wondering how we achieve this level of durability. Each file on the network is encrypted (using keys only held by the user uploading the data) and then divided into 64MB chunks called segments, which are then each encoded into 80 pieces using a Reed Solomon error-correcting code, which enables us to rebuild the segment from any 29 of its 80 pieces. Each of those pieces is stored on a different Node, with independent power supply, different geographical locations, different operators, and different operating systems. The system as a whole continually monitors those Nodes for uptime and issues cryptographic audits to ensure that the Nodes are storing what they claim to be storing. The system knows, for every single segment, how many of those 80 pieces are currently on Nodes that are online and have passed all required audits, Whenever a segment drops below a number of pieces equalling or exceeding the repair threshold (currently 52 based on statistical models), the system rebuilds those missing pieces and sends them to new Nodes. As you can see from our segment health distribution chart below, we’ve never had a segment drop below 50 of its 80 pieces. To lose a segment, we’d have to drop below 29. As we add more Nodes to the network, this should continue to improve. 
 
-![](/blog/img/segment-health-over-time-beta-2.png)
+<img src="/blog/img/segment-health-over-time-beta-2.png" alt="Segment Health Over Time" width="100%"/>
+
+![]()
 
 #### Upload Performance
 
