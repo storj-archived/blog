@@ -6,7 +6,7 @@ categories:
   - business
 authors:
   - JT Olio and Brandon Iglesias
-draft: true
+draft: false
 ---
 Cloud storage prices haven’t changed much in the past 5 years. They’re about to! Today, we’re pleased to announce pricing for our Tardigrade Decentralized Cloud Storage Service. Since our founding, our goal has been to achieve pricing that is half the price of centralized cloud storage providers, or less. And, to do so in a way that is economically sustainable for us, for storage node providers, and for our network of partners. Here is Tardigrade pricing: 
 
