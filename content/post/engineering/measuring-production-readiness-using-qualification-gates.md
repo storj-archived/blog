@@ -41,8 +41,6 @@ Now, you may be wondering how we achieve this level of durability. Each file on 
 
 <img src="/blog/img/segment-health-over-time-beta-2.png" alt="Segment Health Over Time" width="100%"/>
 
-![]()
-
 #### Upload Performance
 
 To measure upload performance, we calculate the time it takes to upload a 10 MB file and then we repeat this test 250 times. We then compare the results to AWS, which is generally considered the gold standard for centralized cloud service providers. We not only look at the median time to upload, we also look at the long tail performance. Across a broad range of file sizes and locations, we are comparable to AWS. For a Beta, that’s pretty encouraging. Moreover, we have a really tight distribution. Our 99th percentile upload time is only 0.37 seconds slower than our 50th percentile time (i.e. the slowest 5 files uploaded almost as fast as the 50 fastest), versus a 5.35 second differential between the 50th and 99th percentile on AWS. This consistency and predictability is due to the inherent benefits of decentralization and should only get better as we add more Nodes and continue to add Nodes that are distributed closer to the end-users (ultimately, the speed of light becomes a factor).
