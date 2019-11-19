@@ -119,13 +119,6 @@ h1, h2, h3, h4, h5, h6 {
 .title {
 	margin-bottom: 1em;
 }
-p {
-  font-size: 1.6rem;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-  background: #fff;
-  line-height: 30px;
-}
 
 img {
 	-webkit-user-select: none;
