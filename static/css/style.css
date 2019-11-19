@@ -77,6 +77,15 @@ body {
 	font-weight: 300;
 	background: #fff;
 }
+
+p {
+  font-size: 1.6rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  background: #fff;
+  line-height: 30px;
+}
+
 b, strong {
 	font-weight: 800;
 }
