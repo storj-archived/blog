@@ -18,11 +18,9 @@ endif
 ifeq (${BRANCH_NAME}, master)
 build:
 	docker build -t storjlabs/blog:${TAG} .
-	docker build -t storjlabs/blog-redirect:${TAG} -f redirect/Dockerfile .
 else
 build:
 	docker build --build-arg hugo_args='-D' -t storjlabs/blog:${TAG} .
-	docker build --build-arg hugo_args='-D' -t storjlabs/blog-redirect:${TAG} -f redirect/Dockerfile .
 endif
 
 .PHONY: push
@@ -33,30 +31,17 @@ push:
 	docker tag storjlabs/blog:${TAG} storjlabs/blog:$(shell echo '$${VERSION%%.*}')
 	docker push storjlabs/blog:$(shell echo '$${VERSION%.*}')
 	docker push storjlabs/blog:$(shell echo '$${VERSION%%.*}')
-	docker push storjlabs/blog-redirect:${TAG}
-	docker tag storjlabs/blog-redirect:${TAG} storjlabs/blog-redirect:$(shell echo '$${VERSION%.*}')
-	docker tag storjlabs/blog-redirect:${TAG} storjlabs/blog-redirect:$(shell echo '$${VERSION%%.*}')
-	docker push storjlabs/blog-redirect:$(shell echo '$${VERSION%.*}')
-	docker push storjlabs/blog-redirect:$(shell echo '$${VERSION%%.*}')
 
 else
 push:
 	docker push storjlabs/blog:${TAG}
-	docker push storjlabs/blog-redirect:${TAG}
 endif
 
 .PHONY: deploy
 deploy:
 	-kubectl --context ${CLUSTER} -n websites patch deployment ${DEPLOYMENT}-blog \
 	-p'{"spec":{"template":{"spec":{"containers":[{"name":"www","image":"storjlabs/blog:${TAG}"}]}}}}'
-	-kubectl --context ${CLUSTER} -n websites patch deployment blog-${DEPLOYMENT} \
-	-p'{"spec":{"template":{"spec":{"containers":[{"name":"blog-redirect","image":"storjlabs/blog-redirect:${TAG}"}]}}}}'
 
 .PHONY: clean
 clean:
 	-docker rmi storjlabs/blog:${TAG}
-	-docker rmi storjlabs/blog-redirect:${TAG}
-
-.PHONY: run-redirect
-run-redirect:
-	docker run --rm -it -p 80:80 --name redirect storjlabs/blog-redirect:${TAG}
