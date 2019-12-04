@@ -138,7 +138,7 @@ Sign up for the developer [waitlist](https://storj.io/sign-up/), join our commun
 
 Thanks to Noam Hardy and JT Olio.
 
-Sources
+#### Sources
 
 <http://srl.cs.jhu.edu/pubs/SRL2003-02.pdf>
 
