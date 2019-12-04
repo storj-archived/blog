@@ -22,7 +22,7 @@ The ACL model, sometimes referred to as the [Ambient Authority Model](https://wi
 
 The ACL keeps a list of which users are allowed to execute which commands for every capability on an object, or file. This list of abilities is separated from identity which is associated with these abilities. 
 
-![Centralized ACL](/blog/img/centralized-acl.png)
+<img src="/blog/img/centralized-acl.png" width="40%"/>
 
 Generally, the appeal of ACLs arises from a notion of a singular “SuperAdmin” being able to list and fully control every user's account and privileges. Thiscentralized approach to control creates a massive honeypot for hackers. When the SuperAdmin loses control, the entire system falls apart.
 
@@ -48,7 +48,7 @@ Every application today is launched with grossly excessive authority to the user
 
 **Failure  2: confused deputy problem**
 
-<img src=“/blog/img/confused-deputy-probblem.png“ width="100%"/>
+<img src="/blog/img/confused-deputy-probblem.png" width="100%"/>
 
 A deputy is a program that manages authorities coming from multiple sources. A confused deputy is a delegate that has been manipulated into wielding its authority inappropriately.
 
@@ -62,7 +62,7 @@ Capability-based security is a fundamentally better approach to identity and acc
 
 By tying access to keys, rather than a centralized control system, capability-based models push security to the edge, decentralizing large attack vectors known as honeypots.
 
-<img src=“/blog/img/capability-based-security.png“ width="100%"/>
+<img src="/blog/img/capability-based-security.png" width="100%"/>
 
 The capability-based model solves the ambient authority trap and the confused deputy problem by design.
 
@@ -104,7 +104,7 @@ Access management on the Tardigrade platform requires coordination of two parall
 
 A Macaroon embeds the logic for the access it allows and can be restricted, simply by embedding the path restrictions and any additional restrictions within the string that represents the Macaroon. Unlike a typical API key, a Macaroon is not a random string of bytes, but rather an envelope with access logic encoded in it.
 
-<img src=“/blog/img/macaroons.png“ width="100%"/>
+<img src="/blog/img/macaroons.png" width="100%"/>
 
 To make the implementation of these constructs as easy as possible for developers, the Tardigrade developer tools abstract the complexity of encoding objects for access management and encryption/decryption.
 
