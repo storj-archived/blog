@@ -14,7 +14,7 @@ Suddenly, protecting users’ data required a fundamentally new approach to cont
 
 This practice has become known as Identity and Access Management (IAM), and defines the way users authenticate, access data, and authorize operations in a public cloud environment.
 
-When it comes to authorization and authentication on the web, the standard public cloud approach is through [Access Control Lists](https://en.wikipedia.org/wiki/Access-control_list) (ACLs).  However, the [capability-based](https://en.wikipedia.org/wiki/Capability-based_security) approach leveraged by decentralized networks is indisputably more secure, and I will explain why in this blog post.
+When it comes to authorization and authentication on the web, the standard public cloud approach is through [Access Control Lists](https://en.wikipedia.org/wiki/Access-control_list) (ACLs). However, the [capability-based](https://en.wikipedia.org/wiki/Capability-based_security) approach leveraged by decentralized networks is indisputably more secure, and I will explain why in this blog post.
 
 #### Core Problems with Public Cloud’s ACL model
 
@@ -38,28 +38,28 @@ The Access Control List Approach fails for two reasons:
 
 **Failure 1: ambient authority trap**
 
-An authority is "ambient" if it exists in a broadly visible environment where any subject can request it by name.  
+An authority is "ambient" if it exists in a broadly visible environment where any subject can request it by name. 
 
-For example, in Amazon S3, when a request is received against a resource, Amazon has to check the corresponding ACL (an ambient authority) to verify that the requester has the necessary access permissions.  
+For example, in Amazon S3, when a request is received against a resource, Amazon has to check the corresponding ACL (an ambient authority) to verify that the requester has the necessary access permissions. 
 <img src="/blog/img/access-control-list.png" width="100%"/>
 
-This is an unnecessary extra hop in the authentication process that leads to ambient authority.  In this scenario the designation of the authority (the user) is separated from the authority itself (the access control list), violating the [Principle of Least Authority (POLA)](https://www.us-cert.gov/bsi/articles/knowledge/principles/least-privilege).
+This is an unnecessary extra hop in the authentication process that leads to ambient authority. In this scenario the designation of the authority (the user) is separated from the authority itself (the access control list), violating the [Principle of Least Authority (POLA)](https://www.us-cert.gov/bsi/articles/knowledge/principles/least-privilege).
 
 Furthermore, IAM systems based on the ACL model fall into the [ambient authority trap](http://zesty.ca/zest/out/msg00139.html) – where user roles are granted an array of permissions in such a way that the user does not explicitly know which permissions are being exercised.
 
-In this design flaw, inherent to many public cloud platforms, user-agents are unable to independently determine the source, or the number/types of permission that they have, because the list is held separately from them on the ACL.  Their only option is through trial and error, making a series of de-escalated privilege calls until they succeed.
+In this design flaw, inherent to many public cloud platforms, user-agents are unable to independently determine the source, or the number/types of permission that they have, because the list is held separately from them on the ACL. Their only option is through trial and error, making a series of de-escalated privilege calls until they succeed.
 
-To invoke an analogy, this is like using a personal, unmarked key to open a series of infinite doors.  You don’t know which door will open until you try it.  Very inefficient!
+To invoke an analogy, this is like using a personal, unmarked key to open a series of infinite doors. You don’t know which door will open until you try it. Very inefficient!
 
-As a result, If agents cannot identify their own privilege set, they cannot safely delegate restricted authority on another party’s behalf.  It would be risky for someone to lend a key to a neighbor, not knowing which of my doors it might open.
+As a result, If agents cannot identify their own privilege set, they cannot safely delegate restricted authority on another party’s behalf. It would be risky for someone to lend a key to a neighbor, not knowing which of my doors it might open.
 
 In the world of operating systems and mission-critical distributed systems, avoiding ambient authority privilege escalation is crucial, especially when running untrusted code. 
 
-Every application today is launched with grossly excessive authority to the users operating systems.  This is why many systems implement FreeBSD jails like [Capsicum](https://wiki.freebsd.org/Capsicum) and Linux Docker containers to sandbox software. 
+Every application today is launched with grossly excessive authority to the users operating systems. This is why many systems implement FreeBSD jails like [Capsicum](https://wiki.freebsd.org/Capsicum) and Linux Docker containers to sandbox software. 
 
 Google is even working on a new capability-based operating system called [Fuchsia](https://en.wikipedia.org/wiki/Google_Fuchsia) to supercede the Linux Android kernel.
 
-**Failure  2: confused deputy problem**
+**Failure 2: confused deputy problem**
 
 <img src="/blog/img/confused-deputy-probblem.png" width="100%"/>
 
@@ -67,7 +67,7 @@ A deputy is a program that manages authorities coming from multiple sources. A c
 
 Examples of the Confused Deputy Problem can be found across the web. These include injection attacks, cross-site request forgery, cross site scripting attacks, click-jacking etc. These attacks take advantage of ambient authority to use the victim’s existing program logic to nefarious ends in web applications. 
 
-In order to avoid the Confused Deputy Problem, a subject must be careful to maintain the association between each authority and its intended purpose.  This is wholly avoided by the capability-based model described below.
+In order to avoid the Confused Deputy Problem, a subject must be careful to maintain the association between each authority and its intended purpose. This is wholly avoided by the capability-based model described below.
 
 #### Capability-based security is better
 
@@ -108,7 +108,7 @@ Similar to the blocks in a blockchain, HMACs are chained within a Macaroon (wher
 
 <img src="/blog/img/macaroons.png" width="100%"/>
 
-Macaroons solve the [cookie-theft problem](https://stackoverflow.com/questions/17030081/how-do-i-prevent-session-hijacking-by-simply-copy-a-cookie-from-machine-to-anoth) associated with OAUTH2 and traditional cloud services by delegating access to a bearer token that can only be used in specific circumstances through HMAC chained ‘caveats’ (i.e. restrictions on IP, time-server parameters, and third- party auth discharges).  These caveats can be extended and chained, but not overwritten.
+Macaroons solve the [cookie-theft problem](https://stackoverflow.com/questions/17030081/how-do-i-prevent-session-hijacking-by-simply-copy-a-cookie-from-machine-to-anoth) associated with OAUTH2 and traditional cloud services by delegating access to a bearer token that can only be used in specific circumstances through HMAC chained ‘caveats’ (i.e. restrictions on IP, time-server parameters, and third- party auth discharges). These caveats can be extended and chained, but not overwritten.
 
 #### Capability-security in the Tardigrade Network
 
@@ -116,7 +116,7 @@ In the Tardigrade Network, macaroons are referred to as API Keys, and enable use
 
 From a developer standpoint, Capabilities make it very easy to write code that granularly defines security privileges. Once baked, the rules within the capability cannot be changed, without reissuing the key itself. 
 
-Access management on the Tardigrade platform requires coordination of two parallel constructs - [Authorization](https://storj.io/blog/2019/05/flexible-file-sharing-with-macaroons/) and [Encryption](https://storj.io/blog/2018/11/security-and-encryption-on-the-v3-network/).  With Macaroons, both of these constructs work together to provide an access management framework that is  secure and private, as well as extremely flexible for application developers. 
+Access management on the Tardigrade platform requires coordination of two parallel constructs - [Authorization](https://storj.io/blog/2019/05/flexible-file-sharing-with-macaroons/) and [Encryption](https://storj.io/blog/2018/11/security-and-encryption-on-the-v3-network/). With Macaroons, both of these constructs work together to provide an access management framework that is secure and private, as well as extremely flexible for application developers. 
 
 A Macaroon embeds the logic for the access it allows and can be restricted, simply by embedding the path restrictions and any additional restrictions within the string that represents the Macaroon. Unlike a typical API key, a Macaroon is not a random string of bytes, but rather an envelope with access logic encoded in it.
 
@@ -127,7 +127,7 @@ To make the implementation of these constructs as easy as possible for developer
 While the possibilities for access controls that can be encoded in a caveat are virtually unlimited, the specific caveats supported on the Tardigrade Platform are as follows:
 
 * **Specific operations:** Caveats can restrict whether an API Key can perform any of the following operations: Read, Write, Delete, List 
-* **Bucket:** Caveats can restrict whether an API Key can perform operations on one or more Buckets  
+* **Bucket:** Caveats can restrict whether an API Key can perform operations on one or more Buckets 
 * **Path and path prefix:** Caveats can restrict whether an API Key can perform operations on Objects within a specific path in the object hierarchy 
 * **Time window**: Caveats can restrict when an API Key can perform operations on objects stored on the platform 
 
@@ -137,7 +137,7 @@ For some sample Go code around access-restriction, check out <https://godoc.org/
 
 Macaroons are a great example of capability-based security models in action, and Storj is a shining example of their implementation in decentralized cloud protocols. 
 
-In Storj, we refer to our implementation of Macaroons (HMACs) as simply API Keys.  Using macaroons as a construct for API keys is innovative and useful because of their:
+In Storj, we refer to our implementation of Macaroons (HMACs) as simply API Keys. Using macaroons as a construct for API keys is innovative and useful because of their:
 
 * **Speed:** HMACs are very fast and lightweight 
 * **Timeliness:** Can require fresh credentials and revocation checks on every request 
