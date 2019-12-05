@@ -104,7 +104,7 @@ Their name, “MAC-aroons”, derives from the [HMAC process](https://en.wikiped
 
 In practice, HMACs are used to simultaneously verify both the [data integrity](https://en.wikipedia.org/wiki/Data_integrity) and the [authentication](https://en.wikipedia.org/wiki/Authentication) of a message. 
 
-Similar to the blocks in a blockchain, HMACs are chained within a Macaroon (whereby each caveat contains a hash referring to the previous caveats), such that caveats that restrict capabilities can only be appended, and not removed.
+Similar to the blocks in a blockchain, HMACs are chained within a macaroon (whereby each caveat contains a hash referring to the previous caveats), such that caveats that restrict capabilities can only be appended, and not removed.
 
 <img src="/blog/img/macaroons.png" width="100%"/>
 
@@ -116,9 +116,9 @@ In the Tardigrade Network, macaroons are referred to as API Keys, and enable use
 
 From a developer standpoint, Capabilities make it very easy to write code that granularly defines security privileges. Once baked, the rules within the capability cannot be changed, without reissuing the key itself. 
 
-Access management on the Tardigrade platform requires coordination of two parallel constructs - [Authorization](https://storj.io/blog/2019/05/flexible-file-sharing-with-macaroons/) and [Encryption](https://storj.io/blog/2018/11/security-and-encryption-on-the-v3-network/). With Macaroons, both of these constructs work together to provide an access management framework that is secure and private, as well as extremely flexible for application developers. 
+Access management on the Tardigrade platform requires coordination of two parallel constructs - [Authorization](https://storj.io/blog/2019/05/flexible-file-sharing-with-macaroons/) and [Encryption](https://storj.io/blog/2018/11/security-and-encryption-on-the-v3-network/). With macaroons, both of these constructs work together to provide an access management framework that is secure and private, as well as extremely flexible for application developers. 
 
-A Macaroon embeds the logic for the access it allows and can be restricted, simply by embedding the path restrictions and any additional restrictions within the string that represents the Macaroon. Unlike a typical API key, a Macaroon is not a random string of bytes, but rather an envelope with access logic encoded in it.
+A macaroon embeds the logic for the access it allows and can be restricted, simply by embedding the path restrictions and any additional restrictions within the string that represents the macaroon. Unlike a typical API key, a macaroon is not a random string of bytes, but rather an envelope with access logic encoded in it.
 
 To make the implementation of these constructs as easy as possible for developers, the Tardigrade developer tools abstract the complexity of encoding objects for access management and encryption/decryption (<https://godoc.org/storj.io/storj/lib/uplink#hdr-API_Keys>).
 
@@ -137,7 +137,7 @@ For some sample Go code around access-restriction, check out <https://godoc.org/
 
 Macaroons are a great example of capability-based security models in action, and Storj is a shining example of their implementation in decentralized cloud protocols. 
 
-In Storj, we refer to our implementation of Macaroons (HMACs) as simply API Keys. Using macaroons as a construct for API keys is innovative and useful because of their:
+In Storj, we refer to our implementation of macaroons (HMACs) as simply API Keys. Using macaroons as a construct for API keys is innovative and useful because of their:
 
 * **Speed:** HMACs are very fast and lightweight 
 * **Timeliness:** Can require fresh credentials and revocation checks on every request 
