@@ -41,7 +41,7 @@ The Access Control List Approach fails for two reasons:
 An authority is "ambient" if it exists in a broadly visible environment where any subject can request it by name. 
 
 For example, in Amazon S3, when a request is received against a resource, Amazon has to check the corresponding ACL (an ambient authority) to verify that the requester has the necessary access permissions. 
-<img src="/blog/img/access-control-list.png" width="100%"/>
+<img src="/blog/img/access-control-list.png" width="50%"/>
 
 This is an unnecessary extra hop in the authentication process that leads to ambient authority. In this scenario the designation of the authority (the user) is separated from the authority itself (the access control list), violating the [Principle of Least Authority (POLA)](https://www.us-cert.gov/bsi/articles/knowledge/principles/least-privilege).
 
