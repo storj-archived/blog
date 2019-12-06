@@ -16,7 +16,7 @@ As we roll into the holidays our team is working hard getting our network ready 
 * We improved the SNO dashboard by updating it to show the Satellite nicknames as well as fixing a couple of bugs on the dashboard.  
 * We finished the garbage collection trash functionality which will allow us to enable garbage collection in production.  
 * We finished our credit card functionality on the Satellite so that our users can add a credit card as a payment method before we go into production and start charging. We recently announced our pricing model [here. ](https://storj.io/blog/2019/11/announcing-pioneer-2-and-tardigrade.io-pricing/) 
-* We reduced the size of the Satellite databases along with adding support for CockarochDB. CockarochDB is an open-source horizontally scaling database.  
+* We reduced the size of the Satellite databases along with adding support for CockrochDB. CockrochDB is an open-source horizontally scaling database.  
 * We resolved a memory leak on the Storage Nodes so that they perform better and use fewer resources. 
 
 #### In Our Next Post, We'll Cover:
