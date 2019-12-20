@@ -30,7 +30,7 @@ You can read more details on the official CockroachDB documentation[²](https://
 
 #### Why gc_ttl exists
 
-This 25-hour window exists to help support long-running queries and the `AS OF SYSTEM TIME[³](https://www.cockroachlabs.com/docs/stable/as-of-system-time.html) clause that enables querying a specified time in the past. Another purpose is for restore. Data is kept around for a while so that you can restore back to a point in time. For example, if you ended up deleting more data than you intended with a bad where clause, restore can put the table back to where it was before.
+This 25-hour window exists to help support long-running queries and the `AS OF SYSTEM TIME`[³](https://www.cockroachlabs.com/docs/stable/as-of-system-time.html) clause that enables querying a specified time in the past. Another purpose is for restore. Data is kept around for a while so that you can restore back to a point in time. For example, if you ended up deleting more data than you intended with a bad where clause, restore can put the table back to where it was before.
 
 #### Backups
 
