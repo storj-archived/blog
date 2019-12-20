@@ -38,5 +38,4 @@ It's important that you do an incremental backup at least once within the `gc_tt
 
 #### References
 
-*¹ Multiversion concurrency control. <https://en.wikipedia.org/wiki/Multiversion_concurrency_control><br>²*Why are my deletes getting slower over time. <https://www.cockroachlabs.com/docs/stable/sql-faqs.html#why-are-my-deletes-getting-slower-over-time><br>³*AS OF SYSTEM TIME*\
-*<https://www.cockroachlabs.com/docs/stable/as-of-system-time.html>*
+*¹ Multiversion concurrency control. <https://en.wikipedia.org/wiki/Multiversion_concurrency_control><br>²*Why are my deletes getting slower over time. <https://www.cockroachlabs.com/docs/stable/sql-faqs.html#why-are-my-deletes-getting-slower-over-time><br>³*AS OF SYSTEM TIME <https://www.cockroachlabs.com/docs/stable/as-of-system-time.html>*
