@@ -1,6 +1,7 @@
 ---
 title: How deletes affect performance with CockroachDB
 date: 2019-12-20T19:20:59.047Z
+image: /blog/img/cockroach-db-alt.png
 categories:
   - engineering
 authors:
