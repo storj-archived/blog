@@ -61,7 +61,7 @@ Every Beta account that's activated from the waitlist comes with 25 GB of storag
 
 **Adding More Projects**
 
-Initially, users may request additional projects but ultimately, project creation will be entirely self-service.  Every developer account comes with one default project. Projects provide the framework for both access management and discreet billing for bandwidth and storage. Projects are also used for capacity management.
+Initially, users may request additional projects but ultimately, project creation will be entirely self-service. Every developer account comes with one default project. Projects provide the framework for both access management and discreet billing for bandwidth and storage. Projects are also used for capacity management.
 
 **Documentation Update Coming Soon**
 
