@@ -45,7 +45,7 @@ We continue to optimize our support process, but we've been heavily focused late
 
 We don't have updates just for Storage Node Operators. There is some really good news for developers, too!
 
-\####Developers
+#### Developers
 
 **Waitlist Update**
 
