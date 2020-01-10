@@ -23,7 +23,7 @@ Happy New Year from everyone here at Storj Labs! We are so excited for 2020 we c
 * Finishing the improvements to our delete architecture so that the delete operations on the network are more efficient for both users and Storage Node Operators. 
 * Adding support for CockroachDB for the Satellite so that it can be scaled horizontally. 
 * Final polishing and bug fixes to the Satellite console user experience in preparations for production launch. 
-* Bug fixes and "bake-offs." At Storj Labs we sometimes pretend to be restaurant critics like Gordan Ramsy but instead of critiquing restaurants we critique our network for its user experience and try to find bugs.
+* Bug fixes and "bake-offs." At Storj Labs we sometimes pretend to be restaurant critics like Gordon Ramsay but instead of critiquing restaurants we critique our network for its user experience and try to find bugs.
 * Progress update on finishing all old the egg nog we bought for the holiday season in our Atlanta and Salt Lake City office, including Dan's homemade stuff, [ala Alton Brown](https://www.youtube.com/watch?v=RsIUU1WQnck).
 
 #### For More Information:
