@@ -1,7 +1,7 @@
 ---
 title: Development Update 34 from Storj Labs
 date: 2020-01-10T22:36:53.001Z
-image: blog/img/developerupdates.png
+image: blog/img/developerupdates (1).png
 categories:
   - engineering
 authors:
