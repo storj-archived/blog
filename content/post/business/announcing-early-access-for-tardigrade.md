@@ -1,7 +1,7 @@
 ---
 title: Announcing Early Access For Tardigrade
 date: 2020-01-30T18:37:50.302Z
-image: blog/img/blog-early-access-prod (1).png
+image: /blog/img/blog-early-access-prod (1).png
 categories:
   - business
 authors:
@@ -17,7 +17,7 @@ With this release, Tardigrade users can expect:
 * **1TB limits on storage and bandwidth:** During this early access period, all accounts will have limits of 1TB for both their static storage usage and their monthly bandwidth. Submit a request through our [support portal](https://support.storj.io) if you need to increase this limit.
 * **Backward compatibility:** Developers building on top of Tardigrade can expect their applications to have full backward compatibility with the general availability production launch.
 
-[<img src="blog/img/storj-blog-btn-get_started_with_Tardigrade.png">](https://tardigrade.io/?utm_source=blog&utm_medium=post&utm_campaign=early_access_blog)
+[<img src="/blog/img/storj-blog-btn-get_started_with_Tardigrade.png">](https://tardigrade.io/?utm_source=blog&utm_medium=post&utm_campaign=early_access_blog)
 
 If you haven't yet, [sign up now to get your credit](https://tardigrade.io/?utm_source=blog&utm_medium=post&utm_campaign=early_access_blog) before time runs out! If you've already joined the waitlist, check your inbox for an email with details on how to get started. If you're already a Tardigrade user, first, thank you very much and second, your account will be credited with 1TB of storage and bandwidth after you add a credit card. Users who have both a credit card and a STORJ token balance will first see their STORJ token balance charged, with their credit card as the secondary method of payment. Even after users exhaust their credits, they'll still pay less than half the price of traditional cloud storage for their usage.
 
