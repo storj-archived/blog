@@ -4,7 +4,7 @@ backend:
   branch: master
 
 media_folder: "static/img"
-public_folder: "blog/img"
+public_folder: "/blog/img"
 publish_mode : editorial_workflow
 
 collections:
