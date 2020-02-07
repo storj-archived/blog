@@ -1,7 +1,7 @@
 ---
 title: Maximizing Bandwidth Earnings for Storage Node Operators
 date: 2020-02-07T15:34:04.393Z
-image: blog/img/blog-bandwidth-limits.png
+image: /blog/img/blog-bandwidth-limits.png
 categories:
   - engineering
 authors:
