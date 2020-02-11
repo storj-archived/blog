@@ -10,6 +10,8 @@ draft: false
 ---
 Have you heard the news? Tardigrade is in early access production, which means that developers can start using the decentralized cloud storage service for real workloads. This is a huge milestone for the company and network, and we're excited to have you along for the journey.
 
+<br>
+
 #### Tardigrade Benefits
 
 Tardigrade is superior to centralized alternatives, for a number of reasons. First off, we're more durable. Decentralization means there is no single point of failure, and the risk of file loss is dispersed through statistical uncorrelation.
@@ -17,6 +19,8 @@ Tardigrade is superior to centralized alternatives, for a number of reasons. Fir
 Data is streamed, hyper-locally and in-parallel, enabling us to be much faster than centralized competitors. Because our economics are similar to that of Airbnb (or Uber) - we're also able to sell storage at half the price of AWS.
 
 While decentralized cloud storage is awesome and highly optimized for some use cases, it isn't a perfect fit for everything. Tardigrade object storage is highly optimized for larger files, especially those which are written once and read many times.
+
+<br>
 
 #### Use Cases for Tardigrade
 
@@ -45,6 +49,8 @@ Rapid transit leveraging parallelism makes distributed storage effective for int
 Client-side encryption, industry-leading access management controls, and a highly distributed network of storage nodes reduce attack surface and risk.
 
 **Back-end to dApps:** A dApp backed by centralized cloud storage means you're missing out on the biggest benefits of decentralization. Using Tardigrade as the back-end to your dApp increases its privacy, security, and resiliency when compared to legacy, centralized cloud storage solutions.
+
+<br>
 
 #### Get Started
 
