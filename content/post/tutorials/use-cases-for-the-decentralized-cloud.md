@@ -10,8 +10,6 @@ draft: false
 ---
 Have you heard the news? Tardigrade is in early access production, which means that developers can start using the decentralized cloud storage service for real workloads. This is a huge milestone for the company and network, and we're excited to have you along for the journey.
 
-
-
 #### Tardigrade Benefits
 
 Tardigrade is superior to centralized alternatives, for a number of reasons. First off, we're more durable. Decentralization means there is no single point of failure, and the risk of file loss is dispersed through statistical uncorrelation.
@@ -19,8 +17,6 @@ Tardigrade is superior to centralized alternatives, for a number of reasons. Fir
 Data is streamed, hyper-locally and in-parallel, enabling us to be much faster than centralized competitors. Because our economics are similar to that of Airbnb (or Uber) - we're also able to sell storage at half the price of AWS.
 
 While decentralized cloud storage is awesome and highly optimized for some use cases, it isn't a perfect fit for everything. Tardigrade object storage is highly optimized for larger files, especially those which are written once and read many times.
-
-
 
 #### Use Cases for Tardigrade
 
@@ -36,21 +32,19 @@ For a great example of large file transfer, see [transfer.sh](https://transfer.s
 
 On the decentralized cloud, streaming backups eliminates the need to write large database snapshots to local disk before backup or for recovery.
 
-**Low volume CDN:** Out of the box, Tardigrade supports the fluid delivery of multimedia files with the ability to seek specific file ranges and support for large numbers of concurrent downloads.
+**Low volume CDN:** Out of the box, Tardigrade supports the fluid delivery of multimedia files with the ability to seek to specific file ranges and support for large numbers of concurrent downloads.
 
-On the decentralized cloud, native file streaming support and distributed bandwidth load across highly distributed nodes reduces bottlenecks
+On the decentralized cloud, native file streaming support and distributed bandwidth load across highly distributed nodes reduces bottlenecks.
 
 **Multimedia Storage:** Another common use case is for the storage of large numbers of big multimedia files, especially data produced at the edge from sources like security cameras that must be stored for long periods of time with low access.
 
 Rapid transit leveraging parallelism makes distributed storage effective for integrating with video compression systems to reduce the volume of data stored.
 
-**Private Data:** Tardigrade is highly optimized for data that is highly sensitive and an attractive target for ransomware attacks or other attempts to compromise or sensor data.
+**Private Data:** Tardigrade is highly optimized for data that is highly sensitive and an attractive target for ransomware attacks or other attempts to compromise or censor data.
 
 Client-side encryption, industry-leading access management controls, and a highly distributed network of storage nodes reduce attack surface and risk.
 
 **Back-end to dApps:** A dApp backed by centralized cloud storage means you're missing out on the biggest benefits of decentralization. Using Tardigrade as the back-end to your dApp increases its privacy, security, and resiliency when compared to legacy, centralized cloud storage solutions.
-
-
 
 #### Get Started
 
