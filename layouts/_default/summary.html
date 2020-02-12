@@ -12,16 +12,15 @@
     <a href="{{ .RelPermalink }}"><img class="img-responsive" style="width:98%;"src="{{ .Params.image }}"/></a>
     <div class="spacer15"></div>
     {{ end }}
-    
+
    </br>
 </div>
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="font-size: 16px;line-height: 28px;padding-right:45px;">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 blog-post-summary">
     {{ .Summary }}
     <div class="spacer15"></div>
-    <a style="font-family: Montserrat;font-size: 18px;font-weight: 500;line-height: 27px;"href="{{ .RelPermalink }}">{{ i18n "readMore" }}</a>
+    <a class="blog-post-read-more" href="{{ .RelPermalink }}">{{ i18n "readMore" }}</a>
     <div class="spacer15"></div>
     <hr style="border-right: medium none;border-top: #cccccc 1px solid;border-left: medium none;border-bottom: medium none;height: 1px;">
 </div>
 </div>
 </article>
-

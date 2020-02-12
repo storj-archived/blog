@@ -906,6 +906,51 @@ canvas {
 	color: #7E8B9C;
 }
 
+/* --------------------------------
+
+Post
+
+-------------------------------- */
+
+.blog-post-title {
+	font-family: Poppins;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 60px;
+	color: #000000;
+}
+
+.blog-post-date {
+	margin-top: -25px;
+	margin-bottom: -10px;
+}
+
+.blog-post-date .blog-post-info-link {
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 60px;
+	color: #133E9C;
+	text-transform: capitalize;
+}
+
+.blog-post-summary {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 35px;
+	color: #000000;
+	padding-right:45px;
+}
+
+.blog-post-read-more {
+	font-family: Poppins;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 60px;
+	color: #1743A2;
+}
 
 /* --------------------------------
 
