@@ -1582,8 +1582,7 @@ Footer
 
 footer {
 	padding-top: 3.5em;
-	background: #0e2338;
-	background: url("../blog/img/new-storj-background.jpg") center top no-repeat;
+	background: linear-gradient(0deg, #1743A2, #1743A2), #2582FF;
 	background-size: cover;
 	text-align: left;
 }
@@ -1593,16 +1592,20 @@ footer {
 .footer-logo {
 	display: block;
   margin-top: 1px;
+	opacity: 1;
 }
 .footer-logo img {
 	width: 90px;
 	display: block;
 }
 footer a {
-    padding-bottom: 2px;
-    line-height: 34px;
-    font-size: 14px;
-    color: #fff;
+  padding-bottom: 2px;
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 28px;
+	color: #FFFFFF;
+	opacity: 0.6;
 }
 footer a:hover {
 	color: #fff;
@@ -1617,7 +1620,10 @@ footer h5 {
     padding-bottom: 0.5em;
     margin-top: 1em;
     color: #fff;
-    text-transform: uppercase;
+		font-family: Poppins;
+		font-weight: bold;
+		font-size: 12px;
+		line-height: 20px;
 }
 footer .connect {
 }
