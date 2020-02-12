@@ -897,6 +897,15 @@ canvas {
 	display: none;
 }
 
+.blog-title {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 38px;
+	line-height: 60px;
+	color: #7E8B9C;
+}
+
 
 /* --------------------------------
 
