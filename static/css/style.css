@@ -565,7 +565,9 @@ select {
 
 .email {
 	margin-top: 1em;
-	margin-bottom: 1em;
+	margin-bottom: 0;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
 }
 
 ::-webkit-input-placeholder {
@@ -1655,7 +1657,6 @@ footer .list-unstyled {
 }
 .btn-footer {
     font-weight: 800;
-    text-transform: uppercase;
     background: #2683FF;
     color: #FFF;
     font-size: 16px;
@@ -1669,6 +1670,9 @@ footer .list-unstyled {
     -moz-transition: all 0.15s ease-in-out;
     -ms-transition: all 0.15s ease-in-out;
     transition: all 0.15s ease-in-out;
+		margin-top: 0;
+		border-top-left-radius: 0;
+		border-top-right-radius: 0;
 }
 
 .row.is-flex {
