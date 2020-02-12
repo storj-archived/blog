@@ -89,9 +89,7 @@ a {
     -ms-transition: all 0.15s ease-in-out;
     transition: all 0.15s ease-in-out;
 }
-a:hover {
-	color: #173AE8;
-}
+
 .link {
 	border-bottom: 1px solid #2683ff;
 }
@@ -954,6 +952,30 @@ Post
 
 /* --------------------------------
 
+Sidebar
+
+-------------------------------- */
+
+.category-title {
+	font-family: Poppins;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 60px;
+	color: #7E8B9C;
+}
+
+.category-name {
+	font-family: Roboto;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	color: #1743A2;
+	text-transform: capitalize;
+}
+
+
+/* --------------------------------
+
 Value Propositions
 
 -------------------------------- */
@@ -1089,17 +1111,7 @@ pre {
     border-left-color: #2683ff;
     border-radius: 2px;
 }
-.nav-stacked li a:hover {
-	color: #2683ff;
-	border-left-color: #ddd;
-	background: #f2f2f2;
-}
-.nav-stacked li a:focus {
-	color: #2683ff;
-}
-.nav-stacked li.active a:hover {
-	border-left-color: #2683ff;
-}
+
 
 /* --------------------------------
 
