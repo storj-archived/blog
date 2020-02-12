@@ -10,6 +10,7 @@
     <link href="/blog/css/prism.css" rel="stylesheet" type="text/css">
     <link href="/blog/css/style.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700|Roboto:300,700" rel="stylesheet">
 
     {{ range .AlternativeOutputFormats -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}

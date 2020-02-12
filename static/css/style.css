@@ -326,11 +326,15 @@ Navigation
 .logo {
     display: inline-block;
     margin: 0 5px 0 15px;
-    width: 14vh;
+    width: 34vh;
     height: 52px;
 }
 .logo-storjshare {
 	width: 180px;
+}
+
+#navbar-menu {
+	float: right;
 }
 
 .menu {
@@ -412,8 +416,12 @@ Navigation
 .navbar-page .navbar-nav>li>a {
 	padding: 40px 16px;
 	width: 100%;
-    color: #333;
-    border: 0;
+	border: 0;
+	font-family: Poppins;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+	color: #133E9C;
 }
 .navbar-page .navbar-nav>li>a:hover {
 	color: #2683ff;
