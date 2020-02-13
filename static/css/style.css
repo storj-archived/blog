@@ -359,9 +359,7 @@ Navigation
 .navbar-default .navbar-toggle:focus {
 	background: none;
 }
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:active {
-    background-color: #2683ff;
-}
+
 .navbar-default .navbar-collapse.in{
     border-color: transparent;
 }
@@ -421,23 +419,16 @@ Navigation
 	line-height: 20px;
 	color: #133E9C;
 }
-.navbar-page .navbar-nav>li>a:hover {
-	color: #2683ff;
-}
+
 .navbar-page .nav>li>a.link:hover, .navbar-page .nav>li>a.link:focus {
     text-decoration: underline;
 }
-.
-.navbar-page .navbar-nav>li>a:hover, .navbar-page .navbar-nav>li>a:focus {
-    color: #2683ff;
-}
-.navbar-page .navbar-nav>li>a.active {
-	color: #2683ff;
-}
+
+
 .navbar-page .navbar-toggle {
 	margin-top: 34px;
-    margin-right: 22px;
-    border: 2px solid #2683ff;
+  margin-right: 22px;
+  border: 2px solid #2683ff;
 }
 .navbar-page .navbar-toggle .icon-bar {
 	background: #2683ff;
@@ -467,12 +458,6 @@ Navigation
     text-decoration: underline;
 }
 
-.navbar-page .navbar-nav>.open>a, .navbar-page .navbar-nav>.open>a:hover, .navbar-page .navbar-nav>.open>a:focus {
-    color: #2683ff;
-}
-.navbar-page .navbar-nav>li>a:hover, .navbar-page .navbar-nav>li>a:focus {
-    color: #2683ff;
-}
 .navbar-page .dropdown-menu {
 	background: #fff;
 }
@@ -912,7 +897,7 @@ Post
 
 -------------------------------- */
 
-.blog-post-title {
+.blog-post-title, .blog-post-title .text-dark {
 	font-family: Poppins;
 	font-weight: bold;
 	font-size: 30px;
@@ -950,6 +935,45 @@ Post
 	font-size: 18px;
 	line-height: 60px;
 	color: #1743A2;
+}
+
+.single-post .blog-post-date {
+	margin-bottom: -30px;
+}
+
+.blog-post-content {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 30px;
+	color: #000000;
+}
+
+.blog-post-content h4 {
+	font-family: Poppins;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 30px;
+	color: #000000;
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+
+.blog-post-content img {
+	margin: 40px 0;
+}
+
+.blog-post-content a {
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 30px;
+	color: #133E9C;
+}
+
+.single-post .blog-post .img-responsive {
+	margin-bottom: 25px;
 }
 
 /* --------------------------------
@@ -1641,6 +1665,7 @@ footer .address address {
 	color: #525d69;
 	color: rgba(255,255,255,0.4);
 	font-size: 14px;
+	font-family: Roboto;
 }
 footer .list-unstyled {
 	padding-top: 0.5em;
@@ -2855,7 +2880,6 @@ Media Queries
     	text-decoration: underline;
 	}
 	.navbar-page .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-page .navbar-nav .open .dropdown-menu>li>a:focus {
-    	color: #2683ff;
     	text-decoration: underline;
     	background: #f2f2f2;
 	}
