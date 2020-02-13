@@ -331,9 +331,16 @@ Navigation
 	width: 180px;
 }
 
-#navbar-menu {
+#navbar {
 	float: right;
 }
+
+@media only screen and (max-width: 767px){
+	#navbar {
+		float: none;
+	}
+}
+
 
 .menu {
     z-index: 3;
@@ -366,6 +373,10 @@ Navigation
 
 .navbar-default .navbar-collapse.in{
     border-color: transparent;
+		overflow: visible;
+}
+.navbar-default .navbar-toggle:focus {
+	background: none;
 }
 .navbar-collapse.in li {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.12);
@@ -374,6 +385,15 @@ Navigation
     margin: 0 -15px;
     text-align: center;
 }
+
+@media only screen and (min-width: 767px) and (max-width: 1024px){
+	.navbar-nav {
+		float: right;
+		right: 20px;
+		position: absolute;
+	}
+}
+
 .navbar-nav>li>a {
 	padding: 40px 16px;
     line-height: 22px;
@@ -468,6 +488,10 @@ Navigation
 }
 .navbar-page .navbar-nav>li>a:hover, .navbar-page .navbar-nav>li>a:focus {
     color: #2683ff;
+}
+
+.navbar-page .dropdown-menu {
+	background: #fff;
 }
 
 .navbar-page .dropdown-menu>li>a {
@@ -797,6 +821,12 @@ canvas {
 	text-transform: none;
 }
 
+@media only screen and (max-width: 767px) {
+	.header-cta {
+		bottom: 0;
+	}
+}
+
 
 
 
@@ -918,6 +948,12 @@ canvas {
 	font-size: 38px;
 	line-height: 60px;
 	color: #7E8B9C;
+}
+
+@media only screen and (max-width: 767px) {
+	.blog-title {
+		text-align: center;
+	}
 }
 
 /* --------------------------------
@@ -2838,6 +2874,11 @@ Media Queries
       	padding: 40px 8px;
       	font-size: 14px;
   	}
+		@media only screen and (min-width: 767px) and (max-width: 1024px){
+			.navbar-nav>li>a, .navbar-page .navbar-nav>li>a {
+	      	padding: 40px 5px;
+	  	}
+		}
   	.btn-menu {
   		padding-left: 15px;
   		padding-right: 15px;
@@ -2894,9 +2935,14 @@ Media Queries
 		color: #fff;
 		box-shadow: none;
 	}
+
+
 	.navbar-page .navbar-nav>li>a:hover, .navbar-page .navbar-nav>li>a:focus  {
 		box-shadow: none;
 		background: #f2f2f2;
+	}
+	.navbar-page .navbar-nav>li>a.header-cta:hover, .navbar-page .navbar-nav>li>a.header-cta:focus {
+			background: none;
 	}
 	.navbar-page .navbar-nav>li>a.active:hover, .navbar-page .navbar-nav>li>a.active:focus {
 		background: #2683ff;
