@@ -966,8 +966,16 @@ Post
 	font-family: Poppins;
 	font-weight: bold;
 	font-size: 30px;
-	line-height: 60px;
+	line-height: 50px;
 	color: #000000;
+}
+
+@media only screen and (max-width: 768px) {
+	.blog-post-title, .blog-post-title .text-dark {
+		font-size: 24px;
+		line-height: 36px;
+		margin-bottom: 35px;
+	}
 }
 
 .blog-post-date {
@@ -979,9 +987,15 @@ Post
 	font-family: Roboto;
 	font-weight: bold;
 	font-size: 18px;
-	line-height: 60px;
+	line-height: 40px;
 	color: #133E9C;
 	text-transform: capitalize;
+}
+
+@media only screen and (max-width: 768px) {
+	.blog-post-date .blog-post-info-link {
+		line-height: 30px;
+	}
 }
 
 .blog-post-summary {
