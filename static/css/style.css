@@ -1029,6 +1029,12 @@ Post
 	color: #000000;
 }
 
+@media only screen and (min-width: 768px) {
+	.blog-post-content {
+		max-width: 90%;
+	}
+}
+
 .blog-post-content h4 {
 	font-family: Poppins;
 	font-weight: bold;
@@ -1041,6 +1047,7 @@ Post
 
 .blog-post-content img {
 	margin: 40px 0;
+	max-width: 100%;
 }
 
 .blog-post-content a {
