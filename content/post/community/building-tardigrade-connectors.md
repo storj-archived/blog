@@ -50,7 +50,6 @@ For example, if applications using an open-source data product are storing their
 ### How Our Partners are Using Tardigrade Connectors
 
 A number of open-source projects and developers have already begun building out Tardigrade Connectors.
-
 #### Database Snapshots
 
 One early use case that has proven successful is database backups and snapshots. Our early database partners include MongoDB, Couchbase, Kafka, MariaDB, Fluree, and InfluxDB. On Tardigrade, snapshots are globally available by default---no need for multi-region replication or additional configuration. This means you can recover the state of your database anywhere in the world quickly and economically.
