@@ -69,7 +69,7 @@ Open Source tools like RClone and Rsync enable developers to sync files and dire
 
 [See a WIP overview of our RClone integration here](https://documentation.tardigrade.io/v/staging/how-tos/sync-file-system-to-tardigrade-missing).
 
-### Get Started - and Monetize OSS!
+### Get Started and Monetize OSS!
 
 We hope that the Tardigrade Connector Partner Program will empower a new class of entrepreneurs to 'be the cloud', and create more sustainable business models built on top of open-source software.
 
