@@ -50,19 +50,20 @@ For example, if applications using an open-source data product are storing their
 ### How Our Partners are Using Tardigrade Connectors
 
 A number of open-source projects and developers have already begun building out Tardigrade Connectors.
-#### Database Snapshots
+
+**Database Snapshots**
 
 One early use case that has proven successful is database backups and snapshots. Our early database partners include MongoDB, Couchbase, Kafka, MariaDB, Fluree, and InfluxDB. On Tardigrade, snapshots are globally available by default---no need for multi-region replication or additional configuration. This means you can recover the state of your database anywhere in the world quickly and economically.
 
 [Check out our database snapshot Connector toolset!](https://documentation.tardigrade.io/how-tos/backup)
 
-#### File Management
+**File Management**
 
 Another common Connector use case is around file management, where users of open-source content storage and collaboration tools like NextCloud and Pydio, can backup up their files on the decentralized cloud. This use case gives organizations complete control over their files.
 
 For a walkthrough around how to configure NextCloud with Storj, [take a look at this 'How To' guide](https://documentation.tardigrade.io/how-tos/set-up-tardigrade-with-nextcloud-primary-storage).
 
-#### Filesystem Mapping
+**Filesystem Mapping**
 
 Open Source tools like RClone and Rsync enable developers to sync files and directories to and from Tardigrade Object Storage on the Storj Network, at the operating system level.
 
@@ -73,4 +74,4 @@ Open Source tools like RClone and Rsync enable developers to sync files and dire
 We hope that the Tardigrade Connector Partner Program will empower a new class of entrepreneurs to 'be the cloud', and create more sustainable business models built on top of open-source software.
 
 Stay tuned for a series of announcements, blog posts, and 'How To's' in the coming weeks that will detail the ways in which our partners are building applications and developer tooling, which leverage the decentralized cloud.\
-For more information around how to create a Tardigrade Connector - and partake in Open Source Revenue Share, [follow this link](https://tardigrade.io/partner/), or email us directly: partnerships@tardigrade.io
+For more information around how to create a Tardigrade Connector - and partake in Open Source Revenue Share, [follow this link](https://tardigrade.io/partner/), or email us directly: [partnerships@tardigrade.io](mailto:partnerships@tardigrade.io).
