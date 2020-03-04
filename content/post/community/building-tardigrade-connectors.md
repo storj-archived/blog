@@ -18,7 +18,7 @@ Tardigrade connectors are different from standard libuplink integrations, as the
 
 So, using Tardigrade with your favorite open source project can help you lower your cloud storage costs, while also financially supporting the project itself.
 
-### How to build Connectors 
+### How to Build Connectors 
 
 The Tardigrade Connector Framework \[TCF] is a basic set of utility methods and operations to provide a consistent approach to integrating and orchestrating among data sources, endpoints, and the Tardigrade network. Some of the aspects addressed in the framework are:
 
@@ -69,7 +69,7 @@ Open Source tools like RClone and Rsync enable developers to sync files and dire
 
 [See a WIP overview of our RClone integration here](https://documentation.tardigrade.io/v/staging/how-tos/sync-file-system-to-tardigrade-missing).
 
-### Get Started - and Monetize OSS!
+### Get Started and Monetize OSS!
 
 We hope that the Tardigrade Connector Partner Program will empower a new class of entrepreneurs to 'be the cloud', and create more sustainable business models built on top of open-source software.
 
