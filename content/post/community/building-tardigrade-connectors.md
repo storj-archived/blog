@@ -50,6 +50,7 @@ For example, if applications using an open-source data product are storing their
 ### How Our Partners are Using Tardigrade Connectors
 
 A number of open-source projects and developers have already begun building out Tardigrade Connectors.
+
 #### Database Snapshots
 
 One early use case that has proven successful is database backups and snapshots. Our early database partners include MongoDB, Couchbase, Kafka, MariaDB, Fluree, and InfluxDB. On Tardigrade, snapshots are globally available by default---no need for multi-region replication or additional configuration. This means you can recover the state of your database anywhere in the world quickly and economically.
@@ -73,4 +74,4 @@ Open Source tools like RClone and Rsync enable developers to sync files and dire
 We hope that the Tardigrade Connector Partner Program will empower a new class of entrepreneurs to 'be the cloud', and create more sustainable business models built on top of open-source software.
 
 Stay tuned for a series of announcements, blog posts, and 'How To's' in the coming weeks that will detail the ways in which our partners are building applications and developer tooling, which leverage the decentralized cloud.\
-For more information around how to create a Tardigrade Connector - and partake in Open Source Revenue Share, [follow this link](https://tardigrade.io/partner/), or email us directly: partnerships@tardigrade.io
+For more information around how to create a Tardigrade Connector - and partake in Open Source Revenue Share, [follow this link](https://tardigrade.io/partner/), or email us directly: [partnerships@tardigrade.io](mailto:partnerships@tardigrade.io).
