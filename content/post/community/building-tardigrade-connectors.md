@@ -31,9 +31,7 @@ The Tardigrade Connector Framework \[TCF] is a basic set of utility methods and 
 
 Generally, a Tardigrade connector will interface directly with libuplink, our native Go library, which enables you to programmatically interface with Tardigrade. A basic architectural diagram of how a Tardigrade Connector fits into the stack is located below:
 
-![](/blog/img/tar-blog-connectors-framework.png "Open Source Monetization Overview: what if there was a better way for open source projects to develop sustainable revenue streams?")
-
-
+![Open Source Monetization Overview: what if there was a better way for open source projects to develop sustainable revenue streams?](/blog/img/tar-blog-connectors-framework.png "Open Source Monetization Overview: what if there was a better way for open source projects to develop sustainable revenue streams?")
 
 At the Open Source Summit in Vancouver, Storj Labs introduced a radically new model for funding open source development---the Decentralized Revenue Share model. For more information on this, [check out Ben Golub announcing our Open Source Partner Program on stage](https://storj.io/blog/2018/08/enabling-economic-empowerment-for-open-source-companies-via-the-storj-network/).
 
