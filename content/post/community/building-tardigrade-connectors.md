@@ -37,8 +37,8 @@ Tardigrade Connectors enable developers to build more secure, performant solutio
 
 ### Open Source Monetization
 
-What if there was a better way for open source projects to develop sustainable revenue streams?\
-\
+What if there was a better way for open source projects to develop sustainable revenue streams?
+
 At the Open Source Summit in Vancouver, Storj Labs introduced a radically new model for funding open source development---the Decentralized Revenue Share model. For more information on this, [check out Ben Golub announcing our Open Source Partner Program on stage](https://storj.io/blog/2018/08/enabling-economic-empowerment-for-open-source-companies-via-the-storj-network/).
 
 With this program, every time users store data on Tardigrade, we'll share a generous portion of every dollar earned with our open-source partners.
