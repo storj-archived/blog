@@ -35,7 +35,7 @@ Generally, a Tardigrade connector will interface directly with libuplink, our na
 
 Tardigrade Connectors enable developers to build more secure, performant solutions with open technology. A number of developer libraries exist for you [to get started today](https://documentation.tardigrade.io/api-reference/libraries).
 
-### Open Source Monetization 
+### Open Source Monetization
 
 What if there was a better way for open source projects to develop sustainable revenue streams?\
 \
@@ -63,7 +63,7 @@ One early use case that has proven successful is database backups and snapshots.
 
 **File Management**
 
-Another common Connector use case is around file management, where users of open-source content storage and collaboration tools like NextCloud and Pydio, can backup up their files on the decentralized cloud. This use case gives organizations complete control over their files.
+Another common Connector use case is around file management, where users of open-source content storage and collaboration tools like NextCloud and Pydio, can back up their files on the decentralized cloud. This use case gives organizations complete control over their files.
 
 For a walkthrough around how to configure NextCloud with Storj, [take a look at this 'How To' guide](https://documentation.tardigrade.io/how-tos/set-up-tardigrade-with-nextcloud-primary-storage).
 
