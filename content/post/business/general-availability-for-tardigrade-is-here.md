@@ -42,4 +42,6 @@ To our amazing community; thank you immensely for supporting us throughout this 
 
 Storj Labs is among a myriad of companies building the infrastructure to power decentralized web 3.0 
 
-If you haven't given Tardigrade a try, take a few minutes, sign-up for an account to receive a free credit, and upload a file. See the power of decentralization for yourself.
+[rigorous set of launch gates](https://storj.io/blog/2019/11/measuring-production-readiness-using-qualification-gates/)
+
+If you haven't given Tardigrade a try, take a few minutes, [sign-up for an account to receive a free credit](https://tardigrade.io/satellites/), and upload a file. See the power of decentralization for yourself.
