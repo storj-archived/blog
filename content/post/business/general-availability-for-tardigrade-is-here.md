@@ -28,7 +28,7 @@ As we've talked about in the past, we put in place a [rigorous set of launch gat
 * Until we had the tools, documentation, and libraries available to support our major use cases.
 * Until we had battle tested the system with partners.
 * Until we had been thoroughly vetted by third party security firms.
-* Until we could confidently back our service with an enterprise grade Service Level Agreements (SLAs).
+* Until we could confidently back our service with enterprise grade Service Level Agreements (SLAs).
 
 ![](/blog/img/qualification-gates-and-network-performance.png)
 
