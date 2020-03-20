@@ -1,5 +1,5 @@
 ---
-title: The Electric Car Example Applied to the Decentralized Cloud Storage
+title: The Electric Car Example Applied to Decentralized Cloud Storage
 date: 2020-03-20T19:57:03.265Z
 image: /blog/img/blog-storj-electric-car-example.png
 categories:
