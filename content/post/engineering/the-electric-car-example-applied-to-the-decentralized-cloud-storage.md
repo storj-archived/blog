@@ -43,7 +43,7 @@ Both Tesla and Toyota were, in my opinion, successful approaches. Both now have 
 
 By contrast, there were many failed approaches in the electric car industry. These included a plethora of relatively affordable, all-electric vehicles that had impractically short ranges (<15 km) and couldn't be used as a primary vehicle by most consumers. Other approaches failed to deliver sufficiently on any of the three factors (e.g. those that relied on non-existent networks of chargers or battery replacement stations to provide range).
 
-<img src="/blog/img/ec-5.1.png" width="30%"/>
+<img src="/blog/img/ec5.1.png" width="30%"/>
 
 <img src="/blog/img/ec-5.2.png" width="30%"/>
 
