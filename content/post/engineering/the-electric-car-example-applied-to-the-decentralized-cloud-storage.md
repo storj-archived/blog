@@ -20,7 +20,7 @@ A few thoughts on why:
 
 You may be familiar with the engineering dictum: you can be fast, you can be cheap, and you can be good---but you can't be all three. You have to pick two.
 
-![](/blog/img/ec1.png)
+<img src="/blog/img/ec1.png" width="30%"/>
 
 There's a long list of engineering projects that have failed (or were never completed) because the project leaders tried to meet all three factors simultaneously, and ended up succeeding at none.
 
@@ -28,23 +28,25 @@ There's a long list of engineering projects that have failed (or were never comp
 
 A similar scenario played out in the electric car industry a decade ago. Everyone wanted a car that was affordable, had long ranges between charging, and was all-electric. But, it turned out that it was impossible to fully meet all three factors.  You had to pick two. And, you had to pick the correct two.
 
-![](/blog/img/ec2.png)
+<img src="/blog/img/ec2.png" width="30%"/>
+
 
 Tesla, for example, initially decided to focus on being all-electric and delivering a long-range between charges. When Tesla introduced the all-electric roadster in 2008, it had an impressive  >320 km of range and was 100% electric. But, at a starting price of over $120K, few could afford it. Less than 2,500 roadsters were sold. However, the Roadster succeeded as a proof of concept and succeeded at generating interest. Over time, of course, Tesla used the learnings from the Roadster to produce more affordable and practical 100% electric cars, such as the Model S, and Model 3. The Model 3 (at a ~$40K list price) sold over 300,000 units last year.
 
-![](/blog/img/ec3.png)
+<img src="/blog/img/ec3.png" width="30%"/>
 
 Toyota and others took a different approach. They created cars (e.g. the Prius, plug-in hybrids) that were affordable and had nearly unlimited range, but achieved that range by not depending 100% on the battery. These cars delivered many of the most important fuel economy and environmental benefits of 100% electric cars, but weren't 100% electric. However, with an MSRP of ~$22K, the initial Prius model helped create a line that has sold millions of units (over 500K in 2008, the year the Tesla Roadster launched), and helped Toyota and others fund moving towards 100% electric.
 
-![](/blog/img/ec4.png)
+<img src="/blog/img/ec4.png" width="30%"/>
 
 Both Tesla and Toyota were, in my opinion, successful approaches. Both now have reached the point where they have long-range, all-electric, and (relatively) affordable offerings. But, both had to make some compromises on one of the factors in the early days.
 
 By contrast, there were many failed approaches in the electric car industry. These included a plethora of relatively affordable, all-electric vehicles that had impractically short ranges (<15 km) and couldn't be used as a primary vehicle by most consumers. Other approaches failed to deliver sufficiently on any of the three factors (e.g. those that relied on non-existent networks of chargers or battery replacement stations to provide range).
 
-![](/blog/img/ec5.1.png)
+<img src="/blog/img/ec-5.1.png" width="30%"/>
 
-![](/blog/img/ec-5.2.png)
+<img src="/blog/img/ec-5.2.png" width="30%"/>
+
 
 #### Pick Two!  (For Decentralized Storage)
 
@@ -60,13 +62,13 @@ To gain broad adoption and demand, of course, the service can't just be inexpens
 
 Finally, of course, we want to deliver on the full decentralized vision, where there are no single points of failure, robust privacy, zero-knowledge, and full user control. 
 
-![](/blog/img/ec6.png)
+<img src="/blog/img/ec6.png" width="30%"/>
 
 A lot of the prior attempts at decentralized storage (including our own V2 network), failed to deliver fully on at least two of the three factors. For example, many have created impractical or unusable networks in the service of being 100% decentralized. These networks are interesting, but have failed to attract large numbers of users or grow beyond a few terabytes, and most have yet to exit alpha or beta.
 
 When we began planning V3/Tardigrade, we believed that we needed to fully meet the Economically Sustainable and Enterprise-Grade factors to be viable. We believed that we could deliver significant user value by having a largely (but not 100%) decentralized architecture. I guess you could say that we chose the "plug-in hybrid" path for our initial Tardigrade launch.
 
-![](/blog/img/ec7.png)
+<img src="/blog/img/ec7.png" width="30%"/>
 
 We talked extensively in other posts about[ being enterprise-grade](https://storj.io/blog/2019/11/measuring-production-readiness-using-qualification-gates/) and how we deliver our [economics](https://storj.io/blog/2019/11/announcing-pioneer-2-and-tardigrade.io-pricing/). Our approach to Satellites enabled us to deliver those factors and deliver them far more quickly. But, how decentralized are we? And, how close are we to delivering on the decentralized vision?
 
