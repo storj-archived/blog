@@ -16,7 +16,7 @@ However, the purists in the community (and in Storj as well), will correctly poi
 
 A few thoughts on why:
 
-#### Pick Two! (For Engineering Projects Generally)
+### Pick Two! (For Engineering Projects Generally)
 
 You may be familiar with the engineering dictum: you can be fast, you can be cheap, and you can be good---but you can't be all three. You have to pick two.
 
@@ -24,7 +24,7 @@ You may be familiar with the engineering dictum: you can be fast, you can be che
 
 There's a long list of engineering projects that have failed (or were never completed) because the project leaders tried to meet all three factors simultaneously, and ended up succeeding at none.
 
-#### Pick Two! (For Electric Cars)
+### Pick Two! (For Electric Cars)
 
 A similar scenario played out in the electric car industry a decade ago. Everyone wanted a car that was affordable, had long ranges between charging, and was all-electric. But, it turned out that it was impossible to fully meet all three factors.  You had to pick two. And, you had to pick the correct two.
 
@@ -44,7 +44,7 @@ By contrast, there were many failed approaches in the electric car industry. The
 
 <img src="/blog/img/ec5.1.png" width="40%"/> <img src="/blog/img/ec-5.2.png" width="40%"/>
 
-#### Pick Two! (For Decentralized Storage)
+### Pick Two! (For Decentralized Storage)
 
 In building a decentralized storage network, we faced a similar set of choices. For us, the three factors are:
 
@@ -68,7 +68,7 @@ When we began planning V3/Tardigrade, we believed that we needed to fully meet t
 
 We talked extensively in other posts about[ being enterprise-grade](https://storj.io/blog/2019/11/measuring-production-readiness-using-qualification-gates/) and how we deliver our [economics](https://storj.io/blog/2019/11/announcing-pioneer-2-and-tardigrade.io-pricing/). Our approach to Satellites enabled us to deliver those factors and deliver them far more quickly. But, how decentralized are we? And, how close are we to delivering on the decentralized vision?
 
-#### How Decentralized are Storj and Tardigrade
+### How Decentralized are Storj and Tardigrade
 
 Let's start with what is decentralized about the system:
 
@@ -88,6 +88,6 @@ In the near future, we'll enable partners to operate Tardigrade Satellites. And,
 
 Ultimately, of course, we want to progress to the point where Satellites can be run by any competent operator and be part of the decentralized network, much as any router or bridge can be part of the Internet.
 
-#### Conclusion
+### Conclusion
 
 Ultimate, we feel that we have made the right choices going into this important launch. We've delivered an enterprise-grade network, with sustainable and attractive economics, and that delivers almost all of the benefits of decentralization to users and Storage Node Operators. We've still got a ways to go, but we hope that history and our users will prove us right.
