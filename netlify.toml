@@ -31,6 +31,72 @@ HUGO_VERSION = "ç"
 HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
+from = "/2020/03/building-tardigrade-connectors/"
+to = "https://tardigrade.io/blog/post/community/building-tardigrade-connectors/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2020/02/use-cases-for-the-decentralized-cloud/"
+to = "https://tardigrade.io/blog/post/tutorials/use-cases-for-the-decentralized-cloud/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2020/01/announcing-early-access-for-tardigrade/"
+to = "https://tardigrade.io/blog/post/business/announcing-early-access-for-tardigrade/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2020/01/what-to-expect-in-production/"
+to = "https://tardigrade.io/blog/post/community/what-to-expect-in-production/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/12/secure-access-control-in-the-decentralized-cloud/"
+to = "https://tardigrade.io/blog/post/engineering/secure-access-control-in-the-decentralized-cloud/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/11/announcing-pioneer-2-and-tardigrade.io-pricing/"
+to = "https://tardigrade.io/blog/post/business/announcing-pioneer-2-and-tardigrade-io-pricing-1/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/11/measuring-production-readiness-using-qualification-gates/"
+to = "https://tardigrade.io/blog/post/engineering/measuring-production-readiness-using-qualification-gates/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/10/architecting-a-decentralized-github-backup/"
+to = "https://tardigrade.io/blog/post/community/architecting-a-decentralized-github-backup/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/10/ipfs-now-on-storj-network/"
+to = "https://tardigrade.io/blog/post/business/ipfs-now-on-storj-network/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/08/the-role-of-qualification-gates-in-getting-to-beta-and-beyond/"
+to = "https://tardigrade.io/blog/post/engineering/the-role-of-qualification-gates-in-getting-to-beta-and-beyond/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/08/the-role-of-qualification-gates-in-getting-to-beta-and-beyond/"
+to = "https://tardigrade.io/blog/post/engineering/the-role-of-qualification-gates-in-getting-to-beta-and-beyond/"
+status = 301
+force = true
+
+[[redirects]]
 from = "/2018/01/getting-from-petabytes-to-exabytes-the-road-ahead/"
 to = "https://tardigrade.io/blog/post/engineering/getting-from-petabytes-to-exabytes-the-road-ahead/"
 status = 301
