@@ -91,8 +91,74 @@ status = 301
 force = true
 
 [[redirects]]
-from = "/2019/08/the-role-of-qualification-gates-in-getting-to-beta-and-beyond/"
-to = "https://tardigrade.io/blog/post/engineering/the-role-of-qualification-gates-in-getting-to-beta-and-beyond/"
+from = "/2019/08/announcing-beta-pioneer-1-v3-and-tardigrade-are-here/"
+to = "https://tardigrade.io/blog/post/engineering/announcing-beta-pioneer-1-v3-and-tardigrade-are-here/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/07/introducing-the-tardigrade-mascot/"
+to = "https://tardigrade.io/blog/post/community/introducing-the-tardigrade-mascot/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/07/help-us-choose-the-tardigrade-mascot/"
+to = "https://tardigrade.io/blog/post/community/help-us-choose-the-tardigrade-mascot/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/07/announcing-beacon-alpha-file-sharing-ip-filtering-and-increased-performance/"
+to = "https://tardigrade.io/blog/post/engineering/announcing-beacon-alpha-file-sharing-ip-filtering-and-increased-performance/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/06/ip-filtering-keeps-data-distributed/"
+to = "https://tardigrade.io/blog/post/engineering/ip-filtering-keeps-data-distributed/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/05/flexible-file-sharing-with-macaroons/"
+to = "https://tardigrade.io/blog/post/engineering/flexible-file-sharing-with-macaroons/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/05/coordination-avoidance-on-the-storj-network/"
+to = "https://tardigrade.io/blog/post/engineering/coordination-avoidance-on-the-storj-network/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/04/what-happens-when-you-upload-a-file-to-a-decentralized-network/"
+to = "https://tardigrade.io/blog/post/engineering/what-happens-when-you-upload-a-file-to-a-decentralized-network/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/04/the-storj-v3-developer-library-has-arrived/"
+to = "https://tardigrade.io/blog/post/engineering/the-storj-v3-developer-library-has-arrived/"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://storj.io/blog/2019/04/starting-your-first-project-on-the-tardigrade-cloud-storage-network/"
+to = "https://tardigrade.io/blog/post/engineering/starting-your-first-project-on-the-tardigrade-cloud-storage-network/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/04/developers-and-v3-network-make-first-contact-with-vanguard-alpha/"
+to = "https://tardigrade.io/blog/post/engineering/developers-and-v3-network-make-first-contact-with-vanguard-alpha/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/04/cloud-storage-prices-havent-changed-much-in-4-years-but-theyre-about-to/"
+to = "https://tardigrade.io/blog/post/business/cloud-storage-prices-havent-changed-much-in-4-years-theyre-about-to/"
 status = 301
 force = true
 
