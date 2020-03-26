@@ -175,6 +175,96 @@ status = 301
 force = true
 
 [[redirects]]
+from = "/2019/02/a-brief-overview-of-kademlia-and-its-use-in-various-decentralized-platforms/"
+to = "https://tardigrade.io/blog/post/engineering/a-brief-overview-of-kademlia-and-its-use-in-various-decentralized-platforms/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/01/why-proof-of-replication-is-bad-for-decentralized-storage-part-2-churn-and-burn/"
+to = "https://tardigrade.io/blog/post/engineering/why-proof-of-replication-is-bad-for-decentralized-storage-part-2-churn-and-burn/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2018/12/decentralized-auditing-and-repair-the-low-key-life-of-data-resurrection/"
+to = "https://tardigrade.io/blog/post/engineering/decentralized-auditing-and-repair-the-low-key-life-of-data-resurrection/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2018/12/a-free-and-open-internet-is-vital-and-is-under-siege/"
+to = "https://tardigrade.io/blog/post/engineering/a-free-and-open-internet-is-vital-and-is-under-siege/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2018/11/the-high-price-of-traditional-cloud-storage/"
+to = "https://tardigrade.io/blog/post/community/the-high-price-of-traditional-cloud-storage/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2018/11/the-benefits-of-decentralization-go-far-beyond-ideology/"
+to = "https://tardigrade.io/blog/post/business/the-benefits-of-decentralization-go-far-beyond-ideology/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2018/11/the-benefits-of-decentralization-go-far-beyond-ideology/"
+to = "https://tardigrade.io/blog/post/business/the-benefits-of-decentralization-go-far-beyond-ideology/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2018/11/security-and-encryption-on-the-v3-network/"
+to = "https://tardigrade.io/blog/post/engineering/security-and-encryption-on-the-v3-network/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2018/11/s3-compatibility-is-key-to-breaking-into-the-cloud-storage-market/"
+to = "https://tardigrade.io/blog/post/business/s3-compatibility-is-key-to-breaking-into-the-cloud-storage-market/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2018/11/replication-is-bad-for-decentralized-storage-part-1-erasure-codes-for-fun-and-profit/"
+to = "https://tardigrade.io/blog/post/engineering/replication-is-bad-for-decentralized-storage-part-1-erasure-codes-for-fun-and-profit/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2018/10/open-source-revenue-models-in-the-cloud-era/"
+to = "https://tardigrade.io/blog/post/business/open-source-revenue-models-in-the-cloud-era/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2018/08/storj-launches-v3-private-alpha/"
+to = "https://tardigrade.io/blog/post/business/storj-launches-v3-private-alpha/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2018/08/enabling-economic-empowerment-for-open-source-companies-via-the-storj-network/"
+to = "https://tardigrade.io/blog/post/business/enabling-economic-empowerment-for-open-source-companies-via-the-storj-network/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2018/07/announcing-a-campaign-for-a-new-logo/"
+to = "https://tardigrade.io/blog/post/business/announcing-a-campaign-for-a-new-logo/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2018/07/announcing-a-campaign-for-a-new-logo/"
+to = "https://tardigrade.io/blog/post/business/announcing-a-campaign-for-a-new-logo/"
+status = 301
+force = true
+
+[[redirects]]
 from = "/2018/01/getting-from-petabytes-to-exabytes-the-road-ahead/"
 to = "https://tardigrade.io/blog/post/engineering/getting-from-petabytes-to-exabytes-the-road-ahead/"
 status = 301
