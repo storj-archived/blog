@@ -29,3 +29,9 @@ HUGO_VERSION = "ç"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+from = "/2018/01/getting-from-petabytes-to-exabytes-the-road-ahead/"
+to = "https://tardigrade.io/blog/post/engineering/getting-from-petabytes-to-exabytes-the-road-ahead/"
+status = 301
+force = true
