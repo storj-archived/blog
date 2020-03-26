@@ -163,6 +163,18 @@ status = 301
 force = true
 
 [[redirects]]
+from = "/2019/02/planning-ahead-for-the-v2-to-v3-network-transition/"
+to = "https://tardigrade.io/blog/post/community/planning-ahead-for-the-v2-to-v3-network-transition/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/02/announcing-the-storj-v3-explorer-release/"
+to = "https://tardigrade.io/blog/post/community/announcing-the-storj-v3-explorer-release/"
+status = 301
+force = true
+
+[[redirects]]
 from = "/2018/01/getting-from-petabytes-to-exabytes-the-road-ahead/"
 to = "https://tardigrade.io/blog/post/engineering/getting-from-petabytes-to-exabytes-the-road-ahead/"
 status = 301
