@@ -31,7 +31,7 @@ HUGO_VERSION = "ç"
 HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
-from = "/blog/2018/01/getting-from-petabytes-to-exabytes-the-road-ahead/"
+from = "/2018/01/getting-from-petabytes-to-exabytes-the-road-ahead/"
 to = "https://tardigrade.io/blog/post/engineering/getting-from-petabytes-to-exabytes-the-road-ahead/"
 status = 301
 force = true
