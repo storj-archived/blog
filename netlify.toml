@@ -145,7 +145,7 @@ status = 301
 force = true
 
 [[redirects]]
-from = "https://storj.io/blog/2019/04/starting-your-first-project-on-the-tardigrade-cloud-storage-network/"
+from = "/2019/04/starting-your-first-project-on-the-tardigrade-cloud-storage-network/"
 to = "https://tardigrade.io/blog/post/engineering/starting-your-first-project-on-the-tardigrade-cloud-storage-network/"
 status = 301
 force = true
@@ -259,13 +259,25 @@ status = 301
 force = true
 
 [[redirects]]
-from = "/2018/07/announcing-a-campaign-for-a-new-logo/"
-to = "https://tardigrade.io/blog/post/business/announcing-a-campaign-for-a-new-logo/"
+from = "/2018/03/an-update-on-filezilla-and-storj/"
+to = "https://tardigrade.io/blog/post/business/an-update-on-filezilla-and-storj/"
 status = 301
 force = true
 
 [[redirects]]
-from = "/2018/01/getting-from-petabytes-to-exabytes-the-road-ahead/"
-to = "https://tardigrade.io/blog/post/engineering/getting-from-petabytes-to-exabytes-the-road-ahead/"
+from = "/2018/03/a-hitchhikers-guide-to-distributed-systems/"
+to = "https://tardigrade.io/blog/post/engineering/a-hitchhikers-guide-to-distributed-systems/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2017/11/sonm-and-storj-labs-create-the-first-decentralized-cloud-computing-platform/"
+to = "https://tardigrade.io/blog/post/business/sonm-and-storj-labs-create-the-first-decentralized-cloud-computing-platform/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2017/10/caplinked-partners-with-storj-labs/"
+to = "https://tardigrade.io/blog/post/tutorials/caplinked-partners-with-storj-labs/"
 status = 301
 force = true
