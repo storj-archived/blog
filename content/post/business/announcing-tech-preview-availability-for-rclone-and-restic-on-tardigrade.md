@@ -14,7 +14,7 @@ We would love for the Tardigrade community to test out the integration and give 
 
 ### Rclone
 
-Rclone, often referred to as rsync for cloud storage, enables developers to directly map files and directories from their filesystem to Tardigrade through a command-line tool.  This Tardigrade tool supports useful commands like `copy`, `cync`, `tree`, `cat`, and `rcat`.
+Rclone, often referred to as rsync for cloud storage, enables developers to directly map files and directories from their filesystem to Tardigrade through a command-line tool.  This Tardigrade tool supports useful commands like `copy`, `sync`, `tree`, `cat`, and `rcat`.
 
 Two of the more powerful commands are described below:
 
