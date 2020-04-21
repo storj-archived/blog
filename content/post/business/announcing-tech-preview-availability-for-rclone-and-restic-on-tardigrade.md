@@ -18,9 +18,9 @@ Rclone, often referred to as rsync for cloud storage, enables developers to dire
 
 Two of the more powerful commands are described below:
 
-* Copy: Provides a quick way to copy files from a local or cloud filesystem to Tardigrade.  This feature is also 'smart' in that it only copies files that have been modified.\
+* **Copy**: Provides a quick way to copy files from a local or cloud filesystem to Tardigrade.  This feature is also 'smart' in that it only copies files that have been modified.\
   [Example:](https://documentation.tardigrade.io/how-tos/sync-files-with-rclone#upload-objects) `$ rclone copy --progress ~/Videos/myvideo.mp4 waterbear:mybucket/videos/`
-* Sync: Sync provides a one-way sync (mapping) between a filesystem and Tardigrade. Any modification that occurs on the local filesystem will be synced to Tardigrade.\
+* **Sync**: Sync provides a one-way sync (mapping) between a filesystem and Tardigrade. Any modification that occurs on the local filesystem will be synced to Tardigrade.\
   [Example:](https://documentation.tardigrade.io/how-tos/sync-files-with-rclone#sync-two-locations) `$ rclone sync --progress ~/Videos/ waterbear:mybucket/videos/`
 
 For systems administrators managing large datasets, and developers building new tooling on top of the Tardigrade network, RClone is a great tool that simplifies the connection between Tardigrade and a new host of applications.
