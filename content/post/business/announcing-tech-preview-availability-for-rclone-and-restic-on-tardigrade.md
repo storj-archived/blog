@@ -8,8 +8,6 @@ authors:
   - Kevin Leffew
 draft: false
 ---
-Announcing Tech Preview Availability for Rclone and Restic on Tardigrade
-
 Today, we would like to announce a tech preview of two powerful developer tools you can now use on Tardigrade. We have now integrated and tested Rclone and Restic on the Tardigrade Object Storage Platform.
 
 We would love for the Tardigrade community to test out the integration and give us feedback around the tools, initial use cases, and ways we can improve these integrations.
