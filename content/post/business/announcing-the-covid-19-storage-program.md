@@ -20,5 +20,5 @@ Stay safe and healthy---we can't wait to be less decentralized, well, in person 
 
 Sincerely,
 
-Ben Golub
+Ben Golub<br/>
 Executive Chairman and Interim CEO at Storj Labs
