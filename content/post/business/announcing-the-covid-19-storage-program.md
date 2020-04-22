@@ -1,6 +1,6 @@
 ---
 title: Announcing the COVID-19 Storage Program
-date: 2020-04-23T02:19:00.000Z
+date: 2020-04-22T14:33:44.937Z
 image: /blog/img/blog-covid19-storage-program.jpg
 categories:
   - business
