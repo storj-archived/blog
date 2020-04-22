@@ -14,8 +14,6 @@ The last things people on the frontlines of COVID-19 research should have to wor
 
 If you want to see if you qualify, simply head over to our COVID-19 Storage Program page to sign up today. Registration is a simple, self-certification process.
 
-![Apply to the Storj Labs COVID-19 Storage Program](/blog/img/blog-btn-tc19sp.png)
-
 [![Apply to the Storj Labs COVID-19 Storage Program](/blog/img/blog-btn-tc19sp.png)](https://tardigrade.io/covid)
 
 Stay safe and healthy---we can't wait to be less decentralized, well, in person that is.
