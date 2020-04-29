@@ -1788,6 +1788,14 @@ footer .list-unstyled {
   color: #FFFFFF;
   opacity: 0.6;
 }
+.footer-em-input{
+  height:50%;
+  font-size: 12px;
+  font-family: 'Roboto';
+  border-radius: 10px 10px 0px 0px;
+  margin-top: 10px;
+}
+
 .social-link {
     height: 22px;
     width: 22px;
@@ -1799,9 +1807,19 @@ footer .list-unstyled {
 }
 .btn-footer {
     font-weight: 800;
+    font-size: 12px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 0.25px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
     background: #2683FF;
+    max-width: 320px;
+    border: 1px solid #2582FF;
+    border-radius: 0px 0px 10px 10px;
     color: #FFF;
-    font-size: 16px;
     padding: 12px 16px;
     border: 0;
     z-index: 2;
