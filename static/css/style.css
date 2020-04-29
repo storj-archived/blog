@@ -1834,6 +1834,13 @@ footer .list-unstyled {
 		border-top-left-radius: 0;
 		border-top-right-radius: 0;
 }
+footer .response {
+    color: #fff;
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 800;
+    text-transform: uppercase;
+}
 
 .row.is-flex {
   display: flex;
