@@ -1705,7 +1705,7 @@ Footer
 -------------------------------- */
 
 footer {
-	padding-top: 3.5em;
+	padding: 25px 0;
 	background: linear-gradient(0deg, #1743A2, #1743A2), #2582FF;
 	background-size: cover;
 	text-align: left;
@@ -1715,11 +1715,10 @@ footer {
 }
 .footer-logo {
 	display: block;
-  margin-top: 1px;
+  margin-top: 30px;
 	opacity: 1;
 }
 .footer-logo img {
-	width: 90px;
 	display: block;
 }
 footer a {
@@ -1755,19 +1754,39 @@ footer .connect a {
 	padding-right: 1.2em;
 	border: 0;
 }
-footer .address {
-	padding: 2em 0 2em;
-}
-footer .address address {
-	margin: 0;
+footer address {
+	margin-top: 40px;
 	color: #525d69;
 	color: rgba(255,255,255,0.4);
-	font-size: 14px;
 	font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 28px;
 }
 footer .list-unstyled {
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
+}
+.footer-col-heading{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin-bottom: 0;
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+.footer-link{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 28px;
+  color: #FFFFFF;
+  opacity: 0.6;
 }
 .social-link {
     height: 22px;
@@ -3061,9 +3080,6 @@ Media Queries
 	}
 	.team-member {
     	padding: 30px 8px;
-	}
-	footer .address address {
-	    color: #fff;
 	}
   #token-webapp {
     height: 1800px;
