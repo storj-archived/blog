@@ -1063,6 +1063,46 @@ Post
 	margin-bottom: 25px;
 }
 
+.pager {
+   background-color: #F2F4F6;
+   padding: 20px;
+   border-radius: 4px;
+   margin-right: 40px;
+   margin-bottom: 80px;
+   margin-top: 40px;
+}
+.pager a {
+  text-decoration: underline;
+}
+
+.paging-navigation {
+  margin-top: 20px;
+}
+.paging-navigation a {
+  text-decoration:none;
+  border-style:none;
+  font-size: 16px;
+  line-height: 27px;
+  font-family: Poppins;
+  font-weight: 600;
+  color: #0059D0;
+}
+.paging-navigation a:hover {
+  text-decoration: underline;
+}
+.paging-navigation a.disabled {
+  color: #aaa;
+}
+.paging-navigation a.disabled:hover {
+  text-decoration: none;
+  cursor: default;
+}
+.paging-navigation .previous {
+  float: right;
+  margin-right:40px;
+}
+
+
 /* --------------------------------
 
 Sidebar
