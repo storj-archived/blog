@@ -978,7 +978,7 @@ Post
 	font-weight: bold;
 	font-size: 18px;
 	line-height: 40px;
-	color: #133E9C;
+	color: #0059D0;
 	text-transform: capitalize;
 }
 
@@ -1003,7 +1003,11 @@ Post
 	font-weight: bold;
 	font-size: 18px;
 	line-height: 60px;
-	color: #1743A2;
+	color: #0059D0;
+  text-decoration: underline;
+}
+.blog-post-read-more:hover {
+  color: #1743A2;
 }
 
 .single-post .blog-post-date {
