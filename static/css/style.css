@@ -981,6 +981,10 @@ Post
 	text-transform: capitalize;
 }
 
+.blog-post-date .blog-post-info-link:hover {
+  color: #1743A2;
+}
+
 @media only screen and (max-width: 768px) {
 	.blog-post-date .blog-post-info-link {
 		line-height: 30px;
