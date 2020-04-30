@@ -1068,7 +1068,8 @@ Sidebar
 .category-title {
 	font-family: Poppins;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 16px;
+  text-transform: uppercase;
 	line-height: 60px;
 	color: #7E8B9C;
 }
