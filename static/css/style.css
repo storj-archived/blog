@@ -318,17 +318,14 @@ Navigation
 -------------------------------- */
 
 .navbar-brand {
-	padding: 0;
-	margin: 25px;
+  padding: 0;
+  margin-top: 40px;
+  margin-bottom: 12px;
+  margin-left: 0 !important;
+  height: 44px;
 }
 .logo {
-    display: inline-block;
-    margin: 0 5px 0 15px;
-    width: 164px;
-    height: 52px;
-}
-.logo-storjshare {
-	width: 180px;
+  height: 44px;
 }
 
 #navbar {
@@ -353,55 +350,67 @@ Navigation
     margin-top: 30px;
 }
 
-.navbar-default .navbar-toggle {
-    border: 2px solid #fff;
+.navbar-toggle {
+    padding: 10px;
+    margin-top: 30px;
+    margin-right: 16px;
+    border: none;
 }
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #FFF;
-    border-radius: 0;
+
+.navbar-blue .navbar-toggle .icon-bar {
+    background-color: #0059D0;
 }
+
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border: 0;
 }
 
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:active {
-    background-color: #2683ff;
-}
 .navbar-default .navbar-toggle:focus {
 	background: none;
 }
 
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:active {
+    background-color: #0059D0;
+}
+
+.navbar-default .navbar-toggle.collapsed:hover, .navbar-default .navbar-toggle.collapsed:active {
+    background: none;
+}
+.navbar-default .navbar-toggle.collapsed:hover, .navbar-default .navbar-toggle.collapsed:active {
+    background: #0059D0;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:active .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-blue .navbar-collapse {
+    -webkit-box-shadow: inset 0 1px 0 rgba(0,0,0,0.08);
+    box-shadow: inset 0 1px 0 rgba(0,0,0,0.08);
+}
 .navbar-default .navbar-collapse.in{
     border-color: transparent;
-		overflow: visible;
-}
-.navbar-default .navbar-toggle:focus {
-	background: none;
 }
 .navbar-collapse.in li {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.12);
 }
+.navbar-blue .navbar-collapse.in li {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
 .navbar-nav {
     margin: 0 -15px;
     text-align: center;
 }
 
-@media only screen and (min-width: 767px) and (max-width: 1024px){
-	.navbar-nav {
-		float: right;
-		right: 20px;
-		position: absolute;
-	}
-}
-
 .navbar-nav>li>a {
-	padding: 40px 16px;
-    line-height: 22px;
-    text-align: center;
+  padding: 52px 24px;
+  line-height: 20px;
+  text-align: center;
 }
 .nav>li>a:hover, .nav>li>a:focus {
-    background: none;
-    color: #fff;
+  background: none;
+  color: #fff;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -431,31 +440,17 @@ Navigation
 	background: #fff;
 }
 .navbar-page .navbar-nav>li>a {
-	padding: 40px 16px;
 	width: 100%;
 	border: 0;
 	font-family: Poppins;
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 20px;
-	color: #133E9C;
+	color: #0059D0;
 }
 
 .navbar-page .nav>li>a.link:hover, .navbar-page .nav>li>a.link:focus {
     text-decoration: underline;
-}
-
-
-.navbar-page .navbar-toggle {
-	margin-top: 34px;
-  margin-right: 22px;
-  border: 2px solid #2683ff;
-}
-.navbar-page .navbar-toggle .icon-bar {
-	background: #2683ff;
-}
-.navbar-page .navbar-toggle:hover .icon-bar {
-	background: #fff;
 }
 
 .navbar .dropdown-menu {
@@ -484,10 +479,10 @@ Navigation
 }
 
 .navbar-page .navbar-nav>.open>a, .navbar-page .navbar-nav>.open>a:hover, .navbar-page .navbar-nav>.open>a:focus {
-    color: #2683ff;
+    color: #0059D0;
 }
 .navbar-page .navbar-nav>li>a:hover, .navbar-page .navbar-nav>li>a:focus {
-    color: #2683ff;
+    color: #0059D0;
 }
 
 .navbar-page .dropdown-menu {
@@ -498,10 +493,10 @@ Navigation
 	color: #333;
 }
 .navbar-page .dropdown-menu>li>a:hover {
-	color: #2683ff;
+	color: #0059D0;
 }
 .navbar-page .dropdown-menu>li>a:active {
-	color: #2683ff;
+	color: #0059D0;
 }
 
 .btn-rent {
@@ -804,30 +799,74 @@ canvas {
 	overflow: hidden;
 }
 
-.header-cta {
-	width: 151px;
-	height: 35px;
-	bottom: 20px;
+.navbar-nav>li>a.nav-join-link {
+	padding: 40px 0;
+	margin-left: 8px;
+	margin-right: 8px;
 }
 
-.header-cta .btn {
-	font-family: Poppins;
-	font-weight: 500;
-	font-size: 14px;
-	line-height: 20px;
-	color: #133E9C;
-	background: transparent;
-	border: 2px solid #133E9C;
-	text-transform: none;
+.nav-join{
+  background: transparent;
+  border: 2px solid #0059D0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size:14px;
+  padding: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  width:180px;
+  color: #0059D0;
+  text-transform:unset;
+  font-family: 'Poppins';
 }
 
-@media only screen and (max-width: 767px) {
-	.header-cta {
-		bottom: 0;
+.nav-join:hover{
+  border-color: #0059D0;
+  color: #fff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size:14px;
+  padding: 10px;
+	background: #0059D0;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1200px){
+	.nav-join{
+	  font-size:14px;
+	  padding: 10px;
 	}
 }
 
+@media only screen and (min-width: 1201px) {
+	.nav-join {
+	  font-size:14px;
+	  padding: 10px;
+	}
+	.nav-join-link {
+		margin-right: 0;
+    padding: 52px 8px;
+	}
+}
 
+@media only screen and (max-width: 1200px) {
+	.navbar-page .navbar-nav>li>a.nav-join-link {
+	    margin-left: 0;
+	    margin-right: 0;
+      padding: 40px 8px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-page .navbar-nav>li>a.nav-join-link {
+      padding: 24px 0;
+      margin-left: 0;
+      margin-right: 0;
+  }
+}
 
 
 .page .menu {
@@ -2888,6 +2927,12 @@ Media Queries
 	}
 }
 
+@media only screen and (max-width: 1200px) and (min-width: 768px) {
+  .nav-join {
+      padding: 10px;
+  }
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
     .text-left-md {
       text-align: left;
@@ -2916,6 +2961,10 @@ Media Queries
   	.panel-card {
   		padding: 44px 22px;
   	}
+    .navbar-nav>li>a {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -2936,12 +2985,12 @@ Media Queries
     	margin-top: 1em;
     }
   	.navbar-nav>li>a, .navbar-page .navbar-nav>li>a {
-      	padding: 40px 8px;
-      	font-size: 14px;
+      	padding: 52px 8px;
+      	font-size: 12px;
   	}
 		@media only screen and (min-width: 767px) and (max-width: 1024px){
 			.navbar-nav>li>a, .navbar-page .navbar-nav>li>a {
-	      	padding: 40px 5px;
+	      	padding: 52px 8px;
 	  	}
 		}
   	.btn-menu {
@@ -2958,8 +3007,10 @@ Media Queries
 
 @media (min-width: 767px) and (max-width: 991px) {
     .logo {
-    	margin: 0;
-    	margin-right: 8px;
+      height: 42px;
+    }
+    .navbar-brand {
+        margin-top: 40px;
     }
 }
 
@@ -2984,37 +3035,23 @@ Media Queries
   .headlines {
   	top: auto;
   }
-  .navbar-page .logo {
-		margin-left: 0;
-	}
 	.navbar-right {
 		text-align: center;
 		padding-bottom: 1em;
 	}
 	.navbar-page .navbar-nav>li>a {
-		padding: 16px;
-		width: 90%;
+		padding: 24px 10px;
 	}
 	.navbar-page .navbar-nav>li>a.active {
-		background: #2683ff;
+		background: #0059D0;
 		color: #fff;
 		box-shadow: none;
 	}
-
-
 	.navbar-page .navbar-nav>li>a:hover, .navbar-page .navbar-nav>li>a:focus  {
 		box-shadow: none;
-		background: #f2f2f2;
-	}
-	.navbar-page .navbar-nav>li>a.header-cta:hover, .navbar-page .navbar-nav>li>a.header-cta:focus {
-			background: none;
 	}
 	.navbar-page .navbar-nav>li>a.active:hover, .navbar-page .navbar-nav>li>a.active:focus {
 		background: #2683ff;
-	}
-	.navbar-default .navbar-toggle {
-    	margin-top: 2em;
-    	margin-right: 2em;
 	}
 	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
 	    color: #fff;
@@ -3023,7 +3060,7 @@ Media Queries
 	    color: #333;
 	    font-size: 14px;
 	}
-	..navbar-page .navbar-nav .open .dropdown-menu>li>a {
+	.navbar-page .navbar-nav .open .dropdown-menu>li>a {
 	    color: #333;
 	    font-size: 14px;
 	}
@@ -3109,24 +3146,18 @@ Media Queries
   #token-webapp {
     height: 1800px;
   }
+  .navbar-brand {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .logo {
+    margin-left: 16px;
+  }
 }
 
 @media (max-width: 480px) {
 	.section {
 		padding: 2em 0;
-	}
-	.logo {
-    	width: 100px;
-	}
-	.home .navbar-brand {
-		margin: 25px 0;
-	}
-	.navbar-page .navbar-brand {
-		margin: 15px;
-	}
-	.navbar-page .navbar-toggle {
-		margin-top: 22px;
-		margin-right: 1em;
 	}
 	.btn-action {
 		padding-left: 10px;
