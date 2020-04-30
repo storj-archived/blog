@@ -1088,6 +1088,7 @@ Post
 }
 .paging-navigation a:hover {
   text-decoration: underline;
+  color: #1743A2;
 }
 .paging-navigation a.disabled {
   color: #aaa;
