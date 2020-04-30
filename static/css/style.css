@@ -1045,7 +1045,11 @@ Post
 	font-weight: 300;
 	font-size: 16px;
 	line-height: 30px;
-	color: #133E9C;
+	color: #0059D0;
+  text-decoration: underline;
+}
+.blog-post-content a:hover {
+  color: #133E9C;
 }
 
 .single-post .blog-post .img-responsive {
