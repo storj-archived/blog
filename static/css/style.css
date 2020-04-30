@@ -1079,8 +1079,11 @@ Sidebar
 	font-weight: normal;
 	font-size: 18px;
 	line-height: 21px;
-	color: #1743A2;
+	color: #0059D0;
 	text-transform: capitalize;
+}
+.category-name:hover {
+  color: #1743A2;
 }
 
 
