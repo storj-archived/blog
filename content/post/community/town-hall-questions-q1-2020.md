@@ -16,11 +16,11 @@ Yes. You may operate multiple Nodes under the same or different IP addresses. Ea
 
 We'll be simplifying the Node registration steps soon to eliminate the email-based registration. We still want an email from you for notices, but you won't need an email to create a Storage Node identity soon.
 
-**2. If we want to create a web app then what will be the workflow? Normal workflow is:
-\1. The user selects a file from the browser it will get uploaded to the web server first and then to the tardigrade server.
-\2. In this case, uploading a file from the browser to the server, it will depend on ISP is it right?
+**2. If we want to create a web app then what will be the workflow? Normal workflow is:**
+1. **The user selects a file from the browser it will get uploaded to the web server first and then to the tardigrade server.**
+2. **In this case, uploading a file from the browser to the server, it will depend on ISP is it right?**
 
-Can we use file object for uploading and downloading the file to tardigrade?**
+**Can we use file object for uploading and downloading the file to tardigrade?**
 
 There is a ton of information related to solution architecture for different use cases. Most of the early use cases we're seeing for static object storage are related to backing up on-premise data to the cloud, hybrid cloud storage for on premise or mobile applications.
 
@@ -96,9 +96,9 @@ If you want your Satellite to have the ability to use our wider network of Stora
 
 Suffice it to say, we're planning to release an improved user interface for community Satellites with documentation as soon as possible, but we don't want to rush it and cause a poor Storage Node Operator experience with community Satellites.
 
-**12. I have been waiting for years to use Storj, where my time to upload terabytes of stuff happens as soon as it is possible to have a shared drive on windows that is my Storj drive. I got stuck on FileZilla setup and even if I could get it working, it is not a user friendly solution.
+**12. I have been waiting for years to use Storj, where my time to upload terabytes of stuff happens as soon as it is possible to have a shared drive on windows that is my Storj drive. I got stuck on FileZilla setup and even if I could get it working, it is not a user friendly solution.**
 
-What are your plans for expanding accessibility to regular home users in both your website and with client side software that emulates a shared drive?**
+**What are your plans for expanding accessibility to regular home users in both your website and with client side software that emulates a shared drive?**
 
 Traditional, centralized cloud storage went through a number of iterations before fully accessible cloud storage was in the hands of regular home users. The first problem cloud storage had to solve was the general problem of storage, solved wonderfully well by Amazon's first AWS offering, S3. S3 is a cloud object storage tool for developers, and not end users, and it was due to this and other reasons that the Dropbox team initially built Dropbox on top of S3.
 
@@ -110,9 +110,9 @@ We also received this question on our forum recently! Check out the answer here:
 
 <https://forum.storj.io/t/what-is-needed-to-implement-storj-for-smart-contracts/6421>
 
-**14. I want to share a recommendation for how to get Storj bucket to operate in a normal OS environment where folders can be renamed and reorganized. I hear Storj can't do this without reuploading the entire file and deleting the previous.
+**14. I want to share a recommendation for how to get Storj bucket to operate in a normal OS environment where folders can be renamed and reorganized. I hear Storj can't do this without reuploading the entire file and deleting the previous.**
 
-Have the client side software create a file similar to a master boot record for hard drives. This file contains the directory structure and file names. This way when a file is renamed or moved, all that has to be edited is the tiny directory file. The client side software would show the filename from the directory file as opposed to the original filename in the bucket.**
+**Have the client side software create a file similar to a master boot record for hard drives. This file contains the directory structure and file names. This way when a file is renamed or moved, all that has to be edited is the tiny directory file. The client side software would show the filename from the directory file as opposed to the original filename in the bucket.**
 
 Thank you for the suggestion! Rename support is on our roadmap.
 
@@ -150,13 +150,13 @@ Storage Nodes can use a range of different configurations, including external ha
 
 Customers have the option to pay with either STORJ token or credit card. We currently have an incentive for customers to pay with STORJ token. Customers who pay with STORJ token get an extra 10% at the time of payment. [We have the whole billing process documented](https://storj.io/blog/2020/04/an-overview-of-the-tardigrade-billing-system/) if you want more information.
 
-**23. I have some questions about the "Commercial Node Operators" and "Data center partners" because it seems not to be in line with the decentralized storage concept of Storj, "do not buy dedicated hardware", blabla... but it is really interesting.
+**23. I have some questions about the "Commercial Node Operators" and "Data center partners" because it seems not to be in line with the decentralized storage concept of Storj, "do not buy dedicated hardware", blabla... but it is really interesting.**
 
-Are the SLAs of a "commercial Node operator" already defined?
+**Are the SLAs of a "commercial Node operator" already defined?**
 
-Will Tardigrade Satellites have any preference for these commercial Node Operators?
+**Will Tardigrade Satellites have any preference for these commercial Node Operators?**
 
-Commercial Node operators = data center partners? If so, is there any limit in storage capacity of the data center?**
+**Commercial Node operators = data center partners? If so, is there any limit in storage capacity of the data center?**
 
 We're still very early in the process of working with data centers to understand their place in the network. Many data centers have decommissioned equipment that may not be suitable for their current clientele, but is otherwise perfectly serviceable for Storage Nodes.
 
@@ -170,11 +170,11 @@ For data center SNOs there is also risk. Running Storage Nodes in a data center 
 
 Again, it's early days in the network, but we anticipate that the network will grow to include a very diverse set of Storage Nodes from individual hobbyists, to NAS operators, to businesses and data centers.
 
-**24. I've asked this a long time ago already, maybe the time is now better for a positive response: will there ever be a way to create a user, a project and an API-key and maybe add CC-/payment-info via an API-call?
+**24. I've asked this a long time ago already, maybe the time is now better for a positive response: will there ever be a way to create a user, a project and an API-key and maybe add CC-/payment-info via an API-call?**
 
-I'm still developing a dAPP that uses Storj/Tardigrade for it's data store. Currently I would ask my users to provide Tardigrade-credentials and they have to create an account by themselves. I would love to not be involved in that, so the user is fully responsible for paying his own bills and keeping all info by himself. So it would be necessary that my app calls your APIs to create the necessary information on a Satellite.
+**I'm still developing a dAPP that uses Storj/Tardigrade for it's data store. Currently I would ask my users to provide Tardigrade-credentials and they have to create an account by themselves. I would love to not be involved in that, so the user is fully responsible for paying his own bills and keeping all info by himself. So it would be necessary that my app calls your APIs to create the necessary information on a Satellite.**
 
-For you it should be irrelevant if a user registered via your (beautiful) Web-page or via an API-call. This would help onboarding for my users and would keep them in full control of their data.**
+**For you it should be irrelevant if a user registered via your (beautiful) Web-page or via an API-call. This would help onboarding for my users and would keep them in full control of their data.**
 
 This is a great question.
 
@@ -186,9 +186,9 @@ Right now we do this through a combination of Stripe and Coinpayments UIs. While
 
 It does sound like what you're trying to do could be solved a few ways though---ultimately you want users to be able to pay for your app directly to us themselves, without you being in the middle. Neat! I suspect we can solve that without adding full user-management APIs and perhaps there's a shorter path here. We should discuss some options and find out what works best for you.
 
-**25. I wanted to update the STORJ-coins in circulation due to the updated numbers on your blog but now coinmarketcap wants to have many information from me. May you provide the answers to them as you know all that in much more detail?
+**25. I wanted to update the STORJ-coins in circulation due to the updated numbers on your blog but now coinmarketcap wants to have many information from me. May you provide the answers to them as you know all that in much more detail?**
 
-Having accurate numbers listed there is important from my point of view.**
+**Having accurate numbers listed there is important from my point of view.**
 
 Thanks for bringing this to our attention! We're working on getting coinmarketcap updated!
 
@@ -196,17 +196,17 @@ Thanks for bringing this to our attention! We're working on getting coinmarketca
 
 We're actively looking to grow our partner ecosystem. If you want to learn more about our partner program, visit <https://tardigrade.io/partner>. We have a form you can use to tell us a little bit about your use case. Someone from Storj will be in touch!
 
-**27. Can you show me some data about the Tardigrade business stats? 
+**27. Can you show me some data about the Tardigrade business stats?**
 
-Something like how many customers using Tardigrade, how many files have been stored, and how much money has been paid. Do you have something like that?**
+**Something like how many customers using Tardigrade, how many files have been stored, and how much money has been paid. Do you have something like that?**
 
 We've shared a wide range of information about the network and customer growth in our Town Hall and blogs. We'll continue to share information and statistics about the network as we grow.
 
-**28. Hi all, I want to place one topic for the discussion today: the limits. I'm following the project quite long now, as you might know. But I do not understand the limits that you've put in place on Tardigrade. Maybe this is just due to the language barrier, but regarding the latest blog-post on that topic and the info sent out before, I still do not understand when the limits apply and what they mean exactly. Furthermore I do not understand why there are any limits at all. If I pay for what I use, there should not be any limit.
+**28. Hi all, I want to place one topic for the discussion today: the limits. I'm following the project quite long now, as you might know. But I do not understand the limits that you've put in place on Tardigrade. Maybe this is just due to the language barrier, but regarding the latest blog-post on that topic and the info sent out before, I still do not understand when the limits apply and what they mean exactly. Furthermore I do not understand why there are any limits at all. If I pay for what I use, there should not be any limit.**
 
-If I understand correctly, then I cannot upload/download (?) more than 5 GB (?) in one month (?), right? I could understand if you say: if there is no credit information attached to an account, there is a usage-limit. But if you have STORJ or a credit card in the account, then why should there be any limit. I know I can request a limit increase, but at least the information about the limit is not clear to me.
+**If I understand correctly, then I cannot upload/download (?) more than 5 GB (?) in one month (?), right? I could understand if you say: if there is no credit information attached to an account, there is a usage-limit. But if you have STORJ or a credit card in the account, then why should there be any limit. I know I can request a limit increase, but at least the information about the limit is not clear to me.
 
-If you still see the need for a limit, you would need---at least from my point of view---to rework how you describe the limits. I still cannot explain them as I simply do not fully understand them.**
+**If you still see the need for a limit, you would need---at least from my point of view---to rework how you describe the limits. I still cannot explain them as I simply do not fully understand them.**
 
 On V3, we try to make sure payment is either escrowed or payment details are collected up front. But if you have provided a credit card or a purchase order (and not tokens), what would the limit be tied to?
 
