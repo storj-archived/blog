@@ -32,7 +32,7 @@ In the future, we absolutely intend to solve that problem, but we're not there y
 
 To reiterate - we don't currently recommend Storj for direct-to-browser web hosting, though we plan to tackle that when the time allows.
 
-**3. Why is it so complicated to just get Hello StorJ running using any language library?**
+**3. Why is it so complicated to just get Hello Storj running using any language library?**
 
 With the production release of the Tardigrade Platform, we released the 1.0 of our developer library Libuplink. We made some additional changes to the C binding and then released updates to the other language bindings. We've made significant improvements to the tooling over the last few months and even the last few weeks.
 
