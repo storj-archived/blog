@@ -204,7 +204,7 @@ We've shared a wide range of information about the network and customer growth i
 
 **28. Hi all, I want to place one topic for the discussion today: the limits. I'm following the project quite long now, as you might know. But I do not understand the limits that you've put in place on Tardigrade. Maybe this is just due to the language barrier, but regarding the latest blog-post on that topic and the info sent out before, I still do not understand when the limits apply and what they mean exactly. Furthermore I do not understand why there are any limits at all. If I pay for what I use, there should not be any limit.**
 
-**If I understand correctly, then I cannot upload/download (?) more than 5 GB (?) in one month (?), right? I could understand if you say: if there is no credit information attached to an account, there is a usage-limit. But if you have STORJ or a credit card in the account, then why should there be any limit. I know I can request a limit increase, but at least the information about the limit is not clear to me.
+**If I understand correctly, then I cannot upload/download (?) more than 5 GB (?) in one month (?), right? I could understand if you say: if there is no credit information attached to an account, there is a usage-limit. But if you have STORJ or a credit card in the account, then why should there be any limit. I know I can request a limit increase, but at least the information about the limit is not clear to me.**
 
 **If you still see the need for a limit, you would need---at least from my point of view---to rework how you describe the limits. I still cannot explain them as I simply do not fully understand them.**
 
