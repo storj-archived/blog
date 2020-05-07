@@ -17,10 +17,10 @@ Yes. You may operate multiple Nodes under the same or different IP addresses. Ea
 We'll be simplifying the Node registration steps soon to eliminate the email-based registration. We still want an email from you for notices, but you won't need an email to create a Storage Node identity soon.
 
 **2. If we want to create a web app then what will be the workflow? Normal workflow is:**<br>
-1. **The user selects a file from the browser it will get uploaded to the web server first and then to the tardigrade server.**<br>
-2. **In this case, uploading a file from the browser to the server, it will depend on ISP is it right?**<br>
+**1. The user selects a file from the browser it will get uploaded to the web server first and then to the tardigrade server.**<br>
+**2. In this case, uploading a file from the browser to the server, it will depend on ISP is it right?**<br>
 
-**Can we use file object for uploading and downloading the file to tardigrade?**
+**Can we use file object for uploading and downloading the file to Tardigrade?**
 
 There is a ton of information related to solution architecture for different use cases. Most of the early use cases we're seeing for static object storage are related to backing up on-premise data to the cloud, hybrid cloud storage for on premise or mobile applications.
 
