@@ -10,9 +10,8 @@ draft: false
 ---
 Since we allowed people to start setting up Storage Nodes on the V3 network, we've had our community of NAS users ask us for two things:
 
-1.  How can I turn my excess NAS capacity into a Storage Node? 
-
-2.  How can I backup my NAS to decentralized cloud storage?
+1. **How can I turn my excess NAS capacity into a Storage Node?** 
+2. **How can I backup my NAS to decentralized cloud storage?**
 
 Today, we're pleased to announce users can now do both of these things with their QNAP NAS devices.
 
@@ -42,5 +41,6 @@ Again, Storage Node Operators can also use their STORJ tokens to also purchase s
 
 NAS users can easily backup their QNAP devices to Tardigrade using our Tardigrade S3 Gateway and [simple documentation](https://documentation.tardigrade.io/how-tos/backup-on-qnap), allowing them to take advantage of the unique security and multi-region architecture of the decentralized cloud storage service. All files uploaded to Tardigrade are end-to-end encrypted by default, so there is no complicated process to ensure only you can access your data.
 
-After installing the Tardigrade S3 Gateway, NAS owners can select Tardigrade as a storage space inside HBS 3, and add their Tardigrade login credentials. It's a very simple process and users who backup their data to Tardigrade will be able to take advantage of the company's enterprise-grade service level agreements, including 99.9999999% durability, performance on par or better than Amazon S3, and over 99.95% availability. Because Tardigrade is a decentralized cloud storage service, QNAP users will also benefit from its superior privacy and inherent cross-geography redundancy that comes with decentralized storage.\
+After installing the Tardigrade S3 Gateway, NAS owners can select Tardigrade as a storage space inside HBS 3, and add their Tardigrade login credentials. It's a very simple process and users who backup their data to Tardigrade will be able to take advantage of the company's enterprise-grade service level agreements, including 99.9999999% durability, performance on par or better than Amazon S3, and over 99.95% availability. Because Tardigrade is a decentralized cloud storage service, QNAP users will also benefit from its superior privacy and inherent cross-geography redundancy that comes with decentralized storage.
+
 We look forward to seeing how QNAP users can better utilize their devices as Storage Node Operators. We're also proud to be helping these users securely store their important files. If you run into issues setting up your NAS device as a Storage Node on the Storj network, or backing up your data to Tardigrade, [please let us know on the forum](https://forum.storj.io/) and we'd be happy to help get you sorted.
