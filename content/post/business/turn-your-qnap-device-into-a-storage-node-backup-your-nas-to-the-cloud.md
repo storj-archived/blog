@@ -1,6 +1,7 @@
 ---
 title: Turn Your QNAP Device Into a Storage Node, Backup your NAS to the Cloud
-date: 2020-05-14T10:46:13.324Z
+date: 2020-05-14T13:16:03.308Z
+image: /blog/img/qnap-blog.png
 categories:
   - business
 authors:
