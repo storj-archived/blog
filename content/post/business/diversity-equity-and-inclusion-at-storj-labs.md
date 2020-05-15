@@ -54,7 +54,7 @@ All of the practices, whether prior or new, are implemented company-wide, includ
 
 **Mentoring & Continuous Learning**
 
-Like most software companies, we have a blend of experience levels across the organization. We have some very senior engineers, many current employees have begun their careers here. While informal mentoring happens all the time through daily interaction and teamwork, a formal mentorship can help people grow faster and in a more focused way. Team members feel engaged when they are continuously learning, whether through training or person-to-person interaction. Ultimately, this translates into happier team members and higher retention.
+Like most software companies, we have a blend of experience levels across the organization. We have some very senior engineers and many current employees have begun their careers here. While informal mentoring happens all the time through daily interaction and teamwork, a formal mentorship can help people grow faster and in a more focused way. Team members feel engaged when they are continuously learning, whether through training or person-to-person interaction. Ultimately, this translates into happier team members and higher retention.
 
 The Storj Mentorship Program is a key initiative of our DEI Roadmap for 2020. With more than half of the company signed up to participate in the program, we have been very happy so far with the level of engagement. We've tried to balance the structure of the program to provide enough process to make the experience meaningful and productive, while ensuring that the needs and goals of the individual participants are met.
 
