@@ -3,7 +3,7 @@ title: "STORJ Token Balances and Flows Report: Q1 2020"
 date: 2020-04-22T16:48:56.847Z
 image: /blog/img/blog-token-balances.png
 categories:
-  - tokens
+  - Token Report
 authors:
   - Katherine Johnson
 draft: false
