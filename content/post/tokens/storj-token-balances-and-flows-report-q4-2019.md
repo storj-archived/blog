@@ -1,9 +1,9 @@
 ---
-title: 'STORJ Token Balances and Flows Report: Q4 2019'
+title: "STORJ Token Balances and Flows Report: Q4 2019"
 date: 2020-03-31T17:39:22.001Z
 image: /blog/img/blog-token-balances.png
 categories:
-  - tokens
+  - Token Report
 authors:
   - Katherine Johnson
 draft: false
