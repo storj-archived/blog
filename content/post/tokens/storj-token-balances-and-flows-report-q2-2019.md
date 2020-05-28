@@ -1,9 +1,9 @@
 ---
-title: 'STORJ Token Balances and Flows Report: Q2 2019'
-date: '2019-07-10T09:16:00-04:00'
+title: "STORJ Token Balances and Flows Report: Q2 2019"
+date: 2019-07-10T09:16:00-04:00
 image: /blog/img/blog-token-balances.png
 categories:
-  - tokens
+  - Token Report
 authors:
   - Ben Golub
 draft: false
