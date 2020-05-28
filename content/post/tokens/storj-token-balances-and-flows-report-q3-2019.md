@@ -1,9 +1,9 @@
 ---
-title: 'STORJ Token Balances and Flows Report: Q3 2019'
-date: '2019-10-22T11:38:19-06:00'
+title: "STORJ Token Balances and Flows Report: Q3 2019"
+date: 2019-10-22T11:38:19-06:00
 image: /blog/img/blog-token-balances.png
 categories:
-  - tokens
+  - Token Report
 authors:
   - Katherine Johnson
 draft: false
