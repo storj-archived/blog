@@ -1,12 +1,12 @@
 ---
 title: "STORJ Token Balances and Flows Report: Nov. 30, 2018"
-date: 2018-12-07T07:14:44-07:00
+date: 2018-12-07T14:14:44.000Z
 image: /blog/img/blog-4.png
 categories:
   - Token Report
 authors:
   - Ben Golub
-draft: true
+draft: false
 ---
 The STORJ token is an integral part of the Storj network, providing an efficient and effective means to facilitate the transfer of value between those who contribute excess storage capacity and bandwidth to the network and those who utilize that excess capacity for the storage and retrieval of data. Today, we are pleased to publish our first quarterly STORJ token balances and flows report.
 
