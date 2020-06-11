@@ -1,6 +1,6 @@
 ---
 title: Storj Labs Partners with MongoDB
-date: 2020-06-08T15:54:26.269Z
+date: 2020-06-11T15:30:00.000Z
 image: /blog/img/storj-mongo.png
 categories:
   - business
