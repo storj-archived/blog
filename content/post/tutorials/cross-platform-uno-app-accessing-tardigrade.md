@@ -86,13 +86,26 @@ To clean up everything behind us, we’ll delete the object (10) and bucket agai
 
 This example should run on all platforms exactly the same. Here are some screenshots for the different devices:
 
-![](/blog/img/uno8android.jpg "Android")
+![](/blog/img/uno8android.jpg "Android") 
 
-![](/blog/img/uno9windows.png "Windows")
+**Android**
 
-![](/blog/img/uno9macos.png "MacOS")
 
-![](/blog/img/uno10macos2.png "iOS -Simulator")
+
+![](/blog/img/uno9windows.png "Windows") 
+
+**Windows**
+
+
+
+![](/blog/img/uno9macos.png "MacOS") 
+
+**MacOS**
+
+
+![](/blog/img/uno10macos2.png "iOS -Simulator") 
+
+**iOS Simulator**
 
 ### Final thoughts
 
