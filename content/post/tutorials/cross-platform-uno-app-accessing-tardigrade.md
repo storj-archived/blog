@@ -92,7 +92,7 @@ This example should run on all platforms exactly the same. Here are some screens
 
 ![](/blog/img/uno9macos.png "MacOS")
 
-![](/blog/img/uno10macos2.png "iOs (Simulator)")
+![](/blog/img/uno10macos2.png "iOS -Simulator")
 
 ### Final thoughts
 
