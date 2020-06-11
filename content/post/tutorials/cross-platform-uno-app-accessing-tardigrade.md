@@ -8,7 +8,7 @@ authors:
   - Tim Parth
 draft: false
 ---
-In this blog post, I will show you how to create a very simple cross-platform [Uno-App](https://platform.uno/) that uses the uplink.NET-Package to connect to the Storj network. It will work on the Universal Windows Platform (UWP), WinUI, Android, iOS, and macOS. To build all targets you would need a Windows-PC and a Mac with Visual Studio installed.
+In this blog post, I will show you how to create a very simple cross-platform [Uno-App](https://platform.uno/) that uses the uplink.NET-Package to connect to the Storj network. It will work on the Universal Windows Platform (UWP), WinUI, Android, iOS, and macOS. For Windows applications, we will use UWP/WinUI and the Uno Platform will take that same codebase to Android, iOS and macOS. To build all targets you would need a Windows-PC and a Mac with Visual Studio installed.
 
 If you don’t know what the Storj network is, have a look at [this video](https://t.co/CqLz22nS62?amp=1) directly streamed from the Tardigrade cloud storage service. In short: it’s an open source, decentralized, highly-secure, end-to-end-encrypted S3-like-but-cheaper-than-amazon object store. Oh, that wasn’t short–but it’s the truth! By using Storj, no file will ever be lost or compromised again and you get the same performance as you would with other cloud storage providers. You have a business and need SLAs und such? Use [Storj’s Tardigrade service ](https://tardigrade.io) for full support.
 
