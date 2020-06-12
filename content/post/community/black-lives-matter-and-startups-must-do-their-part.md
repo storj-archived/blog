@@ -5,7 +5,7 @@ image: /blog/img/blm-blog-2.png
 categories:
   - community
 authors:
-  - Ben Golub
+  - Storj Labs Leadership Team
 draft: false
 ---
 Many companies have been making statements lately about Black Lives Matter—using this opportunity to take a firm stance on the systemic issues around policing, economics, health, and racism that disproportionately harm Black Americans.
