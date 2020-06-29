@@ -27,8 +27,8 @@ Aside from our hackathon projects, here are some of our development accomplishme
 * The progress we’re making on connectors for all of your database backup needs.
 * Publishing some of our hackathon projects externally so the community can start utilizing these tools and projects for yourselves.
 * The Linux installer and auto-update functionality which will make it possible to run a Storage Node on Linux without using Docker.
-* Enhancements to graceful exit for Storage Nodes
-* Adding some more Storage Node Operator payout information on the Node Dashboard
+* Enhancements to graceful exit for Storage Nodes.
+* Adding some more Storage Node Operator payout information on the Node Dashboard.
 * Our progress we are making to simplify the SNO Auth Tokens experience as well as some updates to the SNO dashboard.
 
 Until now, we’ve been aiming to issue our development updates every two weeks. Moving forward, we’ll be issuing our development updates on a monthly basis. Watch for our next one at the end of July.
