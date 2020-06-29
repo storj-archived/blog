@@ -70,7 +70,7 @@ Our commitment to DEI is ever-present and ongoing. In addition to the initiative
 
 At Storj, we're all in. Our DEI efforts are proactive and intentional. Genuine commitment to DEI requires a tone from the top that embraces DEI-friendly policies and practices, allocating budget when and where needed, amplifying DEI efforts, and continually reinforcing DEI as a core value.
 
-On a regular basis, the DEI Council hosts "Know Your Executive," fireside-chat style sessions. Once a month, a member of the DEI Council interviews an executive. During this interview, the DEI Council member initiates questions that prompt an in-depth discussion, followed by an open Q&A. Through these exchanges, the executive learns what is important to the participants, and the participants get to know the executive on a more personal level.
+On a regular basis, the DEI Council hosts "Know Your Executive," fireside-chat style sessions. Once a month, a member of the DEI Council interviews an executive. During this interview, the DEI Council member initiates questions that prompt an in-depth discussion, followed by an open Q&A. Through these exchanges, the executive learns what is important to the participants, and the participants get to know the executive on a more personal level. Our leadership team recognizes the importance of tone from the top. We recognize the importance of continuously increasing our own understanding and awareness. Toward that end, in Q1 of this year, we engaged an outside expert to conduct intercultural agility training and development over the course of two weeks to the leadership team. We will follow this up with periodic training tailored to leading increasingly diverse teams.
 
 **Thought Leadership**
 
