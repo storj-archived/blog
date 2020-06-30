@@ -30,7 +30,7 @@ This centralized approach to control creates a massive honeypot for hackers, bec
 
 Because the ACL model defines access through the user-agent identity (or abstractions like roles, groups, service accounts etc.), each resource acquires its access control settings as the result of a superuser administrator making deliberate access configuration choices for it.
 
-This is a major weakness of the ACL approach, especially within todays’ massively parallel and distributed systems, where resources are accessed across disparate operating systems and multiple data stores.
+This is a major weakness of the ACL approach, especially within today's massively parallel and distributed systems, where resources are accessed across disparate operating systems and multiple data stores.
 
 Essentially, the ACL model associates users to files, and controls permissions around them.
 
@@ -58,7 +58,7 @@ In the world of operating systems and mission-critical distributed systems, avoi
 
 Every application today is launched with grossly excessive authority to the users operating systems. This is why many systems implement FreeBSD jails like [Capsicum](https://wiki.freebsd.org/Capsicum) and Linux Docker containers to sandbox software. 
 
-Google is even working on a new capability-based operating system called [Fuchsia](https://en.wikipedia.org/wiki/Google_Fuchsia) to supercede the Linux Android kernel.
+Google is even working on a new capability-based operating system called [Fuchsia](https://en.wikipedia.org/wiki/Google_Fuchsia) to supersede the Linux Android kernel.
 
 **Failure 2: confused deputy problem**
 
@@ -127,10 +127,10 @@ To make the implementation of these constructs as easy as possible for developer
 
 While the possibilities for access controls that can be encoded in a caveat are virtually unlimited, the specific caveats supported on the Tardigrade Platform are as follows:
 
-* **Specific operations:** Caveats can restrict whether an API Key can perform any of the following operations: Read, Write, Delete, List 
+* **Specific operations:** Caveats can restrict whether an API Key can perform any of the following operations: Read, Write, Delete, List
 * **Bucket:** Caveats can restrict whether an API Key can perform operations on one or more Buckets 
-* **Path and path prefix:** Caveats can restrict whether an API Key can perform operations on Objects within a specific path in the object hierarchy 
-* **Time window**: Caveats can restrict when an API Key can perform operations on objects stored on the platform 
+* **Path and path prefix:** Caveats can restrict whether an API Key can perform operations on Objects within a specific path in the object hierarchy
+* **Time window**: Caveats can restrict when an API Key can perform operations on objects stored on the platform
 
 For some sample Go code around access-restriction, check out <https://godoc.org/storj.io/storj/lib/uplink#example-package--RestrictAccess>
 
@@ -140,10 +140,10 @@ Macaroons are a great example of capability-based security models in action, and
 
 In Storj, we refer to our implementation of macaroons (HMACs) as simply API Keys. Using macaroons as a construct for API keys is innovative and useful because of their:
 
-* **Speed:** HMACs are very fast and lightweight 
-* **Timeliness:** Can require fresh credentials and revocation checks on every request 
-* **Flexibility:** Contextual confinements, attenuation, delegation, and third-party caveats 
-* **Adoptability:** HMACs can run everywhere 
+* **Speed:** HMACs are very fast and lightweight
+* **Timeliness:** Can require fresh credentials and revocation checks on every request
+* **Flexibility:** Contextual confinements, attenuation, delegation, and third-party caveats
+* **Adoptability:** HMACs can run everywhere
 
 One of the best ways to learn about capability-based models is to try them in action.
 

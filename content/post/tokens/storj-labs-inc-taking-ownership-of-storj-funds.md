@@ -10,7 +10,7 @@ The Storj project has formally incorporated, and is now Storj Labs Inc. Storj La
 
 <!--more-->
 
-Over the next few days we'll be moving all the BTC and SJCX from the project wallets to the wallets owned by Storj Labs. It's the the same project, and the same money, and all the same commitments about use of funds. We just need to maintain a clear division between corporate and non-corporate wallets for legal and tax purposes.
+Over the next few days we'll be moving all the BTC and SJCX from the project wallets to the wallets owned by Storj Labs. It's the same project, and the same money, and all the same commitments about use of funds. We just need to maintain a clear division between corporate and non-corporate wallets for legal and tax purposes.
 
 When the transfers are complete, we’ll publish the new addresses. We maintain our commitment to transparent use of the crowdsale funds and SJCX, and reiterate our promise to spend these funds on producing the Storj protocol as open-source software. However, as part of this transition, some of the bitcoins will be converted to fiat currency to spend on necessary services and materials.
 

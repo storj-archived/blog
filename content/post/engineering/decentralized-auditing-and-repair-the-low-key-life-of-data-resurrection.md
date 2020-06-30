@@ -17,7 +17,7 @@ To better understand how the auditing process works, let’s first break down th
 
 **Uplinks** represent an application or service that wants to store or retrieve data. Unlike the Satellites or storage nodes, the Uplinks do not have to constantly remain online. Customers and clients will use Uplinks to upload data to the network, at which point it will perform encryption, erasure encoding, and coordinate with the Satellites and storage nodes about where the file’s pieces should be stored.
 
-**Satellites** function as a collection of services that perform duties such as node discovery, caching node addresses, storing object metadata, recording storage node reputation, securing billing data, paying storage nodes, auditing, repairing, and managing user accounts. 
+**Satellites** function as a collection of services that perform duties such as node discovery, caching node addresses, storing object metadata, recording storage node reputation, securing billing data, paying storage nodes, auditing, repairing, and managing user accounts.
 
 <img src="/blog/img/audit-image-1.png" alt="Figure 4.1 from our white paper" width="100%"/>
 <p style="text-align: center;">Figure 4.1 from our white paper.</p>
@@ -57,14 +57,14 @@ When the audit process attempts to download erasure shares from a given node, it
 
 If the data has been reliably stored, then the node that hosted the shares will be favorably marked in a database table because the node passed the audit. If not, the node responsible will be marked as failing the audit for having altered its respective data. Also, if a storage node fails to respond with any erasure shares, or appears to be offline, then its corresponding status will also be recorded in the reputation database. Housed on the Satellite, our reputation database keeps track of node IDs, their audit success ratios, uptime ratios, and current online statuses.
 
-Zooming out a bit, this auditing process occurs as a continuous job, running at a regular interval. You might also be wondering, how are the storage nodes and stripes of data even selected to be audited? The part of the auditing process that we just described, the one that does the nitty-gritty erasure share checking, is actually a part of the audit system that we call the verifier. The cursor is another part of the system that randomly selects a segment of data to audit. Here’s how these two parts of the audit system work to uncover missing data. 
+Zooming out a bit, this auditing process occurs as a continuous job, running at a regular interval. You might also be wondering, how are the storage nodes and stripes of data even selected to be audited? The part of the auditing process that we just described, the one that does the nitty-gritty erasure share checking, is actually a part of the audit system that we call the verifier. The cursor is another part of the system that randomly selects a segment of data to audit. Here’s how these two parts of the audit system work to uncover missing data.
 
 When files are uploaded and divided into segments, the Satellite creates something called a **pointer** that correlates to each segment. The pointer is a data type that contains information such as a list of pieces and their corresponding node IDs. The pointer also contains indices where erasure shares are located within a piece. Pointers are saved in the metadata database that is also located on the Satellite. The audit system’s cursor selects a random pointer. Then it selects a random stripe from this pointer and hands it off to the verifier to verify the data.
 
 <img src="/blog/img/audit-image-4.png" alt="Figure 4.2 from our white paper" width="100%"/>
 <p style="text-align: center;">Figure 4.2 from our white paper.</p>
 
-While every byte stored has an equal probability of being audited, we don’t require that audits are performed on every byte or every file. We also used probabilistic testing to ensure that we’re auditing storage nodes frequently enough to have have the statistical basis in determining how well-behaved they are.
+While every byte stored has an equal probability of being audited, we don’t require that audits are performed on every byte or every file. We also used probabilistic testing to ensure that we’re auditing storage nodes frequently enough to have the statistical basis in determining how well-behaved they are.
 
 But what happens after storage nodes fail audits, and we know for sure that data has been lost? How do we save data in peril of dropping below that k number of required erasure shares for reconstitution? This is where the more action-oriented and less snitchy repair system comes in.
 
