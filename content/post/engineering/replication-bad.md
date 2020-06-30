@@ -88,6 +88,6 @@ It’s worth re-reading those last two paragraphs. These gains are significant. 
 
 ## Stay Tuned
 
-It gets worse for replication. Stay tuned for part 2, where we’ll talk about network churn and explain why replication-based schemes over wide-area networks may not even be capable of achieving S3-level durability. For a sneak peak, be sure to check out [this research paper](http://www.eecs.harvard.edu/~margo/cs261/papers-a1/blake.pdf).
+It gets worse for replication. Stay tuned for part 2, where we’ll talk about network churn and explain why replication-based schemes over wide-area networks may not even be capable of achieving S3-level durability. For a sneak peek, be sure to check out [this research paper](http://www.eecs.harvard.edu/~margo/cs261/papers-a1/blake.pdf).
 
 Until then, this is not the only controversial topic in [our white paper](https://storj.io/white-paper). Read the rest and let us know what you think! We’ll be covering other white-paper topics on our blog here in the coming weeks. Also, feel free to join [our waiting lists](https://storj.io/#waitlist)!

@@ -9,7 +9,7 @@ authors:
 ---
 Storj is a decentralized object storage network where data is encrypted client-side, broken into pieces, erasure coded, and spread across a network of fault-tolerant nodes.
 
-The goal for Storj’s V3 network is to provide developers with an object storage solution that is more secure, economical and performant than existing cloud storage options. This is made possible through protocol features like concurrency, parallelism, client-side encryption, and erasure coding (Reed-Solomon). 
+The goal for Storj’s V3 network is to provide developers with an object storage solution that is more secure, economical and performant than existing cloud storage options. This is made possible through protocol features like concurrency, parallelism, client-side encryption, and erasure coding (Reed-Solomon).
 
 <img src="/blog/img/audit-image-1.png" alt="The Storj test network (storj-sim) enables you to run all the components of the Storj platform (Satellite, Uplink client, and storage nodes) and test them on your local machine." width="100%"/>
 <p style="text-align: center;">_The Storj test network (storj-sim) enables you to run all the components of the Storj platform (Satellite, Uplink client, and storage nodes) and test them on your local machine._</p>
@@ -41,7 +41,7 @@ $ cd storj
 $ make install-sim
 ```
 
-This will install the `storj-sim` `satellite` `storage node` `gateway` and `uplink`binaries to wherever Go is configured to output binaries on your system. By default, this is ~/go/bin. The folder must be outside of the GOPATH. Otherwise you will see errors. 
+This will install the `storj-sim` `satellite` `storage node` `gateway` and `uplink`binaries to wherever Go is configured to output binaries on your system. By default, this is ~/go/bin. The folder must be outside of the GOPATH. Otherwise you will see errors.
 
 Next, run the setup:
 
@@ -51,16 +51,16 @@ $ cd ~/storj/go/bin
 $ storj-sim network setup
 ```
 
-You should see an output showing the generation of the identity certifications for the Satellite, as well as 10 storage nodes, and the Uplink. 
+You should see an output showing the generation of the identity certifications for the Satellite, as well as 10 storage nodes, and the Uplink.
 
 The terminal output should look like this:
 
-<img src="/blog/img/alpha-walkthrough-image-1.png" alt="As shown above, the config is generate certificates for the storage nodes. The public key of the node’s certificate authority determines its node ID (which is is the hash of the public key and acts as a proof-of-work threshold)." width="100%"/>
+<img src="/blog/img/alpha-walkthrough-image-1.png" alt="As shown above, the config is generate certificates for the storage nodes. The public key of the node’s certificate authority determines its node ID (which is the hash of the public key and acts as a proof-of-work threshold)." width="100%"/>
 <p style="text-align: center;">_As shown above, the config is generate certificates for the storage nodes. The public key of the node’s certificate authority determines its node ID (which is is the hash of the public key and acts as a proof-of-work threshold)._</p>
 <br>
 You have now configured a Storj test network with the default configuration — which generates one Satellite and 10 storage nodes. For a deeper dive into the various peer classes and their functions, review section 4.2 in the \\[Storj V3 white paper](storj.io/white-paper).
 
-* You might also want to take a look at the config by navigating to the root directory `--config-dir` where all the configs are specified. 
+* You might also want to take a look at the config by navigating to the root directory `--config-dir` where all the configs are specified.
 * You can use vim to tweak the default configuration settings. You can also see what is being overwritten on the command-line level with `storj-sim -x network run`. Just look for the lines containing “running”.
 
 Now that the configuration has been completed, we can fire up the test network with:
@@ -107,7 +107,7 @@ And
 Secret Key: b265c61f0fd3b9beb017
 ```
 
-Type the access and secret keys into the prompt. You are now logged into the Minio interface. 
+Type the access and secret keys into the prompt. You are now logged into the Minio interface.
 
 Through Minio, we are able to create buckets, upload objects into buckets, delete objects/buckets, and create streamable links with configurable expiration dates for the objects we have uploaded.
 
@@ -120,7 +120,7 @@ The gif below shows the GUI process of creating a bucket, uploading a video to t
 
 With Captplanet running in another terminal window, let’s walk through the steps of configuring the Uplink client.
 
-In the V3 network, an Uplink represents any application or service that implements _libuplink_ and wants to store and/or retrieve data. The Uplink [performs encryption](https://storj.io/blog/2018/11/security-and-encryption-on-the-v3-network/), [erasure encoding](https://storj.io/blog/2018/11/replication-is-bad-for-decentralized-storage-part-1-erasure-codes-for-fun-and-profit/), and coordinates with the other peer classes on behalf of the customer/client. 
+In the V3 network, an Uplink represents any application or service that implements _libuplink_ and wants to store and/or retrieve data. The Uplink [performs encryption](https://storj.io/blog/2018/11/security-and-encryption-on-the-v3-network/), [erasure encoding](https://storj.io/blog/2018/11/replication-is-bad-for-decentralized-storage-part-1-erasure-codes-for-fun-and-profit/), and coordinates with the other peer classes on behalf of the customer/client.
 
 You can think of the Uplink as an ‘access point’ for your all of your object data.
 
@@ -187,7 +187,7 @@ Next up, we will reconfigure the AWS command line interface to communicate with 
 
 ### Configuring the AWS Command-line to Communicate with the S3 Gateway
 
-When we ran the command 
+When we ran the command
 
 ```
 $ storj-sim network run
@@ -197,8 +197,8 @@ An S3 gateway was bootstrapped, and the terminal outputted a sample access and
 secret key, which we used in the Minio section (see below):
 
 <img src="/blog/img/alpha-walkthrough-image-5.png" alt="Starting Storj S3-compatible gateway" width="100%"/>
-<br> 
-We can also use these credentials to point the AWS command line tool toward a Storj Satellite. 
+<br>
+We can also use these credentials to point the AWS command line tool toward a Storj Satellite.
 
 Now, with the AWS command line installed on your machine, open up a new terminal window, and run:
 
@@ -206,7 +206,7 @@ Now, with the AWS command line installed on your machine, open up a new terminal
 $ aws configure
 ```
 
-You will be prompted for the access key and secret key generated by the gateway. Enter these into the terminal prompt, and leave the region name and output format blank. 
+You will be prompted for the access key and secret key generated by the gateway. Enter these into the terminal prompt, and leave the region name and output format blank.
 
 Here as an example using the default keys:
 
@@ -243,8 +243,8 @@ This will generate a URL and will allow live video streaming from your browser (
 Below is an example using a video of a rocket taking flight, shown in the gif:
 
 <img src="/blog/img/alpha-walkthrough-image-6.png" alt="Storj streaming video" width="100%"/>
-<br> 
-<br> 
+<br>
+<br>
 <img src="/blog/img/alpha-walkthrough-image-7.gif" alt="Woah!" width="100%"/>
 <p style="text-align: center;"> _Woah!_ </p>
 <br>
@@ -263,7 +263,7 @@ The information about the network is exposed via environment flags. All the flag
 
 For a real-world example you can check out:
 
-<https://github.com/storj/storj/blob/master/scripts/test-sim.sh> and <https://github.com/storj/storj/blob/master/scripts/test-sim-aws.sh> 
+<https://github.com/storj/storj/blob/master/scripts/test-sim.sh> and <https://github.com/storj/storj/blob/master/scripts/test-sim-aws.sh>
 <br>
 
 #### **Conclusion, and Clean Up**
