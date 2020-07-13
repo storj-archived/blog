@@ -8,9 +8,9 @@ authors:
   - JT Olio and Kevin Leffew
 draft: false
 ---
-COVID-19 has forced nearly every company to adopt some semblance of a work remote culture. It's great to see companies take the initiative in flattening the curve through social distancing. However, the work remote culture your organization adopted in response to COVID-19 is not a remote-first work culture.
+COVID-19 has forced nearly every company to adopt some semblance of a work remote culture. It's great to see companies take the initiative in flattening the curve through social distancing. However, the work remote culture your organization adopted in response to COVID-19 is necessarily not a remote-first work culture.
 
-At surface level, it may seem like an organization has a remote-first work culture. Nearly everyone in the company works remote. All meetings are held using chat tools like Zoom and Google Hangouts. No employees have seen each other in months (and will likely not see one another for more months to come). None of this makes your organization a remote-first culture.
+At surface level, it may seem like an organization has a remote-first work culture. Nearly everyone in the company works remote. All meetings are held using chat tools like Zoom and Google Hangouts. Maybe no employees have seen each other in person in months (and will likely not see one another for more months to come). None of this necessarily makes your organization a remote-first culture.
 
 ### Remote-first vs partially-remote work cultures
 
@@ -28,23 +28,23 @@ If you're coming from an office that isn't remote-first and you want to adopt a 
 
 ### Lay the foundation for effective communication
 
-In a remote-first working environment, it's important to facilitate communication and collaboration between the company in a way that is natural and human. This should be a core emphasis of any remote-first organization's culture. Employees should become comfortable enough to where they can call their teammates on a moment's notice to get advice, respond to a crisis, or simply complete a project.
+In a remote-first working environment, it's important to facilitate communication and collaboration between the company in a way that is natural and human. This should be a core emphasis of any remote-first organization's culture. 
 
 Today, a lot of emphasis is placed around productivity tools and communication stacks. In reality, there's little functional difference between video conferencing tools such as Zoom and Google Meet, or productivity tools such as Slack and Teams. Technology can help optimize and guide productivity, but at the end of the day, the tools don't matter—it's the people and their ability to comfortably and effectively communicate, as well as their outcomes, that should be measured.
 
 To make a culture of effective communication possible, it's important to proactively encourage interpersonal relationships amongst everyone and to promote inclusion around various work-style preferences.
 
-Chance encounters and unplanned meetings lead to valuable outcomes in office-driven environments. The headquarters of Pixar and Apple was specifically designed to encourage chance run-ins. The digital analogy for this would be creating#random Slack threads around shared interests, scheduling digital happy hours on Fridays, and encouraging digital workflows that help make people comfortable scheduling collaborative meetings on the fly.
+Chance encounters and unplanned meetings lead to valuable outcomes in office-driven environments. The headquarters of Pixar and Apple was specifically designed to encourage chance run-ins. The digital analogy for this would be creating #random Slack threads around shared interests, scheduling digital happy hours on Fridays, and encouraging digital workflows that help make people comfortable scheduling collaborative meetings on the fly.
 
-It's important to be intentional about creating remote-first spaces to encourage relationship building and digital "run-ins". These spaces will help foster a digital sense of community and inclusion among team members, allowing them to work more efficiently, collaborate more effectively, and have a better experience overall.
+It's important to be intentional about creating remote-first spaces to encourage relationship building and digital "run-ins". Having deliberate social time is important! These spaces will help foster a digital sense of community and inclusion among team members, allowing them to work more efficiently, collaborate more effectively, and have a better experience overall.
 
-### Live by the calendar—creating spaces for both collaborative and asynchronous working styles
+### Creating spaces for both collaborative and asynchronous working styles
 
-In remote-first business development roles, employees live by the calendar. An open calendar across the organization makes it easy to see whether people are busy with a prospect, meeting with others, or are able to join a call to help solve a problem or provide input.
+In remote-first business development roles, some employees may live by the calendar. An open calendar across the organization makes it easy to see whether people are busy with a prospect, meeting with others, or are able to join a call to help solve a problem or provide input.
 
-As a remote-first worker, an open, cross-organizational calendar makes it easy to know when one can pick up the phone and call a coworker, or if one should hold off and communicate asynchronously via Slack or email.
+As a remote-first worker, an open, cross-organizational calendar makes it easy to know when one can pick up the phone and call a coworker for an urgent issue, or if one should hold off and communicate asynchronously via Slack or email.
 
-An open calendar also makes it easier for an employee to dedicate time for deep and focused sessions, preventing distractions and interruptions. pen-calendar culture allows anyone to block off time in order to focus on activities like integration testing, writing, or even personal wellness activities like meditating or working out.\
+An open calendar also makes it easier for an employee to dedicate time for deep and focused sessions, preventing distractions and interruptions. Open-calendar culture allows anyone to block off time in order to focus on activities like integration testing, writing, or even personal wellness activities like meditating or working out.\
 We hope these suggestions help you and your organization on its journey to being a remote-first workplace. Share your experience with remote work below.
 
 *This blog is the first in a series on remote work. In this series, we share examples of how we address remote work at Storj Labs, where the majority of our team works remotely. To view the rest of the blogs in this series, visit: <https://storj.io/blog/categories/remote-work>.*
