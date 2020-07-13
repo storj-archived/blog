@@ -1,6 +1,7 @@
 ---
 title: Remote-first Versus Partially Remote Work Cultures
 date: 2020-07-13T15:07:55.934Z
+image: /blog/img/remote-first-vs-partially-remote.png
 categories:
   - Remote Work
 authors:
