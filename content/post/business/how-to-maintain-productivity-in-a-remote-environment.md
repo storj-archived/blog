@@ -18,7 +18,7 @@ Get the time zones right. Storj's workforce consists of about 50 people working 
 
 We've adopted this stance specifically to widen our opportunities in hiring, which means we aren't constrained to hire by time zones or locations. Instead, we look purely at skill sets, [going as far as making the application phase of our hiring process anonymous](https://storj.io/blog/2019/03/our-3-step-interview-process-for-engineering-candidates/). This has allowed us to hire some of the best developers and employees around the world, and developers in locations that are much less competitive than the Bay Area, for example. By widening our net, our team is more diverse, which increases job satisfaction, company success, and employee retention. 
 
-## Incorporate different solutions for different kinds of workers
+### Incorporate different solutions for different kinds of workers
 
 At Storj, we make very deliberate choices around synchronous vs. asynchronous methods of communication in an effort to respect the ways our employees work best. Synchronous meetings utilize tools such as Google Meet or Zoom to hold live, interactive meetings. But those meetings are disruptive and not nearly as efficient as they should be (we record them, so people who could not attend and participate can still at least observe).
 
