@@ -41,6 +41,13 @@ Here's some additional advice we've found helps:
 2. **Schedule breaks** - Remote workers may find that their coworkers lack context about their day and schedule. For example, you may have a 30-minute meeting with one coworker who doesn't realize you just finished a 2-hour sprint planning meeting. Many studies have shown scheduling breaks can help you be much more productive.
 3. **Consider your air** - In an office, someone else determines the temperature, humidity, light, etc., so it's likely not top-of-mind. But in a home office, you'll need to figure out the indoor climate that's best for you. Are you closed into a little room, or does your HVAC system circulate air well? I found myself losing steam in the afternoons and after a great deal of investigation, I discovered that it's because I was working in a room with the door closed all day—my workspace's oxygen levels were measurably decreasing. I opened the door a crack and everything got better! 
 4. **Get a plant** - In addition to filtering the air, plants are just—well, nice. It's great to have something green and vibrant near you as you work. If a plant isn't your idea of a good time, at least consider investing in an [air monitor](https://www.getawair.com/home/element) to make sure your air quality is as ideal as possible.
+5. **Be consistent** - Working from home has a tendency to let your work bleed into
+the rest of your life and time. Being predictable about your work schedule is
+one of the most important things you can do, especially if you live with others.
+Leaving the office is easier when you have the social cues of everyone else
+leaving. At home, it might sometimes feel like you're just trading one screen
+for another. Consider setting an alarm and make a hard stop for your work
+efforts so you can be predictable to yourself, your family, and roommates.
 
 ### Make friends
 
