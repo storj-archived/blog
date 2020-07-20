@@ -1,6 +1,7 @@
 ---
 title: Relationship Building Over Zoom
 date: 2020-07-20T19:00:08.865Z
+image: /blog/img/remote-blog-3.png
 categories:
   - Remote Work
 authors:
