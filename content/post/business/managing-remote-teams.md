@@ -1,6 +1,7 @@
 ---
 title: Managing Remote Teams
 date: 2020-07-22T14:48:47.102Z
+image: /blog/img/remote-blog-series-managing-remote.png
 categories:
   - Remote Work
 authors:
@@ -15,7 +16,7 @@ You may have heard a lot about remote-first teams recently. In case you don't kn
 
 Here are a few examples of some challenges remote managers might face, as well as solutions.
 
-### Challenge #1: Productivity Anxiety
+### Challenge #1: Productivity anxiety
 
 If you're managing a team remotely, you may worry your direct reports aren't working, or that they're not getting their work done efficiently. You can't just pop by their desk to see if they're looking at their Twitter feed. Rather than assessing productivity based on how many hours someone is at their desk, remote working lends itself to naturally evaluating your team members based on their work output, regardless of how much or how little time someone spends completing a task. In our opinion, this is a much better way of measuring productivity, because at the end of the day, who cares about the number of hours clocked as long as the work gets done well.
 
@@ -30,7 +31,7 @@ Unfortunately, working from home brings a whole new set of distractions that are
 
 It's also important to remember if your employee is working from home, they may need a little more flexibility than an in-office situation. Your staff may need to tend to pets, pick up children from school, take care of family members who are ill or elderly, and more. Be more flexible with their schedules as long as they communicate these needs clearly with teammates and fulfill their project commitments.
 
-### Challenge #3: Communication or lack thereof
+### Challenge #3: Communication (or lack thereof)
 
 When you don't see your teammates and managers every day, employees may struggle with seemingly less access to managerial support, accountability, and overall communication. They may also feel they are missing out on important information that was only communicated in a meeting they weren't in, or between people "at the water cooler." Also, cultural differences and language barriers could be a concern depending on your organization.
 
