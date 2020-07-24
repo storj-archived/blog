@@ -3,7 +3,7 @@ title: Remote but Not Alone
 date: 2020-07-24T20:52:24.906Z
 image: /blog/img/remote-blog-5.png
 categories:
-  - business
+  - Remote Work
 authors:
   - John Gleeson
 draft: false
