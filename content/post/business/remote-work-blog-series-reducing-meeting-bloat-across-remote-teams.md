@@ -1,5 +1,5 @@
 ---
-title: "Remote Work Blog Series  Reducing Meeting Bloat Across Remote Teams "
+title: "Remote Work Blog Series Reducing Meeting Bloat Across Remote Teams "
 date: 2020-07-28T15:38:12.998Z
 image: /blog/img/blog-meeting-bloat.png
 categories:
