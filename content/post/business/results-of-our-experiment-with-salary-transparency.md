@@ -39,17 +39,17 @@ The details of the program were shared with the company, and can be found here. 
 2. **Be formulaic about minimums and targets:** We created a formula that determined the target compensation for any individual based on their level, their performance, and their location.
 3. **Share the rubric:** We made the decision not to publish individual salaries, but publish all of the details that could be used so that any employee could calculate what the target salary and equity would be for any position in the company, in any location, at any performance level.
 
-This included publishing the summary third party data and salary and equity percentages at different percentiles, and the cost of living data for different geographies. It also meant we shared the total number of shares in the company. This enables everyone to easily calculate what they should make and compare it to their actual compensation. It also enabled them to calculate what they would make if they were promoted, changed jobs, changed their performance, etc. We felt this provided a good balance of transparency and privacy. In a remote-first company, it also helps employees understand why they're being compensated in the way they are and how their experience, geographical location, and other factors impact their compensation. 
+&nbsp;&nbsp;&nbsp;&nbsp; This included publishing the summary third party data and salary and equity percentages at different percentiles, and the cost of living data for different geographies. It also meant we shared the total number of shares in the company. This enables everyone to easily calculate what they should make and compare it to their actual compensation. It also enabled them to calculate what they would make if they were promoted, changed jobs, changed their performance, etc. We felt this provided a good balance of transparency and privacy. In a remote-first company, it also helps employees understand why they're being compensated in the way they are and how their experience, geographical location, and other factors impact their compensation. 
 
 4. **Adjust up, don't adjust down:** We analyzed where all employees were based on the formula. We adjusted up all employees who were under our targets. However, we did not adjust down employees who were above our targets
 5. **Set targets high:** We want to attract top talent. We set salary targets at the 75th percentile. Equity is set at the 50th percentile for all employees, and at the 75th percentile for top-performing employees.
 6. **Geographic adjustment:** Salary adjustments are especially important for a remote-first company. To have a highly distributed workforce, it's very important to have location-based flexibility. After all, it would be a challenge to recruit from some areas if you were to pay someone who lives in San Francisco (an area with a high cost of living) the same as someone who lives in Albuquerque (an area with a low cost of living). Our team currently resides across 28 cities and 13 countries, so this is more challenging for us than it might be for others. We use an outside firm to gather specific numbers about the cost of living and salary in different cities and countries versus the US national average. While employees living in countries with very low costs of living may be paid less than their colleagues, we have also set a minimum cap.
 
-Critically, while we differentiate pay based off of geography, we don't differentiate stock options. A great engineer in Ukraine gets options representing the same percentage of the company as a great engineer at the same level in San Francisco.
+&nbsp;&nbsp;&nbsp;&nbsp; Critically, while we differentiate pay based off of geography, we don't differentiate stock options. A great engineer in Ukraine gets options representing the same percentage of the company as a great engineer at the same level in San Francisco.
 
 7. **Adjust for Performance:** Last, we leave the ability to adjust salary or equity based on performance. We do reviews every 6 months. During these reviews, employees' performance is evaluated by their managers and peers. We use a 360 approach for reviews to ensure everyone is being evaluated by peers of all levels.
 
-If an employee is found to be a top performer, they will be compensated higher, generally through equity and not salary.
+&nbsp;&nbsp;&nbsp;&nbsp; If an employee is found to be a top performer, they will be compensated higher, generally through equity and not salary.
 
 ### Results
 
@@ -71,7 +71,7 @@ Critically, the compensation-related questions are rated very highly, and this a
 
 #### 3. Employee perception (qualitative)
 
-Qualitative employee feedback when we announced the policy---and over the intervening year---has been overwhelmingly positive. Employees appreciated the transparency. We've also seen a marked reduction in the vague feelings that some people are treated better than others or that compensation would be radically better at another company. Employees not only like the transparency, but report that they feel better about their compensation.
+Qualitative employee feedback when we announced the policy—and over the intervening year—has been overwhelmingly positive. Employees appreciated the transparency. We've also seen a marked reduction in the vague feelings that some people are treated better than others or that compensation would be radically better at another company. Employees not only like the transparency, but report that they feel better about their compensation.
 
 #### 4. Employee/manager Conversations
 
@@ -87,4 +87,4 @@ After we concluded our initial analysis, we increased total salary expense by ab
 
 ### Conclusion
 
-For other employers who have considered taking a transparent approach to compensation, I can't recommend it enough. The approach needs to be thoughtful and deliberate. And, it is a lot of work to get right. But, compensation transparency has been an overall win for us in terms of morale, recruiting, trust, productivity, and creating a positive work culture. Even if you're uncertain about incorporating radical transparency into your entire business, consider salary transparency, as it will help your most important asset---your employees---understand their value and know they're treated fairly.
+For other employers who have considered taking a transparent approach to compensation, I can't recommend it enough. The approach needs to be thoughtful and deliberate. And, it is a lot of work to get right. But, compensation transparency has been an overall win for us in terms of morale, recruiting, trust, productivity, and creating a positive work culture. Even if you're uncertain about incorporating radical transparency into your entire business, consider salary transparency, as it will help your most important asset—your employees—understand their value and know they're treated fairly.
