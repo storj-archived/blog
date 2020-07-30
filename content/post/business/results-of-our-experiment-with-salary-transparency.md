@@ -1,6 +1,7 @@
 ---
 title: Results of Our Experiment With Salary Transparency
 date: 2020-07-30T14:57:19.767Z
+image: /blog/img/salary-transparency.png
 categories:
   - Remote Work
 authors:
