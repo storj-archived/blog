@@ -8,8 +8,6 @@ authors:
   - Brandon Iglesias
 draft: false
 ---
-Product/ Development Update July 2020
-
 By Hello Everyone! We hope you had a great start to the summer. At Storj Labs, we have been heating up just as much as the weather!  During the month of July, our team spent a lot of time planning for the future. We want to make our goals and roadmap are aligned with the features Storage Node Operators and Tardigrade users need most. Aside from the development accomplishment shared below, we started designing larger pieces of functionality we will be sharing with you soon.
 
 ### Development Accomplishments:
