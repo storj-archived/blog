@@ -33,7 +33,8 @@ Until now, we've been aiming to issue our development updates every two weeks. M
 
 * A view into our sprints
 
-[Tardigrade User Growth Team](https://storjlabs.aha.io/published/70af3a68a53be05165a201b0d5fb9995?page=1) <br>  [Storage Node Operator Growth Team](https://storjlabs.aha.io/published/f34da8a62ece8e183af5ceef0d55e82b?page=1) <br>
-[Storj Network Maintain Team](https://storjlabs.aha.io/published/56dfa608b6d83ef613bc6c4bfad96f10?page=1)
+&nbsp;&nbsp;[Tardigrade User Growth Team](https://storjlabs.aha.io/published/70af3a68a53be05165a201b0d5fb9995?page=1) <br>  &nbsp;&nbsp;[Storage Node Operator Growth Team](https://storjlabs.aha.io/published/f34da8a62ece8e183af5ceef0d55e82b?page=1) <br>
+&nbsp;&nbsp;[Storj Network Maintain Team](https://storjlabs.aha.io/published/56dfa608b6d83ef613bc6c4bfad96f10?page=1) <br>
+
 * Dig into the code or contribute to the project by visiting our [GitHub](https://github.com/storj/storj) repository.
 * Reach out by emailing [ask@storj.io](mailto:ask@storj.io) or through our [community forum](https://forum.storj.io).
