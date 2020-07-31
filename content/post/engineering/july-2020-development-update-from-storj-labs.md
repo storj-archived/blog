@@ -15,7 +15,7 @@ By Hello Everyone! We hope you had a great start to the summer. At Storj Labs, w
 * We decreased the amount of time it takes to confirm STORJ token payments on the Satellite. We also added the available balance history, free credit history and billing history to improve the overall STORJ token payment flow and user experience.
 * We fixed some bugs in the Satellite user interface so that our Tardigrade users have a better experience.
 * We improved the delete concurrency on the Satellites so that deletes happen more quickly and efficiently from a Tardigrade user's perspective. 
-* We added some more payout information to the Storage Node dashboard
+* We added some more payout information to the Storage Node dashboard.
 * We fixed some issues around graceful exit for Storage Node Operators so that we can reduce the chances of a node failing graceful exit.
 
 ### In Our Next Post, We'll Cover:
@@ -23,8 +23,8 @@ By Hello Everyone! We hope you had a great start to the summer. At Storj Labs, w
 * The progress we're making on connectors for all of your backup needs.
 * Publishing some of our hackathon projects externally so the community can start utilizing these tools and projects for yourselves.
 * The Linux installer and auto-update functionality which will make it possible to run a Storage Node on Linux without using Docker.
-* Enhancements to graceful exit for Storage Nodes
-* Adding some more Storage Node Operator payout information on the Node Dashboard
+* Enhancements to graceful exit for Storage Nodes.
+* Adding some more Storage Node Operator payout information on the Node Dashboard.
 * Our progress we are making to simplify the SNO Auth Tokens experience as well as some updates to the SNO dashboard.
 
 Until now, we've been aiming to issue our development updates every two weeks. Moving forward, we'll be issuing our development updates on a monthly basis. Watch for our next one at the end of August.
@@ -32,8 +32,8 @@ Until now, we've been aiming to issue our development updates every two weeks. M
 ### For More Information:
 
 * A view into our sprints
-* [Tardigrade User Growth Team](https://storjlabs.aha.io/published/70af3a68a53be05165a201b0d5fb9995?page=1)
-* [Storage Node Operator Growth Team](https://storjlabs.aha.io/published/f34da8a62ece8e183af5ceef0d55e82b?page=1)
-* [Storj Network Maintain Team](https://storjlabs.aha.io/published/56dfa608b6d83ef613bc6c4bfad96f10?page=1)
+
+[Tardigrade User Growth Team](https://storjlabs.aha.io/published/70af3a68a53be05165a201b0d5fb9995?page=1) <br>  [Storage Node Operator Growth Team](https://storjlabs.aha.io/published/f34da8a62ece8e183af5ceef0d55e82b?page=1) <br>
+[Storj Network Maintain Team](https://storjlabs.aha.io/published/56dfa608b6d83ef613bc6c4bfad96f10?page=1)
 * Dig into the code or contribute to the project by visiting our [GitHub](https://github.com/storj/storj) repository.
 * Reach out by emailing [ask@storj.io](mailto:ask@storj.io) or through our [community forum](https://forum.storj.io).
