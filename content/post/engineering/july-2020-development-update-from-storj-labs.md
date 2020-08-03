@@ -16,7 +16,7 @@ By Hello Everyone! We hope you had a great start to the summer. At Storj Labs, w
 * We fixed some bugs in the Satellite user interface so that our Tardigrade users have a better experience.
 * We improved the delete concurrency on the Satellites so that deletes happen more quickly and efficiently from a Tardigrade user's perspective. 
 * We added some more payout information to the Storage Node dashboard.
-* We fixed some issues around graceful exit for Storage Node Operators so that we can reduce the chances of a node failing graceful exit.
+* We fixed some issues around graceful exit for Storage Node Operators so that we can reduce the chances of a Node failing graceful exit. There are still a few other issues we're working on to further improve the  graceful exit experience. 
 
 ### In Our Next Post, We'll Cover:
 
