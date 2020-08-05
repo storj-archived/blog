@@ -28,11 +28,11 @@ e) The total non-circulating supply held by Storj is 262.6M (row 18), comprised 
 
 ![](/blog/img/q2-token-report-1.png)
 
-\### Overview
+### Overview
 
 In May of 2017, Storj Labs International SEZC (formerly Storj Labs (BVI) Ltd), a wholly-owned subsidiary of Storj Labs Inc., conducted a public token sale. As a reminder, we intend to provide a quarterly update on the business and network through our quarterly town hall meeting. It's our intention to produce this token report on a quarterly basis.  This report has been independently verified.
 
-\### Background
+### Background
 
 The Company reports its tokens to management in two categories:
 
@@ -40,15 +40,15 @@ a) Long Term Lockup
 
 b) Operating Supply
 
-\### Long Term Lockup
+### Long Term Lockup
 
 245 M STORJ are held by Storj Labs for future use (lines 1-3). These tokens have been split into eight equal-sized tranches, which are currently locked, with expiration dates over the eight successive quarters. As previously reported, we paused locking and unlocking in Q4 2019 in anticipation of a technical solution to lockups but there was no preferred technical solution to our current approach identified and implemented, and so the Q1 2020 tranche and Q2 2020 tranches were relocked to Q1 2022 and Q2 2022 respectively.
 
-\### Reserved for SJCX Conversion
+### Reserved for SJCX Conversion
 
 At the time of the 2017 token sale, we established a reserve and conversion mechanism for the conversion of SJCX tokens to STORJ tokens at a predefined rate of 1:1. We initially set aside approximately 51M SJCX tokens for conversion, and announced a deadline of October 2017 to convert SJCX to STORJ token. We extended the deadline to accommodate requests for conversion. Ultimately, we saw no material conversions in Q2, Q3, and Q4 of '19. So, as previously reported, we deprecated the converter on January 1, 2020, and returned the remaining tokens to the operational reserve.
 
-\### Operating Supply 
+### Operating Supply 
 
 We track the operating supply of STORJ tokens (lines 8-17). These tokens are held by Storj Labs, Inc. or Storj Labs International SEZC and are intended to be used for operations as described below.
 
@@ -68,7 +68,7 @@ Line 15 is to report a decision to transfer STORJ from Long Term Lockup to Opera
 
 Line 16 is to report any transfer of STORJ from Reserved for SJCX Conversion to Operating Supply, as occurred previously due to the scheduled deprecation of the converter.
 
-\### Totals
+### Totals
 
 Line 18 is the non-circulating supply of STORJ, which is the number of tokens in Storj Labs' custody.
 
@@ -76,7 +76,7 @@ Line 19 is the total circulating supply of STORJ tokens, which is the number of 
 
 The maximum total that could be in circulation is 425.0 M (line 20).
 
-\### Confirmation
+### Confirmation
 
 We've provided addresses for our major reserves below so that totals can be easily verified. 
 
@@ -84,7 +84,7 @@ If you have questions, clarifications, or suggestions on how we can better prese
 
 ![](/blog/img/q2-token-report-2.png)
 
-\### DISCLAIMER
+### DISCLAIMER
 
 This report is provided to the many individuals in the Storj ecosystem, concerning the circulating supply and flows of the STORJ token.
 
