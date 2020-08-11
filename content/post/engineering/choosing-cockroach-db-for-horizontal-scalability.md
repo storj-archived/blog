@@ -10,11 +10,12 @@ draft: false
 Here at Storj Labs we just migrated our production databases from PostgreSQL to CockroachDB. We want to share why we did this and what our experience was.
 
 TL;DR Our experience has convinced us that CockroachDB is the best horizontally scalable database choice in 2020. 
-#### Why use a horizontally scalable database in the first place?
+
+### Why use a horizontally scalable database in the first place?
 
 Our top goal at Storj is to run the largest, most secure, decentralized, and distributed cloud storage platform. Our cloud storage holds its own against AWS S3 and Google Cloud Storage in performance and durability and also goes further by improving reliability since it's fully distributed. In order to compete on the same scale as the big cloud providers it's crucial we can scale our infrastructure. One of the ways we are doing this is by using a horizontally scalable database. To meet our first goal of storing an exabyte of data on the Storj network, the current architecture will store over 90 PBs of file metadata. Additionally, it's vital that the Storj Network can withstand multi-region failures and still keep the network up and the data available. All of this is made relatively easy with CockroachDB!
 
-#### What about other horizontally scalable databases?
+### What about other horizontally scalable databases?
 
 We considered a number of different horizontally scalable databases, but for our needs, CockroachDB consistently came out on top.
 
@@ -28,7 +29,7 @@ Before the 2000s there weren't any horizontally scaling database options. The on
 
 In the early 2000s, NoSQL became all the rage since they were the first horizontally scaling options. However, NoSQL has some tradeoffs, mainly weaker consistency guarantees, and no relational models. And here we are in the 2020s, finally what we always wanted, which is the rise of the strongly consistent, relational, horizontally scaling database.
 
-### What's involved adding CockroachDB support to our application?
+## What's involved adding CockroachDB support to our application?
 
 Here is our process for getting CockroachDB running up with our application:
 
@@ -37,7 +38,7 @@ Here is our process for getting CockroachDB running up with our application:
 3. Learned how to evaluate analytics about CockroachDB running in production.
 4. Migrated production environments off PostgreSQL and over to CockroachDB.
 
-#### Writing Compatible SQL
+### Writing Compatible SQL
 
 One of the first parts of integrating with CockroachDB was to make sure all of our existing SQL was compatible. We were already backed by Postgres and CockroachDB is Postgresql wire protocol compatible, so we simply replaced the Postgres connection string with a CockroachDB connection URL and observed what broke. At the time (around v19.2-ish) there turned out to be quite a few PostgreSQL things that weren't supported. Here's a list of some of the highlights:
 
@@ -51,11 +52,11 @@ Due to some of these unsupported Postgres features, we had to rewrite our migrat
 
 While this process to make our SQL compatible was a bit more tedious than I had hoped, it ended up taking about a month of full-time developer time, I still feel like it was much easier than migrating over to spanner or another database without postgres compatibility.  Additionally since then, now in CockroachDB v20.1, many compatible issues have been resolved. CockroachDB is under fast development and is constantly listening to feedback from end-users and adding features per requests.
 
-#### End-to-end testing, performance and load testing
+### End-to-end testing, performance and load testing
 
 Once we had all the compatible SQL in place and all our unit tests passed, we then deployed to a production-like environment for some end-to-end testing and performance and load testing. Out of the box some things were faster than GCP CloudSQL Postgres, while some things were a teeny bit slower. 
 
-#### Performance Improvement Metrics
+### Performance Improvement Metrics
 
 One of the database access patterns we use is an ordered iterator, where we need to walk over every record in the database and perform some processing on each row. In our largest database with over six million rows, this iteration was getting very slow with CloudSQL Postgres database, taking about 13 hours, which was way too long. After we migrated to CockroachDB, processing every row in order was down to two hours!
 
@@ -89,7 +90,7 @@ The same database ported to CockroachDB
 65,323,332  rows
 ~2846 bytes/row
 ```
-#### End-to-end Testing
+### End-to-end Testing
 
 While end-to-end testing, there were three main issues we encountered:
 
@@ -97,11 +98,11 @@ While end-to-end testing, there were three main issues we encountered:
 2. Transaction contention
 3. Stalled transactions that never completed
 
-#### Retry Errors
+### Retry Errors
 
 Everything in CockroachDB is run as a transaction, either an explicit transaction if the application code creates a transaction or CockroachDB will create an implicit transaction otherwise. If the transaction is implicit and fails, then CockroachDB will retry for you behind the scenes. However, if an explicit transaction is aborted/fails then it's up to the application code to handle retries. For this, we added retry functionality to our database driver code [like so](https://github.com/storj/storj/blob/master/private/dbutil/cockroachutil/driver.go#L331). 
 
-#### Transaction Contention
+### Transaction Contention
 
 We experienced much more transaction contention with CockroachDB and therefore aborted transactions and also slower performance with some of our database access patterns. The following changes greatly improved these issues:
 
@@ -111,7 +112,7 @@ We experienced much more transaction contention with CockroachDB and therefore a
 * Bulk inserts.
 * And more on CockroachDB [docs](https://www.cockroachlabs.com/docs/stable/performance-best-practices-overview.html#understanding-and-avoiding-transaction-contention).
 
-#### Stalled Transactions
+### Stalled Transactions
 
 We encountered some unusual behaviors where we had long-running queries taking over two hours sometimes.
 
@@ -151,11 +152,11 @@ Luckily we run our databases on CockroachCloud, so the Cockroach Lab's SREs and 
 
 While this ended up being a one-off bug with the re-scheduling of transactions that CockroachDB has already implemented a fix for in v20.1, I think it's an interesting experience to share because it displays a number of the reasons I love CockroachDB; .they work hard and fast to build a high-quality product and they consistently offer top-notch technical support.
 
-### Migrating the data during a maintenance window
+## Migrating the data during a maintenance window
 
 Once we had completed all of our testing we started migrating the actual data to CockroachDB. Luckily we were able to verify the migration steps and estimate how long it might take us for each of our deployments. We made the choice to make use of one of our maintenance windows which are Sunday 2 am-6 am eastern time. With the teams ready we began the migration steps. In order to ensure we didn't miss any data, we had to stop all services within the deployment to stop all transactions. The next step was then to take a dump of all the data, with databases ranging in size from 110 GB to 260 GB. After waiting for the data dump to complete we then sorted the data to maximize import efficiency when importing to CockroachDB. The sorting steps took the longest, between 40 and 75 minutes. A small misjudgment on the size of these intermediate VMs meant that this step ended up taking significantly longer than we had estimated. With the sorting completed we then uploaded each snapshot to a cloud storage bucket and prepared our credentials to be passed to the CockroachDB servers to access the data dumps. The imports themselves took between 40 and 75 minutes as well. Once we had all the data imported we validated several tables to ensure the data had indeed been successfully imported, and then made the configuration changes for our application to be able to talk to its new database backend. 
 
-### Adapting Existing Tooling to CockroachDB
+## Adapting Existing Tooling to CockroachDB
 
 To ensure we have all of our bases covered we have a lot of automation around our deployments. One of these pieces is a backup step that ensures we have a snapshot backup of the database before we run any migrations. With the managed services for PostgreSQL that we've used in the past, we've always had an administrator API we can hit to trigger an automated backup. Cockroach Cloud already does a great job at running periodic backups as part of their managed service, but our requirements state that the backup we take before deployment is as close in time to the migration step as possible.
 
