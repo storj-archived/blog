@@ -1,6 +1,7 @@
 ---
 title: Choosing Cockroach DB for Horizontal Scalability
 date: 2020-08-11T15:56:23.526Z
+image: /blog/img/horizontal-scaling-blog.png
 categories:
   - engineering
 authors:
