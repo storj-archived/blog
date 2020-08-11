@@ -75,21 +75,6 @@ Took 56.8s for 100,000 records
 Took 4m53.3s for 1000,000 records
 Took 1h48m25.1s for 10,000,000 records
 ```
-
-#### **Speed of ordered iterator**
-
-**CockroachDB**
-
-* Took 3.5s for 100,000 records\
-* Took 18.8s for 1,000,000 records
-* Took 14m0.5s for 10,000,000 records
-
-**CloudSQL Postgres**
-
-* Took 56.8s for 100,000 records
-* Took 4m53.3s for 1000,000 records
-* Took 1h48m25.1s for 10,000,000 records
-
 Another awesome feature of CockroachDB is prefix compression. CockroachDB data is stored in sorted order by the primary key and any prefix shared with the previous record is dropped2. This saved a lot more space than we expected. While the data stored in CockroachDB is replicated three times (by default), the additional bytes on disk was just a little over two times Postgres since the prefix compression saved quite a bit of space.
 
 ```
@@ -105,21 +90,6 @@ The same database ported to CockroachDB
 65,323,332  rows
 ~2846 bytes/row
 ```
-
-#### Prefix compression:
-
-**CloudSQL Postgres**
-
-* 239 GB
-* 65,323,332  rows
-* ~3658 bytes/row
-
-**The same database ported to CockroachDB**
-
-* 186 GB
-* 65,323,332  rows
-* ~2846 bytes/row
-
 #### End-to-end Testing
 
 While end-to-end testing, there were three main issues we encountered:
@@ -175,7 +145,6 @@ Another way to see slow query times is:
 
 ```
 SELECT * FROM [SHOW CLUSTER QUERIES]
-
 WHERE  start < (now() - INTERVAL '1 min');
 ```
 
