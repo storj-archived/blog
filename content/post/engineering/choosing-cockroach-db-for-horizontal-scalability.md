@@ -10,7 +10,6 @@ draft: false
 Here at Storj Labs we just migrated our production databases from PostgreSQL to CockroachDB. We want to share why we did this and what our experience was.
 
 TL;DR Our experience has convinced us that CockroachDB is the best horizontally scalable database choice in 2020. 
-
 #### Why use a horizontally scalable database in the first place?
 
 Our top goal at Storj is to run the largest, most secure, decentralized, and distributed cloud storage platform. Our cloud storage holds its own against AWS S3 and Google Cloud Storage in performance and durability and also goes further by improving reliability since it's fully distributed. In order to compete on the same scale as the big cloud providers it's crucial we can scale our infrastructure. One of the ways we are doing this is by using a horizontally scalable database. To meet our first goal of storing an exabyte of data on the Storj network, the current architecture will store over 90 PBs of file metadata. Additionally, it's vital that the Storj Network can withstand multi-region failures and still keep the network up and the data available. All of this is made relatively easy with CockroachDB!
