@@ -15,7 +15,7 @@ BEN is the largest and longest-running network of students, alumni, professors, 
 
 ### Get Started with Tardigrade on BEN's Student Wiki
 
-[You can get started with Tardigrade on the BEN](<https://learn.blockchainedu.org/en/get-started-with-tardigrade>). This walkthrough will show you how to quickly upload an object to the decentralized cloud and stream it in parallel—from anywhere around the globe—with a simple URL.
+[You can get started with Tardigrade on the BEN](https://learn.blockchainedu.org/en/get-started-with-tardigrade). This walkthrough will show you how to quickly upload an object to the decentralized cloud and stream it in parallel—from anywhere around the globe—with a simple URL.
 
 ![](/blog/img/ben-image-1.png)
 
@@ -31,7 +31,7 @@ In fact, for student developers familiar with Amazon Web Services, the AWS CLI c
 
 We're thrilled to collaborate with the Blockchain Education Network and support students building the next generation of the internet with decentralized infrastructure.
 
-Interested in leveraging the decentralized cloud with Tardigrade for your Web3 project? We want to give you a platform! Storj Labs is happy to work with you to highlight your solution, and even feature you on our weekly podcast (Tardigrade Thursdays)—where you'll be able to showcase your work to 80k+ developers and followers in the Tardigrade community.
+Interested in leveraging the decentralized cloud with Tardigrade for your Web3 project? We want to give you a platform! Storj Labs is happy to work with you to highlight your solution, on our blog, in our community, in our newsletter, or on our weekly podcast (Tardigrade Thursdays), to help you showcase your work to 80k+ developers and followers in the Tardigrade community.
 
 Today, Tardigrade supports integrations with leading Open Source Projects, like [Kubernetes](https://documentation.tardigrade.io/how-tos/kubernetes-backup-via-velero), [Postgres](https://documentation.tardigrade.io/how-tos/backup), [Rclone](https://documentation.tardigrade.io/how-tos/sync-files-with-rclone), [MongoDB](https://www.mongodb.com/blog/post/cloud-native-enterprise-data-management-tardigrade), and more. Reach out to [partnerships@storj.io](mailto:partnerships@storj.io) to get set up with credits and help with best practices.
 
