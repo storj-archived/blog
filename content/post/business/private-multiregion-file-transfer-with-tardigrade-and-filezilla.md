@@ -18,7 +18,7 @@ One of the biggest reasons to choose Tardigrade over other cloud storage service
 
 Tardigrade makes it easy to securely store and transfer your data using end-to-end encryption so only you can access it. No need for complicated setups and configurations to ensure confidentiality. Every file on Tardigrade is encrypted by default.
 
-For developers and engineers, Tardigrade's p2p architecture means it delivers better performance---especially if downloading your file from half-way around the world. It's decentralized architecture also ensures the integrity of your file, as the system is constantly auditing files stored on the platform to ensure it's not changed, corrupted, or modified.
+For developers and engineers, Tardigrade's p2p architecture means it delivers better performance—especially if downloading your file from half-way around the world. It's decentralized architecture also ensures the integrity of your file, as the system is constantly auditing files stored on the platform to ensure it's not changed, corrupted, or modified.
 
 This makes it great for multi-cloud environments, as your data is globally distributed without any extra cost, effort, or configuration. If you need to access your data, recover or replicate your data, it's much faster with a decentralized approach. Also, you don't lose access to data if there's an outage in one specific region.
 
@@ -26,19 +26,17 @@ This makes it great for multi-cloud environments, as your data is globally distr
 
 You can get started storing data on Tardigrade using FileZilla in just a few easy steps. Check out our [full documentation here](https://tardigrade.io/connectors/filezilla/) or follow this short overview on how to get started.
 
-**1. Go into Site Manager**
+**1.  Go into Site Manager**
+
+**2.  Hit the 'New site' option, and select Tardigrade - Decentralized Cloud Storage**
 
 ![](/blog/img/filezilla-image1.png)
 
-**2. Hit the 'New site' option, and select Tardigrade - Decentralized Cloud Storage**
-
-**3. Select Logon Type and select "Access Grant"**
+**3.  Enter the Satellite, API Key, and Encryption Passphrase (used in Uplink) below:** 
 
 ![](/blog/img/filezilla-image2.png)
 
-**4. Enter your Tardigrade account information. To create an account grant, follow the steps [here](https://documentation.tardigrade.io/getting-started/sharing-your-first-object/generate-access).**
-
-**5. After you enter the Access Grant, hit "Connect", and FileZilla will connect directly to the decentralized cloud storage service. You should see a screen showing your local site vs Tardigrade.**
+**4.  After you enter the above information, hit "Connect", and Filezilla will connect directly to the remote site.  You should see a screen showing your local site vs. Tardigrade, like so:**
 
 ![](/blog/img/filezilla-image3.png)
 
