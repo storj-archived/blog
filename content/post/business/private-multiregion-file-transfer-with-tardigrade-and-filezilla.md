@@ -8,7 +8,7 @@ authors:
   - Roberto Galloppini and John Gleeson
 draft: false
 ---
-Today, we're pleased to announce that FileZilla users can now use Tardigrade decentralized cloud storage as the storage service for their files. People choose FileZilla because it's a fast, secure, and reliable file transfer tool, making it a great pairing with Tardigrade. Because Tardigrade is decentralized, all data stored on the service is private by default through end-to-end encryption, ensuring data confidentiality. On top of that, Tardigrade provides multi-region redundancy for each file at no cost and no complicated configuration.
+Today, we're pleased to announce that [FileZilla](https://tardigrade.io/connectors/filezilla/) users can now use Tardigrade decentralized cloud storage as the storage service for their files. People choose FileZilla because it's a fast, secure, and reliable file transfer tool, making it a great pairing with Tardigrade. Because Tardigrade is decentralized, all data stored on the service is private by default through end-to-end encryption, ensuring data confidentiality. On top of that, Tardigrade provides multi-region redundancy for each file at no cost and no complicated configuration.
 
 Because of FileZilla's broad adoption and ubiquitousness, this integration means every FileZilla user can easily tap into the Tardigrade world without the need to be a developer or a software engineer. FileZilla is intuitive and simple to use, meaning securely managing your data is just as easy.
 
