@@ -1,6 +1,6 @@
 ---
 title: Private, Multiregion File Transfer with Tardigrade and FileZilla
-date: 2020-08-26T03:38:47.093Z
+date: 2020-08-25T10:38:47.093Z
 categories:
   - business
 authors:
