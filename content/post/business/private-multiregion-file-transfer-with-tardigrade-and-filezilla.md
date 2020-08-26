@@ -1,6 +1,7 @@
 ---
 title: Private, Multiregion File Transfer with Tardigrade and FileZilla
 date: 2020-08-25T10:38:47.093Z
+image: /blog/img/storj-filezilla2.png
 categories:
   - business
 authors:
@@ -30,15 +31,12 @@ You can get started storing data on Tardigrade using FileZilla in just a few eas
 ![](/blog/img/filezilla-image1.png)
 
 **2. Hit the 'New site' option, and select Tardigrade - Decentralized Cloud Storage**
+
 **3. Select Logon Type and select "Access Grant"**
 
 ![](/blog/img/filezilla-image2.png)
 
-‌
-
-**4. Enter your Tardigrade account information. To create an account grant, follow the steps here (<https://documentation.tardigrade.io/getting-started/sharing-your-first-object/generate-access>).**
-
-‌
+**4. Enter your Tardigrade account information. To create an account grant, follow the steps [here](https://documentation.tardigrade.io/getting-started/sharing-your-first-object/generate-access).**
 
 **5. After you enter the Access Grant, hit "Connect", and FileZilla will connect directly to the decentralized cloud storage service. You should see a screen showing your local site vs Tardigrade.**
 
