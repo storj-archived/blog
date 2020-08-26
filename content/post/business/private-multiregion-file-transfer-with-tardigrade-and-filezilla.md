@@ -37,4 +37,4 @@ You can get started storing data on Tardigrade using FileZilla in just a few eas
 **4.  After you enter the above information, hit "Connect", and Filezilla will connect directly to the remote site.  You should see a screen showing your local site vs. Tardigrade, like so:**
 ![](/blog/img/filezilla-image3.png)
 
-I look forward to hearing from FileZilla community members about how they like Tardigrade and their experience using the two solutions together. If you'd like to share feedback you can email the Storj Labs team at [partnerships@storj.io](mailto:partnerships@storj.io).
+We look forward to hearing from FileZilla community members about how they like Tardigrade and their experience using the two solutions together. If you'd like to share feedback you can email the Storj Labs team at [partnerships@storj.io](mailto:partnerships@storj.io).
