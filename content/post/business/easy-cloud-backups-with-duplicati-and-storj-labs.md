@@ -1,6 +1,7 @@
 ---
 title: Easy Cloud Backups with Duplicati and Storj Labs
 date: 2020-09-09T17:20:06.767Z
+image: /blog/img/backups-and-duplicati.jpg
 categories:
   - business
 authors:
