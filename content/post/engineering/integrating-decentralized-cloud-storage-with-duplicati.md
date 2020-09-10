@@ -12,9 +12,9 @@ In this blog post I will share an overview of how I built the native Tardigrade 
 
 For those who do not know what Duplicati is: it is one of the biggest open-source and free back up utilities out there which has plenty of "back ends" to connect to, which will hold the archived data for you. Duplicati has its own logic for organizing files and metadata, but basically completely relies on files with a fixed size. This perfectly fits the Storj Labs Tardigrade cloud storage service, as it works best with (although is not limited to) big files that don't change often.
 
-We have had Duplicati support for a long time through the tool's S3-gateway, which is still a valid way to go. But this involves installing and configuring the gateway locally which is not the best for the average "just want my backups done"-user. Therefore we decided to go the native way and to create a Duplicati back end that "simply works" without installing anything else except Duplicati.
+We have had Duplicati support for a long time through the tool's S3-gateway, which is still a valid way to go. But this involves installing and configuring the gateway locally which is not the best for the average "just want my backups done"-user. Therefore, we decided to go the native way and to create a Duplicati back end that "simply works" without installing anything else except Duplicati.
 
-Getting cold feets and fearing of data-loss? Go and start your backup to Tardigrade via Duplicati [here](https://documentation.tardigrade.io/how-tos/backup-with-duplicati).\
+Getting cold feet and fearing of data-loss? Go and start your backup to Tardigrade via Duplicati [here](https://documentation.tardigrade.io/how-tos/backup-with-duplicati).\
 Getting hot on how all this works internally? Read on. 😊
 
 ### Where to start
@@ -33,9 +33,9 @@ Going forward, we'll focus on the Tardigrade-Backend which---following the conve
 
 ![](/blog/img/duplicati-integration-2.png)
 
-The first file created and the most important one is "TardigradeBackend.cs". It contains the main logic of the back end. To get a valid back end, a class has to implement either the "IBackend" or the "IStreamingBackend"-interface. As Storj supports async streams the Tardigrade back end implements the latter.
+The first file created and the most important one is "TardigradeBackend.cs". It contains the main logic of the back end. To get a valid back end, a class has to implement either the "IBackend" or the "IStreamingBackend"-interface. As Storj supports async streams, the Tardigrade back end implements the latter.
 
-The most important methods you have to implement for a back end to work correctly are "Put", "Get", "List" and "Delete". But by simply adding one of the two interfaces to the class makes your back end already visible to Duplicati. It then already gets added to the list of possible backup-targets, but to be really useful you would have to return values for the properties "DisplayName" and "ProtocolKey". The former gives your back end a name, the latter is a prefix used by Duplicati to know which configuration belongs to which back end. You might also want to provide a Description for your back end by returning a value within the "Description" property, as the name suggests.
+The most important methods you have to implement for a back end to work correctly are "Put", "Get", "List" and "Delete". But simply adding one of the two interfaces to the class makes your back end already visible to Duplicati. It then already gets added to the list of possible backup-targets, but to be really useful you would have to return values for the properties "DisplayName" and "ProtocolKey". The former gives your back end a name, the latter is a prefix used by Duplicati to know which configuration belongs to which back end. You might also want to provide a Description for your back end by returning a value within the "Description" property, as the name suggests.
 
 "Sprechen Sie deutsch?"
 
@@ -74,7 +74,7 @@ To have valid access to a Storj-bucket and the included objects, we need some in
 With Tardigrade, the user has multiple ways to get access:
 
 1. The user can provide a so-called "access grant". That grant already includes all the information necessary to connect to the Storj-network. It contains the Satellite to use, the API key for the project, the encryption passphrase, and possibly some restrictions to only have access to specific buckets and/or prefixes.
-2. The second way is by providing that information manually—so the user might want to enter a Satellite address, an API key, and the encryption passphrase on his own. For convenience, the user can select from available Tardigrade-Satellites or enter a Satellite address manually.
+2. The second way is by providing that information manually—so the user might want to enter a Satellite address, an API key, and the encryption passphrase on their own. For convenience, the user can select from available Tardigrade-Satellites or enter a Satellite address manually.
 
 Besides the rough connection settings, the user has to provide a bucket name to use and may optionally provide a "folder" within the bucket where a specific backup will reside. Technically this will convert into a prefix. 
 
