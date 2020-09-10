@@ -8,7 +8,7 @@ authors:
   - Kevin Leffew
 draft: false
 ---
-Over the past several months, we've been working with the [Ethereum Classic Labs](https://etclabs.org/) and its ETC Core development team to build out an experimental decentralized architecture for GETH---the tool used to sync the blockchain for ETC developers.
+Over the past several months, we've been working with the [Ethereum Classic Labs](https://etclabs.org/) and its ETC Core development team to build out an experimental decentralized architecture for GETH—the tool used to sync the blockchain for ETC developers.
 
 One of the most demanding requirements to support a copy of the blockchain is storage, and scaling that storage is difficult since the blockchain is a continuously growing database.
 
