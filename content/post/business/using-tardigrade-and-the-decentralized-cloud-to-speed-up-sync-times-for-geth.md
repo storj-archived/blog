@@ -1,5 +1,5 @@
 ---
-title: Using Tardigrade and the Decentralized Cloud to speed up sync times for GETH
+title: Using Tardigrade and the Decentralized Cloud to Speed Up Sync Times for GETH
 date: 2020-09-10T10:06:38.270Z
 image: /blog/img/storj-blog-geth.jpg
 categories:
