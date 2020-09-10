@@ -77,7 +77,7 @@ If you get `exec: "gcc": executable file not found in $PATH` errors when attempt
 
 If you ls in the project directory you should see the built executable `ancient-store-storj` like so:
 
-~/ancient-store-storj$ ls
+`~/ancient-store-storj$ ls`
 
 `LICENSE    ancient-store-storj  freezer_remote_storj.go       go.mod  main.go`
 
