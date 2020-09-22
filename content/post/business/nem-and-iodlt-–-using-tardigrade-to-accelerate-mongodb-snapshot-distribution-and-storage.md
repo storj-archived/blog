@@ -1,5 +1,5 @@
 ---
-title: NEM and IoDLT – Using Tardigrade to Accelerate MongoDB Snapshot
+title: NEM and IoDLT - Using Tardigrade to Accelerate MongoDB Snapshot
   Distribution and Storage
 date: 2020-09-22T14:44:09.607Z
 categories:
