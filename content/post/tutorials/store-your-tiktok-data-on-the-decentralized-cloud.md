@@ -16,9 +16,9 @@ Data stored on Tardigrade is decentralized, meaning it's spread across uncorrela
 
 ### Programmatically Move TikTok Data to the Decentralized Cloud
 
-To back up your TikTok data, first, capture the public URLs of the content you wish to capture. You can generate a URL from the TikTok application by clicking the icon, "Copy Link" associated with the video you're hoping to backup.
+To back up your TikTok data, first copy the public URLs of the content you wish to capture. You can generate a URL from the TikTok application by clicking the icon, "Copy Link" associated with the video you're hoping to backup.
 
-!["Copy Link" - Copy the links of the files you wish to capture](/blog/img/tiktok1.png "\\"Copy Link\\" - Copy the links of the files you wish to capture")
+!["Copy Link" - Copy the links of the files you wish to capture](/blog/img/tiktok1.png "\\\"Copy Link\\\" - Copy the links of the files you wish to capture")
 
 This tool is publicly available on GitHub (MIT License) and enables you to programmatically download your content from TikTok: <https://github.com/drawrowfly/tiktok-scraper>
 
