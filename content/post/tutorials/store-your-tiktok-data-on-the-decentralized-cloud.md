@@ -18,7 +18,7 @@ Data stored on Tardigrade is decentralized, meaning it's spread across uncorrela
 
 To back up your TikTok data, first copy the public URLs of the content you wish to capture. You can generate a URL from the TikTok application by clicking the icon, "Copy Link" associated with the video you're hoping to backup.
 
-!["Copy Link" - Copy the links of the files you wish to capture](/blog/img/tiktok1.png "\\\"Copy Link\\\" - Copy the links of the files you wish to capture")
+!["Copy Link" - Copy the links of the files you wish to capture](/blog/img/tiktok1.png "\\\\"Copy Link\\\\" - Copy the links of the files you wish to capture")
 
 This tool is publicly available on GitHub (MIT License) and enables you to programmatically download your content from TikTok: <https://github.com/drawrowfly/tiktok-scraper>
 
@@ -28,9 +28,9 @@ The tool can easily be installed from NPM by navigating to your terminal and ent
 
 Once installed, you can use the following command to download a TikTok from your terminal:
 
-`$ tiktok-scraper video https://vm.tiktok.com/ZMJDyKB6t/ -d`
+`$ tiktok-scraper video https://vm.tiktok.com/[VideoURL]/ -d`
 
-In the above example, "<https://vm.tiktok.com/ZMJDyKB6t/>" is the link representative for the content you wish to decentralize.
+In the above example, “[https://vm.tiktok.com/VideoURL/](https://vm.tiktok.com/ZMJDyKB6t/)” is the link representative for the content you wish to decentralize.
 
 After you run the command, the terminal should output a video location, something like:
 
