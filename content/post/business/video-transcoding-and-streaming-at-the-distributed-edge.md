@@ -28,9 +28,9 @@ The VideoCoin Network extends this capability, making it easy to transcode video
 
 This solution architecture is resilient. Data is encrypted, erasure coded, and spread across uncorrelated endpoints, making data loss, theft, or backup corruption (via bitrot) nearly impossible.
 
-This solution architecture is also  more globally performant  than other centralized cold storage solutions---you can access and rehydrate your backup to anywhere with minimal latency---due to the globally distributed nature of decentralized cloud backup.
+This solution architecture is also more globally performant than other centralized cold storage solutions---you can access and rehydrate your backup to anywhere with minimal latency---due to the globally distributed nature of decentralized cloud backup.
 
-Most importantly, with this integration, users will face no egress bandwidth penalties from a centralized cloud provider. These penalties are extraordinarily high for bringing data to and from the centralized cloud and prevent most distributed and multi cloud architectures today.  Companies can expect to save <50% on their video storage and transcoding with this method.
+Most importantly, with this integration, users will face no egress bandwidth penalties from a centralized cloud provider. These penalties are extraordinarily high for bringing data to and from the centralized cloud and prevent most distributed and multi cloud architectures today. Companies can expect to save <50% on their video storage and transcoding with this method.
 
 By implementing Tardigrade as its origin for video storage, the VideoCoin Network accomplished:
 
@@ -48,4 +48,4 @@ The distributed nature of the storage solution makes it a good architectural fit
 
 Stay tuned for blog posts and announcements in the coming weeks which will detail the ways in which our partners are building applications and developer tooling which leverages the decentralized cloud.
 
-For more information around how to create a Tardigrade Connector - and partake in our Technology Partner Program, follow this link, or email us directly:  partners\[at]storj.io.
+*For more information around how to create a Tardigrade Connector and partake in our Technology Partner Program, [follow this link](https://tardigrade.io/tech-partner/), or email us directly: partners\[at]storj.io.*
