@@ -24,7 +24,7 @@ As previously mentioned, with traditional cloud storage, all of your data reside
 
 The real issue with centralized providers like Amazon S3 is all of your data resides in huge data centers. If a part of Amazon's network goes down, you won't be able to access your data at best, and at worst, your data could be permanently lost or damaged. Large data centers are also vulnerable to hackers, as we've seen time and time again. With decentralized cloud storage, end-to-end encryption is standard on every file---each file is encrypted on a user's computer before it's uploaded, broken into pieces, and then spread out to uncorrelated Nodes across our network. Only you have access to the encryption keys, making it virtually impossible for your data to be compromised or stolen.
 
-Plus, centralized cloud storage costs a lot more than our decentralized network. Large data centers cost a ton of money and take a lot of resources to operate. The fact we don't have to spend money operating a data center, but rather use individual, privately owned devices, means we pass those savings onto our customers.
+Plus, centralized cloud storage costs a lot more than our decentralized network. Large data centers cost a ton of money and take a lot of resources to operate. The fact we don't have to spend money operating a data center, but rather use individual, privately owned devices, means we pass those savings on to our customers.
 
 ### But what about data loss or bad actors on the network?
 
