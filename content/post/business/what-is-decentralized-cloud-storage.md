@@ -1,5 +1,5 @@
 ---
-title: What is Decentralized Cloud Storage?
+title: What is Decentralized Cloud Storage
 date: 2020-10-16T17:57:35.388Z
 image: /blog/img/blog-what-is-decentralized-storage.jpg
 categories:
