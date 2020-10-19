@@ -1,6 +1,6 @@
 ---
 title: Seven Ways You Can Use Decentralized Cloud Storage
-date: 2020-10-19T15:49:13.759Z
+date: 2020-10-19T14:24:44.321Z
 image: /blog/img/blog-7things-1.png
 categories:
   - business
