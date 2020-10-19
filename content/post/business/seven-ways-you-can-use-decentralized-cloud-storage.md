@@ -44,7 +44,7 @@ Fastly recently integrated its log file streaming service with Tardigrade, which
 
 We all have important files we want to ensure are safe. Whether it's your kid's baby photos, your important financial or legal documents, or your digital library, everyone wants to keep their files and know no one else can access them. Not only can you be sure your files are private and protected with decentralized cloud storage, because every file uses end-to-end encryption, but you can be sure your data will never be lost. Tardigrade has yet to lose a file. 
 
-Right now Tardigrade users can easily backup important files from any Mac OS, PC, or Android device using [Duplicati](https://storj.io/blog/2020/09/easy-cloud-backups-with-duplicati-and-storj-labs/), [Rclone](https://storj.io/blog/2020/04/announcing-tech-preview-availability-for-rclone-and-restic-on-tardigrade/), [Restic](https://storj.io/blog/2020/04/announcing-tech-preview-availability-for-rclone-and-restic-on-tardigrade/), or [Uno](https://storj.io/blog/2020/06/cross-platform-uno-app-accessing-tardigrade/). So, if you want to be sure your personal files are nice and safe, now's your chance. 
+Right now Tardigrade users can easily backup important files from any Mac OS, PC, or Android device using [Duplicati](https://storj.io/blog/2020/09/easy-cloud-backups-with-duplicati-and-storj-labs/), [Rclone](https://storj.io/blog/2020/04/announcing-tech-preview-availability-for-rclone-and-restic-on-tardigrade/), or [Restic](https://storj.io/blog/2020/04/announcing-tech-preview-availability-for-rclone-and-restic-on-tardigrade/). So, if you want to be sure your personal files are nice and safe, now's your chance. 
 
 ### Secure database backups and snapshots
 
