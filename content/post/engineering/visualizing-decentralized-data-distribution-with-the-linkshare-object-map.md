@@ -16,7 +16,7 @@ Storage Nodes run across a diverse distribution of operating systems, hardware t
 
 Now that we have Storage Nodes across the world, we decided to build a simple visualization tool to showcase just how distributed and resilient the files stored on Tardigrade actually are.
 
-Distributed Storage, Visualized
+### Distributed Storage, Visualized
 
 Through this tool—which is called the Linkshare Object Map—our team and our community can visualize the geographic distribution of endpoint data. This showcases how resilient the network is, as well as the wide geographic distribution of Nodes holding each object.
 
@@ -26,7 +26,7 @@ We set out to build the Linkshare Object Map Dashboard at the start of the two-d
 
 ![](/blog/img/objectmap2.jpg)
 
-Try it out yourself by generating access for an object, and creating a link share for the URL,[ like outlined in our documentation](https://documentation.tardigrade.io/getting-started/sharing-your-first-object/share-a-restricted-access-to-an-object). This process will generate a link with a macaroon (embedded, [hash-based logic](https://storj.io/blog/2019/12/secure-access-control-in-the-decentralized-cloud/)) that controls how the object can be accessed.
+Try it out yourself by generating access for an object, and creating a link share for the URL, [like outlined in our documentation](https://documentation.tardigrade.io/getting-started/uploading-your-first-object/view-distribution-of-an-object). This process will generate a link with a macaroon (embedded, [hash-based logic](https://storj.io/blog/2019/12/secure-access-control-in-the-decentralized-cloud/)) that controls how the object can be accessed.
 
 See an example of the Node map yourself, here:
 
