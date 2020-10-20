@@ -18,7 +18,7 @@ Now that we have Storage Nodes across the world, we decided to build a simple vi
 
 ### Distributed Storage, Visualized
 
-Through this tool—which is called the Linkshare Object Map—our team and our community can visualize the geographic distribution of endpoint data. This showcases how resilient the network is, as well as the wide geographic distribution of Nodes holding each object.
+Through this tool—which is called the Linkshare Object Map—our team and our community can visualize the geographic distribution of data uploaded to our Tardigrade service. This showcases how resilient the network is, as well as the wide geographic distribution of Nodes holding each object.
 
 We set out to build the Linkshare Object Map Dashboard at the start of the two-day Storj Labs employee hackathon and quickly productized and completed
 
