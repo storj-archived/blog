@@ -12,7 +12,7 @@ At Storj Labs we're distributed system junkies. We enjoy building highly distrib
 
 The global substrate of diverse, uncorrelated endpoints across which the network runs is unmatched by any other cloud provider.
 
-Storage Nodes run across a diverse distribution of operating systems, hardware types, geographic locations, and owners. Node Operator software runs on Linux systems like Ubuntu, CentOS, Debian, and Federa, as well as macOS and Windows, with a native MSI installer. Storage Nodes run in Docker containers as well as compile to native binaries for ARM and AMD64. Hardware ranges from basic Raspberry Pis to QNAP NAS devices.
+Storage Nodes run across a diverse distribution of operating systems, hardware types, geographic locations, and owners. Node Operator software runs on Linux systems like Ubuntu, CentOS, Debian, and Fedora, as well as macOS and Windows, with a native MSI installer. Storage Nodes run in Docker containers as well as compile to native binaries for ARM and AMD64. Hardware ranges from basic Raspberry Pis to QNAP NAS devices.
 
 Now that we have Storage Nodes across the world, we decided to build a simple visualization tool to showcase just how distributed and resilient the files stored on Tardigrade actually are.
 
@@ -20,7 +20,7 @@ Now that we have Storage Nodes across the world, we decided to build a simple vi
 
 Through this tool—which is called the Linkshare Object Map—our team and our community can visualize the geographic distribution of data uploaded to our Tardigrade service. This showcases how resilient the network is, as well as the wide geographic distribution of Nodes holding each object.
 
-We set out to build the Linkshare Object Map Dashboard at the start of the two-day Storj Labs employee hackathon and quickly productized and completed
+We set out to build the Linkshare Object Map Dashboard at the start of the two-day Storj Labs employee hackathon and quickly productized and completed the project.
 
 ![](/blog/img/objectmap1.png)
 
