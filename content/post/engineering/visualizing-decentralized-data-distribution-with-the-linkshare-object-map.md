@@ -1,6 +1,6 @@
 ---
 title: Visualizing Decentralized Data Distribution with the Linkshare Object Map
-date: 2020-10-21T14:30:00.000Z
+date: 2020-10-21T14:52:33.583Z
 image: /blog/img/blog-object-map.jpg
 categories:
   - engineering
