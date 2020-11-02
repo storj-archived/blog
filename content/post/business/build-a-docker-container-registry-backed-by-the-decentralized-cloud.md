@@ -12,9 +12,9 @@ Docker Registry is a stateless, highly scalable server-side application that sto
 
 Docker containers are a foundational building block of many companies' software infrastructure. 
 
-A registry is a storage and content delivery system holding named Docker images, available in different tagged versions. Users interact with a registry by using Docker push and pull commands.
+A registry is a storage and content delivery system holding named Docker images, available in different tagged versions. Users interact with a registry by using Docker push and pull commands. Storage itself is delegated to drivers. 
 
-Storage itself is delegated to drivers. Today we're excited to showcase the Docker Registry for Tardigrade, enabling anyone to host their Docker Registries on the Decentralized Cloud via the Tardigrade S3-compatible gateway.
+Today we're excited to showcase the Docker Registry for Tardigrade, enabling anyone to host their Docker Registries on the Decentralized Cloud via the Tardigrade S3-compatible gateway.
 
 ![Easily pull/tag/push containers to the decentralized cloud](/blog/img/docker1.png "Easily pull/tag/push containers to the decentralized cloud")
 
