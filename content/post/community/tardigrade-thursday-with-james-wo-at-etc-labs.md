@@ -1,6 +1,6 @@
 ---
 title: Tardigrade Thursday with James Wo at ETC Labs
-date: 2020-11-12T17:46:00.000Z
+date: 2020-11-12T20:28:42.962Z
 image: /blog/img/tardigrade-thrusdays.png
 categories:
   - community
