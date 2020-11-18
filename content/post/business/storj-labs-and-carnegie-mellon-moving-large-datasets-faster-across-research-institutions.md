@@ -1,10 +1,12 @@
 ---
-title: "Storj Labs and Carnegie Mellon: Moving large datasets faster across
-  research institutions"
-date: 2020-11-18T14:29:00.000Z
+title: "Storj Labs and Carnegie Mellon: Moving Large Datasets Faster Across
+  Research Institutions"
+date: 2020-11-18T14:15:00.000Z
 image: /blog/img/blog-cmu.png
 categories:
   - business
+authors:
+  - Kevin Leffew
 draft: false
 ---
 A team of researchers in the Computer Science Department from Carnegie Mellon University School of Computer Science currently hosts a large research dataset that is quickly growing beyond the multiple TB range, and generating over 80TB of bandwidth utilization monthly.
