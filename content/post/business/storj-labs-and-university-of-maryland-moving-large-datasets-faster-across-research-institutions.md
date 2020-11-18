@@ -9,7 +9,7 @@ authors:
   - Kevin Leffew
 draft: false
 ---
-The University of Maryland Baltimore County Physics Department runs a physics simulation that has produced 50TB of output data (and quickly growing).
+The Simulation Theory and Engineering of Advanced Materials (STEAM) Lab in the University of Maryland Baltimore County Physics Department runs a series of theoretical materials science simulations that has produced 50TB of output data (and quickly growing).  
 
 The data associated with this research has the need to be both preserved for long periods of time, and highly available in a public, read-only access format so global researchers can verify, review, and replicate their published results.
 
@@ -19,15 +19,15 @@ The goal is to showcase an easy solution to backup your data sets in a way that'
 
 ### How the UMBC Physics Community uses Tardigrade
 
-To back up and share read-only access to their output, the University of Maryland Baltimore County is using two of the native integrations with Tardigrade—RClone and Filezilla.
+To back up and share read-only access to their output, STEAM Lab at the University of Maryland Baltimore County is using two of the native integrations with Tardigrade—RClone and Filezilla.  
 
 ### Using RClone to Automatically Push new Data to the Decentralized Cloud
 
-Within the existing, Monte Carlo style simulation, the physics researchers have added an RClone command to the end of their bash script which automatically uploads the simulation outputs to the decentralized cloud, preserving their state. The command is simply one line, and looks like this:
+Within the existing, Monte Carlo style simulations, the physics researchers have added an RClone command to the end of their bash script which automatically uploads the simulation outputs to the decentralized cloud, preserving their state. The command is simply one line, and looks like this:
 
 `$ rclone copy dataset us-central-1:my-bucket`
 
-The university needs to maximize its performance for upload, so the `--transfers` flag is often used to increase the number of cores.
+The researchers need to maximize their performance for upload, so the `--transfers` flag is often used to increase the number of cores.
 
 ### Using Restic to Schedule Regular Backups
 
