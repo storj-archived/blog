@@ -65,7 +65,7 @@ With the plugin, backups can be done selectively: A big cluster can be backed up
 
 Because Tardigrade is a globally distributed hot object store, you can store and recover your Kubernetes volumes from anywhere in the world, instantly, without having to replicate data across regions. For DevOps managers, this can mean better resilience for your cluster, reduced global RTO (recovery time objective), cost-savings, and improved native security over centralized alternatives.
 
-Disaster recovery for containers is different from VMs—there's more state within a Kubernetes application than just data. DevOps Managers need to backup both their application configuration files and the container image version.
+Disaster recovery for containers is different from VMs—there's more state within a Kubernetes application than just data. DevOps Managers need to back up both their application configuration files and the container image version.
 
 In the example below, we can see a disaster recovery scenario where we might need to migrate into a new cluster:
 
