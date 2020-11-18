@@ -49,7 +49,7 @@ Velero has a Go client SDK that integrates with the Kubernetes API, using plugin
 
 Velero uses the Kubernetes discovery API to find all the objects stored in ETCD and grabs each cluster, object, state, and a snapshot of persistent volumes.
 
-If you're familiar with kubectl, Velero supports a similar model, allowing you to execute commands such as 'velero get backup' and 'velero create schedule'.
+If you're familiar with kubectl, Velero supports a similar model, allowing you to execute commands such as `velero get backup` and `velero create schedule`.
 
 ### The Tardigrade plugin is purpose-built to support multi-cloud Kubernetes architectures
 
