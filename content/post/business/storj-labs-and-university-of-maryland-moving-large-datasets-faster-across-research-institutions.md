@@ -29,8 +29,6 @@ Within the existing, Monte Carlo style simulation, the physics researchers have 
 
 The university needs to maximize its performance for upload, so the `--transfers` flag is often used to increase the number of cores.
 
-"Rclone is a great tool for academic researchers," said PERSON, "Coming from an RSync background, it is familiar to us and easy to use within our existing models and frameworks"
-
 ### Using Restic to Schedule Regular Backups
 
 With a focus on simplicity, the workflow implements automated Restic backups. They are sent via RCLONE to the Tardigrade network. Scheduling is handled by cron.
