@@ -1,6 +1,6 @@
 ---
 title: Tardigrade Backup for Kubernetes
-date: 2020-11-18T14:30:00.000Z
+date: 2020-11-18T14:17:28.025Z
 image: /blog/img/blog-velero.png
 categories:
   - business
