@@ -1,7 +1,7 @@
 ---
-title: "Storj Labs and University of Maryland: Moving large datasets faster
-  across research institutions"
-date: 2020-11-18T14:20:20.273Z
+title: "Storj Labs and University of Maryland: Moving Large Datasets Faster
+  Across Research Institutions"
+date: 2020-11-18T14:10:00.000Z
 image: /blog/img/blog-um.png
 categories:
   - business
