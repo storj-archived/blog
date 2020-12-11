@@ -22,7 +22,7 @@ We're proud of the progress we've been able to make, even with all the obstacles
 * The ability to view all of your projects and high-level details about your Tardigrade account in a single place so you can manage them more easily.
 * Updating the Satellite GUI to allow users to create access grants directly in the browser without needing to generate them in our CLI tool.
 * Adding support for multipart upload so users can upload large files without errors. 
-* Optimizing the Reed Solomon scheme to reduce overhead and amount of data. stored on the network while retaining 11 9s of durability. 
+* Optimizing the Reed Solomon scheme to reduce overhead and amount of data stored on the network while retaining 11 9s of durability. 
 * Finishing the crash report service for Linux & Windows.
 * Implementing the first iteration of the Multi-Node Dashboard.
 
