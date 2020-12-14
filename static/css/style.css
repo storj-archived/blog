@@ -3294,3 +3294,11 @@ Media Queries
     font-weight:800;
   }
 }
+
+.newsletter-bots {
+	 position: absolute;
+	 left: -5000px;
+}
+.mce-error-response-newsletter, .mce-success-response-newsletter {
+	display: none;
+}
