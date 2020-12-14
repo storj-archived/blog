@@ -1885,6 +1885,11 @@ footer .response {
     line-height: 1.5;
     font-weight: 800;
     text-transform: uppercase;
+		display: none;
+}
+.newsletter-bots {
+	 position: absolute;
+	 left: -5000px;
 }
 
 .row.is-flex {
@@ -3293,12 +3298,4 @@ Media Queries
   footer h5{
     font-weight:800;
   }
-}
-
-.newsletter-bots {
-	 position: absolute;
-	 left: -5000px;
-}
-.mce-error-response-newsletter, .mce-success-response-newsletter {
-	display: none;
 }
