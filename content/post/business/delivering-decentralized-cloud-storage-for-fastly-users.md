@@ -36,4 +36,4 @@ When a log file is created and passed through Fastly, it's sent to a log aggrega
 
 For companies that are interested in building infrastructure stacks that are distributed, performant, secure, and affordable, Tardigrade and Fastly are an excellent combination.
 
-For users who would like to try Tardigrade, we're giving a limited time promotional credit of $150 for two months so they can experience the power of decentralized cloud storage with edge content delivery.  Get started here!
+For users who would like to try Tardigrade, we're giving a limited time promotional credit of $150 for two months so they can experience the power of decentralized cloud storage with edge content delivery. [Get started here and try Tardigrade and Fastly together!](tardigrade.io/fastly)
