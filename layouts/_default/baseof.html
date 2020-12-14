@@ -21,19 +21,6 @@
     {{ block "body" . }}
           {{ block "main" . }}
           {{ end }}
-          <div class="rss-instructions expose col-xs-11 col-xs-offset-0 col-sm-8 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 text-center" id="rss-instructions" style="max-width:600px;z-index: 10;position: absolute;top: 300px;padding: 50px;	border:1px solid black;border-radius: 8px;	background-color: #FFFFFF;box-shadow: 0 2px 104px 0 rgba(0,0,0,0.5);  box-shadow: 0 0 0 5000px rgba(0,0,0, .7);transition: 1s box-shadow;display:none;">
-            <p id="x-out" style="text-align:right;font-size:20px;">X</p>
-              <h1 style="font-weight:800;font-size: 36px;line-height:44px;">Add the Storj Blog<br class=" visible-md visible-lg"> to Your RSS</h1>
-              <div class="spacer25"></div>
-              <p style="font-size:16px;color:#333333;">There is no need to copy/paste XML anymore! You can simply use our direct blog URL instead:</p>
-              <div class="spacer15"></div>
-              <div style="display:flex;justify-content: center;" ><textarea readonly id="url-box" style="margin:0px;border: 2px solid #2683FF;	border-radius: 4px 0 0 4px;	background-color: #F2F4F6;text-align:left;padding-left:25px;padding-bottom:8px;padding-top:10px;max-width:280px;height:43px;border-right:none;resize:none;">https://storj.io/blog/feed.xml</textarea><div id="copy-url-button" class="btn" onclick="copyToClipBoard();"  style="max-height:43px;display:inline;font-size:14px;padding-right:15px;padding-left:15px;padding-top:13px;border-top-left-radius: 0;border-bottom-left-radius:0">copy</div></div>
-              <div class="spacer25"></div>
-                <p style="font-size:16px;color:#333333;">Storj Labs has chosen not to provide a direct link to an XML feed. Our blog is built on Hugo, which allows our RSS feed to work with just a URL, making subscribing convenient and easy for you.</p>
-                <div class="spacer25"></div>
-                <p style="font-size:16px;color:#333333;">Enjoy!</p>
-                <div id="done-button" class="btn btn-block">Done</div>
-            </div>
         </div>
       </div>
     </div>
