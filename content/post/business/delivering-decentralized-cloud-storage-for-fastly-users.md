@@ -5,7 +5,7 @@ image: /blog/img/tardigrade-fastly.png
 categories:
   - business
 authors:
-  - Kevin Leffew
+  - John Gleeson
 draft: false
 ---
 Today, we're thrilled to announce two new integrations with Fastly, an edge cloud platform that processes and serves application data. Fastly's solutions deliver content faster by pushing data closer to where customers consume the data.
