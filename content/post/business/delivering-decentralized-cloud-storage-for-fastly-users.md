@@ -1,6 +1,6 @@
 ---
 title: Delivering Decentralized Cloud Storage for Fastly Users
-date: 2020-12-15T10:53:09.785Z
+date: 2020-12-15T14:23:35.147Z
 image: /blog/img/tardigrade-fastly.png
 categories:
   - business
