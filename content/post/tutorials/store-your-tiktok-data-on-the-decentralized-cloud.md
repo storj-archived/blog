@@ -50,8 +50,8 @@ This command will output access restrictions and a URL, which you can use to sha
 
 ![](/blog/img/tiktok3.png)
 
-[Watch a short video streaming from the Decentralized Cloud, here.](https://link.tardigradeshare.io/1bScgCyuFSAQmvKWAo7XuUbViTRvXVKoAag8nf8uEE2jk7A122oernDWhAWgqAnKBv5zmhEnL6Z7xWFWbNdFMte3jCzn4fHxqhf7xurbwgm3p8PGSB7evhDJtvhfLMXKD1W1ktE6yeFHGPBUnb89f1hRhqWVoBYVgQJQJC2QPHiUDWrcfL6rPjVnMNyqHUoaCNTPWrg1iMqJWsAaHKxC2CJNLC2hcTLsGh2HVzNLGQ4uWmJV36wPT8mWtiutWvsrmDxXmBE7t4FJBZYoytDPURzVDvbvieZ7B3ApqVkx4tXNFpLSSwCGQP1nV1JKkkeeeLUt995dmWeuefHJMAroab7CjNMuymR61TUPCFVGGdsYHibSdos3BSBiwkavVUFvdyBmBPtQVWQLmmmtFjCKd6xMF6g61Pq6eTFcqdsGN688Gddi4X7EBf9hxECvTiVBweG/dwebdemo/TardigradeExplainerVideo.m4v?view)
+[Watch a short video streaming from the Decentralized Cloud, here.](https://link.tardigradeshare.io/raw/jvgmjntaucpfedohxn3ogdrsfcfa/homepage/TardigradeExplainerVideo.m4v)
 
-And that's how you back up your TikTok videos to the Tardigrade decentralized cloud storage service to ensure you never lose access to your precious videos! 
+And that's how you back up your TikTok videos to the Tardigrade decentralized cloud storage service to ensure you never lose access to your precious videos!
 
 Once you've uploaded your videos to Tardigrade, share your TikTok videos on your favorite social media platform, or in the [forum](https://forum.storj.io/), for a chance to win SWAG.
