@@ -1,7 +1,7 @@
 ---
 title: Streaming Fastly's Log Output to Tardigrade
 date: 2020-12-16T14:44:23.321Z
-image: /blog/img/tardigrade-fastly.png
+image: /blog/img/tardigrade-fastly-blog.png
 categories:
   - business
 authors:
@@ -38,4 +38,4 @@ Tardigrade is resilient: Data is encrypted, erasure-coded, and spread across unc
 
 Finally, Tardigrade is more economical than alternative providers. Storage and bandwidth costs are a fraction of AWS, Microsoft, and Google, and there is no need for costly replications across regions that would balloon your cloud storage bills.
 
-*Try out this integration between Fastly and Tardigrade, and let us know what you think! For a limited time we're offering all Fastly users $150 credit so they can try Tardigrade for themselves and experience the power of decentralized cloud storage. To get started, [signup on Tardigrade.io for your $150 credit](https://tardigrade.io/fastly/) and [follow the simple documentation](https://docs.fastly.com/en/guides/log-streaming-tardigrade).*
+*Try out this integration between Fastly and Tardigrade, and let us know what you think! For a limited time we're offering all Fastly users $150 credit so they can try Tardigrade for themselves and experience the power of decentralized cloud storage. To get started, [signup on Tardigrade.io for your $150 credit](https://tardigrade.io/fastly/) and [follow the simple documentation](https://docs.fastly.com/en/guides/log-streaming-tardigrade.).*
