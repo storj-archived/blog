@@ -34,6 +34,6 @@ As part of the Filebase 2.0 release, Tardigrade is now featured as a direct inte
 
 #### Enjoy 1 TB to try, on us—for two months!
 
-You can get started with Filebase and Tardigrade by following the link [](https://console.filebase.com/signup)<https://filebase.com/signup> and email [hello@filebase.com](mailto:hello@filebase.com) to get 1 TB free for two months.\
-\
+You can get started with Filebase and Tardigrade by signing up at <https://filebase.com/signup> and emailing [hello@filebase.com](mailto:hello@filebase.com) to get 1 TB free for two months.
+
 “We are delighted to partner with the Filebase team and look forward to working with them to evolve and mature the decentralized storage ecosystem. Our partnership enables our joint users to quickly and easily onramp their data onto our Tardigrade service and take advantage of the security, performance, and resiliency we offer.” said Ben Golub, CEO of Storj Labs.
