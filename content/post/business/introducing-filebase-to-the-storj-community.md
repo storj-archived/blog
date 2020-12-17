@@ -24,6 +24,8 @@ Filebase offers a flat-rate low-cost price structure when compared to the comple
 
 One storage bucket on the Filebase platform is equal to 3 regionally distributed buckets on a traditional cloud, such as AWS. 
 
+![](/blog/img/filebase-new-diagram-2-7.png)
+
 ### Fully Encrypted files with FIlebase and Tardigrade!
 
 As part of the Filebase 2.0 release, Tardigrade is now featured as a direct integration for all new and existing Filebase users.
