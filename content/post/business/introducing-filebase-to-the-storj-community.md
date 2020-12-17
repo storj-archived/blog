@@ -34,7 +34,7 @@ As part of the Filebase 2.0 release, Tardigrade is now featured as a direct inte
 
 ![](/blog/img/filebase3.png)
 
-#### Enjoy 1 TB to try, on us—for two months!
+### Enjoy 1 TB to try, on us—for two months!
 
 You can get started with Filebase and Tardigrade by signing up at <https://filebase.com/signup> and emailing [hello@filebase.com](mailto:hello@filebase.com) to get 1 TB free for two months.
 
