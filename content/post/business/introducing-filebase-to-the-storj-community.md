@@ -16,9 +16,7 @@ Filebase is a pure cloud managed offering—with no software to download or API 
 
 Filebase is a multi-tenant, S3-compatible API service that enables Developers and Enterprises to interface with Tardigrade in much the same way as they would with AWS, without the need to self-host a Tardigrade Gateway. Filebase addresses the needs of SMBs and Enterprises by providing a unified platform and interface that makes it easy for developers and applications to access decentralized storage.
 
-<img src=/blog/img/filebase1.png alt="Why Use Filebase" width=100%>
-
-![](/blog/img/filebase1.png)
+![](/blog/img/filebase-1.png)
 
 ### Filebase offers simple, flat pricing for decentralized cloud storage
 
@@ -34,7 +32,7 @@ As part of the Filebase 2.0 release, Tardigrade is now featured as a direct inte
 
 "Adding the Storj network to our platform further enhances our goal of scaling Filebase horizontally while helping to grow the decentralized storage ecosystem.'' said Joshua Noble, CEO and Co-founder of Filebase. "We're making it seamless for enterprises to onboard data to these cutting-edge Web3 storage networks using standard Web2 protocols."
 
-![](/blog/img/filebase3.png)
+![](/blog/img/filebase-2.png)
 
 ### Enjoy 1 TB to try, on us—for two months!
 
