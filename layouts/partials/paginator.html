@@ -18,7 +18,7 @@
       {{ end }}
     <a class="previous {{ if not $pag.HasPrev }}disabled{{ end }}" href="{{ if $pag.HasPrev }}{{ $pag.Prev.URL }}{{ end }}"><span aria-hidden="true"></span>Newer Posts &rtrif;</a>
     <div class="pager">
-      Browse the <a href="{{ .Site.BaseURL }}/archive">Blog Archive</a> or <a id="rss-link" href="#">Subscribe to RSS</a> for the full text feed.
+      Browse the <a href="{{ .Site.BaseURL }}/archive">Blog Archive</a> for the full text feed.
     </div>
   </nav>
 </div>
