@@ -32,6 +32,7 @@
     <script src="/blog/js/jquery-2.1.1.js"></script>
     <script src="/blog/js/bootstrap.min.js"></script>
     <script src="/blog/js/segment.js"></script>
+    <script src="/blog/js/newsletter-subscribe.js"></script>
 
     <script>
       var rssSubscribeLink = document.getElementById('rss-link');
@@ -62,42 +63,5 @@
           this.disabled = true;
       };
         </script>
-
-      <script type="text/javascript">
-        window.onload = function() {
-
-        // footer newsletter signup
-        var newsletterButton = document.getElementById("mc-embedded-subscribe-newsletter")
-
-        newsletterButton.onclick = function (event) {
-
-          event.preventDefault()
-
-          var inputValue = document.getElementById("mce-EMAIL").value
-          var errElm = document.getElementById("mce-error-response-newsletter");
-          var succElm = document.getElementById("mce-success-response-newsletter");
-
-          if (!inputValue || inputValue.length < 0 || !inputValue.includes("@")) {
-            if(succElm) {
-              succElm.setAttribute("style", "display:none;");
-            }
-            if(errElm) {
-              errElm.setAttribute("style", "display:block;");
-            }
-            return;
-          } else {
-            analytics.identify(analytics.user().anonymousId(), {email: inputValue, storj_newsletter: true}, {}, function() {
-              analytics.track("storj_newsletter", {});
-              if(errElm) {
-                errElm.setAttribute("style", "display:none;");
-              }
-              if(succElm) {
-                succElm.setAttribute("style", "display:block;");
-              }
-            });
-          }
-        }
-      }
-    </script>
   </body>
 </html>
