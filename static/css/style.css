@@ -121,6 +121,13 @@ img {
     margin-right:-4px;
 }
 
+.d-block {
+    display: block !important;
+}
+
+.d-none {
+    display: none !important;
+}
 
 /* --------------------------------
 
