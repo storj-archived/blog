@@ -1,11 +1,10 @@
 window.onload = function() {
-    var button = document.getElementById("mc-embedded-subscribe-footer");
 
-    if (!button) {
-        return;
-    }
+    // footer newsletter signup
+    var newsletterButton = document.getElementById("mc-embedded-subscribe-newsletter")
 
-    button.onclick = function (event) {
+    newsletterButton.onclick = function (event) {
+
         event.preventDefault();
 
         var inputValue = document.getElementById("mce-EMAIL-newsletter").value.toLowerCase().trim();
