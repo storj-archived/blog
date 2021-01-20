@@ -7,7 +7,7 @@ window.onload = function() {
 
         event.preventDefault();
 
-        var inputValue = document.getElementById("mce-EMAIL-newsletter").value.toLowerCase().trim();
+        var inputValue = document.getElementById("mce-EMAIL").value.toLowerCase().trim();
         var errElm = document.getElementById("mce-error-response-newsletter");
         var succElm = document.getElementById("mce-success-response-newsletter");
 
