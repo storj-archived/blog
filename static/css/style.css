@@ -1146,6 +1146,25 @@ Sidebar
     margin-bottom: 15px;
 }
 
+.share-button-text {
+    font-weight: 600;
+    position: absolute;
+    z-index: -1;
+    margin-top: 12.5px;
+    margin-left: 60px;
+    letter-spacing: 1.5px;
+
+}
+
+.share-btn {
+    border: solid 1px #0059D0;
+}
+
+.share-text {
+    color: #0059D0;
+    margin-left: 15px;
+}
+
 .twitter-btn {
     opacity: 1;
     border: solid 1px #1da1f2;
@@ -1177,16 +1196,6 @@ Sidebar
 
 .hacker-news-text {
     color: #ff6600;
-}
-
-.share-button-text {
-    font-weight: 600;
-    position: absolute;
-    z-index: -1;
-    margin-top: 12.5px;
-    margin-left: 60px;
-    letter-spacing: 1.5px;
-
 }
 
 
