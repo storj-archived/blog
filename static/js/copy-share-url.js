@@ -14,7 +14,7 @@ window.onload = function() {
             dummy.select();
             document.execCommand('copy');
 
-            // show url copied to clipboard message
+            // show url copied success message
             copyMsg.classList.add('d-block')
             document.body.removeChild(dummy);
         }
