@@ -1,4 +1,15 @@
 <aside class=" col-xs-12 col-xs-offset-0 col-sm-12 col-sm-offset-0 col-md-3 col-lg-3 blog-sidebar">
+    <div class="visible-md visible-lg" style="height:140px;"></div>
+<div class="a2a_kit a2a_kit_size_32">
+        <p class="share-button-text twitter-text">TWEET</p><div class="share-button-wrapper twitter-btn"><a class="a2a_button_twitter"></a></div>
+        <p class="share-button-text facebook-text">SHARE</p><div class="share-button-wrapper facebook-btn"><a class="a2a_button_facebook"></a></div>
+        <p class="share-button-text reddit-text">POST</p><div class="share-button-wrapper reddit-btn"><a class="a2a_button_reddit"></a></div>
+        <p class="share-button-text hacker-news-text">SUBMIT</p><div class="share-button-wrapper hacker-news-btn"><a class="a2a_button_hacker_news"></a></div>
+        </div>
+        <script async src="https://static.addtoany.com/menu/page.js"></script>
+        <div class="spacer20"></div>
+        <hr>
+        <div class="spacer20"></div>
         {{ if default true .Site.Params.sidebar2.showRecent }}
         {{ partial "recent" . }}
         {{ end }}

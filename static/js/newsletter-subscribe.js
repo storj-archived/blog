@@ -11,6 +11,8 @@ window.onload = function() {
         var errElm = document.getElementById("mce-error-response-newsletter");
         var succElm = document.getElementById("mce-success-response-newsletter");
 
+        console.log("VALUE:", inputValue)
+
         if (!inputValue || !inputValue.includes("@")) {
             setDisplayAttribute(errElm, "d-block", "d-none");
             setDisplayAttribute(succElm, "d-none", "d-block");
