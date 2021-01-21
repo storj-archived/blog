@@ -1144,6 +1144,7 @@ Sidebar
     padding-top: 9px;
     padding-left: 10px;
     margin-bottom: 15px;
+    cursor: pointer;
 }
 
 .share-button-text {
@@ -1154,6 +1155,12 @@ Sidebar
     margin-left: 60px;
     letter-spacing: 1.5px;
 
+}
+
+#copy-msg {
+    margin-bottom: 0;
+    color: #0059D0;
+    display: none;
 }
 
 .share-btn {
