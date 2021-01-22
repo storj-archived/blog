@@ -1,38 +1,41 @@
-// footer newsletter signup
-var newsletterButton = document.getElementById("mc-embedded-subscribe-newsletter")
+window.onload = function() {
 
-if(newsletterButton) {
-    newsletterButton.onclick = function (event) {
+    // footer newsletter signup
+    var newsletterButton = document.getElementById("mc-embedded-subscribe-newsletter");
+    if(newsletterButton) {
+        newsletterButton.onclick = function (event) {
 
-        event.preventDefault();
+            event.preventDefault();
 
-        var inputValue = document.getElementById("mce-EMAIL").value.toLowerCase().trim();
-        var errElm = document.getElementById("mce-error-response-newsletter");
-        var succElm = document.getElementById("mce-success-response-newsletter");
+            var inputValue = document.getElementById("mce-EMAIL").value.toLowerCase().trim();
+            var errElm = document.getElementById("mce-error-response-newsletter");
+            var succElm = document.getElementById("mce-success-response-newsletter");
 
-        if (!inputValue || !inputValue.includes("@")) {
-            setDisplayAttribute(errElm, "d-block", "d-none");
-            setDisplayAttribute(succElm, "d-none", "d-block");
 
-            return;
-        }
+            if (!inputValue || !inputValue.includes("@")) {
+                setDisplayAttribute(errElm, "d-block", "d-none");
+                setDisplayAttribute(succElm, "d-none", "d-block");
 
-        analytics.identify(
-            inputValue,
-            { email: inputValue, storj_newsletter: true },
-            {},
-            function() {
-                analytics.track("storj_newsletter", {});
+                return;
+            }
 
-                setDisplayAttribute(errElm, "d-none", "d-block");
-                setDisplayAttribute(succElm, "d-block", "d-none");
-            },
-        );
+            analytics.identify(
+                inputValue,
+                { email: inputValue, storj_newsletter: true },
+                {},
+                function() {
+                    analytics.track("storj_newsletter", {});
 
-        function setDisplayAttribute(element, classAdding, classRemoving) {
-            if (element) {
-                element.classList.add(classAdding);
-                element.classList.remove(classRemoving);
+                    setDisplayAttribute(errElm, "d-none", "d-block");
+                    setDisplayAttribute(succElm, "d-block", "d-none");
+                },
+            );
+
+            function setDisplayAttribute(element, classAdding, classRemoving) {
+                if (element) {
+                    element.classList.add(classAdding);
+                    element.classList.remove(classRemoving);
+                }
             }
         }
     }

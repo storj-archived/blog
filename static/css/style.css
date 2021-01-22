@@ -1900,8 +1900,9 @@ footer .response {
 	 left: -5000px;
 }
 
-.footer-message {
+#footerMessage {
     line-height: 17px;
+    display: none;
 }
 
 .row.is-flex {
