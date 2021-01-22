@@ -1830,6 +1830,7 @@ footer .list-unstyled {
   margin-bottom: 0;
   margin-top: 40px;
   text-transform: uppercase;
+  padding-bottom: 4px;
 }
 .footer-link{
   font-family: 'Roboto';
@@ -1897,6 +1898,10 @@ footer .response {
 .newsletter-bots {
 	 position: absolute;
 	 left: -5000px;
+}
+
+.footer-message {
+    line-height: 17px;
 }
 
 .row.is-flex {

@@ -1,8 +1,7 @@
-window.onload = function() {
+// footer newsletter signup
+var newsletterButton = document.getElementById("mc-embedded-subscribe-newsletter")
 
-    // footer newsletter signup
-    var newsletterButton = document.getElementById("mc-embedded-subscribe-newsletter")
-
+if(newsletterButton) {
     newsletterButton.onclick = function (event) {
 
         event.preventDefault();
