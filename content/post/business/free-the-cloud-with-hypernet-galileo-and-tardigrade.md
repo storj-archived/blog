@@ -12,7 +12,7 @@ Today the teams at Hypernet Labs and Storj jointly announce a software integrati
 
 Tardigrade Connectors bridge the chasm between the applications we use every day and the underlying storage infrastructure on which application data is stored. Galileo provides an intuitive, unified web portal to HPC, cloud, and traditional on-premises resources for parallel processing, batch processing, and collaboration. The Galileo web app simplifies the deployment and monitoring of simulations and other analyses. 
 
-Starting today, anyone with a Tardigrade account can navigate to the Galileo Portal (*<https://galileo.hypernetlabs.io/>*) and get started for free. Galileo users can connect additional storage to their Galileo accounts by signing up for Tardigrade and connecting it as a Cargo Bay in Galileo.
+Starting today, anyone with a Tardigrade account can navigate to the Galileo Portal (<https://galileo.hypernetlabs.io/>) and get started for free. Galileo users can connect additional storage to their Galileo accounts by signing up for Tardigrade and connecting it as a Cargo Bay in Galileo.
 
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/503583379" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
@@ -26,7 +26,6 @@ In the Galileo web app, start by navigating to the Cargo Bays tab and select Sto
 
 ![](/blog/img/hypernet2.png)
 
-\
 The easiest way to connect is to use an Access Grant. To do this, select “Use Storj Serialized Access.” Follow the instructions in the Tardigrade documentation to generate an access for your bucket, here: <https://documentation.tardigrade.io/getting-started/sharing-your-first-object/generate-access>
 
 ![](/blog/img/hypernet3.png)
