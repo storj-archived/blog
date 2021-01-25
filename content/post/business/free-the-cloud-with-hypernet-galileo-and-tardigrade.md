@@ -8,7 +8,7 @@ authors:
   - Kevin Leffew
 draft: false
 ---
-Today the teams at Hypernet Labs and Storj jointly announce a software integration connecting [Storj’s Tardigrade](https://tardigrade.io/) with [Hypernet Labs](https://hypernetlabs.io/galileo/)’ [Galileo](https://hypernetlabs.io/galileo/). The integration enables you to perform compute functions (data science, simulations, etc.) on your data stored in Tardigrade, without having to move it manually. 
+Today the teams at Hypernet Labs and Storj jointly announce a software integration connecting [Storj’s Tardigrade](https://tardigrade.io/) with [Hypernet Labs](https://hypernetlabs.io/galileo/)’ [Galileo](https://hypernetlabs.io/galileo/). The integration enables you to easily perform compute functions (data science, simulations, etc.) on your data stored in Tardigrade and manage and share data in your Tardigrade account without using an uplink CLI. 
 
 Tardigrade Connectors bridge the chasm between the applications we use every day and the underlying storage infrastructure on which application data is stored. Galileo provides an intuitive, unified web portal to HPC, cloud, and traditional on-premises resources for parallel processing, batch processing, and collaboration. The Galileo web app simplifies the deployment and monitoring of simulations and other analyses. 
 
