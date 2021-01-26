@@ -1172,6 +1172,7 @@ Sidebar
 
 .copy-btn {
     border: solid 1px #0059D0;
+    background: transparent;
 }
 
 .copy-text {
