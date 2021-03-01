@@ -36,12 +36,7 @@ One of the most interesting things about zkSync is it supports "gasless meta-tra
 
 ## Get Started and Opt-in as a Host
 
-To opt-in to zkSync you need to do a simple change in your Node configuration by following these steps:
-
-1. Open config.yaml
-2. Set wallet features in config to include "zksync" by entering # Operator Wallet Features operator.wallet-features: \["zksync"]
-3. Save changes
-4. Restart node
+To opt-in to zkSync you need to do a simple change in your Node configuration by [following our documentation](https://documentation.storj.io/dependencies/storage-node-operator-payout-information/zk-sync-opt-in-for-snos#get-started-and-opt-in).
 
 After opting-in for zkSync payouts for STORJ payments, gather your ETH address and private key, navigate to the zkSync Wallet (<https://wallet.zksync.io/>), and connect your Ethereum account. If you can't access your wallet, you might want to change your payout address to an address that you can access.
 
