@@ -1,5 +1,5 @@
 ---
-title: What is S3 Compatibility
+title: What is S3 Compatibility?
 date: 2021-03-31T02:09:06.636Z
 image: /blog/img/s3-comp-img-blog.png
 categories:
