@@ -1,5 +1,5 @@
 ---
-title: What is End-to-End Encryption
+title: What is End-to-End Encryption?
 date: 2021-04-06T16:45:02.889Z
 image: /blog/img/e2e-blog-hero.jpeg
 categories:
