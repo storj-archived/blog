@@ -1,8 +1,11 @@
 ---
 title: What is End-to-End Encryption
 date: 2021-04-06T16:45:02.889Z
+image: /blog/img/e2e-blog-hero.jpeg
 categories:
   - engineering
+authors:
+  - Bill Thorp
 draft: false
 ---
 We care deeply about security and privacy, so it's no surprise that the official Storj "uplink" client has always supported end-to-end encryption (E2E). Before we delve deeper into the details, let's define end-to-end encryption:
