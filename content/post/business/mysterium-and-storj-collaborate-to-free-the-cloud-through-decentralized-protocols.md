@@ -17,7 +17,7 @@ Mysterium will leverage the unique benefits of decentralized cloud storage. Thes
 
 To learn more about how you can host your container images on the decentralized cloud, like Mysterium, [check out our overview about building a Docker container registry backed by Storj](https://storj.io/blog/2020/11/build-a-docker-container-registry-backed-by-the-decentralized-cloud/).
 
-### .What is the Mysterium Network?
+### What is the Mysterium Network?
 
 [Mysterium](https://mysterium.network/) is building a decentralized VPN, and other censorship-resistant tools, that allow you to browse the internet freely and earn revenue by sharing your connection.
 
