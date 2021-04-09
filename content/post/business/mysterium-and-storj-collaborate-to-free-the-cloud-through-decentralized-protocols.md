@@ -1,6 +1,6 @@
 ---
-title: Mysterium and Storj collaborate to free the cloud through decentralized
-  protocols.
+title: Mysterium and Storj Collaborate to Free the Cloud Through Decentralized
+  Protocols
 date: 2021-04-09T13:36:54.088Z
 image: /blog/img/mysterium-blog.png
 categories:
