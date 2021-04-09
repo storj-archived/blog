@@ -1,6 +1,6 @@
 ---
-title: Mysterium and Storj collaborate to free the cloud through decentralized
-  protocols.
+title: Mysterium and Storj Collaborate to Free the Cloud Through Decentralized
+  Protocols
 date: 2021-04-09T13:36:54.088Z
 image: /blog/img/mysterium-blog.png
 categories:
@@ -15,9 +15,9 @@ A foundational building block of the company's software infrastructure, Mysteriu
 
 Mysterium will leverage the unique benefits of decentralized cloud storage. These benefits include unmatched security and privacy through a know-nothing architecture, globally distributed files across statistically uncorrelated endpoints and ISPs, default encryption, and user-assigned access grants. These give developers the freedom, flexibility, and confidence they demand when building their apps/services.
 
-To learn more about how you can host your container images on the decentralized cloud, like Mysterium, [check out our overview about building a Docker container registry backed by Storj.](https://storj.io/blog/2020/11/build-a-docker-container-registry-backed-by-the-decentralized-cloud/)
+To learn more about how you can host your container images on the decentralized cloud, like Mysterium, [check out our overview about building a Docker container registry backed by Storj](https://storj.io/blog/2020/11/build-a-docker-container-registry-backed-by-the-decentralized-cloud/).
 
-### What is the Mysterium Network?
+### .What is the Mysterium Network?
 
 [Mysterium](https://mysterium.network/) is building a decentralized VPN, and other censorship-resistant tools, that allow you to browse the internet freely and earn revenue by sharing your connection.
 
