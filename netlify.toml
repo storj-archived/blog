@@ -31,7 +31,253 @@ HUGO_VERSION = "ç"
 HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
-from = "/2018/01/getting-from-petabytes-to-exabytes-the-road-ahead/"
-to = "https://tardigrade.io/blog/post/engineering/getting-from-petabytes-to-exabytes-the-road-ahead/"
+from = "/2020/03/building-tardigrade-connectors/"
+to = "https://tardigrade.io/blog/post/community/building-tardigrade-connectors/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2020/02/use-cases-for-the-decentralized-cloud/"
+to = "https://tardigrade.io/blog/post/tutorials/use-cases-for-the-decentralized-cloud/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2020/01/announcing-early-access-for-tardigrade/"
+to = "https://tardigrade.io/blog/post/business/announcing-early-access-for-tardigrade/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2020/01/what-to-expect-in-production/"
+to = "https://tardigrade.io/blog/post/community/what-to-expect-in-production/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/12/secure-access-control-in-the-decentralized-cloud/"
+to = "https://tardigrade.io/blog/post/engineering/secure-access-control-in-the-decentralized-cloud/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/11/announcing-pioneer-2-and-tardigrade.io-pricing/"
+to = "https://tardigrade.io/blog/post/business/announcing-pioneer-2-and-tardigrade-io-pricing-1/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/11/measuring-production-readiness-using-qualification-gates/"
+to = "https://tardigrade.io/blog/post/engineering/measuring-production-readiness-using-qualification-gates/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/10/architecting-a-decentralized-github-backup/"
+to = "https://tardigrade.io/blog/post/community/architecting-a-decentralized-github-backup/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/10/ipfs-now-on-storj-network/"
+to = "https://tardigrade.io/blog/post/business/ipfs-now-on-storj-network/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/08/the-role-of-qualification-gates-in-getting-to-beta-and-beyond/"
+to = "https://tardigrade.io/blog/post/engineering/the-role-of-qualification-gates-in-getting-to-beta-and-beyond/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/08/announcing-beta-pioneer-1-v3-and-tardigrade-are-here/"
+to = "https://tardigrade.io/blog/post/engineering/announcing-beta-pioneer-1-v3-and-tardigrade-are-here/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/07/introducing-the-tardigrade-mascot/"
+to = "https://tardigrade.io/blog/post/community/introducing-the-tardigrade-mascot/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/07/help-us-choose-the-tardigrade-mascot/"
+to = "https://tardigrade.io/blog/post/community/help-us-choose-the-tardigrade-mascot/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/07/announcing-beacon-alpha-file-sharing-ip-filtering-and-increased-performance/"
+to = "https://tardigrade.io/blog/post/engineering/announcing-beacon-alpha-file-sharing-ip-filtering-and-increased-performance/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/06/ip-filtering-keeps-data-distributed/"
+to = "https://tardigrade.io/blog/post/engineering/ip-filtering-keeps-data-distributed/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/05/flexible-file-sharing-with-macaroons/"
+to = "https://tardigrade.io/blog/post/engineering/flexible-file-sharing-with-macaroons/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/05/coordination-avoidance-on-the-storj-network/"
+to = "https://tardigrade.io/blog/post/engineering/coordination-avoidance-on-the-storj-network/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/04/what-happens-when-you-upload-a-file-to-a-decentralized-network/"
+to = "https://tardigrade.io/blog/post/engineering/what-happens-when-you-upload-a-file-to-a-decentralized-network/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/04/the-storj-v3-developer-library-has-arrived/"
+to = "https://tardigrade.io/blog/post/engineering/the-storj-v3-developer-library-has-arrived/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/04/starting-your-first-project-on-the-tardigrade-cloud-storage-network/"
+to = "https://tardigrade.io/blog/post/engineering/starting-your-first-project-on-the-tardigrade-cloud-storage-network/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/04/developers-and-v3-network-make-first-contact-with-vanguard-alpha/"
+to = "https://tardigrade.io/blog/post/engineering/developers-and-v3-network-make-first-contact-with-vanguard-alpha/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/04/cloud-storage-prices-havent-changed-much-in-4-years-but-theyre-about-to/"
+to = "https://tardigrade.io/blog/post/business/cloud-storage-prices-havent-changed-much-in-4-years-theyre-about-to/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/02/planning-ahead-for-the-v2-to-v3-network-transition/"
+to = "https://tardigrade.io/blog/post/community/planning-ahead-for-the-v2-to-v3-network-transition/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/02/announcing-the-storj-v3-explorer-release/"
+to = "https://tardigrade.io/blog/post/community/announcing-the-storj-v3-explorer-release/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/02/a-brief-overview-of-kademlia-and-its-use-in-various-decentralized-platforms/"
+to = "https://tardigrade.io/blog/post/engineering/a-brief-overview-of-kademlia-and-its-use-in-various-decentralized-platforms/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2019/01/why-proof-of-replication-is-bad-for-decentralized-storage-part-2-churn-and-burn/"
+to = "https://tardigrade.io/blog/post/engineering/why-proof-of-replication-is-bad-for-decentralized-storage-part-2-churn-and-burn/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2018/12/decentralized-auditing-and-repair-the-low-key-life-of-data-resurrection/"
+to = "https://tardigrade.io/blog/post/engineering/decentralized-auditing-and-repair-the-low-key-life-of-data-resurrection/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2018/12/a-free-and-open-internet-is-vital-and-is-under-siege/"
+to = "https://tardigrade.io/blog/post/engineering/a-free-and-open-internet-is-vital-and-is-under-siege/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2018/11/the-high-price-of-traditional-cloud-storage/"
+to = "https://tardigrade.io/blog/post/community/the-high-price-of-traditional-cloud-storage/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2018/11/the-benefits-of-decentralization-go-far-beyond-ideology/"
+to = "https://tardigrade.io/blog/post/business/the-benefits-of-decentralization-go-far-beyond-ideology/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2018/11/the-benefits-of-decentralization-go-far-beyond-ideology/"
+to = "https://tardigrade.io/blog/post/business/the-benefits-of-decentralization-go-far-beyond-ideology/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2018/11/security-and-encryption-on-the-v3-network/"
+to = "https://tardigrade.io/blog/post/engineering/security-and-encryption-on-the-v3-network/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2018/11/s3-compatibility-is-key-to-breaking-into-the-cloud-storage-market/"
+to = "https://tardigrade.io/blog/post/business/s3-compatibility-is-key-to-breaking-into-the-cloud-storage-market/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2018/11/replication-is-bad-for-decentralized-storage-part-1-erasure-codes-for-fun-and-profit/"
+to = "https://tardigrade.io/blog/post/engineering/replication-is-bad-for-decentralized-storage-part-1-erasure-codes-for-fun-and-profit/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2018/10/open-source-revenue-models-in-the-cloud-era/"
+to = "https://tardigrade.io/blog/post/business/open-source-revenue-models-in-the-cloud-era/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2018/08/storj-launches-v3-private-alpha/"
+to = "https://tardigrade.io/blog/post/business/storj-launches-v3-private-alpha/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2018/08/enabling-economic-empowerment-for-open-source-companies-via-the-storj-network/"
+to = "https://tardigrade.io/blog/post/business/enabling-economic-empowerment-for-open-source-companies-via-the-storj-network/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2018/07/announcing-a-campaign-for-a-new-logo/"
+to = "https://tardigrade.io/blog/post/business/announcing-a-campaign-for-a-new-logo/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2018/03/an-update-on-filezilla-and-storj/"
+to = "https://tardigrade.io/blog/post/business/an-update-on-filezilla-and-storj/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2018/03/a-hitchhikers-guide-to-distributed-systems/"
+to = "https://tardigrade.io/blog/post/engineering/a-hitchhikers-guide-to-distributed-systems/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2017/11/sonm-and-storj-labs-create-the-first-decentralized-cloud-computing-platform/"
+to = "https://tardigrade.io/blog/post/business/sonm-and-storj-labs-create-the-first-decentralized-cloud-computing-platform/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2017/10/caplinked-partners-with-storj-labs/"
+to = "https://tardigrade.io/blog/post/tutorials/caplinked-partners-with-storj-labs/"
 status = 301
 force = true
