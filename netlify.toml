@@ -1,7 +1,7 @@
 [build]
 publish = "public"
 command = "hugo --gc --minify"
-baseUrl = "https://www.storj.io/blog"
+baseUrl = "https://storj.io/blog"
 
 [context.production.environment]
 HUGO_VERSION = "0.58.3"
